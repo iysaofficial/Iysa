@@ -1,0 +1,113 @@
+section{
+  background-color: #f5fafe;
+}
+
+#main-event .event-poster {
+    /* padding-top: 2em;
+    padding-left: 15em;
+    padding-right: 15em; */
+    margin-top: 25vh;
+  }
+  
+  #main-event .event-poster img {
+    width: 75%;
+    height: auto;
+  }
+  
+@media (max-width:769px){
+  #main-event .event-poster img {
+    width: 300px;
+    height: auto;
+  }
+}
+.btn{
+  -webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	transition: all 0.1s;
+
+	
+  -webkit-box-shadow: 0px 6px 0px #0d6efd;
+  -moz-box-shadow: 0px 6px 0px #0d6efd;
+  box-shadow: 0px 6px 0px #99bdff;
+}
+
+.btn:hover{
+  /* box-shadow: 8px 8px #99bdff;
+  transition: .3s; */
+  -webkit-box-shadow: 0px 2px 0px #99bdff;
+  -moz-box-shadow: 0px 2px 0px #99bdff;
+  box-shadow: 0px 2px 0px #99bdff;
+  position:relative;
+  top:4px;
+}
+
+#main-event .main-colom{
+  margin-left: 0.1px;
+}
+
+  .main-colom .event-venue-wrapper {
+    background-color: #f5f5f5;
+    border-bottom: solid whitesmoke;
+    border-top: solid whitesmoke;
+    padding: 0 !important;
+    cursor: pointer;
+  }
+  
+  .main-colom .event-venue-wrapper .event-venue {
+    background-color: #ffff;
+  }
+  
+  .main-colom .event-venue-wrapper .event-venue img {
+    width: 15rem;
+    margin: 1rem 0rem;
+  }
+  
+  .main-colom .event-venue-wrapper .event-venue .event-venue-right a {
+    font-size: 34px;
+    text-decoration: none;
+    color: #000;
+  }
+
+  @media (max-width:426px){
+    .main-colom .event-venue-wrapper .event-venue .event-venue-right a {
+      font-size: 19px;
+    }
+  }
+  
+  .main-colom .event-venue-wrapper .event-venue .event-venue-right a:hover {
+    box-shadow: 8px 8px #99bdff;
+  transition: .3s;
+  }
+  
+  .event-wrapper .colom-left p {
+    margin-bottom: 0.3rem !important;
+  }
+  
+  .event-wrapper .main-colom {
+    border-left: solid whitesmoke;
+    border-top: solid whitesmoke;
+    border-bottom: solid whitesmoke;
+    border-right: solid whitesmoke;
+    border-radius: 1rem;
+    padding: 0 !important;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  
+  .event-wrapper .colom-right {
+    border-left: solid whitesmoke;
+    border-radius: 1rem;
+  }
+  
+  .event-wrapper .colom-right a {
+    width: 100%;
+  }
+  .event-wrapper .colom-right h4 {
+    margin-bottom: 0 !important;
+  }
+  
+  #main-event .colom-right .event-share .event-share-logo {
+    height: 30px;
+    margin: 5px 8px;
+  }
+  

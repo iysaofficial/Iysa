@@ -1,0 +1,28 @@
+.company-profile-section{
+    background: #f5fafe;
+    padding-top: 10rem;
+}
+
+.company-profile-section .row .about-iframe{
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+}
+
+.company-profile-section .row p{
+    text-align: justify;
+
+}
+
+@media (max-width:426px){
+
+    .company-profile-section .hero-image img{
+      width: 250px !important;
+      height: auto;
+      /* margin: 2rem; */
+    }
+    .company-profile-section .hero-image .img-fluid {
+        width: 100% !important;
+        /* margin: 0.5rem; */
+    }
+  
+  }

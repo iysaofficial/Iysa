@@ -1,0 +1,109 @@
+.hero-iframe{
+    /* margin-top: 150px; */
+    padding-bottom: 150px;
+    padding-top: 150px;
+    background: #f5fafe;
+}
+
+.kotak{
+    background: whitesmoke;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0.7rem 1rem rgba(0, 0, 0, 0.30);
+}
+.pag h2{
+    font-weight: bold;
+    font-size: 25px;
+    display: grid;
+    place-items: center;
+    
+}
+.pag img{
+    border: 1px solid black;
+    width: 20rem;
+    height: 25;
+    box-shadow: 0 0.7rem 1rem rgba(0, 0, 0, 0.30);
+}
+.if iframe{
+    border-radius: 10px;
+    box-shadow: 0 0.7rem 1rem rgba(0, 0, 0, 0.30);
+}
+@media (max-width: 834px) {
+    #newsletter-section .row {
+        padding-bottom: 1rem;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        border-radius: 10px;
+        box-shadow: 0 0.7rem 1rem rgba(0, 0, 0, 0.20);
+    }
+    .pag img{
+        border: 1px solid black;
+        width: 20rem;
+        height: 23rem;
+    }
+    .if iframe{
+        border-radius: 10px;
+        width: 30rem;
+        height: 35rem;
+    }
+}
+@media (max-width: 769px) {
+    #newsletter-section .row {
+        padding-bottom: 1rem;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        border-radius: 10px;
+        box-shadow: 0 0.7rem 1rem rgba(0, 0, 0, 0.20);
+    }
+    .pag img{
+        border: 1px solid black;
+        width: 17rem;
+        height: 18rem;
+    }
+    .if iframe{
+        border-radius: 10px;
+        width: 20rem;
+        height: 25rem;
+    }
+}
+@media (max-width: 360px) {
+    #newsletter-section .row {
+        padding-bottom: 1rem;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        border-radius: 10px;
+        box-shadow: 0 0.7rem 1rem rgba(0, 0, 0, 0.20);
+    }
+    .pag img{
+        border: 1px solid black;
+        width: 17rem;
+        height: 18rem;
+    }
+    .if iframe{
+        border-radius: 10px;
+        width: 19rem;
+        height: 25rem;
+    }
+}
+@media (max-width: 320px) {
+    #newsletter-section .row {
+        padding-bottom: 1rem;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        border-radius: 10px;
+        box-shadow: 0 0.7rem 1rem rgba(0, 0, 0, 0.20);
+    }
+    .pag img{
+        border: 1px solid black;
+        width: 17rem;
+        height: 18rem;
+    }
+    .if iframe{
+        border-radius: 10px;
+        width: 17rem;
+    }
+}

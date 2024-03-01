@@ -1,0 +1,31 @@
+.expert-team{
+    background-color: #f5fafe;
+    padding-top: 9rem;
+    
+}
+.pem h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 5rem;
+}  
+.col {
+    /* max-width: 10%; */
+    background-color: #ffffff; 
+    /* width: 10%; */
+    padding: 1rem 1rem 1rem 1rem;
+    transition: all 0.3s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+.col:hover {
+    cursor: pointer;
+    transform: translateY(-1.5rem) scale(1.03);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+
+}
+.col img{
+    max-width: 100%;
+}
+.modal-img{
+	width: 100%;
+}

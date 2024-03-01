@@ -1,0 +1,157 @@
+#newsletter-section {
+  /* margin-bottom: 150px; */
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  background-color: #f5fafe;
+}
+
+.container {
+  width: 100%;
+}
+
+#newsletter-section .container .row {
+  margin: 0 !important;
+  justify-content: center;
+}
+
+#newsletter-section .box {
+  padding: 1rem;
+  width: 80% !important;
+  margin: 1em 0em;
+  border: solid white;
+  border-radius: 10px;
+  box-shadow: 0 0.7rem 1rem rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+#newsletter-section .box img {
+  width: auto;
+  height: 300px;
+  margin: 0;
+  /* display: block;
+  object-fit: contain; */
+}
+
+.box .heading,
+.box .newsletter-button {
+  width: 100%;
+  padding: 0 !important;
+  /* min-width: 300px; */
+}
+
+.newsletter-button p {
+  margin: 10px 0;
+}
+
+.newsletter-button a {
+  margin-top: 2rem;
+  display: inline-block;
+  background: #0d6efd;
+  color: white;
+  border-radius: 40px;
+  text-decoration: none;
+  padding: 10px 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.newsletter-button a:hover,
+a:focus a:active {
+  background: #0d6efd;
+  transition: 0.3s;
+  color: white;
+}
+
+/* button start*/
+:root {
+  --container: 144rem;
+  --m-auto: 0 auto;
+  --white: #fff;
+}
+
+.controls {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.controls button {
+  background-color: #0d6efd;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
+
+
+  -webkit-box-shadow: 0px 6px 0px #0d6efd;
+  -moz-box-shadow: 0px 6px 0px #0d6efd;
+  box-shadow: 0px 6px 0px #99bdff;
+}
+
+.controls button:hover {
+  /* background: #0795fe; */
+  box-shadow: 8px 8px #99bdff;
+  transition: .3s;
+  -webkit-box-shadow: 0px 2px 0px #99bdff;
+  -moz-box-shadow: 0px 2px 0px #99bdff;
+  box-shadow: 0px 2px 0px #99bdff;
+  position: relative;
+  top: 4px;
+}
+
+.control {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  margin: 1rem 0.5rem;
+  border: none;
+  outline: none;
+  border-radius: 2.5rem;
+  font-weight: 600;
+  color: var(--white);
+  background: black;
+  cursor: pointer;
+}
+
+.control:hover {
+  color: white;
+}
+
+/* button end */
+
+.read-more-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0,
+      0,
+      0,
+      0.5);
+  /* Sesuaikan warna latar belakang dan opasitas sesuai keinginan */
+  opacity: 0;
+  /* Awalnya sembunyikan overlay */
+  transition: opacity 0.3s;
+}
+
+.box:hover .read-more-overlay {
+  opacity: 1;
+  /* Tampilkan overlay saat mengarahkan kursor di atas kartu */
+}
+
+.read-more-overlay a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: #092a49;
+  /* Tetapkan warna latar belakang yang Anda inginkan */
+}
+.read-more-overlay a:hover {
+  background-color: #0d6efd;
+  text-shadow:0px 0px 30px white;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}

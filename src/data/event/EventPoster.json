@@ -1,0 +1,188 @@
+{
+  "event": [
+    {
+      "id": 1,
+      "image": "./assets/images/poster/jisf.WebP",
+      "title": "Jakarta International Science Fair (JISF) 2024",
+      "level": "International",
+      "location": "Offline",
+      "date": "July 27th - 31st, 2024",
+      "link": "/EventPage1"
+    },
+    {
+      "id": 2,
+      "image": "./assets/images/poster/iicyns.WebP",
+      "title": "International Invention Competition For Young Moslem Scientists (IICYMS) 2024",
+      "level": "International",
+      "location": "Offline",
+      "date": "Agustus 12th - 15th, 2024",
+      "link": "/EventPage3"
+    },
+    {
+      "id": 3,
+      "image": "./assets/images/poster/miix.WebP",
+      "title": "Malaysia Invention & Innovation Expo (MIIX) 2024",
+      "level": "International",
+      "location": "Online",
+      "date": "5th - 10th April 2024",
+      "link": "/EventPage4"
+    },
+    {
+      "id": 4,
+      "image": "./assets/images/poster/IYBO.WebP",
+      "title": "International Youth Biology Olympiad (IYBO) 2024",
+      "level": "International",
+      "location": "Online",
+      "date": "April 22nd - May 3rd, 2024",
+      "link": "/EventPage6"
+    },
+    {
+      "id": 5,
+      "image": "./assets/images/poster/nybo.WebP",
+      "title": "National Youth Biology Olympiad (NYBO) 2024",
+      "level": "National",
+      "location": "Online",
+      "date": "22 April - 3 Mei, 2024",
+      "link": "/EventPage7"
+    },
+    {
+      "id": 6,
+      "image": "./assets/images/poster/wseec.WebP",
+      "title": "World Science, Environment and Engineering Competition (WSEEC) 2024",
+      "level": "International",
+      "location": "Offline",
+      "date": "May 13th - 17th, 2024",
+      "link": "/EventPage9"
+    },
+    {
+      "id": 7,
+      "image": "./assets/images/poster/iybc.WebP",
+      "title": "INTERNATIONAL YOUTH BUSINESS COMPETITION (IYBC) 2024",
+      "level": "International",
+      "location": "Offline",
+      "date": "June 25th - 28th, 2024",
+      "link": "/EventPage10"
+    },
+    {
+      "id": 8,
+      "image": "./assets/images/poster/iiiex.WebP",
+      "title": "Indonesia International Invention Expo (IIIEX) 2024",
+      "level": "International",
+      "location": "Offline",
+      "date": "April 29th - May 2nd, 2024",
+      "link": "/EventPage8"
+    },
+    {
+      "id": 9,
+      "image": "./assets/images/poster/nicyms.WebP",
+      "title": "National Invention Competition For Young Moslem Scientists (NICYMS) 2024",
+      "level": "International",
+      "location": "Offline",
+      "date": "Agustus 12th - 15th, 2024",
+      "link": "/EventPage12"
+    },
+    {
+      "id": 10,
+      "image": "./assets/images/poster/i3o.WebP",
+      "title": "Indonesia International IoT Olympiad (I3O) 2024",
+      "level": "International",
+      "location": "Offline",
+      "date": "June 25th - 28th, 2024",
+      "link": "/EventPage11"
+    }
+    ,
+    {
+      "id": 11,
+      "image": "./assets/images/poster/Glocolis.WebP",
+      "title": "Global Competition for Life Sciences (GloCoLiS) 2024",
+      "level": "International",
+      "location": "Offline",
+      "date": "August 30th - September 2nd, 2024",
+      "link": "/EventPage13"
+    }
+    ,
+    {
+      "id": 12,
+      "image": "./assets/images/poster/jnsf.WebP",
+      "title": "Global Competition for Life Sciences (GloCoLiS) 2024",
+      "level": "International",
+      "location": "Offline",
+      "date": "August 30 - September 2, 2024",
+      "link": "/EventPage2"
+    }
+    ,
+    {
+      "id": 13,
+      "image": "./assets/images/poster/ospc.WebP",
+      "title": "Online Science Project Competition (OPSC) 2024",
+      "level": "Nasional",
+      "location": "Online",
+      "date": "22 Maret - 2 Mei, 2024",
+      "link": "/EventPage5"
+    }
+    ,
+    {
+      "id": 14,
+      "image": "./assets/images/poster/inventcor.WebP",
+      "title": "5th International Exhibition INVENTCOR 2024",
+      "level": "International Exhibition",
+      "location": "Online",
+      "date": "April 4th - 6th, 2024",
+      "link": "/EventPage14"
+    },
+    {
+      "id": 15,
+      "image": "./assets/images/poster/iifnas.WebP",
+      "title": "IIF ke-2 NASIONAL 2024",
+      "level": "Nasional",
+      "location": "Online",
+      "date": "29 Maret - 31 Maret, 2024",
+      "link": "/EventPage15"
+    },
+    {
+      "id": 16,
+      "image": "./assets/images/poster/wecc.WebP",
+      "title": "World Economics Challenge and Competition (WECC) 2024",
+      "level": "International",
+      "location": "Offline",
+      "date": "July 27th - 31st, 2024",
+      "link": "/EventPage16"
+    },
+    {
+      "id": 17,
+      "image": "./assets/images/poster/1d.WebP",
+      "title": "1idea1world INNOVATION DESIGN STARTUP COMPETITION 2024",
+      "level": "International",
+      "location": "Offline",
+      "date": "April 28th - 29th, 2024",
+      "link": "/EventPage17"
+    },
+    {
+      "id": 18,
+      "image": "./assets/images/poster/singa.WebP",
+      "title": "WorldInvent™ Singapore 2024",
+      "level": "International",
+      "location": "Offline",
+      "date": "July 9th - 11th, 2024",
+      "link": "/EventPage18"
+    },
+    {
+      "id": 19,
+      "image": "./assets/images/poster/iyco.WebP",
+      "title": "INTERNATIONAL YOUTH CHEMISTRY OLYMPIAD 2024 👏 !!",
+      "level": "International",
+      "location": "Online",
+      "date": "Juni 12th - June 27th, 2024",
+      "link": "/EventPage19"
+    },
+    {
+      "id": 20,
+      "image": "./assets/images/poster/nyco.WebP",
+      "title": "NATIONAL YOUTH CHEMISTRY OLYMPIAD 2024!! 👏",
+      "level": "Nasional",
+      "location": "Online",
+      "date": "Juni 12 - Juni 27, 2024",
+      "link": "/EventPage20"
+    }
+  ]
+}
