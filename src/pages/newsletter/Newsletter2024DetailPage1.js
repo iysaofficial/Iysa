@@ -3,7 +3,7 @@ import Newsletter2024Detail1 from '../../components/newsletter/Newsletter2024Det
 // Import CSS
 import '../../css/newsletter/newsletterdetail.css';
 
-function Newsletter2024DetailPage2() {
+function Newsletter2024DetailPage1() {
     return (  
       <div>
         <Newsletter2024Detail1></Newsletter2024Detail1>
@@ -11,4 +11,4 @@ function Newsletter2024DetailPage2() {
     );
   }
   
-export default Newsletter2024DetailPage2;
+export default Newsletter2024DetailPage1;
