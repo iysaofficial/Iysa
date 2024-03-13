@@ -321,5 +321,22 @@
       "LinkGmaps": "",
       "NameLocation": ""
     }
+  ],
+  "event21": [
+    {
+      "id": 1,
+      "image": "./assets/images/poster/kiwie.WebP",
+      "title": "Korea International Women's Invention Exposition 2024",
+      "LinkRegist": "https://bit.ly/KIWIE2024-Registration-Form",
+      "Hastag": "",
+      "DateAdTime": "June 20th - 22nd, 2024",
+      "RegistEndDate": "April 21st, 2024",
+      "Location": "Offline",
+      "EventType": "Internasional",
+      "EventCategory": "IYSA Event Affiliation",
+      "ImageVeneu": "",
+      "LinkGmaps": "",
+      "NameLocation": "Hall 3, Exhibition Center 1, Kintex"
+    }
   ]
 }

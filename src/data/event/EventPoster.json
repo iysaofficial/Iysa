@@ -160,7 +160,7 @@
     {
       "id": 19,
       "image": "./assets/images/poster/iyco.WebP",
-      "title": "INTERNATIONAL YOUTH CHEMISTRY OLYMPIAD 2024 👏 !!",
+      "title": "International Youth Chemistry Olympiad 2024 👏 !!",
       "level": "International",
       "location": "Online",
       "date": "Juni 12th - June 27th, 2024",
@@ -169,11 +169,20 @@
     {
       "id": 20,
       "image": "./assets/images/poster/nyco.WebP",
-      "title": "NATIONAL YOUTH CHEMISTRY OLYMPIAD 2024!! 👏",
+      "title": "National Youth Chemistry Olympiad 2024!! 👏",
       "level": "Nasional",
       "location": "Online",
       "date": "Juni 12 - Juni 27, 2024",
       "link": "/EventPage20"
+    },
+    {
+      "id": 21,
+      "image": "./assets/images/poster/kiwie.WebP",
+      "title": "Korea International Women's Invention Exposition 2024",
+      "level": "International",
+      "location": "Offline",
+      "date": "June 20th - 22nd, 2024",
+      "link": "/EventPage21"
     }
   ]
 }
