@@ -34,8 +34,7 @@ const WebsiteEvent = () => {
                     </div>
                   );
                 })}  
-                </div>  
-                <br />   
+                </div>   
                 <a href="/AllEventWebPage" className="btn col-sm-2">Load More</a>
             </div>
         </section>
