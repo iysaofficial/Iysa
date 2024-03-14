@@ -20,6 +20,9 @@ import CurasiPage from "./pages/curasiinfo/CurasiPage";
 // Calender Event
 import CalenderEvent from "./pages/calender/CalenderEvent";
 
+// All Event Web
+import AllEventWebPage from "./pages/alleventweb/AllEventWebPage";
+
 // Import Team
 import ExpertTeam from "./components/team/ExpertTeam";
 import ExpertStaff from "./components/team/ExpertStaff";
@@ -105,6 +108,9 @@ function App() {
 
             {/* Calender Event */}
             <Route path="/CalenderEvent" element={<CalenderEvent />} />
+
+            {/* All Event Web */}
+            <Route path="/AllEventWebPage" element={<AllEventWebPage />} />
 
             {/* Curation */}
             <Route path="/CurationOSPC" element={<CurationOSPCPage />} />

@@ -3,17 +3,17 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEarthEurope } from '@fortawesome/free-solid-svg-icons'
 import EventWebsiteData from "../../data/eventwebsite/EventWebsite.json";
 
-const WebsiteEvent = () => {
-    const limitedData = EventWebsiteData.EventWebsite.slice(0, 12); // membatasi data hingga 6
+const Allwebevent = () => {
+
     
     return(
         <section className='website-event-section'>
             <div className="container">
                 <div className='event-section-header'>
-                    <h1 className='text-center'>IYSA Event Website <div className='underline'><span></span></div></h1>
+                    <h1 className='text-center mt-5'>IYSA Event Website <div className='underline mt-5'><span></span></div></h1>
                 </div>
                 <div className='row mx-auto '>
-                {limitedData.map((website) => {
+                {EventWebsiteData.EventWebsite.map((website) => {
                     
                   return (
                     <div className='col-md-6 col-lg-4 mt-4'>
@@ -36,10 +36,9 @@ const WebsiteEvent = () => {
                 })}  
                 </div>  
                 <br />   
-                <a href="/AllEventWebPage" className="btn col-sm-2">Load More</a>
             </div>
         </section>
     )
 }
 
-export default WebsiteEvent;
+export default Allwebevent;

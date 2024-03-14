@@ -174,10 +174,17 @@
     "year2024": [
       {
         
-        "id": 1,
-        "title": "AFTER EVENT GYIIF & IYMIA 2024",
+        "id": 4,
+        "title": "AFTER EVENT NYMO IYMO 2024",
         "content": "",
-        "src": "https://www.youtube.com/embed/KJOATDQofBI?si=LP7bc5wo8nxDV2A9"
+        "src": "https://www.youtube.com/embed/JYJtuZEc-mA?si=7PSJZeH9rEN4QO5J"
+      },
+      {
+        
+        "id": 3,
+        "title": "AFTER EVENT YNSF YISF LKTIN 2024",
+        "content": "",
+        "src": "https://www.youtube.com/embed/URIYHumYJi0?si=jJpiVHvt_fWEgB-V"
       },
       {
         
@@ -185,6 +192,13 @@
         "title": "AFTER EVENT AISEEF 2024",
         "content": "",
         "src": "https://www.youtube.com/embed/iUgvM_VA1U8?si=iANqLUBwSUNg23i7"
+      },
+      {
+        
+        "id": 1,
+        "title": "AFTER EVENT GYIIF & IYMIA 2024",
+        "content": "",
+        "src": "https://www.youtube.com/embed/KJOATDQofBI?si=LP7bc5wo8nxDV2A9"
       }
 
     ]
