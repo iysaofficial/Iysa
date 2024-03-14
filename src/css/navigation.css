@@ -13,6 +13,7 @@ a{
 	position: fixed;
 	width: 100%;
 	z-index: 99999;
+	margin-top: -1px;
 }
 
 .header-main{
@@ -20,16 +21,16 @@ a{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 10px 25px;
-	border-radius: 4px;
+	padding: 5px 10px;
+	border-radius: 2px;
 }
 .header .logo{
-	padding: 0 15px;
+	padding: 0 1px;
 }
 .header .logo a{
 	font-size: 30px;
 	text-transform: capitalize;
-	color: #4080EF;
+	/* color: #4080EF; */
 	font-weight: 600;
 }
 .header .nav-menu{
@@ -41,13 +42,14 @@ a{
 	position: relative;
 }
 .logo img{
-	width: 150px;
+	width: 100px;
 }
 .header .menu > .menu-item > a{
 	display: block;
-	padding: 12px 0;
+	padding: 1px 0px;
 	margin: 5px;
 	font-size: 16px;
+	margin-top: 20px;
 	color: #000000;
 	text-transform: capitalize;
 	font-weight: 600;
@@ -107,7 +109,7 @@ a{
 	top:100%;
 	background-color: #ffffff;
 	padding: 10px 0;
-	border-top: 3px solid #4080EF;
+	border-top: 2px solid #4080EF;
 	transform: translateY(10px);
 	transition: all 0.3s ease;
 	opacity:0;

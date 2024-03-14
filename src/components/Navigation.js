@@ -151,7 +151,7 @@ const Navigation = () => {
                 <FaChevronDown />
               </a>
               <ul className="sub-menu text-center">
-                <li className="menu-item">
+                <li className="menu-item text-center">
                   <a href="/ExpertTeam">IYSA Expert Team</a>
                 </li>
                 {/* <li className="menu-item">
