@@ -104,10 +104,10 @@
     {
       "id": 12,
       "image": "./assets/images/poster/jnsf.WebP",
-      "title": "Global Competition for Life Sciences (GloCoLiS) 2024",
+      "title": "Jakarta Nasional Science Fair (JNSF) 2024",
       "level": "International",
       "location": "Offline",
-      "date": "August 30 - September 2, 2024",
+      "date": "July 27th - 31st, 2024",
       "link": "/EventPage2"
     }
     ,
@@ -183,6 +183,15 @@
       "location": "Offline",
       "date": "June 20th - 22nd, 2024",
       "link": "/EventPage21"
+    },
+    {
+      "id": 22,
+      "image": "./assets/images/poster/wyiia.WebP",
+      "title": "World Youth Invention And Innovation Award (WYIIA) 2024",
+      "level": "International",
+      "location": "Offline",
+      "date": "October 10th - 14th, 2024",
+      "link": "/EventPage22"
     }
   ]
 }

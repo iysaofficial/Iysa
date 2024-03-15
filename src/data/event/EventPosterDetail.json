@@ -207,17 +207,17 @@
     {
       "id": 1,
       "image": "./assets/images/poster/Glocolis.WebP",
-      "title": "Jakarta International Science Fair (JISF) 2024",
-      "LinkRegist": "https://registrasi-jnsf-2024.vercel.app/",
-      "Hastag": "#iysa2024 #event2024 #iysaevent #i3L #jnsf #2024 #jakarta #indonesia #infolomba #jnsf2024",
-      "DateAdTime": "July 27th - 31st, 2024",
-      "RegistEndDate": "June 27th, 2024",
-      "Location": "Jakarta",
+      "title": "Global Competition for Life Sciences (GloCoLiS) 2024  ",
+      "LinkRegist": "https://registrasi-glocolis-2024.vercel.app/",
+      "Hastag": "#glocolis #iysaevent #2024 #onlineevent #iysa #infolomba #iysa2024",
+      "DateAdTime": " Agustus 30th - September 2nd, 2024",
+      "RegistEndDate": "June 28th, 2024",
+      "Location": "Malang",
       "EventType": "Internasional",
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
-      "NameLocation": ""
+      "NameLocation": "Universitas Muhammadiyah Malang (UMM)"
     }
   ],
   "event14": [
@@ -337,6 +337,23 @@
       "ImageVeneu": "",
       "LinkGmaps": "",
       "NameLocation": "Hall 3, Exhibition Center 1, Kintex"
+    }
+  ],
+  "event22": [
+    {
+      "id": 1,
+      "image": "./assets/images/poster/wyiia.WebP",
+      "title": "World Youth Invention And Innovation Award (WYIIA) 2024",
+      "LinkRegist": "https://registrasi-wyiia-2024.vercel.app/",
+      "Hastag": "#iysa #iysaonlinecompetition #event2024 #penelitibelia #iysaofficer #iysaevent2024 #wyiia #offlinecompetition #yogyakarta #jogja #eventoffline #iysaevent #wyiia2024 #wyiiaiysa",
+      "DateAdTime": "October 10th - 14th, 2024",
+      "RegistEndDate": "September 15th, 2024",
+      "Location": "Offline",
+      "EventType": "Internasional",
+      "EventCategory": "IYSA Event",
+      "ImageVeneu": "",
+      "LinkGmaps": "",
+      "NameLocation": "Universitas Sarjanawiyata Tamansiswa (UST)"
     }
   ]
 }
