@@ -355,5 +355,56 @@
       "LinkGmaps": "",
       "NameLocation": "Universitas Sarjanawiyata Tamansiswa (UST)"
     }
+  ],
+  "event23": [
+    {
+      "id": 1,
+      "image": "./assets/images/poster/wice.WebP",
+      "title": "World Invention Competition and Exhibition (WICE) 2024",
+      "LinkRegist": "https://registrasi-wice-2024.vercel.app/",
+      "Hastag": "#wice2024 #wicemalaysia #iysaevent #wice #iysa2024 #mahsauniversity #offline #online",
+      "DateAdTime": "September 21st - 24th, 2024",
+      "RegistEndDate": "August 19th, 2024",
+      "Location": "Offline",
+      "EventType": "Internasional",
+      "EventCategory": "IYSA Event",
+      "ImageVeneu": "",
+      "LinkGmaps": "",
+      "NameLocation": "Mahsa University, Selangor, Malaysia"
+    }
+  ],
+  "event24": [
+    {
+      "id": 1,
+      "image": "./assets/images/poster/ispc.WebP",
+      "title": "International Science Project Competition (ISPC) 2024💥",
+      "LinkRegist": "https://registration-ispc.vercel.app/",
+      "Hastag": "#ispc2024 #iysaevent #iysaofflineevent #iysaonlineevent #iysa2024 #malang #ispc #infolomba",
+      "DateAdTime": "August 30th - September 2nd, 2024",
+      "RegistEndDate": "July 28th, 2024",
+      "Location": "Offline",
+      "EventType": "Internasional",
+      "EventCategory": "IYSA Event",
+      "ImageVeneu": "",
+      "LinkGmaps": "",
+      "NameLocation": "Universitas Muhammadiyah Malang (UMM)"
+    }
+  ],
+  "event25": [
+    {
+      "id": 1,
+      "image": "./assets/images/poster/ennovate.WebP",
+      "title": "International Innovation and Invention Show (E-nnovate) 2024",
+      "LinkRegist": "https://bit.ly/Registration-Ennovate-2024",
+      "Hastag": "",
+      "DateAdTime": "May 30th - 31st, 2024",
+      "RegistEndDate": "April 21st, 2024",
+      "Location": "Online",
+      "EventType": "Internasional",
+      "EventCategory": "IYSA Event Affiliation",
+      "ImageVeneu": "",
+      "LinkGmaps": "",
+      "NameLocation": "Polandia"
+    }
   ]
 }
