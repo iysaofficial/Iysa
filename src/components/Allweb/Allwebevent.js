@@ -7,7 +7,7 @@ const Allwebevent = () => {
 
     
     return(
-        <section className='website-event-section'>
+        <section className='website-event-section mb-5'>
             <div className="container">
                 <div className='event-section-header'>
                     <h1 className='text-center mt-5'>IYSA Event Website <div className='underline mt-5'><span></span></div></h1>
