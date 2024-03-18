@@ -16,7 +16,7 @@ const NewsletterComp = () => {
       <div className="container">
         <div className="newsletter-wrapper">
           <div className="controls">
-          <button
+            <button
               type="button"
               className="control"
               onClick={() => handleFilterChange("all")}
@@ -33,20 +33,40 @@ const NewsletterComp = () => {
             <button
               type="button"
               className="control"
-              onClick={() => handleFilterChange("duapuluhdua")}
+              onClick={() => handleFilterChange("duapuluhtiga")}
             >
               2023
             </button>
             <button
               type="button"
               className="control"
-              onClick={() => handleFilterChange("duapuluhtiga")}
+              onClick={() => handleFilterChange("duapuluhdua")}
             >
               2022
             </button>
           </div>
           {selectedFilter === "all" && (
             <>
+              <div className="row">
+                {DataLetter.duapuluhempat.map((Letter) => {
+                  return (
+                    <div className="col-lg-3 col-md-6 col-sm-12">
+                      <div className="box mx-auto" key={Letter.id}>
+                        <div className="mx-auto text-center">
+                          <img
+                            className="newsletter-image img-fluid mx-auto"
+                            src={Letter.gambar}
+                          ></img>
+                          <div className="read-more-overlay">
+                            <a href={Letter.linkbtn}>Read More</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+              
               <div className="row">
                 {DataLetter.duapuluhtiga.map((Letter) => {
                   return (
@@ -69,26 +89,6 @@ const NewsletterComp = () => {
 
               <div className="row">
                 {DataLetter.duapuluhdua.map((Letter) => {
-                  return (
-                    <div className="col-lg-3 col-md-6 col-sm-12">
-                      <div className="box mx-auto" key={Letter.id}>
-                        <div className="mx-auto text-center">
-                          <img
-                            className="newsletter-image img-fluid mx-auto"
-                            src={Letter.gambar}
-                          ></img>
-                          <div className="read-more-overlay">
-                            <a href={Letter.linkbtn}>Read More</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
-
-              <div className="row">
-                {DataLetter.duapuluhempat.map((Letter) => {
                   return (
                     <div className="col-lg-3 col-md-6 col-sm-12">
                       <div className="box mx-auto" key={Letter.id}>
