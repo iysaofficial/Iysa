@@ -20,11 +20,11 @@
     },
     {
       "id": 3,
-      "image": "./assets/images/poster/miix.WebP",
-      "title": "Malaysia Invention & Innovation Expo (MIIX) 2024",
+      "image": "./assets/images/poster/wosg.WebP",
+      "title": "AWorldInvent™ Singapore 2024",
       "level": "International",
-      "location": "Online",
-      "date": "5th - 10th April 2024",
+      "location": "Offline",
+      "date": "9th - 11th July 2024",
       "link": "/EventPage4"
     },
     {
@@ -109,7 +109,7 @@
       "location": "Offline",
       "date": "July 27th - 31st, 2024",
       "link": "/EventPage2"
-    },
+    } ,
     {
       "id": 14,
       "image": "./assets/images/poster/inventcor.WebP",
@@ -196,7 +196,7 @@
       "image": "./assets/images/poster/ennovate.WebP",
       "title": "International Innovation and Invention Show (E-nnovate) 2024",
       "level": "International",
-      "location": "Offline",
+      "location": "Online",
       "date": "May 30th - 31st, 2024",
       "link": "/EventPage25"
     }
