@@ -109,15 +109,6 @@
       "location": "Offline",
       "date": "July 27th - 31st, 2024",
       "link": "/EventPage2"
-    } ,
-    {
-      "id": 14,
-      "image": "./assets/images/poster/inventcor.WebP",
-      "title": "5th International Exhibition INVENTCOR 2024",
-      "level": "International Exhibition",
-      "location": "Online",
-      "date": "April 4th - 6th, 2024",
-      "link": "/EventPage14"
     },
     {
       "id": 16,
@@ -127,15 +118,6 @@
       "location": "Offline",
       "date": "July 27th - 31st, 2024",
       "link": "/EventPage16"
-    },
-    {
-      "id": 17,
-      "image": "./assets/images/poster/1d.WebP",
-      "title": "1idea1world INNOVATION DESIGN STARTUP COMPETITION 2024",
-      "level": "International",
-      "location": "Offline",
-      "date": "April 28th - 29th, 2024",
-      "link": "/EventPage17"
     },
     {
       "id": 19,
