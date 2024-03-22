@@ -64,15 +64,6 @@
       "link": "/EventPage10"
     },
     {
-      "id": 8,
-      "image": "./assets/images/poster/iiiex.WebP",
-      "title": "Indonesia International Invention Expo (IIIEX) 2024",
-      "level": "International",
-      "location": "Offline",
-      "date": "April 29th - May 2nd, 2024",
-      "link": "/EventPage8"
-    },
-    {
       "id": 9,
       "image": "./assets/images/poster/nicyms.WebP",
       "title": "National Invention Competition For Young Moslem Scientists (NICYMS) 2024",
