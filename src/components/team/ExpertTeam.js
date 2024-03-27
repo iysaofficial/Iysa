@@ -71,9 +71,9 @@ const ExpertTeam = () => {
                     <div className="col">
                         <img src="./assets/images/team/15.png" className="gallery-item" alt="gallery" />
                     </div>
-                    <div className="col">
+                    {/* <div className="col">
                         <img src="./assets/images/team/16.png" className="gallery-item" alt="gallery" />
-                    </div>
+                    </div> */}
                     <div className="col">
                         <img src="./assets/images/team/17.png" className="gallery-item" alt="gallery" />
                     </div>
@@ -89,9 +89,9 @@ const ExpertTeam = () => {
                     <div className="col">
                         <img src="./assets/images/team/21.png" className="gallery-item" alt="gallery" />
                     </div>
-                    <div className="col">
+                    {/* <div className="col">
                         <img src="./assets/images/team/23.png" className="gallery-item" alt="gallery" />
-                    </div>
+                    </div> */}
                 </div>
             </div>
 
