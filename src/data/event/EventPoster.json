@@ -21,8 +21,8 @@
     {
       "id": 3,
       "image": "./assets/images/poster/wosg.WebP",
-      "title": "AWorldInvent™ Singapore 2024",
-      "level": "International",
+      "title": "WorldInvent™ Singapore 2024",
+      "level": "International Event Affiliaton",
       "location": "Offline",
       "date": "9th - 11th July 2024",
       "link": "/EventPage4"
@@ -62,7 +62,7 @@
       "location": "Offline",
       "date": "June 25th - 28th, 2024",
       "link": "/EventPage10"
-    },
+    },                                                                                                                                                                                                                                                                                
     {
       "id": 9,
       "image": "./assets/images/poster/nicyms.WebP",
@@ -132,7 +132,7 @@
       "id": 21,
       "image": "./assets/images/poster/kiwie.WebP",
       "title": "Korea International Women's Invention Exposition (KIWIE) 2024",
-      "level": "International",
+      "level": "International Event Affiliaton",
       "location": "Offline",
       "date": "June 20th - 22nd, 2024",
       "link": "/EventPage21"
@@ -168,7 +168,7 @@
       "id": 25,
       "image": "./assets/images/poster/ennovate.WebP",
       "title": "International Innovation and Invention Show (E-nnovate) 2024",
-      "level": "International",
+      "level": "International Event Affiliaton",
       "location": "Online",
       "date": "May 30th - 31st, 2024",
       "link": "/EventPage25"

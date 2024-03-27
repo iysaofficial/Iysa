@@ -27,7 +27,7 @@
     {
       "Id": "5",
       "WebsiteName": "NICYMS ",
-      "EventType": "National",
+      "EventType": "Nasional",
       "link": "https://nicyms.or.id"
     },
     {
@@ -45,7 +45,7 @@
     {
       "Id": "8",
       "WebsiteName": "YNSF",
-      "EventType": "National",
+      "EventType": "Nasional",
       "link": "https://ynsf.or.id"
     },
     {
@@ -93,7 +93,7 @@
     {
       "Id": "16",
       "WebsiteName": "NRTC",
-      "EventType": "National",
+      "EventType": "Nasional",
       "link": "https://nrtc.or.id"
     },
     {
@@ -119,12 +119,6 @@
       "WebsiteName": "IIF-NASIONAL",
       "EventType": "Nasional",
       "link": "https://www.iif-nasional.or.id"
-    },
-    {
-      "Id": "21",
-      "WebsiteName": "IIF-REGIONAL",
-      "EventType": "Nasional",
-      "link": "https://iif-regional.or.id"
     },
     {
       "Id": "22",
