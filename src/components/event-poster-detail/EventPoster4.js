@@ -40,7 +40,7 @@ function EventPoster4() {
                 <div className="main-colom row col-12 mt-5 mb-5">
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail4.title}</h1>
-                    <p>AWorldInvent™ Singapore 2024</p>
+                    <p>WorldInvent™ Singapore 2024</p>
                     <p>Offline Competition</p>
                     <br></br>
                     <p>On 9-11, July 2024 WorldInvent™ Singapore is back!</p>

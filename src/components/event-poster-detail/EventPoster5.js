@@ -40,12 +40,15 @@ function EventPoster5() {
                 <div className="main-colom row col-12 mt-5 mb-5">
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail5.title}</h1>
-                    <p>Online Science Project Competition 2024🎉</p>
-                    <p>Tingkat Nasional</p>
                     <p>
-                      Halo pelajar Indonesia, OSPC yang ke-6 hadir lagi nih,
-                      kalian yang mau ikut kompetisi secara online bisa daftar
-                      event ini 👏
+                      NICE 2024 Ke-1 NATIONAL INVENTION COMPETITION AND
+                      EXHIBITION 2024
+                    </p>
+                    <p>Kompetisi daring tingkat nasional 💥</p>
+                    <p>
+                      Halo pelajar di seluruh Indonesia, di bulan September
+                      nanti IYSA punya kompetisi baru tingkat nasional nih,
+                      yaitu @niceiysa.official 2024,
                     </p>
                     <br></br>
                     <p>Gimana cara daftarnya?</p>
@@ -53,28 +56,22 @@ function EventPoster5() {
                     <br></br>
                     <ul>
                       <li>
-                        <strong>
-                          📍 Pendaftaran dan Pengumpulan Extended Abstract:
-                        </strong>{" "}
-                        15 Maret 2024
+                        <strong>📍 Batas Pendaftaran :</strong> 19 Agustus 2024
+                      </li>
+                      <li>  
+                        <strong>📍 Batas Pembayaran :</strong> 23 Agustus 2024
                       </li>
                       <li>
-                        <strong>
-                          📍 Pengumpulan Berkas (Full Paper) & Pembayaran:
-                        </strong>{" "}
-                        22 Maret 2024
-                      </li>
-                      <li>
-                        <strong>📍 Pengumuman Pemenang:</strong> 2 Mei 2024
+                        <strong>📍 Tanggal Acara :</strong> 24 September 2024
                       </li>
                     </ul>
                     <br></br>
 
-                    <p>Daftar Bisa Melalui‼️‼️</p>
+                    <p>Yuk daftar melalui website nya👇🏻</p>
                     <p>
                       📱Register via:
-                      <a href="https://www.ospc.or.id/" target="_blank">
-                       ospc.or.id
+                      <a href="https://www.nice-iysa.or.id/" target="_blank">
+                        nice-iysa.or.id
                       </a>
                     </p>
 

@@ -102,6 +102,15 @@
       "link": "/EventPage2"
     },
     {
+      "id": 13,
+      "image": "./assets/images/poster/nice.WebP",
+      "title": "NATIONAL INVENTION COMPETITION AND EXHIBITION (NICE) 2024",
+      "level": "Nasional",
+      "location": "Online",
+      "date": "21 - 24 September, 2024",
+      "link": "/EventPage5"
+    },  
+    {
       "id": 16,
       "image": "./assets/images/poster/wecc.WebP",
       "title": "World Economics Challenge and Competition (WECC) 2024",
