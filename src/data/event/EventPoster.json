@@ -111,6 +111,15 @@
       "link": "/EventPage5"
     },  
     {
+      "id": 14,
+      "image": "./assets/images/poster/wico.WebP",
+      "title": "World Invention Creativity Olympic (WICO) 2024🔥",
+      "level": "International Event Affiliaton",
+      "location": "Offline",
+      "date": "July 24th - 26th, 2024",
+      "link": "/EventPage15"
+    },
+    {
       "id": 16,
       "image": "./assets/images/poster/wecc.WebP",
       "title": "World Economics Challenge and Competition (WECC) 2024",

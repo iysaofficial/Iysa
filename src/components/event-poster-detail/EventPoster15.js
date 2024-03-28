@@ -40,41 +40,37 @@ function EventPoster15() {
                 <div className="main-colom row col-12 mt-5 mb-5">
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail15.title}</h1>
-                    <p>IIF ke-2 NASIONAL 2024</p>
-                    <p>kompetisi Daring</p>
+                    <p>OFFLINE COMPETITION, KOREA</p>
+                    <p>World Invention Creativity Olympic (WICO) 2024🔥</p>
                     <br></br>
                     <p>
-                      Hai peneliti belia 🙋‍♀️Event nasional IYSA, yaitu
-                      @iif.official kembali lagi ni ditahun 2024, untuk mengisi
-                      kegiatan di bulan Ramadhan!
+                      WICO is back in 2024, for those of you who want to travel
+                      to Korea while competing, let's register for WICO 2024
                     </p>
                     <br></br>
-                    <p>Event ini akan berlangsung pada : </p>
+                    <p>This event will take place on : </p>
                     <br></br>
                     <ul>
-                      <li>
-                        <strong>Batas Pendaftaran: </strong> 15 Maret, 2024
+                    <li>
+                        <strong>📌 Registration Deadline : </strong> May 9th, 2024
                       </li>
                       <li>
-                        <strong>Batas Waktu Pembayaran: </strong> 22 Maret, 2024
+                        <strong>📌 Payment & Submission Deadline : </strong>May 17th, 20244
                       </li>
                       <li>
-                        <strong>Tanggal Acara:</strong> 29 - 31 Maret, 2024
+                        <strong>📌 Event Date : </strong> July 24th - 26th, 2024
                       </li>
                     </ul>
                     <br></br>
-                    <p>Register via: </p>
-                    <a
-                      href="https://www.iif-nasional.or.id/"
-                      target="_blank"
-                    >
+                    {/* <p>Register via: </p>
+                    <a href="https://www.iif-nasional.or.id/" target="_blank">
                       📲 iif-nasional.or.id
                     </a>
                     <br></br>
-                    <p>Kalian bisa cek Guide book di link web nya juga ya👆</p>
+                    <p>Kalian bisa cek Guide book di link web nya juga ya👆</p> */}
 
                     <br></br>
-                    <p>Daftar disini ya:</p>
+                    <p>Registration Here:</p>
                     <a
                       className="btn btn-primary mb-4"
                       href={EventPosterDetail15.LinkRegist}
