@@ -1,0 +1,461 @@
+{
+  "event1": [
+    {
+      "id": 1,
+      "image": "./assets/images/poster/jisf.WebP",
+      "title": "Jakarta International Science Fair (JISF) 2024",
+      "LinkRegist": "https://registration-jisf-2024.vercel.app/",
+      "Hastag": "#iysa2024 #event2024 #iysaevent #i3L #jisf #2024 #jakarta #indonesia #infolomba #jisf2024",
+      "DateAdTime": "July 27th - 31st, 2024",
+      "RegistEndDate": "June 27th, 2024",
+      "Location": "Jakarta",
+      "EventType": "Internasional",
+      "EventCategory": "IYSA Event",
+      "ImageVeneu": "",
+      "LinkGmaps": "",
+      "NameLocation": ""
+    }
+  ],
+  "event2": [
+    {
+      "id": 1,
+      "image": "./assets/images/poster/jnsf.WebP",
+      "title": "Jakarta Nasional Science Fair (JNSF) 2024",
+      "LinkRegist": "https://registrasi-jnsf-2024.vercel.app/",
+      "Hastag": "#iysa2024 #event2024 #iysaevent #i3L #jnsf #2024 #jakarta #indonesia #infolomba #jnsf2024",
+      "DateAdTime": "27 - 31 Juni , 2024",
+      "RegistEndDate": "27 Juni, 2024",
+      "Location": "Jakarta",
+      "EventType": "Nasional",
+      "EventCategory": "IYSA Event",
+      "ImageVeneu": "",
+      "LinkGmaps": "",
+      "NameLocation": ""
+    }
+  ],
+  "event3": [
+    {
+      "id": 1,
+      "image": "./assets/images/poster/iicyns.WebP",
+      "title": "International Invention Competition For Young Moslem Scientists (IICYMS) 2024",
+      "LinkRegist": "https://registrasi-iicyms-2024.vercel.app/",
+      "Hastag": "",
+      "DateAdTime": "Agustus 12th - 15th, 2024",
+      "RegistEndDate": "July 8th 2024",
+      "Location": " Offline ",
+      "EventType": "International",
+      "EventCategory": "IYSA Event",
+      "ImageVeneu": "",
+      "LinkGmaps": "",
+      "NameLocation": ""
+    }
+  ],
+  "event4": [
+    {
+      "id": 1,
+      "image": "./assets/images/poster/wosg.WebP",
+      "title": "AWorldInvent™ Singapore 2024",
+      "LinkRegist": "https://bit.ly/WoSG2024-Registration-Form",
+      "Hastag": "#wosg #singapur #iysaevent #iysaafiliasi #infolomba #iysa2024",
+      "DateAdTime": "9th - 11th July, 2024",
+      "RegistEndDate": "20th April, 2024",
+      "Location": "Singapore",
+      "EventType": "Internasional",
+      "EventCategory": "IYSA Event Affiliation",
+      "ImageVeneu": "",
+      "LinkGmaps": "",
+      "NameLocation": ""
+    }
+  ],
+  "event5": [
+    {
+      "id": 1,
+      "image": "./assets/images/poster/nice.WebP",
+      "title": "NATIONAL INVENTION COMPETITION AND EXHIBITION (NICE) 2024",
+      "LinkRegist": "https://registrasi-nice-2024.vercel.app/",
+      "Hastag": "#niceofficial #niceiysa2024 #nice #nasional #kompetisi #daring #infolomba #sains #karyailmiah",
+      "DateAdTime": "21 - 24 September, 2024",
+      "RegistEndDate": "19 Agustus 2024",
+      "Location": "Online",
+      "EventType": "Nasional",
+      "EventCategory": "IYSA Event",
+      "ImageVeneu": "",
+      "LinkGmaps": "",
+      "NameLocation": ""
+    }
+  ],
+  "event6": [
+    {
+      "id": 1,
+      "image": "./assets/images/poster/isif.WebP",
+      "title": "INTERNATIONAL SCIENCE AND INVENTION FAIR (ISIF) 2024",
+      "LinkRegist": "https://registrasi-isif-2024.vercel.app/",
+      "Hastag": "",
+      "DateAdTime": "November 5th - 9th, 2024",
+      "RegistEndDate": "October 3rd, 2024",
+      "Location": "Offline",
+      "EventType": "Internasional",
+      "EventCategory": "IYSA Event",
+      "ImageVeneu": "",
+      "LinkGmaps": "",
+      "NameLocation": "Denpasar, Bali"
+    }
+  ],
+  "event7": [
+    {
+      "id": 1,
+      "image": "./assets/images/poster/nrtc.WebP",
+      "title": "National Research Teacher Competition (NRTC) 2024",
+      "LinkRegist": "https://registrasi-nrtc-2024.vercel.app/",
+      "Hastag": "#nrtc2024 #irtc2024 #iysaevent #iysa #infolomba #lombaiysa #bali #denpasar #daring 3luring",
+      "DateAdTime": "5 - 9 November, 2024",
+      "RegistEndDate": "3 Oktober, 2024",
+      "Location": "Offline",
+      "EventType": "Nasional",
+      "EventCategory": "IYSA Event",
+      "ImageVeneu": "",
+      "LinkGmaps": "", 
+      "NameLocation": "Denpasar, Bali"
+    }
+  ],
+  "event8": [
+    {
+      "id": 1,
+      "image": "./assets/images/poster/iiiex.WebP",
+      "title": "Indonesia International Invention Expo  (IIIEX) 2024",
+      "LinkRegist": "https://registasi-iiiex.vercel.app/",
+      "Hastag": "#iysa #iysaonlinecompetition #event2023 #penelitibelia #iysaofficer #iysaevent2023 #wyiia #offlinecompetition #yogyakarta #jogja #eventoffline #iysaevent #wyiia2023 #wyiiaiysa",
+      "DateAdTime": "April 29 - May 2, 2024",
+      "RegistEndDate": "March 22, 2023",
+      "Location": " Offline ",
+      "EventType": "Internasional",
+      "EventCategory": "IYSA Event",
+      "ImageVeneu": "",
+      "LinkGmaps": "",
+      "NameLocation": ""
+    }
+  ],
+  "event9": [
+    {
+      "id": 1,
+      "image": "./assets/images/poster/wysii.WebP",
+      "title": "World Youth Stem Invention Innovation (WYSII) 2024",
+      "LinkRegist": "https://bit.ly/Registration-WYSII-2024",
+      "Hastag": "#iysaevent #iysa2024 #event2024 #infolomba #wysii2024 #malaysia",
+      "DateAdTime": "May 31st - June 8th, 2024",
+      "RegistEndDate": "May 19, 2024",
+      "Location": "Online",
+      "EventType": "Internasional",
+      "EventCategory": "IYSA Event Affiliation",
+      "ImageVeneu": "",
+      "LinkGmaps": "",
+      "NameLocation": ""
+    }
+  ],
+  "event10": [
+    {
+      "id": 1,
+      "image": "./assets/images/poster/iybc.WebP",
+      "title": "INTERNATIONAL YOUTH BUSINESS COMPETITION (IYBC) 2024",
+      "LinkRegist": "https://registrasi-iybc-2024.vercel.app/",
+      "Hastag": "#iybc2024 #semarang #vokasiundip #infolomba #iysaevent #iysa2024",
+      "DateAdTime": "June 25 - 28, 2024",
+      "RegistEndDate": "May 19th, 2024",
+      "Location": "Semarang",
+      "EventType": "Internasional",
+      "EventCategory": "IYSA Event",
+      "ImageVeneu": "",
+      "LinkGmaps": "",
+      "NameLocation": ""
+    }
+  ],
+  "event11": [
+    {
+      "id": 1,
+      "image": "./assets/images/poster/i3o.WebP",
+      "title": "Indonesia International IoT Olympiad (I3O) 2024",
+      "LinkRegist": "https://registrasi-i3o-2024.vercel.app/",
+      "Hastag": "",
+      "DateAdTime": "June 25 - 28, 2024",
+      "RegistEndDate": "May 19th, 2024",
+      "Location": " Offline ",
+      "EventType": "Offline",
+      "EventCategory": "IYSA Event",
+      "ImageVeneu": "",
+      "LinkGmaps": "",
+      "NameLocation": ""
+    }
+  ],
+  "event12": [
+    {
+      "id": 1,
+      "image": "./assets/images/poster/nicyms.WebP",
+      "title": "National Invention Competition For Young Moslem Scientists (IICYMS) 2024",
+      "LinkRegist": "https://registrasi-nicyms-2024.vercel.app/",
+      "Hastag": "",
+      "DateAdTime": "Agustus 12th - 15th, 2024",
+      "RegistEndDate": "July 8th 2024",
+      "Location": " Offline ",
+      "EventType": "Nasional",
+      "EventCategory": "IYSA Event",
+      "ImageVeneu": "",
+      "LinkGmaps": "",
+      "NameLocation": ""
+    }
+  ],
+  "event13": [
+    {
+      "id": 1,
+      "image": "./assets/images/poster/Glocolis.WebP",
+      "title": "Global Competition for Life Sciences (GloCoLiS) 2024  ",
+      "LinkRegist": "https://registrasi-glocolis-2024.vercel.app/",
+      "Hastag": "#glocolis #iysaevent #2024 #onlineevent #iysa #infolomba #iysa2024",
+      "DateAdTime": " Agustus 30th - September 2nd, 2024",
+      "RegistEndDate": "June 28th, 2024",
+      "Location": "Malang",
+      "EventType": "Internasional",
+      "EventCategory": "IYSA Event",
+      "ImageVeneu": "",
+      "LinkGmaps": "",
+      "NameLocation": "Universitas Muhammadiyah Malang (UMM)"
+    }
+  ],
+  "event14": [
+    {
+      "id": 1,
+      "image": "./assets/images/poster/inventcor.WebP",
+      "title": "5th International Exhibition INVENTCOR 2024",
+      "LinkRegist": "https://bit.ly/INVENTCOR-REGISTRATION-FORM-2024",
+      "Hastag": "#iysaeventonline #afiliasi #2024 #romania #iysaevent2024",
+      "DateAdTime": "April 4th - 6th, 2024",
+      "RegistEndDate": "February 19th, 2024",
+      "Location": "Online",
+      "EventType": "International Exhibition",
+      "EventCategory": "IYSA Event Affiliation",
+      "ImageVeneu": "",
+      "LinkGmaps": "",
+      "NameLocation": ""
+    }
+  ],
+  "event15": [
+    {
+      "id": 1,
+      "image": "./assets/images/poster/wico.WebP",
+      "title": "World Invention Creativity Olympic (WICO) 2024🔥",
+      "LinkRegist": "https://bit.ly/REGISTRATION_WICO_2024",
+      "Hastag": "#wicokorea #iysaeventafiliasi #infolomba #offline #wico2024 #afiliasi",
+      "DateAdTime": "29 Maret - 31 Maret, 2024",
+      "RegistEndDate": "May 9th, 2024",
+      "Location": "Offline",
+      "EventType": "International",
+      "EventCategory": "IYSA Event Affiliation",
+      "ImageVeneu": "",
+      "LinkGmaps": "",
+      "NameLocation": ""
+    }
+  ],
+  "event16": [
+    {
+      "id": 1,
+      "image": "./assets/images/poster/wecc.WebP",
+      "title": "World Economics Challenge and Competition (WECC) 2024",
+      "LinkRegist": "https://registrasi-wecc-2024.vercel.app/",
+      "Hastag": "#iysa2024 #event2024 #iysaevent #i3L #wecc #2024 #jakarta #indonesia #infolomba #wecc2024",
+      "DateAdTime": "July 27th - 31st, 2024",
+      "RegistEndDate": "June 27th, 2024",
+      "Location": "Offline",
+      "EventType": "International",
+      "EventCategory": "IYSA Event",
+      "ImageVeneu": "",
+      "LinkGmaps": "",
+      "NameLocation": ""
+    }
+  ],
+  "event17": [
+    {
+      "id": 1,
+      "image": "./assets/images/poster/irtc.WebP",
+      "title": "International Research Teacher Competition (IRTC) 2024",
+      "LinkRegist": "https://registrasi-irtc-2024.vercel.app/",
+      "Hastag": "#nrtc2024 #irtc2024 #iysaevent #iysa #infolomba #lombaiysa #bali #denpasar #online #offline",
+      "DateAdTime": "November 5th - 9th, 2024",
+      "RegistEndDate": "October 3rd, 2024",
+      "Location": "Offline",
+      "EventType": "International",
+      "EventCategory": "IYSA Event",
+      "ImageVeneu": "",
+      "LinkGmaps": "",
+      "NameLocation": "Denpasar, Bali"
+    }
+  ],
+  "event19": [
+    {
+      "id": 1,
+      "image": "./assets/images/poster/iyco.WebP",
+      "title": "INTERNATIONAL YOUTH CHEMISTRY OLYMPIAD 2024 👏 !!",
+      "LinkRegist": "https://registrasi-iyco.vercel.app/",
+      "Hastag": "",
+      "DateAdTime": "June 12th - June 27th, 2024",
+      "RegistEndDate": "May 22nd, 2024",
+      "Location": "Online",
+      "EventType": "International",
+      "EventCategory": "IYSA Event Olympiad",
+      "ImageVeneu": "",
+      "LinkGmaps": "",
+      "NameLocation": ""
+    }
+  ],
+  "event20": [
+    {
+      "id": 1,
+      "image": "./assets/images/poster/nyco.WebP",
+      "title": "NATIONAL YOUTH CHEMISTRY OLYMPIAD 2024 👏 !!",
+      "LinkRegist": "https://registrasi-nyco.vercel.app/",
+      "Hastag": "",
+      "DateAdTime": "12 Juni - 27 Juni, 2024",
+      "RegistEndDate": "22 Mei, 2024",
+      "Location": "Online",
+      "EventType": "Nasional",
+      "EventCategory": "IYSA Event Olympiad",
+      "ImageVeneu": "",
+      "LinkGmaps": "",
+      "NameLocation": ""
+    }
+  ],
+  "event21": [
+    {
+      "id": 1,
+      "image": "./assets/images/poster/kiwie.WebP",
+      "title": "Korea International Women's Invention Exposition 2024",
+      "LinkRegist": "https://bit.ly/KIWIE2024-Registration-Form",
+      "Hastag": "",
+      "DateAdTime": "June 20th - 22nd, 2024",
+      "RegistEndDate": "April 21st, 2024",
+      "Location": "Offline",
+      "EventType": "Internasional",
+      "EventCategory": "IYSA Event Affiliation",
+      "ImageVeneu": "",
+      "LinkGmaps": "",
+      "NameLocation": "Hall 3, Exhibition Center 1, Kintex"
+    }
+  ],
+  "event22": [
+    {
+      "id": 1,
+      "image": "./assets/images/poster/wyiia.WebP",
+      "title": "World Youth Invention And Innovation Award (WYIIA) 2024",
+      "LinkRegist": "https://registrasi-wyiia-2024.vercel.app/",
+      "Hastag": "#iysa #iysaonlinecompetition #event2024 #penelitibelia #iysaofficer #iysaevent2024 #wyiia #offlinecompetition #yogyakarta #jogja #eventoffline #iysaevent #wyiia2024 #wyiiaiysa",
+      "DateAdTime": "October 10th - 14th, 2024",
+      "RegistEndDate": "September 15th, 2024",
+      "Location": "Offline",
+      "EventType": "Internasional",
+      "EventCategory": "IYSA Event",
+      "ImageVeneu": "",
+      "LinkGmaps": "",
+      "NameLocation": "Universitas Sarjanawiyata Tamansiswa (UST)"
+    }
+  ],
+  "event23": [
+    {
+      "id": 1,
+      "image": "./assets/images/poster/wice.WebP",
+      "title": "World Invention Competition and Exhibition (WICE) 2024",
+      "LinkRegist": "https://registrasi-wice-2024.vercel.app/",
+      "Hastag": "#wice2024 #wicemalaysia #iysaevent #wice #iysa2024 #mahsauniversity #offline #online",
+      "DateAdTime": "September 21st - 24th, 2024",
+      "RegistEndDate": "August 19th, 2024",
+      "Location": "Offline",
+      "EventType": "Internasional",
+      "EventCategory": "IYSA Event",
+      "ImageVeneu": "",
+      "LinkGmaps": "",
+      "NameLocation": "Mahsa University, Selangor, Malaysia"
+    }
+  ],
+  "event24": [
+    {
+      "id": 1,
+      "image": "./assets/images/poster/ispc.WebP",
+      "title": "International Science Project Competition (ISPC) 2024💥",
+      "LinkRegist": "https://registration-ispc.vercel.app/",
+      "Hastag": "#ispc2024 #iysaevent #iysaofflineevent #iysaonlineevent #iysa2024 #malang #ispc #infolomba",
+      "DateAdTime": "August 30th - September 2nd, 2024",
+      "RegistEndDate": "July 28th, 2024",
+      "Location": "Offline",
+      "EventType": "Internasional",
+      "EventCategory": "IYSA Event",
+      "ImageVeneu": "",
+      "LinkGmaps": "",
+      "NameLocation": "Universitas Muhammadiyah Malang (UMM)"
+    }
+  ],
+  "event25": [
+    {
+      "id": 1,
+      "image": "./assets/images/poster/ennovate.WebP",
+      "title": "International Innovation and Invention Show (E-nnovate) 2024",
+      "LinkRegist": "https://bit.ly/Registration-Ennovate-2024",
+      "Hastag": "",
+      "DateAdTime": "May 30th - 31st, 2024",
+      "RegistEndDate": "April 21st, 2024",
+      "Location": "Online",
+      "EventType": "Internasional",
+      "EventCategory": "IYSA Event Affiliation",
+      "ImageVeneu": "",
+      "LinkGmaps": "",
+      "NameLocation": "Polandia"
+    }
+  ],
+  "event26": [
+    {
+      "id": 1,
+      "image": "./assets/images/poster/naspo.WebP",
+      "title": "National Applied Science Project Olympiad (NASPO) 2024",
+      "LinkRegist": "https://registrasi-naspo.vercel.app/",
+      "Hastag": "#naspo2024 #naspoi2aspo #iysa2024 #eventiysa2024 #iysaevent #surabaya #infolomba #sains2024 #naspo",
+      "DateAdTime": "18 - 21 Desember 2024",
+      "RegistEndDate": "13 November 2024",
+      "Location": "Offline",
+      "EventType": "Nasional",
+      "EventCategory": "IYSA Event",
+      "ImageVeneu": "",
+      "LinkGmaps": "",
+      "NameLocation": "Departemen Aktuaria FSAD ITS, Surabya"
+    }
+  ],
+  "event27": [
+    {
+      "id": 1,
+      "image": "./assets/images/poster/i2aspo.WebP",
+      "title": "Indonesia International Applied Science Project Olympiad (I2ASPO) 2024",
+      "LinkRegist": "https://registrasi-i2aspo.vercel.app/",
+      "Hastag": "#i2aspo2024 #naspoi2aspo #iysa2024 #eventiysa2024 #iysaevent #surabaya #infolomba #sains2024 #naspo",
+      "DateAdTime": "December 18th - 21st, 2024",
+      "RegistEndDate": "November 13rd, 2024",
+      "Location": "Offline",
+      "EventType": "International",
+      "EventCategory": "IYSA Event",
+      "ImageVeneu": "",
+      "LinkGmaps": "",
+      "NameLocation": "ITS FSAD Actuarial Department, Surabaya"
+    }
+  ],
+  "event28": [
+    {
+      "id": 1,
+      "image": "./assets/images/poster/os2mn.WebP",
+      "title": "OLIMPIADE SAINS SISWA MADRASAH NASIONAL (OS2MN) 2024",
+      "LinkRegist": "https://registrasi-os2mn.vercel.app/",
+      "Hastag": "#os2mn2024 #eventiysa #iysaonlineevent #iysa2024 #os2mn",
+      "DateAdTime": "1 - 10 Agustus 2024",
+      "RegistEndDate": "19 Juli, 2024",
+      "Location": "Online",
+      "EventType": "Nasional",
+      "EventCategory": "IYSA Event Olympiad",
+      "ImageVeneu": "",
+      "LinkGmaps": "",
+      "NameLocation": ""
+    }
+  ]
+}

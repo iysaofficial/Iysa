@@ -1,0 +1,160 @@
+{
+  "EventWebsite": [
+    {
+      "Id": "1",
+      "WebsiteName": "WSEEC",
+      "EventType": "International",
+      "link": "https://wsec.or.id"
+    },
+    {
+      "Id": "2",
+      "WebsiteName": "WICE",
+      "EventType": "International",
+      "link": "https://wice.or.id"
+    },
+    {
+      "Id": "3",
+      "WebsiteName": "I3O",
+      "EventType": "International",
+      "link": "https://www.I3O.or.id"
+    },
+    {
+      "Id": "4",
+      "WebsiteName": "AISEEF",
+      "EventType": "International",
+      "link": "https://aisef.or.id"
+    },
+    {
+      "Id": "5",
+      "WebsiteName": "NICYMS ",
+      "EventType": "Nasional",
+      "link": "https://nicyms.or.id"
+    },
+    {
+      "Id": "6",
+      "WebsiteName": "IICYMS",
+      "EventType": "International",
+      "link": "https://iicyms.or.id"
+    },
+    {
+      "Id": "7",
+      "WebsiteName": "WYIIA",
+      "EventType": "International",
+      "link": "https://wyiia.or.id"
+    },
+    {
+      "Id": "8",
+      "WebsiteName": "YNSF",
+      "EventType": "Nasional",
+      "link": "https://ynsf.or.id"
+    },
+    {
+      "Id": "9",
+      "WebsiteName": "YISF",
+      "EventType": "International",
+      "link": "https://yisf.or.id"
+    },
+    {
+      "Id": "10",
+      "WebsiteName": "ISIF",
+      "EventType": "International",
+      "link": "https://isif.or.id"
+    },
+    {
+      "Id": "11",
+      "WebsiteName": "IYSA OLYMPIAD",
+      "EventType": "International",
+      "link": "https://iysaolympiad.or.id"
+    },
+    {
+      "Id": "12",
+      "WebsiteName": "IIIEX",
+      "EventType": "International",
+      "link": "https://www.iiiex.or.id"
+    },
+    {
+      "Id": "13",
+      "WebsiteName": "IYMIA",
+      "EventType": "International",
+      "link": "https://iymia.or.id"
+    },
+    {
+      "Id": "14",
+      "WebsiteName": "NASPO & I2ASPO",
+      "EventType": "National & International",
+      "link": "https://www.naspoi2aspo.or.id"
+    },
+    {
+      "Id": "15",
+      "WebsiteName": "IYBC",
+      "EventType": "International",
+      "link": "https://iybc.or.id"
+    },
+    {
+      "Id": "16",
+      "WebsiteName": "NRTC",
+      "EventType": "Nasional",
+      "link": "https://nrtc.or.id"
+    },
+    {
+      "Id": "17",
+      "WebsiteName": "IRTC",
+      "EventType": "International",
+      "link": "https://irtc.or.id"
+    },
+    {
+      "Id": "18",
+      "WebsiteName": "GYIIF",
+      "EventType": "International",
+      "link": "https://www.gyiif.or.id"
+    },
+    {
+      "Id": "19",
+      "WebsiteName": "GLOCOLIS",
+      "EventType": "International",
+      "link": "https://www.glocolis.or.id"
+    },
+    {
+      "Id": "20",
+      "WebsiteName": "IIF-NASIONAL",
+      "EventType": "Nasional",
+      "link": "https://www.iif-nasional.or.id"
+    },
+    {
+      "Id": "22",
+      "WebsiteName": "LKTIN",
+      "EventType": "Nasional",
+      "link": "https://lktin.or.id"
+    },
+    {
+      "Id": "23",
+      "WebsiteName": "OSPC",
+      "EventType": "Nasional",
+      "link": "https://ospc.or.id"
+    },
+    {
+      "Id": "24",
+      "WebsiteName": "JNSF",
+      "EventType": "Nasional",
+      "link": "https://jnsf.or.id"
+    },
+    {
+      "Id": "25",
+      "WebsiteName": "JISF",
+      "EventType": "International",
+      "link": "https://jisf.or.id"
+    },
+    {
+      "Id": "26",
+      "WebsiteName": "WECC",
+      "EventType": "International",
+      "link": "https://wecc.or.id"
+    },
+    {
+      "Id": "27",
+      "WebsiteName": "ISPC",
+      "EventType": "International",
+      "link": "https://ispc.or.id"
+    }
+  ]
+}

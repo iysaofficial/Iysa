@@ -1,0 +1,32 @@
+/* Page loader styles */
+
+#root{
+  font-family: 'Poppins';
+}
+
+
+.page-loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #0795fe,#092a49 ); /* Background color with some transparency */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* Ensure it stays on top of other elements */
+}
+
+/* Loader logo styles */
+.load-logo {
+  margin-bottom: 20px;
+}
+
+/* Loader text styles */
+.load-text h1 {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
