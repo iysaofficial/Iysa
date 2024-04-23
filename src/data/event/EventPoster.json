@@ -156,15 +156,6 @@
       "link": "/EventPage20"
     },
     {
-      "id": 21,
-      "image": "./assets/images/poster/kiwie.WebP",
-      "title": "Korea International Women's Invention Exposition (KIWIE) 2024",
-      "level": "International Event Affiliation",
-      "location": "Offline",
-      "date": "June 20th - 22nd, 2024",
-      "link": "/EventPage21"
-    },
-    {
       "id": 22,
       "image": "./assets/images/poster/wyiia.WebP",
       "title": "World Youth Invention And Innovation Award (WYIIA) 2024",
@@ -190,15 +181,6 @@
       "location": "Offline",
       "date": "August 30th - September 2nd, 2024",
       "link": "/EventPage24"
-    },
-    {
-      "id": 25,
-      "image": "./assets/images/poster/ennovate.WebP",
-      "title": "International Innovation and Invention Show (E-nnovate) 2024",
-      "level": "International Event Affiliation",
-      "location": "Online",
-      "date": "May 30th - 31st, 2024",
-      "link": "/EventPage25"
     },
     {
       "id": 26,
