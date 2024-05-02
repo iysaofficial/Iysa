@@ -80,42 +80,48 @@
     },
     {
       "Id": "14",
-      "WebsiteName": "NASPO & I2ASPO",
-      "EventType": "National & International",
-      "link": "https://www.naspoi2aspo.or.id"
+      "WebsiteName": "I2ASPO",
+      "EventType": "International",
+      "link": "https://www.i2aspo.or.id"
     },
     {
       "Id": "15",
+      "WebsiteName": "NASPO",
+      "EventType": "National",
+      "link": "https://www.naspo.or.id"
+    },
+    {
+      "Id": "16",
       "WebsiteName": "IYBC",
       "EventType": "International",
       "link": "https://iybc.or.id"
     },
     {
-      "Id": "16",
+      "Id": "17",
       "WebsiteName": "NRTC",
       "EventType": "Nasional",
       "link": "https://nrtc.or.id"
     },
     {
-      "Id": "17",
+      "Id": "18",
       "WebsiteName": "IRTC",
       "EventType": "International",
       "link": "https://irtc.or.id"
     },
     {
-      "Id": "18",
+      "Id": "19",
       "WebsiteName": "GYIIF",
       "EventType": "International",
       "link": "https://www.gyiif.or.id"
     },
     {
-      "Id": "19",
+      "Id": "20",
       "WebsiteName": "GLOCOLIS",
       "EventType": "International",
       "link": "https://www.glocolis.or.id"
     },
     {
-      "Id": "20",
+      "Id": "21",
       "WebsiteName": "IIF-NASIONAL",
       "EventType": "Nasional",
       "link": "https://www.iif-nasional.or.id"
@@ -155,6 +161,24 @@
       "WebsiteName": "ISPC",
       "EventType": "International",
       "link": "https://ispc.or.id"
+    },
+    {
+      "Id": "28",
+      "WebsiteName": "NYIIA",
+      "EventType": "Nasional",
+      "link": "https://nyiia.or.id"
+    },    
+    {
+      "Id": "29",
+      "WebsiteName": "NICE",
+      "EventType": "Nasional",
+      "link": "https://nice.or.id"
+    },    
+    {
+      "Id": "30",
+      "WebsiteName": "NSIF",
+      "EventType": "Nasional",
+      "link": "https://nsif.or.id"
     }
   ]
 }
