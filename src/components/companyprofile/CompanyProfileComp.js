@@ -21,12 +21,13 @@ const CompanyProfileComp = () => {
               IYSA Vision & Mission
             </h1>
             <p>
-              1. Conducting a national collaboration program between young
-              Indonesian researchers
+              <span className="fw-bold">1.</span> Conducting a national
+              collaboration program between young Indonesian researchers
             </p>
-            <p>2. Implement an in-country competition program</p>
             <p>
-              3. Preparing young Indonesian researchers to represent Indonesia
+              <span className="fw-bold">2.</span> Implement an in-country competition program</p>
+            <p>
+            <span className="fw-bold">3.</span> Preparing young Indonesian researchers to represent Indonesia
               in the international arena
             </p>
           </div>
@@ -66,7 +67,6 @@ const CompanyProfileComp = () => {
               collaborated with Ms. Anggraini and Ms. Prita Elriza in its
               management team.
             </p>
-
             {/* member */}
             <h1 className="fw-bold text-center text-lg-start text-md-start">
               MOI (IYSA Member) and IYSA Research Teachers Community
@@ -77,7 +77,6 @@ const CompanyProfileComp = () => {
               teachers specifically throughout Indonesia and also
               internationally called the IYSA Research Teachers Community.
             </p>
-
             {/* program */}
             <h1 className="fw-bold text-center text-lg-start text-md-start">
               IYSA Program/Event
@@ -86,17 +85,22 @@ const CompanyProfileComp = () => {
               In its journey, IYSA has had several Competition Programs in the
               field of invention and innovation, including :
             </h5>
-            
-              <span>Event Regional dan Nasional : </span> <p className="fw-bold">LKTIN, OSPC, YNSF, NICYMS, IIF,
-              NRTC, NASPO, JNSF
+            <span>Event Regional dan Nasional : </span>
+            <br></br>
+            <p className="fw-bold">
+              (LKTIN), (OSPC), (YNSF), (NICYMS), (IIF NASIONAL), (NRTC),
+              (NASPO), (JNSF), (NICE), (NSIF), (NYIIA).
             </p>
-            
-            <span>Event Internasional :</span> <p className="fw-bold">IYMIA, GYIIF, AISEEF, YISF, GloCoLiS, IYBC,
-              I3O, IICYMS, WSEEC, WYIIA, WICE, IIIEX, IRTC, ISIF, I2ASPO, JISF, WECC
+            <span>Event Internasional :</span>{" "}
+            <p className="fw-bold">
+              (IYMIA), (GYIIF), (AISEEF), (YISF), (GloCoLiS), (IYBC), (I3O),
+              (IICYMS), (WSEEC), (WYIIA), (WICE), (IIIEX), (IRTC), (ISIF),
+              (I2ASPO), (JISF), (WECC).
             </p>
-            <span>IYSA Olympiad Tingkat Nasional :</span><p className="fw-bold"> NYMO, NYEO, NYBO, NYCO</p>
-            <span>IYSA Olympiad Tingkat International :</span> <p className="fw-bold">IYMO, IYEO, IYBO, IYCO</p>
-            
+            <span>IYSA Olympiad Tingkat Nasional :</span>
+            <p className="fw-bold"> (NYMO), (NYEO), (NYBO), (NYCO), (NYPO).</p>
+            <span>IYSA Olympiad Tingkat International :</span>
+            <p className="fw-bold">(IYMO), (IYEO), (IYBO), (IYCO), (IYPO).</p>
             <br></br>
             <h5>
               In addition to the Competition program, IYSA also has a
