@@ -208,6 +208,24 @@
       "location": "Online",
       "date": "1 - 10 Agustus 2024",
       "link": "/EventPage28"
+    },
+    {
+      "id": 29,
+      "image": "./assets/images/poster/nsif.WebP",
+      "title": "NATIONAL SCIENCE AND INVENTION FAIR (NSIF) 2024",
+      "level": "Nasional",
+      "location": "Offline",
+      "date": "5 - 10 November 2024",
+      "link": "/EventPage21"
+    },
+    {
+      "id": 30,
+      "image": "./assets/images/poster/wyiia.WebP",
+      "title": "NATIONAL YOUTH INVENTION AND INNOVATION AWARD (NYIIA) 2024",
+      "level": "Nasional",
+      "location": "Offline",
+      "date": "10 - 14 Oktober 2024",
+      "link": "/EventPage25"
     }
   ]
 }

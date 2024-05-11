@@ -325,18 +325,18 @@
   "event21": [
     {
       "id": 1,
-      "image": "./assets/images/poster/kiwie.WebP",
-      "title": "Korea International Women's Invention Exposition 2024",
-      "LinkRegist": "https://bit.ly/KIWIE2024-Registration-Form",
-      "Hastag": "",
-      "DateAdTime": "June 20th - 22nd, 2024",
-      "RegistEndDate": "April 21st, 2024",
+      "image": "./assets/images/poster/nsif.WebP",
+      "title": "NATIONAL SCIENCE AND INVENTION FAIR (NSIF) 2024",
+      "LinkRegist": "https://registrasi-nsif-2024.vercel.app/",
+      "Hastag": "#nsif #2024 #bali #iysaevent #iysa2024 #nsifbali #infolomba2024 #sains #eventiysa2024",
+      "DateAdTime": "5 - 10 November, 2024",
+      "RegistEndDate": "3 Oktober 2024",
       "Location": "Offline",
-      "EventType": "Internasional",
-      "EventCategory": "IYSA Event Affiliation",
+      "EventType": "Nasional",
+      "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
-      "NameLocation": "Hall 3, Exhibition Center 1, Kintex"
+      "NameLocation": "Denpasar, Bali"
     }
   ],
   "event22": [
@@ -393,18 +393,18 @@
   "event25": [
     {
       "id": 1,
-      "image": "./assets/images/poster/ennovate.WebP",
-      "title": "International Innovation and Invention Show (E-nnovate) 2024",
-      "LinkRegist": "https://bit.ly/Registration-Ennovate-2024",
-      "Hastag": "",
-      "DateAdTime": "May 30th - 31st, 2024",
-      "RegistEndDate": "April 21st, 2024",
-      "Location": "Online",
-      "EventType": "Internasional",
-      "EventCategory": "IYSA Event Affiliation",
+      "image": "./assets/images/poster/nyiia.WebP",
+      "title": "NATIONAL YOUTH INVENTION AND INNOVATION AWARD (NYIIA) 2024",
+      "LinkRegist": "https://registrasi-nyiia-2024.vercel.app/",
+      "Hastag": "#nyiia #iysaevent #2024 #ustjogja #nyiia2024 #eventiysa2024 #daring #luring #infolomba #lombasains",
+      "DateAdTime": "10 - 14 Oktober 2024",
+      "RegistEndDate": "15 September 2024",
+      "Location": "Offline",
+      "EventType": "Nasional",
+      "EventCategory": "IYSA Even",
       "ImageVeneu": "",
       "LinkGmaps": "",
-      "NameLocation": "Polandia"
+      "NameLocation": "Universitas Sarjanawiyata Tamansiswa (UST)"
     }
   ],
   "event26": [

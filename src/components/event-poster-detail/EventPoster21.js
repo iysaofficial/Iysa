@@ -41,38 +41,40 @@ function EventPoster21() {
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail21.title}</h1>
                     <br></br>
-                    <p>Hybrid Competition KIWIE 2024, Korea 💥</p>
+                    <p>NSIF 2024 💥 Event Nasional ke-1</p>
                     <br></br>
                     <p>
-                      Hi young scientist 👋🏻 There’s an event in Korea, this
-                      event is a hybrid, but it’s definitely more exciting if
-                      you take part in the offline competition 🤗
+                      National Science and Invention Fair Merupakan event
+                      nasional IYSA yang akan diselenggarakan di Bali secara
+                      daring dan luring 🤗🥳
                     </p>
                     <p>
-                      You will get a lot of experience and lots of friends from
-                      various countries
+                      NSIF 2024 akan berlangsung pada bulan November 2024, jangn
+                      lupa catat tanggal nya ya👇🏻
                     </p>
                     <br></br>
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📌 Registration Deadline : </strong> April 21st, 2024
+                        <strong>📌 Registration Deadline : </strong> 3 Oktober
+                        2024
                       </li>
                       <li>
-                        <strong>📌 Payment & Submission Deadline : </strong> April 25th, 2024
+                        <strong>📌 Payment & Submission Deadline : </strong>8
+                        Oktober 2024
                       </li>
                       <li>
-                        <strong>📌 Event Date : </strong> June 20th - 22nd, 2024
+                        <strong>📌 Event Date : </strong> 5 - 10 November 2024
                       </li>
                     </ul>
-                    {/* <p>Let’s register:</p> */}
+                    <p>Kalian bisa daftat melalui:</p>
                     <br></br>
-                    {/* <p>
+                    <p>
                       website :
-                      <a href="https://nyco-iysa.or.id " target="_blank">
-                        nyco-iysa.or.id
+                      <a href="www.nsif.or.id" target="_blank">
+                        nsif.or.id
                       </a>
-                    </p> */}
+                    </p>
                     <p>Registration link: </p>
                     <br></br>
                     <a
@@ -82,7 +84,7 @@ function EventPoster21() {
                     >
                       Registration Here
                     </a>
-                    {/* <p>daftar sekarang 🙌</p> */}
+                    <p>Yuk buat kalian pelajar di seluruh Indonesia, daftar kompetisi ini ya 🤗</p>
                     <br></br>
                     <br />
                     <p className="hastag">{EventPosterDetail21.Hastag}</p>

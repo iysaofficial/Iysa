@@ -41,43 +41,44 @@ function EventPoster25() {
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail25.title}</h1>
                     <br></br>
-                    <p>Online Competition Polandia</p>
-
                     <p>
-                      E-nnovate 2024 International Innovation and Invention Show
+                      NYIIA Ke-1 2024💥 Event NYIIA bisa jadi salah satu event
+                      nasional pilihan kalian juga nih 🤗
                     </p>
                     <br></br>
                     <p>
-                      Hi young scientist 👋🏻 want to take part in an online
-                      competition? You can register for this IYSA affiliate
-                      event.
+                      Pertama kali diselenggarakan untuk para pelajar di
+                      Indonesia, NYIIA akan berlangsung secara luring dan daring
+                      di Yogyakarta. IYSA bekerja sama dengan Universitas
+                      Sarjanawiyata Tamansiswa (UST) menyelenggarakan
+                      @nyiia.iysa_official yang ke-1 🥳
                     </p>
                     <br></br>
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📌 Registration Deadline : </strong> April 21st, 2024
+                        <strong>📌 Registration Deadline : </strong> 15
+                        September 2024
                       </li>
                       <li>
-                        <strong>📌 Payment & Submission Deadline : </strong> April 25th, 2024
+                        <strong>📌 Payment & Submission Deadline : </strong>20
+                        September 2024
                       </li>
                       <li>
-                        <strong>📌 Event Date : </strong> May 30th - 31st, 2024
+                        <strong>📌 Event Date : </strong> 10 - 13 Oktober 2024
                       </li>
                     </ul>
-                    {/* <p>
-                      So for all of you international and national students,
-                      especially students on the nearest Java island, let's
-                      register your team to take part in this offline event, 😉
-                    </p> */}
+                    <p>
+                      Kalian bisa daftar melalui website nya ya di
+                    </p>
                     <br></br>
-                    {/* <p>
+                    <p>
                       website :
-                      <a href="https://wyiia.or.id/ " target="_blank">
-                        wyiia.or.id
+                      <a href="www.nyiia.or.id" target="_blank">
+                        nyiia.or.id
                       </a>
-                    </p> */}
-                    {/* <p>Registration link: </p> */}
+                    </p>
+                    <p>Registration link: </p>
                     <br></br>
                     <a
                       className="btn btn-primary mb-4"
