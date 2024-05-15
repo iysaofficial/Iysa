@@ -6,11 +6,12 @@ const Calenderevent = () => {
           Calender Event IYSA 2024
         </h1>
         <iframe className="iframe"
-          src="https://drive.google.com/file/d/1JiyrVtSSlSqEtAUQ-rGrlc4O7LlPjaFP/preview"
+          src="https://heyzine.com/flip-book/129b49b5ed.html"
           allowFullScreen
         ></iframe>
       </div>
     </section>
+    
   );
 };
 

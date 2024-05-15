@@ -1,19 +1,23 @@
 .calender .h1-calender {
   color: #262521;
-  margin-bottom: 5px;
+  margin-bottom: 3px;
+}
+
+.calender {
+  background-color: #ffffff;
 }
 
 .calender .wrapper {
   position: relative;
   overflow: hidden;
-  padding-top: 10%;
+  padding-top: 7%;
   margin-bottom: 10rem;
 }
 
 .wrapper iframe {
   border-radius: 10px;
-  width: 55%;
-  height: 460px;
+  width: 60%;
+  height: 500px;
 }
 
 @media (max-width: 426px) {
