@@ -40,38 +40,56 @@ function EventPoster4() {
                 <div className="main-colom row col-12 mt-5 mb-5">
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail4.title}</h1>
-                    <p>WorldInvent™ Singapore 2024</p>
-                    <p>Offline Competition</p>
+                    <p>World Science Olympiad 2024 🎉</p>
+                    <p>Offline</p>
                     <br></br>
-                    <p>On 9-11, July 2024 WorldInvent™ Singapore is back!</p>
-                    {/* <p>
-                      Di bulan November IYSA punya event afiliasi
-                      offline di Turki loh 👏🏻
-                    </p> */}
+                    <p>The first IYSA Olympiad to be held offline</p>
+                    <p>The 1st WSO will be held in Denpasar, Bali👏🔥</p>
                     <br></br>
-                    {/* <p>
-                      Tidak hanya kategori sains saja, ada kategori musik-piano
-                      juga 🥳
-                    </p> */}
+                    <p>
+                      You students from elementary, junior high school, senior
+                      high school and university can register to take part in
+                      this competition. WSO is an Olympiad at international
+                      level, with competition categories
+                    </p>
+                    <br></br>
+                    <p>
+                      1. Mathematics (elementary, junior high school ,senior
+                      high school, University)
+                    </p>
+                    <p>2. Physics (senior high school, University)</p>
+                    <p>3. Chemistry (senior high school, University)</p>
+                    <p>4. Biology (senior high school, University)</p>
+                    <br></br>
                     <ul>
                       <li>
-                        <strong>📍 Registration Deadline:</strong> 20th April, 2024
+                        <strong>📍 Registration Deadline:</strong> October 7th,
+                        2024
                       </li>
                       <li>
-                        <strong>📍 Payment Deadline:</strong> 26th April, 2024
+                        <strong>📍 Payment Deadline:</strong> October 11th, 2024
                       </li>
                       {/* <li>
                         <strong>📍 Submission Deadline:</strong> January 12, 2024
                       </li> */}
                       <li>
-                        <strong>📍 Event Date:</strong> 9th - 11th July, 2024
+                        <strong>📍 Event Date:</strong> November 8th - 9th, 2024
                       </li>
                       {/* <li>
                         <strong>Place:</strong> Auditorium Imam Bardjo, Universitas Diponegoro Semarang
                       </li> */}
                     </ul>
-                    <br></br>
-                    <p>Registration Form</p>
+
+                    <p>
+                      For those of you who want to take part in this
+                      competition, let's register via
+                    </p>
+                    <p>
+                      📱Register via:
+                      <a href="https://wso.or.id/" target="_blank">
+                        wso.or.id
+                      </a>
+                    </p>
                     <br></br>
                     <a
                       className="btn btn-primary mb-4"

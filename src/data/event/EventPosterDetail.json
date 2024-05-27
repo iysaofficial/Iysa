@@ -53,15 +53,15 @@
   "event4": [
     {
       "id": 1,
-      "image": "./assets/images/poster/wosg.WebP",
-      "title": "AWorldInvent™ Singapore 2024",
-      "LinkRegist": "https://bit.ly/WoSG2024-Registration-Form",
-      "Hastag": "#wosg #singapur #iysaevent #iysaafiliasi #infolomba #iysa2024",
-      "DateAdTime": "9th - 11th July, 2024",
-      "RegistEndDate": "20th April, 2024",
-      "Location": "Singapore",
+      "image": "./assets/images/poster/wso.WebP",
+      "title": "World Science Olympiad ( WSO) 2024",
+      "LinkRegist": "https://registrasi-wso.vercel.app/",
+      "Hastag": "",
+      "DateAdTime": "November 8th - 9th, 2024",
+      "RegistEndDate": "October 7th, 2024",
+      "Location": "Bali Creative Industry Center, Indonesia",
       "EventType": "Internasional",
-      "EventCategory": "IYSA Event Affiliation",
+      "EventCategory": "IYSA Event Olympiad",
       "ImageVeneu": "",
       "LinkGmaps": "",
       "NameLocation": ""
