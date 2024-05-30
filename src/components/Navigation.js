@@ -129,6 +129,9 @@ const Navigation = () => {
             <li className="menu-item">
               <a href="/CalenderEvent">Calender Event</a>
             </li>
+            <li className="menu-item">
+              <a href="/AllEventPage">Our Event</a>
+            </li>
             {/* <li className="menu-item menu-item-has-children">
               <a href="#" data-toggle="sub-menu">
                 Curation <FaChevronDown />
