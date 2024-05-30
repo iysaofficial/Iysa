@@ -130,7 +130,7 @@ const Navigation = () => {
               <a href="/CalenderEvent">Calender Event</a>
             </li>
             <li className="menu-item">
-              <a href="/AllEventPage">Our Event</a>
+              <a href="/AllEventWebPage">Our Event Website</a>
             </li>
             {/* <li className="menu-item menu-item-has-children">
               <a href="#" data-toggle="sub-menu">
