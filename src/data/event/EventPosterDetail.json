@@ -121,15 +121,15 @@
   "event8": [
     {
       "id": 1,
-      "image": "./assets/images/poster/iiiex.WebP",
-      "title": "Indonesia International Invention Expo  (IIIEX) 2024",
-      "LinkRegist": "https://registasi-iiiex.vercel.app/",
-      "Hastag": "#iysa #iysaonlinecompetition #event2023 #penelitibelia #iysaofficer #iysaevent2023 #wyiia #offlinecompetition #yogyakarta #jogja #eventoffline #iysaevent #wyiia2023 #wyiiaiysa",
-      "DateAdTime": "April 29 - May 2, 2024",
-      "RegistEndDate": "March 22, 2023",
-      "Location": " Offline ",
+      "image": "./assets/images/poster/iypo.WebP",
+      "title": "International Youth Physics Olympiad (IYPO) 2024",
+      "LinkRegist": "https://registrasi-iypo.vercel.app/",
+      "Hastag": "",
+      "DateAdTime": "September 13th - 24th, 2024",
+      "RegistEndDate": "August 26th, 2024",
+      "Location": " Online ",
       "EventType": "Internasional",
-      "EventCategory": "IYSA Event",
+      "EventCategory": "IYSA Event Olympiad"  ,
       "ImageVeneu": "",
       "LinkGmaps": "",
       "NameLocation": ""

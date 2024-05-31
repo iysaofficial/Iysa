@@ -128,6 +128,15 @@
       "link": "/EventPage24"
     },
     {
+      "id": 25,
+      "image": "./assets/images/poster/iypo.WebP",
+      "title": "International Youth Physics Olympiad (IYPO) 2024",
+      "level": "International",
+      "location": "Online",
+      "date": "September 13th - 24th, 2024",
+      "link": "/EventPage8"
+    },
+    {
       "id": 26,
       "image": "./assets/images/poster/naspo.WebP",
       "title": "National Applied Science Project Olympiad (NASPO) 2024",
