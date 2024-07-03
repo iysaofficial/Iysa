@@ -1,15 +1,6 @@
 {
   "event": [
     {
-      "id": 1,
-      "image": "./assets/images/poster/jisf.WebP",
-      "title": "Jakarta International Science Fair (JISF) 2024",
-      "level": "International",
-      "location": "Offline",
-      "date": "July 27th - 31st, 2024",
-      "link": "/EventPage1"
-    },
-    {
       "id": 2,
       "image": "./assets/images/poster/iicyns.WebP",
       "title": "International Invention Competition For Young Moslem Scientists (IICYMS) 2024",
@@ -56,15 +47,6 @@
     }
     ,
     {
-      "id": 12,
-      "image": "./assets/images/poster/jnsf.WebP",
-      "title": "Jakarta Nasional Science Fair (JNSF) 2024",
-      "level": "International",
-      "location": "Offline",
-      "date": "July 27th - 31st, 2024",
-      "link": "/EventPage2"
-    },
-    {
       "id": 13,
       "image": "./assets/images/poster/nice.WebP",
       "title": "NATIONAL INVENTION COMPETITION AND EXHIBITION (NICE) 2024",
@@ -81,15 +63,6 @@
       "location": "Offline",
       "date": "November 8th - 9th, 2024",
       "link": "/EventPage4"
-    },
-    {
-      "id": 16,
-      "image": "./assets/images/poster/wecc.WebP",
-      "title": "World Economics Challenge and Competition (WECC) 2024",
-      "level": "International",
-      "location": "Offline",
-      "date": "July 27th - 31st, 2024",
-      "link": "/EventPage16"
     },
     {
       "id": 17,
