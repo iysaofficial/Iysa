@@ -42,14 +42,12 @@ function EventPoster2() {
                     <h1 className="fw-bolder">
                       {EventPosterDetail2.title}
                     </h1>
-                    <p>Ada yang baru...🔥</p>
-                    <p>IYSA punya event di Jakarta lagi ni...</p>
-                    <p>JNSF 2024, event baru IYSA yang bekerja sama dengan @i3l_official, di selenggarakan secara daring & luring</p>
+                    <p>Kompetisi Offline di Jeddah</p>
+                    <p>Saudi Global Invention and Innovations Expo 2024</p>
+                    <p>Halo peneliti belia,
+                    Kalian sudah punya agenda umroh di tahun ini?</p>
                     <p>
-                    "Jakarta National Science Fair"
-                    </p>
-                    <p>
-                    Yuk main main ke Jakarta sekalian kompetisi tentunya...👏
+                    IYSA punya event offline ni di Jeddah, siapa tahu bisa jadi event pilihan kalian💥
                     </p>
                     <br></br>
                     <p>-------------------------------------</p>
@@ -59,21 +57,20 @@ function EventPoster2() {
                     <ul>
                       <li>
                         <strong>📍 Batas Waktu Pendaftaran : </strong>
-                        27 Juni, 2024
+                        11 September, 2024
                       </li>
                       <li>
-                        <strong>📍 Batas Waktu Pembayaran :</strong> 2 Juli, 2024
+                        <strong>📍 Batas Waktu Pembayaran :</strong> 16 September, 2024
                       </li>
                       <li>
-                        <strong>📍Tanggal Acara :</strong> 27 - 31 Juli,
-                        2024
+                        <strong>📍Tanggal Acara :</strong> 5 - 8 November, 2024
                       </li>
                       {/* <li>
                         <strong>Place:</strong> Institut Pertanian
                         Bogor, IPB Campus Dramaga
                       </li> */}
                     </ul>
-                    <p>
+                    {/* <p>
                     Jadi tunggu apa lagi, pastikan Anda dan tim Anda untuk
                       bergabung dalam acara ini!
                     </p>
@@ -82,8 +79,8 @@ function EventPoster2() {
                       <a href="https://jnsf.or.id/" target="_blank" >
                         jnsf.or.id
                       </a>
-                    </p>
-                    <p>Sampai Jumpa di Jakarta, Indonesia🙋‍♂️</p>
+                    </p> */}
+                    {/* <p>Sampai Jumpa di Jakarta, Indonesia🙋‍♂️</p> */}
 
                     {/* <p>Register now 👇🏻</p> */}
 

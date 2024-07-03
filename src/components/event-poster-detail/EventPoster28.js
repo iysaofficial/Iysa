@@ -62,7 +62,7 @@ function EventPoster28() {
                         <strong>📌 Batas Akhir Pembayaran : </strong>22 Juli 2024
                       </li>
                       <li>
-                        <strong>📌 Tanggal Event : </strong> 1 - 10 Agustus 2024
+                        <strong>📌 Tanggal Event : </strong> 1 - 14 Agustus 2024
                       </li>
                     </ul>
                     <br></br>
@@ -71,8 +71,8 @@ function EventPoster28() {
                     </p>
                     <p>
                       website :
-                      <a href="www.os2mn.or.id" target="_blank">
-                        oa2mn.or.id
+                      <a href="https://www.os2mn.or.id/" target="_blank">
+                        os2mn.or.id
                       </a>
                     </p>
                     {/* <p>Registration link: </p> */}

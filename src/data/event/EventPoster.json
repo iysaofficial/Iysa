@@ -37,6 +37,15 @@
       "link": "/EventPage12"
     },
     {
+      "id": 10,
+      "image": "./assets/images/poster/sgie.WebP",
+      "title": "Saudi Global Invention and Innovations Expo (SGIE) 2024",
+      "level": "International",
+      "location": "Offline",
+      "date": "5 - 8 November, 2024",
+      "link": "/EventPage2"
+    },
+    {
       "id": 11,
       "image": "./assets/images/poster/Glocolis.WebP",
       "title": "Global Competition for Life Sciences (GloCoLiS) 2024",
@@ -133,7 +142,7 @@
       "title": "OLIMPIADE SAINS SISWA MADRASAH NASIONAL (OS2MN) 2024",
       "level": "Nasional",
       "location": "Online",
-      "date": "1 - 10 Agustus 2024",
+      "date": "1 - 14 Agustus 2024",
       "link": "/EventPage28"
     },
     {
