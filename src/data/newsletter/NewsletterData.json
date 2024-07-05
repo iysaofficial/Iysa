@@ -141,6 +141,13 @@
   "duapuluhempat": [
     {
       "id": 1,
+      "title": "IYSA Newsletter June 2024",
+      "content": "",
+      "gambar": "./assets/images/newsletter/IYSANewsletterJune2024.WebP",
+      "linkbtn": "/Newsletter2024DetailPage6"
+    },
+    {
+      "id": 1,
       "title": "IYSA Newsletter May 2024",
       "content": "",
       "gambar": "./assets/images/newsletter/IYSANewsletterMay2024.WebP",
@@ -214,6 +221,14 @@
       "title": "IYSA Newsletter May",
       "images": "./assets/images/newsletter/IYSANewsletterMay2024.WebP",
       "linkpdf": "https://drive.google.com/file/d/14A_y4WR6r0lb58Z8lRIJHXn0oYqPbb_F/preview"
+    }
+  ],
+  "NewsletterJune2024": [
+    {
+      "id": 1,
+      "title": "IYSA Newsletter June",
+      "images": "./assets/images/newsletter/IYSANewsletterJune2024.WebP",
+      "linkpdf": "https://drive.google.com/file/d/1PRv0jgJNbpX_EfgRLTX7iwnEZf3ChXQx/preview"
     }
   ],
   "NewsletterJanuary2023": [
