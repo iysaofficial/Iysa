@@ -1,15 +1,6 @@
 {
   "event": [
     {
-      "id": 2,
-      "image": "./assets/images/poster/iicyns.WebP",
-      "title": "International Invention Competition For Young Moslem Scientists (IICYMS) 2024",
-      "level": "International",
-      "location": "Offline",
-      "date": "August 12th - 15th, 2024",
-      "link": "/EventPage3"
-    },
-    {
       "id": 4,
       "image": "./assets/images/poster/isif.WebP",
       "title": "International Science And Invention Fair (ISIF) 2024",
@@ -27,15 +18,6 @@
       "date": "5 - 9 November, 2024",
       "link": "/EventPage7"
     },                                                                                                                                                                                                                                                                                
-    {
-      "id": 9,
-      "image": "./assets/images/poster/nicyms.WebP",
-      "title": "National Invention Competition For Young Moslem Scientists (NICYMS) 2024",
-      "level": "International",
-      "location": "Offline",
-      "date": "Agustus 12th - 15th, 2024",
-      "link": "/EventPage12"
-    },
     {
       "id": 10,
       "image": "./assets/images/poster/sgie.WebP",
