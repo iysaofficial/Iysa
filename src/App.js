@@ -105,6 +105,10 @@ import EventPage26 from "./pages/event/EventPage26";
 import EventPage27 from "./pages/event/EventPage27";
 import EventPage28 from "./pages/event/EventPage28";
 
+
+// import event affiliasi
+import AllEventAffiliation from "./pages/eventaffiliation/AllEventAffiliation";
+
 function App() {
   return (
     <>
@@ -179,6 +183,10 @@ function App() {
             <Route path="/EventPage26" element={<EventPage26 />} />
             <Route path="/EventPage27" element={<EventPage27 />} />
             <Route path="/EventPage28" element={<EventPage28 />} />
+
+
+            {/* event affiliasi */}
+            <Route path="/AllEventAffiliation" element={<AllEventAffiliation />} />
 
             {/* Newsletter */}
             <Route path="/NewsletterPage" element={<NewsletterPage />} />

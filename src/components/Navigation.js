@@ -132,28 +132,25 @@ const Navigation = () => {
             <li className="menu-item">
               <a href="/AllEventWebPage">Our Event Website</a>
             </li>
-            {/* <li className="menu-item menu-item-has-children">
+            <li className="menu-item menu-item-has-children">
               <a href="#" data-toggle="sub-menu">
-                Curation <FaChevronDown />
+                Our Events <FaChevronDown />
               </a>
-              <ul className="sub-menu text-center">
+              <ul className="sub-menu">
                 <li className="menu-item">
-                  <a href="/CurationOSPC">Curation OSPC</a>
+                  <a href="/AllEventPage">IYSA Events</a>
                 </li>
                 <li className="menu-item">
-                  <a href="/CurationLKTIN">Curation LKTIN</a>
+                  <a href="/AllEventAffiliation">IYSA Events Affiliation</a>
                 </li>
               </ul>
-            </li> */}
-            {/* <li className="menu-item">
-              <a href="/Curasi"> Curation News</a>
-            </li> */}
+            </li>
             <li className="menu-item menu-item-has-children">
               <a href="#" data-toggle="sub-menu">
                 Our Team
                 <FaChevronDown />
               </a>
-              <ul className="sub-menu text-center">
+              <ul className="sub-menu">
                 <li className="menu-item text-center">
                   <a href="/ExpertTeam">IYSA Expert Team</a>
                 </li>
@@ -169,12 +166,12 @@ const Navigation = () => {
               <a href="#" data-toggle="sub-menu">
                 Gallery <FaChevronDown />
               </a>
-              <ul className="sub-menu text-center">
+              <ul className="sub-menu">
                 <li className="menu-item">
-                  <a href="/GalleryPhoto">Photo</a>
+                  <a href="/GalleryPhoto">Photo Events</a>
                 </li>
                 <li className="menu-item">
-                  <a href="/GalleryVideo">Video</a>
+                  <a href="/GalleryVideo">Video Events</a>
                 </li>
               </ul>
             </li>

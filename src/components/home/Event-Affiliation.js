@@ -1,18 +1,19 @@
+
 // Import FontAwesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot, faCalendarDays} from "@fortawesome/free-solid-svg-icons";
 
 // Import Data JSON
-import EventPosterData from "../../data/event/EventPoster.json";
+import EventPosterData from "../../data/eventaffiliasi/EventPosterAffiliasi.json";
 
-const Event = () => {
-  const limitedData = EventPosterData.event.slice(0, 6); // membatasi data hingga 6
+const EventAffiliation = () => {
+  const limitedData = EventPosterData.eventaffiliasi.slice(0, 6); // membatasi data hingga 6
   return (
     <section id="featured-properties">
       <div className="container">
         <div className="featured-section-top text-center">
           <div className="text-center">
-            <h1 className="section-heading">Our IYSA Events<div className='underline'><span></span></div></h1>
+            <h1 className="section-heading">Our Event<div className='underline'><span></span></div></h1>
           </div>
         </div>
       </div>
@@ -50,10 +51,10 @@ const Event = () => {
           })}
         </div>
         <br />
-        <a href="/AllEventPage" className="btn">Load More</a>
+        <a href="/AllEventAffiliation" className="btn">Load More</a>
       </div>
 
     </section>
   );
 };
-export default Event;
+export default EventAffiliation;

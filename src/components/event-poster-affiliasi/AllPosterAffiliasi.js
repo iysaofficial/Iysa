@@ -6,22 +6,22 @@ import {
   } from "@fortawesome/free-solid-svg-icons";
 
 // Import Data
-import DataEvent from "../../data/event/EventPoster.json";
+import DataEvent from "../../data/eventaffiliasi/EventPosterAffiliasi.json";
 
 
-const AllEventPoster = () => {
+const AllPosterAffiliasi = () => {
   return (
     <section id="All-Event-properties" className="AllEventPoster">
       <div className="container">
         <div className="featured-section-top">
           <div className="text-center">
-            <h1 className="section-heading text-dark ">Our IYSA Events</h1>
+            <h1 className="section-heading text-dark ">Our IYSA Events  Affiliation</h1>
           </div>
         </div>
       </div>
       <div className="container">
         <div className="featured-section-bottom  ">
-          {DataEvent.event.map((eventt) => {
+          {DataEvent.eventaffiliasi.map((eventt) => {
             return (
               <a href={eventt.link} className="featured-item shadow">
                 <div className="featured-item-image">
@@ -57,4 +57,4 @@ const AllEventPoster = () => {
     </section>
   );
 };
-export default AllEventPoster;
+export default AllPosterAffiliasi;
