@@ -13,7 +13,7 @@ const InternationalAffiliation = ()=> {
                 <div className="logos-slide">
                   <img src="./assets/images/logo/International Affiliation/africa.WebP" alt="" />
                   <img src="./assets/images/logo/International Affiliation/asia.WebP" alt="" />
-                  <img src="./assets/images/logo/International Affiliation/asti.WebP" alt="" />
+                  {/* <img src="./assets/images/logo/International Affiliation/asti.WebP" alt="" /> */}
                   <img src="./assets/images/logo/International Affiliation/ayrid.WebP" alt="" />
                   <img src="./assets/images/logo/International Affiliation/azs.WebP" alt="" />
                   <img src="./assets/images/logo/International Affiliation/barrc.WebP" alt="" />
