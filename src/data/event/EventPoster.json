@@ -19,16 +19,6 @@
       "link": "/EventPage7"
     },                                                                                                                                                                                                                                                                                
     {
-      "id": 11,
-      "image": "./assets/images/poster/Glocolis.WebP",
-      "title": "Global Competition for Life Sciences (GloCoLiS) 2024",
-      "level": "International",
-      "location": "Offline",
-      "date": "August 30th - September 2nd, 2024",
-      "link": "/EventPage13"
-    }
-    ,
-    {
       "id": 13,
       "image": "./assets/images/poster/nice.WebP",
       "title": "NATIONAL INVENTION COMPETITION AND EXHIBITION (NICE) 2024",
@@ -72,15 +62,6 @@
       "location": "Offline",
       "date": "September 21st - 24th, 2024",
       "link": "/EventPage23"
-    },
-    {
-      "id": 24,
-      "image": "./assets/images/poster/ispc.WebP",
-      "title": "International Science Project Competition (ISPC) 2024💥",
-      "level": "International",
-      "location": "Offline",
-      "date": "August 30th - September 2nd, 2024",
-      "link": "/EventPage24"
     },
     {
       "id": 25,
