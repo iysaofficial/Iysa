@@ -63,6 +63,7 @@ import Newsletter2024DetailPage3 from "./pages/newsletter/Newsletter2024DetailPa
 import Newsletter2024DetailPage4 from "./pages/newsletter/Newsletter2024DetailPage4";
 import Newsletter2024DetailPage5 from "./pages/newsletter/Newsletter2024DetailPage5";
 import Newsletter2024DetailPage6 from "./pages/newsletter/Newsletter2024DetailPage6";
+import Newsletter2024DetailPage7 from "./pages/newsletter/Newsletter2024DetailPage7";
 
 // Import Gallery
 import GalleryPhoto from "./pages/gallery/GalleryPhoto";
@@ -104,7 +105,6 @@ import EventPage25 from "./pages/event/EventPage25";
 import EventPage26 from "./pages/event/EventPage26";
 import EventPage27 from "./pages/event/EventPage27";
 import EventPage28 from "./pages/event/EventPage28";
-
 
 // import event affiliasi
 import AllEventAffiliation from "./pages/eventaffiliation/AllEventAffiliation";
@@ -184,9 +184,11 @@ function App() {
             <Route path="/EventPage27" element={<EventPage27 />} />
             <Route path="/EventPage28" element={<EventPage28 />} />
 
-
             {/* event affiliasi */}
-            <Route path="/AllEventAffiliation" element={<AllEventAffiliation />} />
+            <Route
+              path="/AllEventAffiliation"
+              element={<AllEventAffiliation />}
+            />
 
             {/* Newsletter */}
             <Route path="/NewsletterPage" element={<NewsletterPage />} />
@@ -314,6 +316,10 @@ function App() {
             <Route
               path="/Newsletter2024DetailPage6"
               element={<Newsletter2024DetailPage6 />}
+            />
+            <Route
+              path="/Newsletter2024DetailPage7"
+              element={<Newsletter2024DetailPage7 />}
             />
           </Routes>
         </Router>
