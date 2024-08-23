@@ -17,16 +17,7 @@
       "location": "Offline",
       "date": "5 - 9 November, 2024",
       "link": "/EventPage7"
-    },                                                                                                                                                                                                                                                                                
-    {
-      "id": 13,
-      "image": "./assets/images/poster/nice.WebP",
-      "title": "NATIONAL INVENTION COMPETITION AND EXHIBITION (NICE) 2024",
-      "level": "Nasional",
-      "location": "Online",
-      "date": "21 - 24 September, 2024",
-      "link": "/EventPage5"
-    },
+    },                                                                                                                                                                                                                                                                               
     {
       "id": 14,
       "image": "./assets/images/poster/wso.WebP",
@@ -53,15 +44,6 @@
       "location": "Offline",
       "date": "October 10th - 14th, 2024",
       "link": "/EventPage22"
-    },
-    {
-      "id": 23,
-      "image": "./assets/images/poster/wice.WebP",
-      "title": "World Invention Competition and Exhibition (WICE) 2024",
-      "level": "International",
-      "location": "Offline",
-      "date": "September 21st - 24th, 2024",
-      "link": "/EventPage23"
     },
     {
       "id": 25,
