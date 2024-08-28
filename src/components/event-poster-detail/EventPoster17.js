@@ -15,6 +15,7 @@ import {
   faLinkedin,
   faSquarePinterest,
 } from "@fortawesome/free-brands-svg-icons";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 // Import Data
 import EventPosterDetail from "../../data/event/EventPosterDetail.json";
@@ -33,7 +34,12 @@ function EventPoster17() {
             return (
               <section>
                 <div className="event-poster col-12 text-center">
-                  <img src={EventPosterDetail17.image}></img>
+                  <div className="text-start mb-5">
+                    <a className="btn btn-primary" href="/AllEventPage">
+                      <FontAwesomeIcon icon={faArrowLeft} /> Previous Page{" "}
+                    </a>{" "}
+                  </div>
+                  <img src={EventPosterDetail17.image} alt="poster"></img>
                 </div>
                 <br />
                 <br />
@@ -44,32 +50,35 @@ function EventPoster17() {
                     <p>4th IRTC 2024 🎉</p>
                     <br></br>
                     <p>
-                    Hi, hello teachers and lecturers in the world, IYSA has an event for you, teachers and lecturers🔥
+                      Hi, hello teachers and lecturers in the world, IYSA has an
+                      event for you, teachers and lecturers🔥
                     </p>
                     <p>
-                    Held online & offline, the International Research Teacher Competition was held again in Denpasar, Bali
+                      Held online & offline, the International Research Teacher
+                      Competition was held again in Denpasar, Bali
                     </p>
                     <br></br>
                     <p>Come on</p>
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📌 Registration Deadline : </strong> October 3rd, 2024
+                        <strong>📌 Registration Deadline : </strong> October
+                        3rd, 2024
                       </li>
                       <li>
-                        <strong>📌 Payment & Submission Deadline : </strong>October 8th, 2024
+                        <strong>📌 Payment & Submission Deadline : </strong>
+                        October 8th, 2024
                       </li>
                       <li>
-                        <strong>📌 Event Date : </strong> November 5th - 9th, 2024
+                        <strong>📌 Event Date : </strong> November 5th - 9th,
+                        2024
                       </li>
                     </ul>
-                    <p>
-                    Come on, register via: 
-                    </p>
+                    <p>Come on, register via:</p>
                     <br></br>
                     <p>
                       Visit the website :
-                      <a href="http://irtc.or.id/" target="_blank">
+                      <a href="http://irtc.or.id/" target="_blank" rel="noreferrer" >
                         irtc.or.id
                       </a>
                     </p>
@@ -114,7 +123,7 @@ function EventPoster17() {
                           window.location.href
                         )}`}
                         title="Share this page on Facebook"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquareFacebook}
@@ -127,7 +136,7 @@ function EventPoster17() {
                           window.location.href
                         )}`}
                         title="Share this page on Twitter"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquareTwitter}
@@ -140,7 +149,7 @@ function EventPoster17() {
                           window.location.href
                         )}`}
                         title="Share this page on Linkedin"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faLinkedin}
@@ -153,7 +162,7 @@ function EventPoster17() {
                           window.location.href
                         )}`}
                         title="Share this page on Pinterest"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquarePinterest}
@@ -177,7 +186,7 @@ function EventPoster17() {
                     {showContent && (
                       <div className="row event-venue">
                         <div className="event-venue-left col-6">
-                          <img src={EventPosterDetail17.ImageVeneu}></img>
+                          <img src={EventPosterDetail17.ImageVeneu} alt="veneu"></img>
                         </div>
                         <div className="event-venue-right col-8 mt-auto mb-auto">
                           <a

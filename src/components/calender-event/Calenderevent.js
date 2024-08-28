@@ -8,6 +8,7 @@ const Calenderevent = () => {
         <iframe className="iframe"
           src="https://heyzine.com/flip-book/8cd86f812c.html"
           allowFullScreen
+          title="calender"
         ></iframe>
       </div>
     </section>

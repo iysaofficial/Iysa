@@ -12,6 +12,7 @@ import {
   faLinkedin,
   faSquarePinterest,
 } from "@fortawesome/free-brands-svg-icons";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 // Import Data
 import EventPosterDetail from "../../data/event/EventPosterDetail.json";
@@ -30,69 +31,73 @@ function EventPoster1() {
             return (
               <section>
                 <div className="event-poster col-12 text-center">
-                  <img src={EventPosterDetail1.image}></img>
+                  <div className="text-start mb-5">
+                    <a className="btn btn-primary" href="/AllEventPage">
+                      <FontAwesomeIcon icon={faArrowLeft} /> Previous Page{" "}
+                    </a>{" "}
+                  </div>
+                  <img src={EventPosterDetail1.image} alt="poster"></img>
                 </div>
                 <br />
                 <br />
                 <div className="main-colom row col-12 mt-5 mb-5 mx-auto">
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail1.title}</h1>
-                    <p>There's something new...🔥</p>
-                    <p>IYSA has another event in Jakarta...</p>
+                    <p>Lomba Invensi dan PTK 2024 👏</p>
+                    <p>Kategori Guru dan Dosen</p>
+                    <br></br>
                     <p>
-                      JISF 2024, IYSA's new event in collaboration with
-                      @i3l_official, is being held online & offline
+                      Tahun ini merupakan kali ke-2 penyelenggaraan Lomba
+                      Invensi & PTK dalam rangka Hari Guru Nasional.
                     </p>
 
                     <p>
-                      "Jakarta International Science Fair"
+                      IYSA bekerja sama dengan Indonesia International Institute
+                      for Life-Sciences (i3L) @i3l_official, dan event ini akan
+                      berlangsung pada bulan November 2024.
                     </p>
-                    <p>
-                    Come on, let's go to Jakarta and join this event...👏
-                    </p>
-                    {/* <p>Get the guide book in registration link‼️</p>
-                    <p>See you in Bogor, Indonesia 🙋‍♀️🙋‍♂️</p> */}
                     <br></br>
 
                     <p>Save the date ‼️</p>
                     <ul>
                       <li>
-                        <strong>📍 Registration Deadline:</strong> June
-                        27th, 2024
+                        <strong>📍 Batas Registrasi :</strong> 16 Oktober, 2024
                       </li>
                       <li>
-                        <strong>📍 Payment Deadline:</strong>July 2nd,
-                        2023
+                        <strong>📍 Batas Pengumpulan Full Paper :</strong> 23
+                        Oktober, 2024
                       </li>
                       <li>
-                        <strong>📍 Event Date:</strong> Event Date : July 27th - 31st,
+                        <strong>📍 Pengumuman Finalis :</strong> 4 November,
                         2024
                       </li>
-                      {/* <li>
-                        <strong>Place:</strong> Institut Pertanian
-                        Bogor, IPB Campus Dramaga
-                      </li> */}
+                      <li>
+                        <strong>📍 Tanggal Acara :</strong> 25 November, 2024
+                      </li>
                     </ul>
-                    {/* <p className="mt-5">{EventPosterDetail1.paragraf5}</p> */}
                     <br></br>
                     <p>
-                      So wait no more, Make sure you and your team to
-                      join this event!
+                      Bapak Ibu Guru dan Dosen di Indonesia yuk ketemu sama
+                      minsa di event ini...🎉
                     </p>
-                    <p>
-                      📱Register via:
-                      <a href="https://jisf.or.id/" target="_blank" >
-                        jisf.or.id
-                      </a>
-                    </p>
-                    <p>See you in Jakarta, Indonesia🙋‍♂️</p>
+                    <p>Jangan lupa daftar ya disini 👇</p>
                     <a
                       className="btn btn-primary mb-4"
                       href={EventPosterDetail1.LinkRegist}
                       target="-blank"
                     >
-                      Registration Form
+                      Formulir Registrasi
                     </a>
+                    <p>Lihat Guide Book nya disini 👇</p>
+                    <a
+                      className="btn btn-primary mb-4"
+                      href="https://drive.google.com/file/d/1TED9ZY9GmXRfyhGtRmrhAzMnJGm2G4Nt/view?usp=sharing"
+                      target="-blank"
+                    >
+                      Guide Book
+                    </a>
+                    <br></br>
+                    <p>See you in Jakarta, Indonesia🙋‍♂️</p>
                     <br />
                     <p className="hastag">{EventPosterDetail1.Hastag}</p>
                     <br></br>
@@ -125,7 +130,7 @@ function EventPoster1() {
                           window.location.href
                         )}`}
                         title="Share this page on Facebook"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquareFacebook}
@@ -138,7 +143,7 @@ function EventPoster1() {
                           window.location.href
                         )}`}
                         title="Share this page on Twitter"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquareTwitter}
@@ -151,7 +156,7 @@ function EventPoster1() {
                           window.location.href
                         )}`}
                         title="Share this page on Linkedin"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faLinkedin}
@@ -164,7 +169,7 @@ function EventPoster1() {
                           window.location.href
                         )}`}
                         title="Share this page on Pinterest"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquarePinterest}
@@ -188,7 +193,7 @@ function EventPoster1() {
                     {showContent && (
                       <div className="row event-venue">
                         <div className="event-venue-left col-lg-3 col-12">
-                          <img src={EventPosterDetail1.ImageVeneu}></img>
+                          <img src={EventPosterDetail1.ImageVeneu} alt="veneu"></img>
                         </div>
                         <div className="event-venue-right col-lg-8 col-12 mt-auto mb-auto">
                           <a

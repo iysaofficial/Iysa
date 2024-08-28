@@ -9,7 +9,7 @@ const CurationLKTINComp = () => {
             <div className="row">
 
                 <div className="col-lg-4 col-md-6 col-sm-12">
-                    <a href="https://drive.google.com/drive/folders/1LUmfYpgQ8OUqW1_jBiOIHeBtVHejlJ4o" target="_blank">
+                    <a href="https://drive.google.com/drive/folders/1LUmfYpgQ8OUqW1_jBiOIHeBtVHejlJ4o" target="_blank" rel="noreferrer" >
                         <div className="box">        
                             <div className="content">
                                 <h4 className="">Curation 2022</h4>

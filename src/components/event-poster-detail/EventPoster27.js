@@ -15,6 +15,8 @@ import {
   faLinkedin,
   faSquarePinterest,
 } from "@fortawesome/free-brands-svg-icons";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+
 
 // Import Data
 import EventPosterDetail from "../../data/event/EventPosterDetail.json";
@@ -33,6 +35,11 @@ function EventPoster27() {
             return (
               <section>
                 <div className="event-poster col-12 text-center">
+                  <div className="text-start mb-5">
+                    <a className="btn btn-primary" href="/AllEventPage">
+                      <FontAwesomeIcon icon={faArrowLeft} /> Previous Page{" "}
+                    </a>{" "}
+                  </div>
                   <img src={EventPosterDetail27.image}></img>
                 </div>
                 <br />
@@ -85,7 +92,10 @@ function EventPoster27() {
                     <p>Register via:</p>
                     <p>
                       website :
-                      <a href="https://www.naspoi2aspo.or.id/i2aspo " target="_blank">
+                      <a
+                        href="https://www.naspoi2aspo.or.id/i2aspo "
+                        target="_blank" rel="noreferrer" 
+                      >
                         i2aspo.or.id
                       </a>
                     </p>
@@ -130,7 +140,7 @@ function EventPoster27() {
                           window.location.href
                         )}`}
                         title="Share this page on Facebook"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquareFacebook}
@@ -143,7 +153,7 @@ function EventPoster27() {
                           window.location.href
                         )}`}
                         title="Share this page on Twitter"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquareTwitter}
@@ -156,7 +166,7 @@ function EventPoster27() {
                           window.location.href
                         )}`}
                         title="Share this page on Linkedin"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faLinkedin}
@@ -169,7 +179,7 @@ function EventPoster27() {
                           window.location.href
                         )}`}
                         title="Share this page on Pinterest"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquarePinterest}

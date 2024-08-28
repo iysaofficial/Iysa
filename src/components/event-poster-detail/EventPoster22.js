@@ -15,6 +15,7 @@ import {
   faLinkedin,
   faSquarePinterest,
 } from "@fortawesome/free-brands-svg-icons";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 // Import Data
 import EventPosterDetail from "../../data/event/EventPosterDetail.json";
@@ -33,6 +34,11 @@ function EventPoster22() {
             return (
               <section>
                 <div className="event-poster col-12 text-center">
+                  <div className="text-start mb-5">
+                    <a className="btn btn-primary" href="/AllEventPage">
+                      <FontAwesomeIcon icon={faArrowLeft} /> Previous Page{" "}
+                    </a>{" "}
+                  </div>
                   <img src={EventPosterDetail22.image}></img>
                 </div>
                 <br />
@@ -43,31 +49,39 @@ function EventPoster22() {
                     <br></br>
                     <p>WYIIA 2024 Hybrid Competition</p>
                     <br></br>
+                    <p>Hello young inventors, innovators and scientis , 🥳</p>
                     <p>
-                    Hello young inventors, innovators and scientis , 🥳
-                    </p>
-                    <p>
-                    In this 4th year WYIIA is held in Yogyakarta again, in collaboration with Universitas Sarjanawiyata Tamansiswa (UST) and Institut Pertanian Bogor (IPB), @wyiiaofficial 👏🏻👏🏻
+                      In this 4th year WYIIA is held in Yogyakarta again, in
+                      collaboration with Universitas Sarjanawiyata Tamansiswa
+                      (UST) and Institut Pertanian Bogor (IPB), @wyiiaofficial
+                      👏🏻👏🏻
                     </p>
                     <br></br>
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📌 Registration Deadline : </strong> September 15th, 2024
+                        <strong>📌 Registration Deadline : </strong> September
+                        15th, 2024
                       </li>
                       <li>
-                        <strong>📌 Payment & Submission Deadline : </strong>September 20th, 20244
+                        <strong>📌 Payment & Submission Deadline : </strong>
+                        September 20th, 20244
                       </li>
                       <li>
-                        <strong>📌 Event Date : </strong> October 10th - 14th, 2024
+                        <strong>📌 Event Date : </strong> October 10th - 14th,
+                        2024
                       </li>
                     </ul>
-                    <p>So for all of you international and national students, especially students on the nearest Java island, let's register your team to take part in this offline event, 😉</p>
+                    <p>
+                      So for all of you international and national students,
+                      especially students on the nearest Java island, let's
+                      register your team to take part in this offline event, 😉
+                    </p>
                     <br></br>
                     <p>
                       website :
-                      <a href="https://wyiia.or.id/ " target="_blank">
-                      wyiia.or.id
+                      <a href="https://wyiia.or.id/ " target="_blank" rel="noreferrer" >
+                        wyiia.or.id
                       </a>
                     </p>
                     {/* <p>Registration link: </p> */}
@@ -112,7 +126,7 @@ function EventPoster22() {
                           window.location.href
                         )}`}
                         title="Share this page on Facebook"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquareFacebook}
@@ -125,7 +139,7 @@ function EventPoster22() {
                           window.location.href
                         )}`}
                         title="Share this page on Twitter"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquareTwitter}
@@ -138,7 +152,7 @@ function EventPoster22() {
                           window.location.href
                         )}`}
                         title="Share this page on Linkedin"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faLinkedin}
@@ -151,7 +165,7 @@ function EventPoster22() {
                           window.location.href
                         )}`}
                         title="Share this page on Pinterest"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquarePinterest}

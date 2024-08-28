@@ -8,7 +8,7 @@ const Newsletter = () => {
             <div className="modal-container row ">
                 <div className="modal-inner row col-12 pb-3 pt-3">
                     <div className="modal-image text-center col-lg-4 col-12 ">
-                        <img src="assets/images/logo/about-logo.WebP" alt="Modal Image" className="modal-img" />
+                        <img src="assets/images/logo/about-logo.WebP" alt="logo img" className="modal-img" />
                     </div>
                     <div className="col-lg-2 col-12"></div>
                     <div className="content-modal col-lg-6 col-12">

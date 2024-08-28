@@ -15,6 +15,7 @@ import {
   faLinkedin,
   faSquarePinterest,
 } from "@fortawesome/free-brands-svg-icons";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 // Import Data
 import EventPosterDetail from "../../data/event/EventPosterDetail.json";
@@ -33,7 +34,12 @@ function EventPoster11() {
             return (
               <section>
                 <div className="event-poster col-12 text-center">
-                  <img src={EventPosterDetail11.image}></img>
+                  <div className="text-start mb-5">
+                    <a className="btn btn-primary" href="/AllEventPage">
+                      <FontAwesomeIcon icon={faArrowLeft} /> Previous Page{" "}
+                    </a>{" "}
+                  </div>
+                  <img src={EventPosterDetail11.image} alt="poster"></img>
                 </div>
                 <br />
                 <br />
@@ -41,41 +47,47 @@ function EventPoster11() {
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail11.title}</h1>
                     {/* <p>Hi Young Researcher</p> */}
-                    <p>3rd Indonesia International IoT Olympiad (I3O) 2024 🥳🥳</p>
                     <p>
-                    Indonesian Young Scientist Association in collaboration with Sekolah Vokasi Universitas Diponegoro, Semarang 👏🏻👏🏻
+                      3rd Indonesia International IoT Olympiad (I3O) 2024 🥳🥳
+                    </p>
+                    <p>
+                      Indonesian Young Scientist Association in collaboration
+                      with Sekolah Vokasi Universitas Diponegoro, Semarang 👏🏻👏🏻
                     </p>
 
                     <br></br>
-                    <p>
-                    Save the date
-                    </p>
+                    <p>Save the date</p>
                     <ul>
                       <li>
-                        <strong>📌 Registration Deadline : </strong> May 19th, 2024
+                        <strong>📌 Registration Deadline : </strong> May 19th,
+                        2024
                       </li>
                       <li>
-                        <strong>📌 Payment & Submission Deadline : </strong>  May 24th, 2024
+                        <strong>📌 Payment & Submission Deadline : </strong> May
+                        24th, 2024
                       </li>
                       <li>
                         <strong>📌 Event Date : </strong> June 25 - 28, 2024
                       </li>
                     </ul>
                     <br></br>
-                    <p>So wait no more, make sure you and your team to join this event!!</p>
+                    <p>
+                      So wait no more, make sure you and your team to join this
+                      event!!
+                    </p>
                     <br></br>
                     <p>See you in Central Java 🤗🥳</p>
                     <br></br>
                     <p>
                       📱Register via:
-                      <a href="https://i3o.or.id/" target="_blank" >
+                      <a href="https://i3o.or.id/" target="_blank" rel="noreferrer" >
                         i3o.or.id
                       </a>
                     </p>
                     <a
                       className="btn btn-primary mb-4"
                       href={EventPosterDetail11.LinkRegist}
-                      rel="noreferrer noopener" 
+                      rel="noreferrer noopener"
                       target="-blank"
                     >
                       Registration Form
@@ -112,9 +124,9 @@ function EventPoster11() {
                         href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
                           window.location.href
                         )}`}
-                        rel="noreferrer noopener" 
+                        rel="noreferrer noopener"
                         title="Share this page on Facebook"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquareFacebook}
@@ -126,9 +138,9 @@ function EventPoster11() {
                         href={`https://twitter.com/share?url=${encodeURIComponent(
                           window.location.href
                         )}`}
-                        rel="noreferrer noopener" 
+                        rel="noreferrer noopener"
                         title="Share this page on Twitter"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquareTwitter}
@@ -140,9 +152,9 @@ function EventPoster11() {
                         href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(
                           window.location.href
                         )}`}
-                        rel="noreferrer noopener" 
+                        rel="noreferrer noopener"
                         title="Share this page on Linkedin"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faLinkedin}
@@ -154,9 +166,9 @@ function EventPoster11() {
                         href={`https://pinterest.com/pin/create/button/?url=${encodeURIComponent(
                           window.location.href
                         )}`}
-                        rel="noreferrer noopener" 
+                        rel="noreferrer noopener"
                         title="Share this page on Pinterest"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquarePinterest}
@@ -180,7 +192,7 @@ function EventPoster11() {
                     {showContent && (
                       <div className="row event-venue">
                         <div className="event-venue-left col-3">
-                          <img src={EventPosterDetail11.ImageVeneu}></img>
+                          <img src={EventPosterDetail11.ImageVeneu} alt="veneu"></img>
                         </div>
                         <div className="event-venue-right col-8 mt-auto mb-auto">
                           <a

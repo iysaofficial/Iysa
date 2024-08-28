@@ -15,6 +15,7 @@ import {
   faLinkedin,
   faSquarePinterest,
 } from "@fortawesome/free-brands-svg-icons";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 // Import Data
 import EventPosterDetail from "../../data/event/EventPosterDetail.json";
@@ -33,6 +34,11 @@ function EventPoster24() {
             return (
               <section>
                 <div className="event-poster col-12 text-center">
+                  <div className="text-start mb-5">
+                    <a className="btn btn-primary" href="/AllEventPage">
+                      <FontAwesomeIcon icon={faArrowLeft} /> Previous Page{" "}
+                    </a>{" "}
+                  </div>
                   <img src={EventPosterDetail24.image}></img>
                 </div>
                 <br />
@@ -58,13 +64,16 @@ function EventPoster24() {
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📌 Registration Deadline : </strong> July 28th, 2024
+                        <strong>📌 Registration Deadline : </strong> July 28th,
+                        2024
                       </li>
                       <li>
-                        <strong>📌 Payment & Submission Deadline : </strong> August 2nd, 2024
+                        <strong>📌 Payment & Submission Deadline : </strong>{" "}
+                        August 2nd, 2024
                       </li>
                       <li>
-                        <strong>📌 Event Date : </strong> August 30th - September 2nd, 2024
+                        <strong>📌 Event Date : </strong> August 30th -
+                        September 2nd, 2024
                       </li>
                     </ul>
                     {/* <p>
@@ -75,7 +84,7 @@ function EventPoster24() {
                     <br></br>
                     <p>
                       website :
-                      <a href="https://ispc.or.id/ " target="_blank">
+                      <a href="https://ispc.or.id/ " target="_blank" rel="noreferrer" >
                         ispc.or.id
                       </a>
                     </p>
@@ -121,7 +130,7 @@ function EventPoster24() {
                           window.location.href
                         )}`}
                         title="Share this page on Facebook"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquareFacebook}
@@ -134,7 +143,7 @@ function EventPoster24() {
                           window.location.href
                         )}`}
                         title="Share this page on Twitter"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquareTwitter}
@@ -147,7 +156,7 @@ function EventPoster24() {
                           window.location.href
                         )}`}
                         title="Share this page on Linkedin"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faLinkedin}
@@ -160,7 +169,7 @@ function EventPoster24() {
                           window.location.href
                         )}`}
                         title="Share this page on Pinterest"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquarePinterest}

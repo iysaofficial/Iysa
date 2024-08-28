@@ -22,6 +22,7 @@ const Curasi = () => {
                 src="./assets/images/newsletter/Kurasi.pdf"
                 width="80%"
                 height="570"
+                title="kurasi"
               />
             </div>
           </div>

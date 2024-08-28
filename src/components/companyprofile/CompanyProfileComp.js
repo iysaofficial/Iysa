@@ -36,6 +36,7 @@ const CompanyProfileComp = () => {
             <img
               src="assets/images/logo/about-logo.WebP"
               className=" img-fluid "
+              alt="logo"
             ></img>
           </div>
           <div className="about-iframe text-center">
@@ -52,6 +53,7 @@ const CompanyProfileComp = () => {
               src="assets/images/logo/pendiri.WebP"
               className="img-fluid"
               height="400px"
+              alt="pendiri"
             ></img>
           </div>
 

@@ -15,6 +15,7 @@ import {
   faLinkedin,
   faSquarePinterest,
 } from "@fortawesome/free-brands-svg-icons";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 // Import Data
 import EventPosterDetail from "../../data/event/EventPosterDetail.json";
@@ -33,7 +34,12 @@ function EventPoster14() {
             return (
               <section>
                 <div className="event-poster col-12 text-center">
-                  <img src={EventPosterDetail14.image}></img>
+                  <div className="text-start mb-5">
+                    <a className="btn btn-primary" href="/AllEventPage">
+                      <FontAwesomeIcon icon={faArrowLeft} /> Previous Page{" "}
+                    </a>{" "}
+                  </div>
+                  <img src={EventPosterDetail14.image} alt="poster"></img>
                 </div>
                 <br />
                 <br />
@@ -44,19 +50,20 @@ function EventPoster14() {
                     <p>Online Competition</p>
                     <p>Deva, Romania</p>
                     <br></br>
+                    <p>5th International Exhibition</p>
                     <p>
-                    5th International Exhibition
-                    </p>
-                    <p>
-                    INVENTCOR 2024, there is an IYSA affiliate online event, let's register now!!! 🔥
+                      INVENTCOR 2024, there is an IYSA affiliate online event,
+                      let's register now!!! 🔥
                     </p>
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📌 Registration Deadline : </strong> February 19th, 2024
+                        <strong>📌 Registration Deadline : </strong> February
+                        19th, 2024
                       </li>
                       <li>
-                        <strong>📌 Payment & Submission Deadline : </strong> February 23rd, 2024
+                        <strong>📌 Payment & Submission Deadline : </strong>{" "}
+                        February 23rd, 2024
                       </li>
                       <li>
                         <strong>📌 Event Date : </strong> April 4th - 6th, 2024
@@ -65,13 +72,11 @@ function EventPoster14() {
                     <br></br>
                     {/* <p>
                       📱Register via:
-                      <a href="https://glocolis.or.id/" target="_blank" >
+                      <a href="https://glocolis.or.id/" target="_blank" rel="noreferrer"  >
                         glocolis.or.id
                       </a>
                     </p> */}
-                    <p>
-                    Registration Here: 
-                    </p>
+                    <p>Registration Here:</p>
                     <a
                       className="btn btn-primary mb-4"
                       href={EventPosterDetail14.LinkRegist}
@@ -112,7 +117,7 @@ function EventPoster14() {
                           window.location.href
                         )}`}
                         title="Share this page on Facebook"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquareFacebook}
@@ -125,7 +130,7 @@ function EventPoster14() {
                           window.location.href
                         )}`}
                         title="Share this page on Twitter"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquareTwitter}
@@ -138,7 +143,7 @@ function EventPoster14() {
                           window.location.href
                         )}`}
                         title="Share this page on Linkedin"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faLinkedin}
@@ -151,7 +156,7 @@ function EventPoster14() {
                           window.location.href
                         )}`}
                         title="Share this page on Pinterest"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquarePinterest}
@@ -175,7 +180,7 @@ function EventPoster14() {
                     {showContent && (
                       <div className="row event-venue">
                         <div className="event-venue-left col-4">
-                          <img src={EventPosterDetail14.ImageVeneu}></img>
+                          <img src={EventPosterDetail14.ImageVeneu} alt="veneu"></img>
                         </div>
                         <div className="event-venue-right col-8 mt-auto mb-auto">
                           <a

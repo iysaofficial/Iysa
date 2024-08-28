@@ -56,6 +56,7 @@ const NewsletterComp = () => {
                           <img
                             className="newsletter-image img-fluid mx-auto"
                             src={Letter.gambar}
+                            alt=""
                           ></img>
                           <div className="read-more-overlay">
                             <a href={Letter.linkbtn}>Read More</a>
@@ -76,6 +77,7 @@ const NewsletterComp = () => {
                           <img
                             className="newsletter-image img-fluid mx-auto"
                             src={Letter.gambar}
+                            alt=""
                           ></img>
                           <div className="read-more-overlay">
                             <a href={Letter.linkbtn}>Read More</a>
@@ -96,6 +98,7 @@ const NewsletterComp = () => {
                           <img
                             className="newsletter-image img-fluid mx-auto"
                             src={Letter.gambar}
+                            alt=""
                           ></img>
                           <div className="read-more-overlay">
                             <a href={Letter.linkbtn}>Read More</a>
@@ -119,6 +122,7 @@ const NewsletterComp = () => {
                         <img
                           className="newsletter-image img-fluid mx-auto"
                           src={Letter.gambar}
+                          alt=""
                         ></img>
                         <div className="read-more-overlay">
                           <a href={Letter.linkbtn}>Read More</a>

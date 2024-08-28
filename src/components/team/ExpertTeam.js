@@ -24,7 +24,6 @@ const ExpertTeam = () => {
         <section className="expert-team min-vh-100 mb-5">
             <div className="pem container-lg">
                 <h1 className='text-center row-cols-sm-2'>IYSA Expert Team</h1>
-                <h2></h2>
                 <div className="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
                     <div className="col">
                         <img src="./assets/images/team/1.png" className="gallery-item " alt="gallery" />

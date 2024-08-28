@@ -3,7 +3,7 @@ const VisionMission = () => {
     <section className="vision-mission-section">
       <div className="card-container">
         <div className="card">
-          <img src="./assets/images/icon/vision.png"></img>
+          <img src="./assets/images/icon/vision.png" alt="vision"></img>
           <div className="card-content">
             <h3 className="text-center mb-1">Vision</h3>
             <p className="garis-bawah mb-4"></p>
@@ -15,7 +15,7 @@ const VisionMission = () => {
           </div>
         </div>
         <div className="card">
-          <img src="./assets/images/icon/mission.png"></img>
+          <img src="./assets/images/icon/mission.png" alt="mision"></img>
           <div className="card-content">
             <h3 className="text-center mb-1">Mission</h3>
             <p className="garis-bawahi mb-4"></p>
@@ -33,7 +33,7 @@ const VisionMission = () => {
           </div>
         </div>
         <div className="card">
-          <img src="./assets/images/icon/goals.png"></img>
+          <img src="./assets/images/icon/goals.png" alt="goals"></img>
           <div className="card-content">
             <h3 className="text-center mb-1">Goals</h3>
             <p className="garis-bawah mb-4"></p>

@@ -15,6 +15,7 @@ import {
   faLinkedin,
   faSquarePinterest,
 } from "@fortawesome/free-brands-svg-icons";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 // Import Data
 import EventPosterDetail from "../../data/event/EventPosterDetail.json";
@@ -33,6 +34,11 @@ function EventPoster26() {
             return (
               <section>
                 <div className="event-poster col-12 text-center">
+                  <div className="text-start mb-5">
+                    <a className="btn btn-primary" href="/AllEventPage">
+                      <FontAwesomeIcon icon={faArrowLeft} /> Previous Page{" "}
+                    </a>{" "}
+                  </div>
                   <img src={EventPosterDetail26.image}></img>
                 </div>
                 <br />
@@ -57,25 +63,29 @@ function EventPoster26() {
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📌 Batas Pendaftaran : </strong> 13 November 2024
+                        <strong>📌 Batas Pendaftaran : </strong> 13 November
+                        2024
                       </li>
                       <li>
                         <strong>📌 Batas Pembayaran : </strong> 18 November 2024
                       </li>
                       <li>
-                        <strong>📌 Tanggal Event : </strong> 18 - 21 Desember 2024
+                        <strong>📌 Tanggal Event : </strong> 18 - 21 Desember
+                        2024
                       </li>
                       <li>
-                        <strong>📌 Tempat : </strong> Departemen Aktuaria FSAD ITS, Surabya
+                        <strong>📌 Tempat : </strong> Departemen Aktuaria FSAD
+                        ITS, Surabya
                       </li>
                     </ul>
                     <br></br>
-                    <p>
-                      Daftar Melalui
-                    </p>
+                    <p>Daftar Melalui</p>
                     <p>
                       website :
-                      <a href="https://www.naspoi2aspo.or.id/naspo " target="_blank">
+                      <a
+                        href="https://www.naspoi2aspo.or.id/naspo "
+                        target="_blank" rel="noreferrer" 
+                      >
                         naspo.or.id
                       </a>
                     </p>
@@ -119,7 +129,7 @@ function EventPoster26() {
                           window.location.href
                         )}`}
                         title="Share this page on Facebook"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquareFacebook}
@@ -132,7 +142,7 @@ function EventPoster26() {
                           window.location.href
                         )}`}
                         title="Share this page on Twitter"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquareTwitter}
@@ -145,7 +155,7 @@ function EventPoster26() {
                           window.location.href
                         )}`}
                         title="Share this page on Linkedin"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faLinkedin}
@@ -158,7 +168,7 @@ function EventPoster26() {
                           window.location.href
                         )}`}
                         title="Share this page on Pinterest"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquarePinterest}

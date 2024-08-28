@@ -15,6 +15,7 @@ import {
   faLinkedin,
   faSquarePinterest,
 } from "@fortawesome/free-brands-svg-icons";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 // Import Data
 import EventPosterDetail from "../../data/event/EventPosterDetail.json";
@@ -33,7 +34,12 @@ function EventPoster19() {
             return (
               <section>
                 <div className="event-poster col-12 text-center">
-                  <img src={EventPosterDetail19.image}></img>
+                  <div className="text-start mb-5">
+                    <a className="btn btn-primary" href="/AllEventPage">
+                      <FontAwesomeIcon icon={faArrowLeft} /> Previous Page{" "}
+                    </a>{" "}
+                  </div>
+                  <img src={EventPosterDetail19.image} alt="poster"></img>
                 </div>
                 <br />
                 <br />
@@ -71,7 +77,7 @@ function EventPoster19() {
                     <br></br>
                     <p>
                       Visit the website :
-                      <a href="https://iyco-iysa.or.id " target="_blank">
+                      <a href="https://iyco-iysa.or.id " target="_blank" rel="noreferrer" >
                         iyco-iysa.or.id
                       </a>
                     </p>
@@ -117,7 +123,7 @@ function EventPoster19() {
                           window.location.href
                         )}`}
                         title="Share this page on Facebook"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquareFacebook}
@@ -130,7 +136,7 @@ function EventPoster19() {
                           window.location.href
                         )}`}
                         title="Share this page on Twitter"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquareTwitter}
@@ -143,7 +149,7 @@ function EventPoster19() {
                           window.location.href
                         )}`}
                         title="Share this page on Linkedin"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faLinkedin}
@@ -156,7 +162,7 @@ function EventPoster19() {
                           window.location.href
                         )}`}
                         title="Share this page on Pinterest"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquarePinterest}
@@ -180,7 +186,7 @@ function EventPoster19() {
                     {showContent && (
                       <div className="row event-venue">
                         <div className="event-venue-left col-6">
-                          <img src={EventPosterDetail19.ImageVeneu}></img>
+                          <img src={EventPosterDetail19.ImageVeneu} alt="veneu"></img>
                         </div>
                         <div className="event-venue-right col-8 mt-auto mb-auto">
                           <a

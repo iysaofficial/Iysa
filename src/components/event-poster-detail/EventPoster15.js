@@ -15,6 +15,7 @@ import {
   faLinkedin,
   faSquarePinterest,
 } from "@fortawesome/free-brands-svg-icons";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 // Import Data
 import EventPosterDetail from "../../data/event/EventPosterDetail.json";
@@ -33,7 +34,12 @@ function EventPoster15() {
             return (
               <section>
                 <div className="event-poster col-12 text-center">
-                  <img src={EventPosterDetail15.image}></img>
+                  <div className="text-start mb-5">
+                    <a className="btn btn-primary" href="/AllEventPage">
+                      <FontAwesomeIcon icon={faArrowLeft} /> Previous Page{" "}
+                    </a>{" "}
+                  </div>
+                  <img src={EventPosterDetail15.image} alt="poster"></img>
                 </div>
                 <br />
                 <br />
@@ -51,11 +57,13 @@ function EventPoster15() {
                     <p>This event will take place on : </p>
                     <br></br>
                     <ul>
-                    <li>
-                        <strong>📌 Registration Deadline : </strong> May 9th, 2024
+                      <li>
+                        <strong>📌 Registration Deadline : </strong> May 9th,
+                        2024
                       </li>
                       <li>
-                        <strong>📌 Payment & Submission Deadline : </strong>May 17th, 20244
+                        <strong>📌 Payment & Submission Deadline : </strong>May
+                        17th, 20244
                       </li>
                       <li>
                         <strong>📌 Event Date : </strong> July 24th - 26th, 2024
@@ -63,7 +71,7 @@ function EventPoster15() {
                     </ul>
                     <br></br>
                     {/* <p>Register via: </p>
-                    <a href="https://www.iif-nasional.or.id/" target="_blank">
+                    <a href="https://www.iif-nasional.or.id/" target="_blank" rel="noreferrer" >
                       📲 iif-nasional.or.id
                     </a>
                     <br></br>
@@ -111,7 +119,7 @@ function EventPoster15() {
                           window.location.href
                         )}`}
                         title="Share this page on Facebook"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquareFacebook}
@@ -124,7 +132,7 @@ function EventPoster15() {
                           window.location.href
                         )}`}
                         title="Share this page on Twitter"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquareTwitter}
@@ -137,7 +145,7 @@ function EventPoster15() {
                           window.location.href
                         )}`}
                         title="Share this page on Linkedin"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faLinkedin}
@@ -150,7 +158,7 @@ function EventPoster15() {
                           window.location.href
                         )}`}
                         title="Share this page on Pinterest"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquarePinterest}
@@ -174,7 +182,7 @@ function EventPoster15() {
                     {showContent && (
                       <div className="row event-venue">
                         <div className="event-venue-left col-3">
-                          <img src={EventPosterDetail15.ImageVeneu}></img>
+                          <img src={EventPosterDetail15.ImageVeneu} alt="veneu"></img>
                         </div>
                         <div className="event-venue-right col-8 mt-auto mb-auto">
                           <a

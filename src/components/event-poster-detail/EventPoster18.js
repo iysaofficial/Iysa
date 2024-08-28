@@ -15,6 +15,7 @@ import {
   faLinkedin,
   faSquarePinterest,
 } from "@fortawesome/free-brands-svg-icons";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 // Import Data
 import EventPosterDetail from "../../data/event/EventPosterDetail.json";
@@ -33,7 +34,12 @@ function EventPoster18() {
             return (
               <section>
                 <div className="event-poster col-12 text-center">
-                  <img src={EventPosterDetail18.image}></img>
+                  <div className="text-start mb-5">
+                    <a className="btn btn-primary" href="/AllEventPage">
+                      <FontAwesomeIcon icon={faArrowLeft} /> Previous Page{" "}
+                    </a>{" "}
+                  </div>
+                  <img src={EventPosterDetail18.image} alt="poster"></img>
                 </div>
                 <br />
                 <br />
@@ -55,7 +61,8 @@ function EventPoster18() {
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📌 Registration Deadline : </strong> May 15th, 2024
+                        <strong>📌 Registration Deadline : </strong> May 15th,
+                        2024
                       </li>
                       <li>
                         <strong>📌 Payment & Submission Deadline : </strong>
@@ -68,7 +75,7 @@ function EventPoster18() {
 
                     {/* <p>
                       Visit the website :
-                      <a href="http://wecc.or.id/" target="_blank">
+                      <a href="http://wecc.or.id/" target="_blank" rel="noreferrer" >
                         wecc.or.id
                       </a>
                     </p> */}
@@ -114,7 +121,7 @@ function EventPoster18() {
                           window.location.href
                         )}`}
                         title="Share this page on Facebook"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquareFacebook}
@@ -127,7 +134,7 @@ function EventPoster18() {
                           window.location.href
                         )}`}
                         title="Share this page on Twitter"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquareTwitter}
@@ -140,7 +147,7 @@ function EventPoster18() {
                           window.location.href
                         )}`}
                         title="Share this page on Linkedin"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faLinkedin}
@@ -153,7 +160,7 @@ function EventPoster18() {
                           window.location.href
                         )}`}
                         title="Share this page on Pinterest"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquarePinterest}
@@ -177,7 +184,7 @@ function EventPoster18() {
                     {showContent && (
                       <div className="row event-venue">
                         <div className="event-venue-left col-6">
-                          <img src={EventPosterDetail18.ImageVeneu}></img>
+                          <img src={EventPosterDetail18.ImageVeneu} alt="veneu"></img>
                         </div>
                         <div className="event-venue-right col-8 mt-auto mb-auto">
                           <a

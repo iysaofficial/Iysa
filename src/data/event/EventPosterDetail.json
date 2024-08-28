@@ -2,18 +2,18 @@
   "event1": [
     {
       "id": 1,
-      "image": "./assets/images/poster/jisf.WebP",
-      "title": "Jakarta International Science Fair (JISF) 2024",
-      "LinkRegist": "https://registration-jisf-2024.vercel.app/",
-      "Hastag": "#iysa2024 #event2024 #iysaevent #i3L #jisf #2024 #jakarta #indonesia #infolomba #jisf2024",
-      "DateAdTime": "July 27th - 31st, 2024",
-      "RegistEndDate": "June 27th, 2024",
+      "image": "./assets/images/poster/PTK2024.WebP",
+      "title": "Lomba Invensi dan PTK 2024",
+      "LinkRegist": "https://bit.ly/FORM-PENDAFTARAN-LOMBA-INVENSI-PTK",
+      "Hastag": "#iysa2024 #event2024 #iysaevent #i3L #PTK #2024 #jakarta #indonesia #infolomba #PTK2024",
+      "DateAdTime": "25 November, 2024",
+      "RegistEndDate": "16 Oktober, 2024",
       "Location": "Jakarta",
-      "EventType": "Internasional",
+      "EventType": "Nasional",
       "EventCategory": "IYSA Event",
-      "ImageVeneu": "",
-      "LinkGmaps": "",
-      "NameLocation": ""
+      "ImageVeneu": "./assets/images/venue/I3L.Webp",
+      "LinkGmaps": "https://maps.app.goo.gl/8t69DaSFttbTzRHz6",
+      "NameLocation": "Indonesia International Institute for Life-Sciences (i3L)"
     }
   ],
   "event2": [
@@ -98,7 +98,7 @@
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
-      "NameLocation": "Denpasar, Bali"
+      "NameLocation": "Bali Creative Industry Center, Bali"
     }
   ],
   "event7": [
@@ -107,7 +107,7 @@
       "image": "./assets/images/poster/nrtc.WebP",
       "title": "National Research Teacher Competition (NRTC) 2024",
       "LinkRegist": "https://registrasi-nrtc-2024.vercel.app/",
-      "Hastag": "#nrtc2024 #irtc2024 #iysaevent #iysa #infolomba #lombaiysa #bali #denpasar #daring 3luring",
+      "Hastag": "#nrtc2024 #irtc2024 #iysaevent #iysa #infolomba #lombaiysa #bali #Bali Creative Industry Center #daring 3luring",
       "DateAdTime": "5 - 9 November, 2024",
       "RegistEndDate": "3 Oktober, 2024",
       "Location": "Offline",
@@ -115,7 +115,7 @@
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "", 
-      "NameLocation": "Denpasar, Bali"
+      "NameLocation": "Bali Creative Industry Center, Bali"
     }
   ],
   "event8": [
@@ -285,7 +285,7 @@
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
-      "NameLocation": "Denpasar, Bali"
+      "NameLocation": "Bali Creative Industry Center, Bali"
     }
   ],
   "event19": [
@@ -336,7 +336,7 @@
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
-      "NameLocation": "Denpasar, Bali"
+      "NameLocation": "Bali Creative Industry Center, Bali"
     }
   ],
   "event22": [
@@ -351,8 +351,8 @@
       "Location": "Offline",
       "EventType": "Internasional",
       "EventCategory": "IYSA Event",
-      "ImageVeneu": "",
-      "LinkGmaps": "",
+      "ImageVeneu": "./assets/images/venue/ust.Webp",
+      "LinkGmaps": "https://maps.app.goo.gl/WKwZrVm9bBySi76M9",
       "NameLocation": "Universitas Sarjanawiyata Tamansiswa (UST)"
     }
   ],
@@ -401,9 +401,9 @@
       "RegistEndDate": "15 September 2024",
       "Location": "Offline",
       "EventType": "Nasional",
-      "EventCategory": "IYSA Even",
-      "ImageVeneu": "",
-      "LinkGmaps": "",
+      "EventCategory": "IYSA Event",
+      "ImageVeneu": "./assets/images/venue/ust.Webp",
+      "LinkGmaps": "https://maps.app.goo.gl/WKwZrVm9bBySi76M9",
       "NameLocation": "Universitas Sarjanawiyata Tamansiswa (UST)"
     }
   ],

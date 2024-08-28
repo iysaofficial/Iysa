@@ -15,6 +15,7 @@ import {
   faLinkedin,
   faSquarePinterest,
 } from "@fortawesome/free-brands-svg-icons";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 // Import Data
 import EventPosterDetail from "../../data/event/EventPosterDetail.json";
@@ -33,6 +34,11 @@ function EventPoster9() {
             return (
               <section>
                 <div className="event-poster col-12 text-center">
+                  <div className="text-start mb-5">
+                    <a className="btn btn-primary" href="/AllEventPage">
+                      <FontAwesomeIcon icon={faArrowLeft} /> Previous Page{" "}
+                    </a>{" "}
+                  </div>
                   <img src={EventPosterDetail9.image}></img>
                 </div>
                 <br />
@@ -46,7 +52,7 @@ function EventPoster9() {
                     <p>
                       Hai halo peneliti belia Ada lagi nih event afiliasi IYSA
                       dari Malaysia, event ini diselenggarakan secara online
-                      pada May 31st  - June 8th 2024
+                      pada May 31st - June 8th 2024
                     </p>
                     <br></br>
                     <p>
@@ -56,13 +62,15 @@ function EventPoster9() {
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📍Registration Deadline :</strong> May 19th, 2024
+                        <strong>📍Registration Deadline :</strong> May 19th,
+                        2024
                       </li>
                       <li>
                         <strong>📍Payment Deadline : </strong> May 23rd, 2024
                       </li>
                       <li>
-                        <strong>📍Event Date : </strong> May 31st  - June 8th, 2024
+                        <strong>📍Event Date : </strong> May 31st - June 8th,
+                        2024
                       </li>
                       {/* <li>
                         <strong>📍Venue : </strong> Universitas Pancasila,
@@ -114,7 +122,7 @@ function EventPoster9() {
                           window.location.href
                         )}`}
                         title="Share this page on Facebook"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquareFacebook}
@@ -127,7 +135,7 @@ function EventPoster9() {
                           window.location.href
                         )}`}
                         title="Share this page on Twitter"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquareTwitter}
@@ -140,7 +148,7 @@ function EventPoster9() {
                           window.location.href
                         )}`}
                         title="Share this page on Linkedin"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faLinkedin}
@@ -153,7 +161,7 @@ function EventPoster9() {
                           window.location.href
                         )}`}
                         title="Share this page on Pinterest"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquarePinterest}

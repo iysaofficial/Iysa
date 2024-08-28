@@ -21,7 +21,7 @@ const Allwebevent = () => {
                             <div className="content">
                                 <div className="icon">
                                     <FontAwesomeIcon icon={faEarthEurope} />
-                                    <img></img>
+                                    {/* <img></img> */}
                                 </div>
                                 <div className="website-event-text">
                                     <a href={website.link} className='text-decoration-none' target='-blank'>

@@ -15,6 +15,7 @@ import {
   faLinkedin,
   faSquarePinterest,
 } from "@fortawesome/free-brands-svg-icons";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 // Import Data
 import EventPosterDetail from "../../data/event/EventPosterDetail.json";
@@ -33,6 +34,11 @@ function EventPoster28() {
             return (
               <section>
                 <div className="event-poster col-12 text-center">
+                  <div className="text-start mb-5">
+                    <a className="btn btn-primary" href="/AllEventPage">
+                      <FontAwesomeIcon icon={faArrowLeft} /> Previous Page{" "}
+                    </a>{" "}
+                  </div>
                   <img src={EventPosterDetail28.image}></img>
                 </div>
                 <br />
@@ -52,26 +58,29 @@ function EventPoster28() {
                     <br></br>
                     <p>OS2MN 2024 IYSA bekerjasama dengan @aktuaria_its .</p>
                     <br></br>
-                    <p>Event tersebut akan berlangsung pada tanggal 01 Agustus - 10 Agustus 2024 💥</p>
+                    <p>
+                      Event tersebut akan berlangsung pada tanggal 01 Agustus -
+                      10 Agustus 2024 💥
+                    </p>
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📌 Batas Ahkir Pembayaran : </strong> 19 Juli 2024
+                        <strong>📌 Batas Ahkir Pembayaran : </strong> 19 Juli
+                        2024
                       </li>
                       <li>
-                        <strong>📌 Batas Akhir Pembayaran : </strong>22 Juli 2024
+                        <strong>📌 Batas Akhir Pembayaran : </strong>22 Juli
+                        2024
                       </li>
                       <li>
                         <strong>📌 Tanggal Event : </strong> 1 - 14 Agustus 2024
                       </li>
                     </ul>
                     <br></br>
-                    <p>
-                      Daftar melalui :
-                    </p>
+                    <p>Daftar melalui :</p>
                     <p>
                       website :
-                      <a href="https://www.os2mn.or.id/" target="_blank">
+                      <a href="https://www.os2mn.or.id/" target="_blank" rel="noreferrer" >
                         os2mn.or.id
                       </a>
                     </p>
@@ -116,7 +125,7 @@ function EventPoster28() {
                           window.location.href
                         )}`}
                         title="Share this page on Facebook"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquareFacebook}
@@ -129,7 +138,7 @@ function EventPoster28() {
                           window.location.href
                         )}`}
                         title="Share this page on Twitter"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquareTwitter}
@@ -142,7 +151,7 @@ function EventPoster28() {
                           window.location.href
                         )}`}
                         title="Share this page on Linkedin"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faLinkedin}
@@ -155,7 +164,7 @@ function EventPoster28() {
                           window.location.href
                         )}`}
                         title="Share this page on Pinterest"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquarePinterest}

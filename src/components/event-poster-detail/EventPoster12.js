@@ -15,6 +15,7 @@ import {
   faLinkedin,
   faSquarePinterest,
 } from "@fortawesome/free-brands-svg-icons";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 // Import Data
 import EventPosterDetail from "../../data/event/EventPosterDetail.json";
@@ -33,7 +34,12 @@ function EventPoster12() {
             return (
               <section>
                 <div className="event-poster col-12 text-center">
-                  <img src={EventPosterDetail12.image}></img>
+                  <div className="text-start mb-5">
+                    <a className="btn btn-primary" href="/AllEventPage">
+                      <FontAwesomeIcon icon={faArrowLeft} /> Previous Page{" "}
+                    </a>{" "}
+                  </div>
+                  <img src={EventPosterDetail12.image} alt="poster"></img>
                 </div>
                 <br />
                 <br />
@@ -51,7 +57,10 @@ function EventPoster12() {
                       NICYMS secara hybrid (online dan offline). Dan event ini
                       memiliki kategori baru lohh💥
                     </p>
-                    <p>Tahun ini IYSA bekerjasama dengan Universitas Komputer Indonesia (UNIKOM) Bandung👏🏻👏🏻</p>
+                    <p>
+                      Tahun ini IYSA bekerjasama dengan Universitas Komputer
+                      Indonesia (UNIKOM) Bandung👏🏻👏🏻
+                    </p>
                     <br></br>
                     <p>Catat tanggalnya 👇🏻</p>
                     <br></br>
@@ -60,22 +69,26 @@ function EventPoster12() {
                         <strong>Batas Pendaftaran: </strong> 8 Juli 2024
                       </li>
                       <li>
-                        <strong>Batas Waktu Pembayaran:  </strong> 14 Juli 2024
+                        <strong>Batas Waktu Pembayaran: </strong> 14 Juli 2024
                       </li>
                       <li>
                         <strong>Tanggal Acara:</strong> 12-15 Agustus 2024
                       </li>
                       <li>
-                        <strong>Tempat :</strong> Universitas Komputer Indonesia (UNIKOM) Bandung
+                        <strong>Tempat :</strong> Universitas Komputer Indonesia
+                        (UNIKOM) Bandung
                       </li>
                     </ul>
                     <br></br>
                     <p>Register via: </p>
-                    <a href="https://www.iicyms.or.id/NICYMS.html" target="_blank">
+                    <a
+                      href="https://www.iicyms.or.id/NICYMS.html"
+                      target="_blank" rel="noreferrer" 
+                    >
                       📲 nicym.or.id
                     </a>
                     <br></br>
-                    
+
                     <br></br>
                     <p>See you in Bandung,</p>
                     <p>West Java 🤗🥳</p>
@@ -119,7 +132,7 @@ function EventPoster12() {
                           window.location.href
                         )}`}
                         title="Share this page on Facebook"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquareFacebook}
@@ -132,7 +145,7 @@ function EventPoster12() {
                           window.location.href
                         )}`}
                         title="Share this page on Twitter"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquareTwitter}
@@ -145,7 +158,7 @@ function EventPoster12() {
                           window.location.href
                         )}`}
                         title="Share this page on Linkedin"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faLinkedin}
@@ -158,7 +171,7 @@ function EventPoster12() {
                           window.location.href
                         )}`}
                         title="Share this page on Pinterest"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquarePinterest}
@@ -182,7 +195,7 @@ function EventPoster12() {
                     {showContent && (
                       <div className="row event-venue">
                         <div className="event-venue-left col-3">
-                          <img src={EventPosterDetail12.ImageVeneu}></img>
+                          <img src={EventPosterDetail12.ImageVeneu} alt="veneu"></img>
                         </div>
                         <div className="event-venue-right col-8 mt-auto mb-auto">
                           <a

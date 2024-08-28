@@ -33,6 +33,11 @@ function EventPoster6() {
             return (
               <section>
                 <div className="event-poster col-12 text-center">
+                  <div className="text-start mb-5">
+                    <a className="btn btn-primary" href="/AllEventPage">
+                      <i className="fas fa-arrow-left"></i> Previous Page
+                    </a>
+                  </div>
                   <img src={EventPosterDetail6.image}></img>
                 </div>
                 <br />
@@ -43,21 +48,24 @@ function EventPoster6() {
                     <p>
                       6th ISIF 2024 ✨INTERNATIONAL SCIENCE AND INVENTION FAIR
                     </p>
-                    <p>Come and visit Bali with IYSA, let's join this event on November 2024 guys 🔥</p>
-                    <br></br>
                     <p>
-                    Save the date!👇🏻
+                      Come and visit Bali with IYSA, let's join this event on
+                      November 2024 guys 🔥
                     </p>
+                    <br></br>
+                    <p>Save the date!👇🏻</p>
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📍Registration Deadline:</strong> October 3rd, 2024
+                        <strong>📍Registration Deadline:</strong> October 3rd,
+                        2024
                       </li>
                       <li>
                         <strong>📍Payment Deadline: </strong> October 8th, 2024
                       </li>
                       <li>
-                        <strong>📍Event Date: </strong> November 5th - 10th, 2024
+                        <strong>📍Event Date: </strong> November 5th - 10th,
+                        2024
                       </li>
                       <li>
                         <strong>📍Venue: </strong> Denpasar, Bali
@@ -67,13 +75,16 @@ function EventPoster6() {
                     <p>registration now 🤩‼️‼️</p>
                     <p>
                       📱Register via:
-                      <a href="https://www.isif.or.id/" target="_blank">
+                      <a href="https://www.isif.or.id/" target="_blank" rel="noreferrer" >
                         &nbsp;isif.or.id
                       </a>
                     </p>
                     <br></br>
                     <p>join us 🥳</p>
-                    <p>Be a part of young researcher with IYSA, prepare your team and your best project💃💃</p>
+                    <p>
+                      Be a part of young researcher with IYSA, prepare your team
+                      and your best project💃💃
+                    </p>
                     <a
                       className="btn btn-primary mb-4"
                       href={EventPosterDetail6.LinkRegist}
@@ -113,7 +124,7 @@ function EventPoster6() {
                           window.location.href
                         )}`}
                         title="Share this page on Facebook"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquareFacebook}
@@ -126,7 +137,7 @@ function EventPoster6() {
                           window.location.href
                         )}`}
                         title="Share this page on Twitter"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquareTwitter}
@@ -139,7 +150,7 @@ function EventPoster6() {
                           window.location.href
                         )}`}
                         title="Share this page on Linkedin"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faLinkedin}
@@ -152,7 +163,7 @@ function EventPoster6() {
                           window.location.href
                         )}`}
                         title="Share this page on Pinterest"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquarePinterest}

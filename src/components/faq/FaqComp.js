@@ -37,7 +37,7 @@ function FaqComp() {
                     </div>
                     {activeIndex === index && (
                       <div className="card-body">
-                        <a>{item.answer}</a>
+                        <span>{item.answer}</span>
                       </div>
                     )}
                   </div>
@@ -66,7 +66,7 @@ function FaqComp() {
                     </div>
                     {activeIndex === index && (
                       <div className="card-body">
-                        <a>{item.answer2}</a>
+                        <span>{item.answer2}</span>
                       </div>
                     )}
                   </div>
@@ -96,7 +96,7 @@ function FaqComp() {
                     </div>
                     {activeIndex === index && (
                       <div className="card-body">
-                        <a>{item.answer3}</a>
+                        <span>{item.answer3}</span>
                       </div>
                     )}
                   </div>

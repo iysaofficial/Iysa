@@ -1,94 +1,94 @@
 {
-  "event": [
+  "event": [                                                                                                                                                                                                                                                                                
     {
-      "id": 4,
-      "image": "./assets/images/poster/isif.WebP",
-      "title": "International Science And Invention Fair (ISIF) 2024",
-      "level": "International",
-      "location": "Offline",
-      "date": "November 5th - 9th, 2024",
-      "link": "/EventPage6"
-    },
-    {
-      "id": 8,
-      "image": "./assets/images/poster/nrtc.WebP",
-      "title": "National Research Teacher Competition (NRTC) 2024",
-      "level": "Nasional",
-      "location": "Offline",
-      "date": "5 - 9 November, 2024",
-      "link": "/EventPage7"
-    },                                                                                                                                                                                                                                                                               
-    {
-      "id": 14,
-      "image": "./assets/images/poster/wso.WebP",
-      "title": "WORLD SCIENCE OLYMPIAD (WSO) 2024",
-      "level": "International",
-      "location": "Offline",
-      "date": "November 8th - 9th, 2024",
-      "link": "/EventPage4"
-    },
-    {
-      "id": 17,
-      "image": "./assets/images/poster/irtc.WebP",
-      "title": "International Research Teacher Competition (IRTC) 2024",
-      "level": "International",
-      "location": "Offline",
-      "date": "November 5th - 9th, 2024",
-      "link": "/EventPage17"
-    },
-    {
-      "id": 22,
+      "id": 1,
       "image": "./assets/images/poster/wyiia.WebP",
       "title": "World Youth Invention And Innovation Award (WYIIA) 2024",
       "level": "International",
-      "location": "Offline",
+      "location": "Universitas Sarjanawiyata Tamansiswa (UST)",
       "date": "October 10th - 14th, 2024",
       "link": "/EventPage22"
     },
     {
-      "id": 25,
-      "image": "./assets/images/poster/iypo.WebP",
-      "title": "International Youth Physics Olympiad (IYPO) 2024",
-      "level": "International",
-      "location": "Online",
-      "date": "September 13th - 24th, 2024",
-      "link": "/EventPage8"
-    },
-    {
-      "id": 26,
-      "image": "./assets/images/poster/naspo.WebP",
-      "title": "National Applied Science Project Olympiad (NASPO) 2024",
+      "id": 2,
+      "image": "./assets/images/poster/nyiia.WebP",
+      "title": "NATIONAL YOUTH INVENTION AND INNOVATION AWARD (NYIIA) 2024",
       "level": "Nasional",
-      "location": "Offline",
-      "date": "18 - 21 Desember 2024",
-      "link": "/EventPage26"
+      "location": "Universitas Sarjanawiyata Tamansiswa (UST)",
+      "date": "10 - 14 Oktober 2024",
+      "link": "/EventPage25"
     },
     {
-      "id": 27,
-      "image": "./assets/images/poster/i2aspo.WebP",
-      "title": "Indonesia International Applied Science Project Olympiad (I2ASPO) 2024",
+      "id": 3,
+      "image": "./assets/images/poster/isif.WebP",
+      "title": "International Science And Invention Fair (ISIF) 2024",
       "level": "International",
-      "location": "Offline",
-      "date": "December 18th - 21st, 2024",
-      "link": "/EventPage27"
+      "location": "Bali Creative Industry Center",
+      "date": "November 5th - 9th, 2024",
+      "link": "/EventPage6"
     },
     {
-      "id": 29,
+      "id": 4,
       "image": "./assets/images/poster/nsif.WebP",
       "title": "NATIONAL SCIENCE AND INVENTION FAIR (NSIF) 2024",
       "level": "Nasional",
-      "location": "Offline",
+      "location": "Bali Creative Industry Center",
       "date": "5 - 10 November 2024",
       "link": "/EventPage21"
     },
     {
-      "id": 30,
-      "image": "./assets/images/poster/nyiia.WebP",
-      "title": "NATIONAL YOUTH INVENTION AND INNOVATION AWARD (NYIIA) 2024",
+      "id": 5,
+      "image": "./assets/images/poster/wso.WebP",
+      "title": "WORLD SCIENCE OLYMPIAD (WSO) 2024",
+      "level": "International",
+      "location": "Bali Creative Industry Center",
+      "date": "November 8th - 9th, 2024",
+      "link": "/EventPage4"
+    },
+    {
+      "id": 6,
+      "image": "./assets/images/poster/irtc.WebP",
+      "title": "International Research Teacher Competition (IRTC) 2024",
+      "level": "International",
+      "location": "Bali Creative Industry Center",
+      "date": "November 5th - 9th, 2024",
+      "link": "/EventPage17"
+    },
+    {
+      "id": 7,
+      "image": "./assets/images/poster/nrtc.WebP",
+      "title": "National Research Teacher Competition (NRTC) 2024",
       "level": "Nasional",
-      "location": "Offline",
-      "date": "10 - 14 Oktober 2024",
-      "link": "/EventPage25"
-    }
+      "location": "Bali Creative Industry Center",
+      "date": "5 - 9 November, 2024",
+      "link": "/EventPage7"
+    },
+    {
+      "id": 8,
+      "image": "./assets/images/poster/PTK2024.WebP",
+      "title": "Lomba Invensi dan PTK 2024",
+      "level": "Nasional",
+      "location": "Indonesia International Institute for Life-Sciences (i3L)",
+      "date": "25 November, 2024",
+      "link": "/EventPage1"
+    },
+    {
+      "id": 9,
+      "image": "./assets/images/poster/i2aspo.WebP",
+      "title": "Indonesia International Applied Science Project Olympiad (I2ASPO) 2024",
+      "level": "International",
+      "location": "Graha Institut Teknologi Sepuluh Nopember, Surabaya.",
+      "date": "December 18th - 21st, 2024",
+      "link": "/EventPage27"
+    },
+    {
+      "id": 10,
+      "image": "./assets/images/poster/naspo.WebP",
+      "title": "National Applied Science Project Olympiad (NASPO) 2024",
+      "level": "Nasional",
+      "location": "Graha Institut Teknologi Sepuluh Nopember, Surabaya.",
+      "date": "18 - 21 Desember 2024",
+      "link": "/EventPage26"
+    }    
   ]
 }

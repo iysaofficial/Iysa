@@ -76,6 +76,7 @@ function Video() {
                         src={video.src}
                         frameBorder="0"
                         allowFullScreen
+                        title="1"
                       ></iframe>
                     </div>
                   );
@@ -96,6 +97,7 @@ function Video() {
                         src={video.src}
                         frameBorder="0"
                         allowFullScreen
+                        title="2"
                       ></iframe>
                     </div>
                   );
@@ -116,6 +118,7 @@ function Video() {
                         src={video.src}
                         frameBorder="0"
                         allowFullScreen
+                        title="3"
                       ></iframe>
                     </div>
                   );
@@ -136,6 +139,7 @@ function Video() {
                         src={video.src}
                         frameBorder="0"
                         allowFullScreen
+                        title="4"
                       ></iframe>
                     </div>
                   );
@@ -156,6 +160,7 @@ function Video() {
                         src={video.src}
                         frameBorder="0"
                         allowFullScreen
+                        title="6"
                       ></iframe>
                     </div>
                   );
@@ -179,6 +184,7 @@ function Video() {
                       src={video.src}
                       frameBorder="0"
                       allowFullScreen
+                      title="7"
                     ></iframe>
                   </div>
                 );

@@ -15,6 +15,7 @@ import {
   faLinkedin,
   faSquarePinterest,
 } from "@fortawesome/free-brands-svg-icons";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 // Import Data
 import EventPosterDetail from "../../data/event/EventPosterDetail.json";
@@ -33,7 +34,12 @@ function EventPoster16() {
             return (
               <section>
                 <div className="event-poster col-12 text-center">
-                  <img src={EventPosterDetail16.image}></img>
+                  <div className="text-start mb-5">
+                    <a className="btn btn-primary" href="/AllEventPage">
+                      <FontAwesomeIcon icon={faArrowLeft} /> Previous Page{" "}
+                    </a>{" "}
+                  </div>
+                  <img src={EventPosterDetail16.image} alt="poster"></img>
                 </div>
                 <br />
                 <br />
@@ -56,10 +62,12 @@ function EventPoster16() {
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📌 Registration Deadline : </strong> June 27th, 2024
+                        <strong>📌 Registration Deadline : </strong> June 27th,
+                        2024
                       </li>
                       <li>
-                        <strong>📌 Payment & Submission Deadline : </strong>July 2nd, 2024
+                        <strong>📌 Payment & Submission Deadline : </strong>July
+                        2nd, 2024
                       </li>
                       <li>
                         <strong>📌 Event Date : </strong> July 27th - 31st, 2024
@@ -71,8 +79,8 @@ function EventPoster16() {
                     </p>
                     <br></br>
                     <p>
-                        Visit the website : 
-                      <a href="http://wecc.or.id/" target="_blank">
+                      Visit the website :
+                      <a href="http://wecc.or.id/" target="_blank" rel="noreferrer" >
                         wecc.or.id
                       </a>
                     </p>
@@ -118,7 +126,7 @@ function EventPoster16() {
                           window.location.href
                         )}`}
                         title="Share this page on Facebook"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquareFacebook}
@@ -131,7 +139,7 @@ function EventPoster16() {
                           window.location.href
                         )}`}
                         title="Share this page on Twitter"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquareTwitter}
@@ -144,7 +152,7 @@ function EventPoster16() {
                           window.location.href
                         )}`}
                         title="Share this page on Linkedin"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faLinkedin}
@@ -157,7 +165,7 @@ function EventPoster16() {
                           window.location.href
                         )}`}
                         title="Share this page on Pinterest"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquarePinterest}
@@ -181,7 +189,7 @@ function EventPoster16() {
                     {showContent && (
                       <div className="row event-venue">
                         <div className="event-venue-left col-6">
-                          <img src={EventPosterDetail16.ImageVeneu}></img>
+                          <img src={EventPosterDetail16.ImageVeneu} alt="veneu"></img>
                         </div>
                         <div className="event-venue-right col-8 mt-auto mb-auto">
                           <a

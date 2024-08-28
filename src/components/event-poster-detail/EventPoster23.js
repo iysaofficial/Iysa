@@ -15,6 +15,7 @@ import {
   faLinkedin,
   faSquarePinterest,
 } from "@fortawesome/free-brands-svg-icons";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 // Import Data
 import EventPosterDetail from "../../data/event/EventPosterDetail.json";
@@ -33,6 +34,11 @@ function EventPoster23() {
             return (
               <section>
                 <div className="event-poster col-12 text-center">
+                  <div className="text-start mb-5">
+                    <a className="btn btn-primary" href="/AllEventPage">
+                      <FontAwesomeIcon icon={faArrowLeft} /> Previous Page{" "}
+                    </a>{" "}
+                  </div>
                   <img src={EventPosterDetail23.image}></img>
                 </div>
                 <br />
@@ -42,35 +48,44 @@ function EventPoster23() {
                     <h1 className="fw-bolder">{EventPosterDetail23.title}</h1>
                     <br></br>
                     <p>6th WICE 2024, Malaysia</p>
+                    <p>World Invention Competition and Exhibition</p>
+                    <br></br>
                     <p>
-                    World Invention Competition and Exhibition
+                      This year the Indonesian Young Scientist Association
+                      (IYSA) is still collaborating with MAHSA University
+                      Malaysia 👏
                     </p>
                     <br></br>
-                    <p>This year the Indonesian Young Scientist Association (IYSA) is still collaborating with MAHSA University Malaysia 👏</p>
-                    <br></br>
                     <p>
-                    For those of you who haven't joined WICE 2023, let's register for WICE this year. How to register?
+                      For those of you who haven't joined WICE 2023, let's
+                      register for WICE this year. How to register?
                     </p>
                     <br></br>
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📌 Registration Deadline : </strong> August 19th, 2024
+                        <strong>📌 Registration Deadline : </strong> August
+                        19th, 2024
                       </li>
                       <li>
-                        <strong>📌 Payment & Submission Deadline : </strong>August 23rd, 2024
+                        <strong>📌 Payment & Submission Deadline : </strong>
+                        August 23rd, 2024
                       </li>
                       <li>
-                        <strong>📌 Event Date : </strong> September 21st - 24th, 2024
+                        <strong>📌 Event Date : </strong> September 21st - 24th,
+                        2024
                       </li>
                     </ul>
-                    <p>Come on, what are you waiting for, make your team become champions in international events 🎉</p>
+                    <p>
+                      Come on, what are you waiting for, make your team become
+                      champions in international events 🎉
+                    </p>
                     <br></br>
                     <p>on this link 👇</p>
                     <p>
                       website :
-                      <a href="https://wice.or.id/ " target="_blank">
-                      wice.or.id
+                      <a href="https://wice.or.id/ " target="_blank" rel="noreferrer" >
+                        wice.or.id
                       </a>
                     </p>
                     {/* <p>Registration link: </p> */}
@@ -115,7 +130,7 @@ function EventPoster23() {
                           window.location.href
                         )}`}
                         title="Share this page on Facebook"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquareFacebook}
@@ -128,7 +143,7 @@ function EventPoster23() {
                           window.location.href
                         )}`}
                         title="Share this page on Twitter"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquareTwitter}
@@ -141,7 +156,7 @@ function EventPoster23() {
                           window.location.href
                         )}`}
                         title="Share this page on Linkedin"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faLinkedin}
@@ -154,7 +169,7 @@ function EventPoster23() {
                           window.location.href
                         )}`}
                         title="Share this page on Pinterest"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquarePinterest}

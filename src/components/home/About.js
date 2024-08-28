@@ -28,6 +28,7 @@ const About = () => {
             <img
               src="assets/images/logo/about-logo.WebP "
               className="img-fluid"
+              alt="logo"
             ></img>
           </div>
         </div>

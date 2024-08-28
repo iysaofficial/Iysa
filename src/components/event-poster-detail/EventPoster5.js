@@ -15,6 +15,7 @@ import {
   faLinkedin,
   faSquarePinterest,
 } from "@fortawesome/free-brands-svg-icons";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 // Import Data
 import EventPosterDetail from "../../data/event/EventPosterDetail.json";
@@ -33,6 +34,11 @@ function EventPoster5() {
             return (
               <section>
                 <div className="event-poster col-12 text-center">
+                  <div className="text-start mb-5">
+                    <a className="btn btn-primary" href="/AllEventPage">
+                      <FontAwesomeIcon icon={faArrowLeft} /> Previous Page{" "}
+                    </a>{" "}
+                  </div>
                   <img src={EventPosterDetail5.image}></img>
                 </div>
                 <br />
@@ -58,7 +64,7 @@ function EventPoster5() {
                       <li>
                         <strong>📍 Batas Pendaftaran :</strong> 19 Agustus 2024
                       </li>
-                      <li>  
+                      <li>
                         <strong>📍 Batas Pembayaran :</strong> 23 Agustus 2024
                       </li>
                       <li>
@@ -70,7 +76,7 @@ function EventPoster5() {
                     <p>Yuk daftar melalui website nya👇🏻</p>
                     <p>
                       📱Register via:
-                      <a href="https://www.nice-iysa.or.id/" target="_blank">
+                      <a href="https://www.nice-iysa.or.id/" target="_blank" rel="noreferrer" >
                         nice-iysa.or.id
                       </a>
                     </p>
@@ -114,7 +120,7 @@ function EventPoster5() {
                           window.location.href
                         )}`}
                         title="Share this page on Facebook"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquareFacebook}
@@ -127,7 +133,7 @@ function EventPoster5() {
                           window.location.href
                         )}`}
                         title="Share this page on Twitter"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquareTwitter}
@@ -140,7 +146,7 @@ function EventPoster5() {
                           window.location.href
                         )}`}
                         title="Share this page on Linkedin"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faLinkedin}
@@ -153,7 +159,7 @@ function EventPoster5() {
                           window.location.href
                         )}`}
                         title="Share this page on Pinterest"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquarePinterest}

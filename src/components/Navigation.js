@@ -100,13 +100,13 @@ const Navigation = () => {
         .removeEventListener('click', handleMenuClick);
       window.removeEventListener('resize', handleResize);
     };
-  }, [isOpen]);
+  }, [isOpen, resizeFix, toggleNav, collapseSubMenu]); // Add missing dependencies
 
   return (
     <header className="header">
       <div className="header-main">
         <div className="logo">
-          <img src="./assets/images/logo/navigation-logo.WebP" />
+          <img src="./assets/images/logo/navigation-logo.WebP" alt='navigation-logo'/>
         </div>
         <div className="open-nav-menu">
           <span></span>

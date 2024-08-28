@@ -1,23 +1,24 @@
 // Import CSS
-import '../../css/event/eventPoster.css';
+import "../../css/event/eventPoster.css";
 
 // Import FontAwesome
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import {
   faLocationDot,
   faPlus,
   faMinus,
-} from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faSquareFacebook,
   faSquareTwitter,
   faLinkedin,
   faSquarePinterest,
-} from '@fortawesome/free-brands-svg-icons';
+} from "@fortawesome/free-brands-svg-icons";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 // Import Data
-import EventPosterDetail from '../../data/event/EventPosterDetail.json';
+import EventPosterDetail from "../../data/event/EventPosterDetail.json";
 
 function EventPoster2() {
   const [showContent, setShowContent] = useState(false);
@@ -33,21 +34,27 @@ function EventPoster2() {
             return (
               <section>
                 <div className="event-poster col-12 text-center">
-                  <img src={EventPosterDetail2.image}></img>
+                  <div className="text-start mb-5">
+                    <a className="btn btn-primary" href="/AllEventPage">
+                      <FontAwesomeIcon icon={faArrowLeft} /> Previous Page{" "}
+                    </a>{" "}
+                  </div>
+                  <img src={EventPosterDetail2.image} alt="poster1"></img>
                 </div>
                 <br />
                 <br />
                 <div className="main-colom row col-12 mt-5 mb-5">
                   <div className="colom-left col-md-8  mt-2">
-                    <h1 className="fw-bolder">
-                      {EventPosterDetail2.title}
-                    </h1>
+                    <h1 className="fw-bolder">{EventPosterDetail2.title}</h1>
                     <p>Kompetisi Offline di Jeddah</p>
                     <p>Saudi Global Invention and Innovations Expo 2024</p>
-                    <p>Halo peneliti belia,
-                    Kalian sudah punya agenda umroh di tahun ini?</p>
                     <p>
-                    IYSA punya event offline ni di Jeddah, siapa tahu bisa jadi event pilihan kalian💥
+                      Halo peneliti belia, Kalian sudah punya agenda umroh di
+                      tahun ini?
+                    </p>
+                    <p>
+                      IYSA punya event offline ni di Jeddah, siapa tahu bisa
+                      jadi event pilihan kalian💥
                     </p>
                     <br></br>
                     <p>-------------------------------------</p>
@@ -60,7 +67,8 @@ function EventPoster2() {
                         11 September, 2024
                       </li>
                       <li>
-                        <strong>📍 Batas Waktu Pembayaran :</strong> 16 September, 2024
+                        <strong>📍 Batas Waktu Pembayaran :</strong> 16
+                        September, 2024
                       </li>
                       <li>
                         <strong>📍Tanggal Acara :</strong> 5 - 8 November, 2024
@@ -76,7 +84,7 @@ function EventPoster2() {
                     </p>
                     <p>
                       📱Kepoin website nya 👇
-                      <a href="https://jnsf.or.id/" target="_blank" >
+                      <a href="https://jnsf.or.id/" target="_blank" rel="noreferrer"  >
                         jnsf.or.id
                       </a>
                     </p> */}
@@ -97,12 +105,9 @@ function EventPoster2() {
                     {/* <p>Get the guide book in registration link‼️</p>
                     <p>See you in Bogor, Indonesia 🙋‍♀️🙋‍♂️</p> */}
                     <br></br>
-                    <p className="hastag">
-                      {EventPosterDetail2.Hastag}
-                    </p>
-                    
+                    <p className="hastag">{EventPosterDetail2.Hastag}</p>
                   </div>
-                  
+
                   <div className="colom-right col-md-4 text-center text-md-start ">
                     <a className="btn btn-primary shadow mt-2">
                       About The Event
@@ -112,9 +117,7 @@ function EventPoster2() {
                     <h4 className="fw-bolder">Date and Time</h4>
                     <p>{EventPosterDetail2.DateAdTime}</p>
                     <br />
-                    <h4 className="fw-bolder">
-                      Registration End Date
-                    </h4>
+                    <h4 className="fw-bolder">Registration End Date</h4>
                     <p>{EventPosterDetail2.RegistEndDate}</p>
                     <br />
                     <h4 className="fw-bolder">Location</h4>
@@ -127,19 +130,17 @@ function EventPoster2() {
                     <p>{EventPosterDetail2.EventCategory}</p>
                     <br />
                     <div className="event-share">
-                      <h4 className="fw-bolder">
-                        Share With Friends
-                      </h4>
+                      <h4 className="fw-bolder">Share With Friends</h4>
                       <a
                         href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
                           window.location.href
                         )}`}
                         title="Share this page on Facebook"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquareFacebook}
-                          style={{ color: '#1b56bb' }}
+                          style={{ color: "#1b56bb" }}
                           className="event-share-logo"
                         />
                       </a>
@@ -148,11 +149,11 @@ function EventPoster2() {
                           window.location.href
                         )}`}
                         title="Share this page on Twitter"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquareTwitter}
-                          style={{ color: '#0b8ee0' }}
+                          style={{ color: "#0b8ee0" }}
                           className="event-share-logo"
                         />
                       </a>
@@ -161,11 +162,11 @@ function EventPoster2() {
                           window.location.href
                         )}`}
                         title="Share this page on Linkedin"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faLinkedin}
-                          style={{ color: '#16b7df' }}
+                          style={{ color: "#16b7df" }}
                           className="event-share-logo"
                         />
                       </a>
@@ -174,11 +175,11 @@ function EventPoster2() {
                           window.location.href
                         )}`}
                         title="Share this page on Pinterest"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                       >
                         <FontAwesomeIcon
                           icon={faSquarePinterest}
-                          style={{ color: '#d30909' }}
+                          style={{ color: "#d30909" }}
                           className="event-share-logo"
                         />
                       </a>
@@ -191,16 +192,14 @@ function EventPoster2() {
                     >
                       <FontAwesomeIcon
                         icon={showContent ? faMinus : faPlus}
-                        style={{ color: '#1164e8' }}
+                        style={{ color: "#1164e8" }}
                       />
                       <span className="ms-2">Venue</span>
                     </h1>
                     {showContent && (
                       <div className="row event-venue">
                         <div className="event-venue-left col-3">
-                          <img
-                            src={EventPosterDetail2.ImageVeneu}
-                          ></img>
+                          <img src={EventPosterDetail2.ImageVeneu} alt="Veneu"></img>
                         </div>
                         <div className="event-venue-right col-8 mt-auto mb-auto">
                           <a
@@ -210,7 +209,7 @@ function EventPoster2() {
                           >
                             <FontAwesomeIcon
                               icon={faLocationDot}
-                              style={{ color: '#1164e8' }}
+                              style={{ color: "#1164e8" }}
                             />
                             {EventPosterDetail2.NameLocation}
                           </a>
