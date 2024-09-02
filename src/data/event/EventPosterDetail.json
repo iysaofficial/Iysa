@@ -36,15 +36,15 @@
   "event3": [
     {
       "id": 1,
-      "image": "./assets/images/poster/iicyns.WebP",
-      "title": "International Invention Competition For Young Moslem Scientists (IICYMS) 2024",
-      "LinkRegist": "https://registrasi-iicyms-2024.vercel.app/",
+      "image": "./assets/images/poster/wsdg.png",
+      "title": "World Sustainable Development Goal Challenge (WSDG) 2024",
+      "LinkRegist": "https://bit.ly/REGISTRATION_WSDG2024",
       "Hastag": "",
-      "DateAdTime": "Agustus 12th - 15th, 2024",
-      "RegistEndDate": "July 8th 2024",
-      "Location": " Offline ",
+      "DateAdTime": "October 1st - 14th, 2024",
+      "RegistEndDate": "September 17th, 2024",
+      "Location": " Online",
       "EventType": "International",
-      "EventCategory": "IYSA Event",
+      "EventCategory": "IYSA Event Affiliation",
       "ImageVeneu": "",
       "LinkGmaps": "",
       "NameLocation": ""

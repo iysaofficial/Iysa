@@ -46,60 +46,26 @@ function EventPoster3() {
                 <div className="main-colom row col-12 mt-5 mb-5">
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail3.title}</h1>
-                    <p>IICYMS 2024 🥳</p>
+                    <p>ONLINE COMPETITION🥳</p>
+                    <p>WSDG 2024, Malaysia🥳</p>
                     <p>
-                      INTERNATIONAL INVENTION COMPETITION FOR YOUNG MOSLEM
-                      SCIENTISTS
+                      WORD SUSTAINABLE DEVELOPMENT GOALS CHALLENGE
                     </p>
                     <br></br>
-                    <p>
-                      This year is the 4th year that IYSA hold the IICYMS event
-                      in a hybrid competition (online and offline). And this
-                      event have new categories 💥
-                    </p>
-                    <p>
-                      In this year, IYSA collaborating with Universitas Komputer
-                      Indonesia (UNIKOM) Bandung👏🏻👏🏻
-                    </p>
-                    <br></br>
-                    {/* <p>
-                      1Idea1World 2023 akan dilaksanakan secara online
-                      dan offline yang bertempat di Istanbul Turki.
-                    </p>
-                    <p>
-                      Yuk daftar sekarang juga, karena batas
-                      pendaftaran hanya sampai 1 September 2023.
-                    </p>
-                    <br></br> */}
                     <p>Save the date 👇🏻</p>
                     <ul>
                       <li>
-                        <strong>📍 Registration Deadline:</strong> July 8th,
+                        <strong>📍 Registration Deadline:</strong> September 17th,
                         2024
                       </li>
                       <li>
-                        <strong>📍 Payment Deadline: </strong> July 14th, 2024
+                        <strong>📍 Payment & Document Deadline: </strong> September 23rd, 2024
                       </li>
                       <li>
-                        <strong>📍 Event Date: </strong> August 12th - 15th,
+                        <strong>📍 Judging Period : </strong> October 1st - 14th,
                         2024
-                      </li>
-                      <li>
-                        <strong>📍 Venue : </strong> Universitas Komputer
-                        Indonesia (UNIKOM) Bandung
                       </li>
                     </ul>
-                    {/* <p className="mt-5">{EventPosterDetail3.paragraf5}</p> */}
-                    <p>Register via: </p>
-                    <a
-                      href="https://www.iicyms.or.id/IICYMS.html"
-                      target="_blank" rel="noreferrer" 
-                    >
-                      📲 iicym.or.id
-                    </a>
-
-                    <p>See you in Bandung,</p>
-                    <p>West Java 🤗🥳</p>
 
                     <a
                       className="btn btn-primary mb-4"

@@ -8,6 +8,15 @@
         "location": "Offline",
         "date": "5 - 8 November, 2024",
         "link": "/EventPage2"
+      },
+      {
+        "id": 11,
+        "image": "./assets/images/poster/wsdg.png",
+        "title": "World Sustainable Development Goal Challenge (WSDG) 2024",
+        "level": "International",
+        "location": "Online",
+        "date": "October 1st - 14th 2024",
+        "link": "/EventPage3"
       }
     ]
   }

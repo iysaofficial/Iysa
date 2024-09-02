@@ -53,7 +53,6 @@ const AllEventPoster = () => {
           })}
         </div>
       </div>
-        
     </section>
   );
 };
