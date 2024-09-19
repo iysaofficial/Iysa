@@ -23,6 +23,10 @@ import CalenderEvent from "./pages/calender/CalenderEvent";
 // All Event Web
 import AllEventWebPage from "./pages/alleventweb/AllEventWebPage";
 
+// All Event Affiliation Web
+import AllEventAffiliationWebPage from "./pages/alleventaffiliationweb/AllEventAffiliationWebPage";
+import EventAffiliationPage1 from "./pages/alleventaffiliationweb/EventAffiliationPage1";
+
 // Import Team
 import ExpertTeam from "./components/team/ExpertTeam";
 import ExpertStaff from "./components/team/ExpertStaff";
@@ -127,6 +131,10 @@ function App() {
 
             {/* All Event Web */}
             <Route path="/AllEventWebPage" element={<AllEventWebPage />} />
+
+            {/* All Event Affiliation Web */}
+            <Route path="/AllEventAffiliationWebPage" element={<AllEventAffiliationWebPage/>}/>
+            <Route path="/EventAffiliationPage1" element={<EventAffiliationPage1/>}/>
 
             {/* Curation */}
             <Route path="/CurationOSPC" element={<CurationOSPCPage />} />

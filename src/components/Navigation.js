@@ -129,8 +129,18 @@ const Navigation = () => {
             <li className="menu-item">
               <a href="/CalenderEvent">Calender Event</a>
             </li>
-            <li className="menu-item">
-              <a href="/AllEventWebPage">Our Event Website</a>
+            <li className="menu-item menu-item-has-children">
+              <a href="#" data-toggle="sub-menu">
+                Our Events Website <FaChevronDown />
+              </a>
+              <ul className="sub-menu">
+                <li className="menu-item">
+                  <a href="/AllEventWebPage">IYSA Events</a>
+                </li>
+                <li className="menu-item">
+                  <a href="/AllEventAffiliationWebPage">IYSA Events Affiliation</a>
+                </li>
+              </ul>
             </li>
             <li className="menu-item menu-item-has-children">
               <a href="#" data-toggle="sub-menu">

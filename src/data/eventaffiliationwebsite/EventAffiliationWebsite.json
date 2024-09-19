@@ -1,0 +1,29 @@
+{
+    "EventWebsite": [
+      {
+        "Id": "1",
+        "WebsiteName": "BYSCC",
+        "EventType": "Affiliation",
+        "link": "/EventAffiliationPage1"
+      },
+      {
+        "Id": "1",
+        "WebsiteName": "BYSCC",
+        "EventType": "Affiliation",
+        "link": "/EventAffiliationPage1"
+      },
+      {
+        "Id": "1",
+        "WebsiteName": "BYSCC",
+        "EventType": "Affiliation",
+        "link": "/EventAffiliationPage1"
+      },
+      {
+        "Id": "1",
+        "WebsiteName": "BYSCC",
+        "EventType": "Affiliation",
+        "link": "/EventAffiliationPage1"
+      }
+    ]
+  }
+  

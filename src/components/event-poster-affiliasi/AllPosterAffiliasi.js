@@ -15,7 +15,7 @@ const AllPosterAffiliasi = () => {
       <div className="container">
         <div className="featured-section-top">
           <div className="text-center">
-            <h1 className="section-heading text-dark ">Our IYSA Events  Affiliation</h1>
+            <h1 className="section-heading text-dark ">Our IYSA Events Affiliation</h1>
           </div>
         </div>
       </div>
