@@ -24,7 +24,7 @@ const Allwebevent = () => {
                                     {/* <img></img> */}
                                 </div>
                                 <div className="website-event-text">
-                                    <a href={website.link} className='text-decoration-none' target='-blank'>
+                                    <a href={website.link} className='text-decoration-none'>
                                     <h3>{website.WebsiteName}</h3>
                                     <p>{website.EventType}</p>
                                     </a>

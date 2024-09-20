@@ -26,6 +26,16 @@ import AllEventWebPage from "./pages/alleventweb/AllEventWebPage";
 // All Event Affiliation Web
 import AllEventAffiliationWebPage from "./pages/alleventaffiliationweb/AllEventAffiliationWebPage";
 import EventAffiliationPage1 from "./pages/alleventaffiliationweb/EventAffiliationPage1";
+import EventAffiliationPage2 from "./pages/alleventaffiliationweb/EventAffiliationPage2";
+import EventAffiliationPage3 from "./pages/alleventaffiliationweb/EventAffiliationPage3";
+import EventAffiliationPage4 from "./pages/alleventaffiliationweb/EventAffiliationPage4";
+import EventAffiliationPage5 from "./pages/alleventaffiliationweb/EventAffiliationPage5";
+import EventAffiliationPage6 from "./pages/alleventaffiliationweb/EventAffiliationPage6";
+import EventAffiliationPage7 from "./pages/alleventaffiliationweb/EventAffiliationPage7";
+import EventAffiliationPage8 from "./pages/alleventaffiliationweb/EventAffiliationPage8";
+import EventAffiliationPage9 from "./pages/alleventaffiliationweb/EventAffiliationPage9";
+import EventAffiliationPage10 from "./pages/alleventaffiliationweb/EventAffiliationPage10";
+import EventAffiliationPage11 from "./pages/alleventaffiliationweb/EventAffiliationPage11";
 
 // Import Team
 import ExpertTeam from "./components/team/ExpertTeam";
@@ -135,6 +145,16 @@ function App() {
             {/* All Event Affiliation Web */}
             <Route path="/AllEventAffiliationWebPage" element={<AllEventAffiliationWebPage/>}/>
             <Route path="/EventAffiliationPage1" element={<EventAffiliationPage1/>}/>
+            <Route path="/EventAffiliationPage2" element={<EventAffiliationPage2/>}/>
+            <Route path="/EventAffiliationPage3" element={<EventAffiliationPage3/>}/>
+            <Route path="/EventAffiliationPage4" element={<EventAffiliationPage4/>}/>
+            <Route path="/EventAffiliationPage5" element={<EventAffiliationPage5/>}/>
+            <Route path="/EventAffiliationPage6" element={<EventAffiliationPage6/>}/>
+            <Route path="/EventAffiliationPage7" element={<EventAffiliationPage7/>}/>
+            <Route path="/EventAffiliationPage8" element={<EventAffiliationPage8/>}/>
+            <Route path="/EventAffiliationPage9" element={<EventAffiliationPage9/>}/>
+            <Route path="/EventAffiliationPage10" element={<EventAffiliationPage10/>}/>
+            <Route path="/EventAffiliationPage11" element={<EventAffiliationPage11/>}/>
 
             {/* Curation */}
             <Route path="/CurationOSPC" element={<CurationOSPCPage />} />

@@ -8,21 +8,63 @@
       },
       {
         "Id": "1",
-        "WebsiteName": "BYSCC",
+        "WebsiteName": "TISF",
         "EventType": "Affiliation",
-        "link": "/EventAffiliationPage1"
+        "link": "/EventAffiliationPage2"
       },
       {
         "Id": "1",
-        "WebsiteName": "BYSCC",
+        "WebsiteName": "PISF",
         "EventType": "Affiliation",
-        "link": "/EventAffiliationPage1"
+        "link": "/EventAffiliationPage3"
       },
       {
         "Id": "1",
-        "WebsiteName": "BYSCC",
+        "WebsiteName": "INVENTCOR",
         "EventType": "Affiliation",
-        "link": "/EventAffiliationPage1"
+        "link": "/EventAffiliationPage4"
+      },
+      {
+        "Id": "1",
+        "WebsiteName": "MIIX",
+        "EventType": "Affiliation",
+        "link": "/EventAffiliationPage5"
+      },
+      {
+        "Id": "1",
+        "WebsiteName": "E-NNOVATE",
+        "EventType": "Affiliation",
+        "link": "/EventAffiliationPage6"
+      },
+      {
+        "Id": "1",
+        "WebsiteName": "WoSG",
+        "EventType": "Affiliation",
+        "link": "/EventAffiliationPage7"
+      },
+      {
+        "Id": "1",
+        "WebsiteName": "ASBF",
+        "EventType": "Affiliation",
+        "link": "/EventAffiliationPage8"
+      },
+      {
+        "Id": "1",
+        "WebsiteName": "CASTIC",
+        "EventType": "Affiliation",
+        "link": "/EventAffiliationPage9"
+      },
+      {
+        "Id": "1",
+        "WebsiteName": "WICO",
+        "EventType": "Affiliation",
+        "link": "/EventAffiliationPage10"
+      },
+      {
+        "Id": "1",
+        "WebsiteName": "INNOVERSE EXPO",
+        "EventType": "Affiliation",
+        "link": "/EventAffiliationPage11"
       }
     ]
   }
