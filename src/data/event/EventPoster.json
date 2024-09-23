@@ -1,24 +1,6 @@
 {
   "event": [                                                                                                                                                                                                                                                                                
     {
-      "id": 1,
-      "image": "./assets/images/poster/wyiia.WebP",
-      "title": "World Youth Invention And Innovation Award (WYIIA) 2024",
-      "level": "International",
-      "location": "Universitas Sarjanawiyata Tamansiswa (UST)",
-      "date": "October 10th - 14th, 2024",
-      "link": "/EventPage22"
-    },
-    {
-      "id": 2,
-      "image": "./assets/images/poster/nyiia.WebP",
-      "title": "NATIONAL YOUTH INVENTION AND INNOVATION AWARD (NYIIA) 2024",
-      "level": "Nasional",
-      "location": "Universitas Sarjanawiyata Tamansiswa (UST)",
-      "date": "10 - 14 Oktober 2024",
-      "link": "/EventPage25"
-    },
-    {
       "id": 3,
       "image": "./assets/images/poster/isif.WebP",
       "title": "International Science And Invention Fair (ISIF) 2024",
