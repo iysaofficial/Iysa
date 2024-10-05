@@ -79,6 +79,7 @@ import Newsletter2024DetailPage5 from "./pages/newsletter/Newsletter2024DetailPa
 import Newsletter2024DetailPage6 from "./pages/newsletter/Newsletter2024DetailPage6";
 import Newsletter2024DetailPage7 from "./pages/newsletter/Newsletter2024DetailPage7";
 import Newsletter2024DetailPage8 from "./pages/newsletter/Newsletter2024DetailPage8";
+import Newsletter2024DetailPage9 from "./pages/newsletter/Newsletter2024DetailPage9";
 
 // Import Gallery
 import GalleryPhoto from "./pages/gallery/GalleryPhoto";
@@ -143,18 +144,54 @@ function App() {
             <Route path="/AllEventWebPage" element={<AllEventWebPage />} />
 
             {/* All Event Affiliation Web */}
-            <Route path="/AllEventAffiliationWebPage" element={<AllEventAffiliationWebPage/>}/>
-            <Route path="/EventAffiliationPage1" element={<EventAffiliationPage1/>}/>
-            <Route path="/EventAffiliationPage2" element={<EventAffiliationPage2/>}/>
-            <Route path="/EventAffiliationPage3" element={<EventAffiliationPage3/>}/>
-            <Route path="/EventAffiliationPage4" element={<EventAffiliationPage4/>}/>
-            <Route path="/EventAffiliationPage5" element={<EventAffiliationPage5/>}/>
-            <Route path="/EventAffiliationPage6" element={<EventAffiliationPage6/>}/>
-            <Route path="/EventAffiliationPage7" element={<EventAffiliationPage7/>}/>
-            <Route path="/EventAffiliationPage8" element={<EventAffiliationPage8/>}/>
-            <Route path="/EventAffiliationPage9" element={<EventAffiliationPage9/>}/>
-            <Route path="/EventAffiliationPage10" element={<EventAffiliationPage10/>}/>
-            <Route path="/EventAffiliationPage11" element={<EventAffiliationPage11/>}/>
+            <Route
+              path="/AllEventAffiliationWebPage"
+              element={<AllEventAffiliationWebPage />}
+            />
+            <Route
+              path="/EventAffiliationPage1"
+              element={<EventAffiliationPage1 />}
+            />
+            <Route
+              path="/EventAffiliationPage2"
+              element={<EventAffiliationPage2 />}
+            />
+            <Route
+              path="/EventAffiliationPage3"
+              element={<EventAffiliationPage3 />}
+            />
+            <Route
+              path="/EventAffiliationPage4"
+              element={<EventAffiliationPage4 />}
+            />
+            <Route
+              path="/EventAffiliationPage5"
+              element={<EventAffiliationPage5 />}
+            />
+            <Route
+              path="/EventAffiliationPage6"
+              element={<EventAffiliationPage6 />}
+            />
+            <Route
+              path="/EventAffiliationPage7"
+              element={<EventAffiliationPage7 />}
+            />
+            <Route
+              path="/EventAffiliationPage8"
+              element={<EventAffiliationPage8 />}
+            />
+            <Route
+              path="/EventAffiliationPage9"
+              element={<EventAffiliationPage9 />}
+            />
+            <Route
+              path="/EventAffiliationPage10"
+              element={<EventAffiliationPage10 />}
+            />
+            <Route
+              path="/EventAffiliationPage11"
+              element={<EventAffiliationPage11 />}
+            />
 
             {/* Curation */}
             <Route path="/CurationOSPC" element={<CurationOSPCPage />} />
@@ -353,6 +390,10 @@ function App() {
             <Route
               path="/Newsletter2024DetailPage8"
               element={<Newsletter2024DetailPage8 />}
+            />
+            <Route
+              path="/Newsletter2024DetailPage9"
+              element={<Newsletter2024DetailPage9 />}
             />
           </Routes>
         </Router>
