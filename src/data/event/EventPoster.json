@@ -1,51 +1,6 @@
 {
   "event": [                                                                                                                                                                                                                                                                                
     {
-      "id": 3,
-      "image": "./assets/images/poster/isif.WebP",
-      "title": "International Science And Invention Fair (ISIF) 2024",
-      "level": "International",
-      "location": "Bali Creative Industry Center",
-      "date": "November 5th - 9th, 2024",
-      "link": "/EventPage6"
-    },
-    {
-      "id": 4,
-      "image": "./assets/images/poster/nsif.WebP",
-      "title": "NATIONAL SCIENCE AND INVENTION FAIR (NSIF) 2024",
-      "level": "Nasional",
-      "location": "Bali Creative Industry Center",
-      "date": "5 - 10 November 2024",
-      "link": "/EventPage21"
-    },
-    {
-      "id": 5,
-      "image": "./assets/images/poster/wso.WebP",
-      "title": "WORLD SCIENCE OLYMPIAD (WSO) 2024",
-      "level": "International",
-      "location": "Bali Creative Industry Center",
-      "date": "November 8th - 9th, 2024",
-      "link": "/EventPage4"
-    },
-    {
-      "id": 6,
-      "image": "./assets/images/poster/irtc.WebP",
-      "title": "International Research Teacher Competition (IRTC) 2024",
-      "level": "International",
-      "location": "Bali Creative Industry Center",
-      "date": "November 5th - 9th, 2024",
-      "link": "/EventPage17"
-    },
-    {
-      "id": 7,
-      "image": "./assets/images/poster/nrtc.WebP",
-      "title": "National Research Teacher Competition (NRTC) 2024",
-      "level": "Nasional",
-      "location": "Bali Creative Industry Center",
-      "date": "5 - 9 November, 2024",
-      "link": "/EventPage7"
-    },
-    {
       "id": 8,
       "image": "./assets/images/poster/ptk.jpg",
       "title": "Lomba Invensi dan PTK 2024",
