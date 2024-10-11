@@ -46,44 +46,43 @@ function EventPoster6() {
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail6.title}</h1>
                     <p>
-                      6th ISIF 2024 ✨INTERNATIONAL SCIENCE AND INVENTION FAIR
-                    </p>
-                    <p>
-                      Come and visit Bali with IYSA, let's join this event on
-                      November 2024 guys 🔥
+                    Hi young Scientist 🎉
+
                     </p>
                     <br></br>
-                    <p>Save the date!👇🏻</p>
+                    <p>
+                    There is one more offline event in Korea, the International Creative Papers Conference (ICPC) 2024.
+                    </p>
+                    <br></br>
+                    <p>An IYSA affiliated event that will take place in January 2025 offline, at Seoul National University of Education, Korea.</p>
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📍Registration Deadline:</strong> October 3rd,
-                        2024
+                        <strong>📍Registration Deadline:</strong> December 6th, 2024
                       </li>
                       <li>
-                        <strong>📍Payment Deadline: </strong> October 8th, 2024
+                        <strong>📍Payment Deadline: </strong> December 17th, 2024
                       </li>
                       <li>
-                        <strong>📍Event Date: </strong> November 5th - 10th,
-                        2024
+                        <strong>📍Event Date: </strong> 
+                        January 17th - 19th, 2025
                       </li>
                       <li>
-                        <strong>📍Venue: </strong> Denpasar, Bali
+                        <strong>📍Venue: </strong> Seoul National University of Education, Korea
                       </li>
                     </ul>
                     <br></br>
                     <p>registration now 🤩‼️‼️</p>
                     <p>
                       📱Register via:
-                      <a href="https://www.isif.or.id/" target="_blank" rel="noreferrer" >
-                        &nbsp;isif.or.id
+                      <a href="https://bit.ly/Registration-ICPC-2024" target="_blank" rel="noreferrer" >
+                        &nbsp;https://bit.ly/Registration-ICPC-2024
                       </a>
                     </p>
                     <br></br>
-                    <p>join us 🥳</p>
+                    <p></p>
                     <p>
-                      Be a part of young researcher with IYSA, prepare your team
-                      and your best project💃💃
+                     
                     </p>
                     <a
                       className="btn btn-primary mb-4"

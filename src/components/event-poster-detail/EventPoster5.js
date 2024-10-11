@@ -47,37 +47,33 @@ function EventPoster5() {
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail5.title}</h1>
                     <p>
-                      NICE 2024 Ke-1 NATIONAL INVENTION COMPETITION AND
-                      EXHIBITION 2024
+                    ADVANCED INNOVATION GLOBAL
+                    COMPETITION 2024
                     </p>
-                    <p>Kompetisi daring tingkat nasional 💥</p>
-                    <p>
-                      Halo pelajar di seluruh Indonesia, di bulan September
-                      nanti IYSA punya kompetisi baru tingkat nasional nih,
-                      yaitu @niceiysa.official 2024,
-                    </p>
-                    <br></br>
-                    <p>Gimana cara daftarnya?</p>
+                    <p>IYSA affiliation event in Singapore, come and join guys!
+                    For more information and guide book you can check in registration link 👇🏻</p>
+                    <p></p>
                     <p></p>
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📍 Batas Pendaftaran :</strong> 19 Agustus 2024
+                        <strong>📍 Registration Deadline:</strong> 5th November 2024
                       </li>
                       <li>
-                        <strong>📍 Batas Pembayaran :</strong> 23 Agustus 2024
+                        <strong>📍 Payment Deadline:</strong> 7th November 2024
                       </li>
                       <li>
-                        <strong>📍 Tanggal Acara :</strong> 24 September 2024
+                        <strong>📍 Event Date:</strong> 17th - 18th December 2024
                       </li>
                     </ul>
                     <br></br>
 
-                    <p>Yuk daftar melalui website nya👇🏻</p>
+                    <p>For those of you who want to take part in this
+                    competition, let's register via</p>
                     <p>
                       📱Register via:
-                      <a href="https://www.nice-iysa.or.id/" target="_blank" rel="noreferrer" >
-                        nice-iysa.or.id
+                      <a href="https://bit.ly/AIGC_REGISTRATION_FORM_2024" target="_blank" rel="noreferrer" >
+                      https://bit.ly/AIGC_REGISTRATION_FORM_2024
                       </a>
                     </p>
 

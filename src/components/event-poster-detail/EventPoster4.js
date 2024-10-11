@@ -46,40 +46,25 @@ function EventPoster4() {
                 <div className="main-colom row col-12 mt-5 mb-5">
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail4.title}</h1>
-                    <p>World Science Olympiad 2024 🎉</p>
+                    <p>Izmir International Innovation Science Energy Engineering Fair 2024 🎉</p>
                     <p>Offline</p>
                     <br></br>
-                    <p>The first IYSA Olympiad to be held offline</p>
-                    <p>The 1st WSO will be held in Denpasar, Bali👏🔥</p>
-                    <br></br>
-                    <p>
-                      You students from elementary, junior high school, senior
-                      high school and university can register to take part in
-                      this competition. WSO is an Olympiad at international
-                      level, with competition categories
-                    </p>
-                    <br></br>
-                    <p>
-                      1. Mathematics (elementary, junior high school ,senior
-                      high school, University)
-                    </p>
-                    <p>2. Physics (senior high school, University)</p>
-                    <p>3. Chemistry (senior high school, University)</p>
-                    <p>4. Biology (senior high school, University)</p>
+                    <p>Offline Competition in Turkey
+                    For those of you who are asking about the event in Türkiye, MINSA will tell you that the event will take place on November 28 – December 3, 2024.</p>
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📍 Registration Deadline:</strong> October 7th,
+                        <strong>📍 Registration Deadline:</strong> October 20th,
                         2024
                       </li>
                       <li>
-                        <strong>📍 Payment Deadline:</strong> October 11th, 2024
+                        <strong>📍 Payment Deadline:</strong> October 28th, 2024
                       </li>
                       {/* <li>
                         <strong>📍 Submission Deadline:</strong> January 12, 2024
                       </li> */}
                       <li>
-                        <strong>📍 Event Date:</strong> November 8th - 9th, 2024
+                        <strong>📍 Event Date:</strong> November 30th - december 2nd, 2024
                       </li>
                       {/* <li>
                         <strong>Place:</strong> Auditorium Imam Bardjo, Universitas Diponegoro Semarang
@@ -92,8 +77,8 @@ function EventPoster4() {
                     </p>
                     <p>
                       📱Register via:
-                      <a href="https://wso.or.id/" target="_blank" rel="noreferrer" >
-                        wso.or.id
+                      <a href="https://bit.ly/Registration-IISEEF-2024" target="_blank" rel="noreferrer" >
+                      https://bit.ly/Registration-IISEEF-2024
                       </a>
                     </p>
                     <br></br>

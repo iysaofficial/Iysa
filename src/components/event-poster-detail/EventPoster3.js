@@ -49,7 +49,7 @@ function EventPoster3() {
                     <p>ONLINE COMPETITION🥳</p>
                     <p>WSDG 2024, Malaysia🥳</p>
                     <p>
-                      WORD SUSTAINABLE DEVELOPMENT GOALS CHALLENGE
+                      WORLD SUSTAINABLE DEVELOPMENT GOALS CHALLENGE
                     </p>
                     <br></br>
                     <p>Save the date 👇🏻</p>

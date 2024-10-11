@@ -53,15 +53,15 @@
   "event4": [
     {
       "id": 1,
-      "image": "./assets/images/poster/wso.WebP",
-      "title": "World Science Olympiad ( WSO) 2024",
-      "LinkRegist": "https://registrasi-wso.vercel.app/",
+      "image": "./assets/images/poster/IISEEF.jpg",
+      "title": "Izmir International Innovation Science Energy Engineering Fair",
+      "LinkRegist": "https://bit.ly/Registration-IISEEF-2024",
       "Hastag": "",
-      "DateAdTime": "November 8th - 9th, 2024",
-      "RegistEndDate": "October 7th, 2024",
-      "Location": "Bali Creative Industry Center, Indonesia",
+      "DateAdTime": "November 30th - December 2nd, 2024",
+      "RegistEndDate": "October 20th, 2024",
+      "Location": "Turkey",
       "EventType": "Internasional",
-      "EventCategory": "IYSA Event Olympiad",
+      "EventCategory": "IYSA Event Affiliation",
       "ImageVeneu": "",
       "LinkGmaps": "",
       "NameLocation": ""
@@ -70,15 +70,15 @@
   "event5": [
     {
       "id": 1,
-      "image": "./assets/images/poster/nice.WebP",
-      "title": "NATIONAL INVENTION COMPETITION AND EXHIBITION (NICE) 2024",
-      "LinkRegist": "https://registrasi-nice-2024.vercel.app/",
-      "Hastag": "#niceofficial #niceiysa2024 #nice #nasional #kompetisi #daring #infolomba #sains #karyailmiah",
-      "DateAdTime": "21 - 24 September, 2024",
-      "RegistEndDate": "19 Agustus 2024",
-      "Location": "Online",
-      "EventType": "Nasional",
-      "EventCategory": "IYSA Event",
+      "image": "./assets/images/poster/AIGC.jpg",
+      "title": "Advanced Innovation Global Competition",
+      "LinkRegist": "https://bit.ly/AIGC_REGISTRATION_FORM_2024",
+      "Hastag": "#aigc2024 #singapore #hybrid #iysaeventafiliasi",
+      "DateAdTime": "17th - 18th December, 2024",
+      "RegistEndDate": "5th November 2024",
+      "Location": "Hybrid",
+      "EventType": "International",
+      "EventCategory": "IYSA Event Affiliation",
       "ImageVeneu": "",
       "LinkGmaps": "",
       "NameLocation": ""
@@ -87,35 +87,35 @@
   "event6": [
     {
       "id": 1,
-      "image": "./assets/images/poster/isif.WebP",
-      "title": "INTERNATIONAL SCIENCE AND INVENTION FAIR (ISIF) 2024",
-      "LinkRegist": "https://registrasi-isif-2024.vercel.app/",
-      "Hastag": "",
-      "DateAdTime": "November 5th - 9th, 2024",
-      "RegistEndDate": "October 3rd, 2024",
+      "image": "./assets/images/poster/ICPC.jpg",
+      "title": "The International Creative Papers Conference",
+      "LinkRegist": "https://bit.ly/Registration-ICPC-2024",
+      "Hastag": "#icpc #2024 #korea #offline #infolomba #iysaafiliasi #iysaevent",
+      "DateAdTime": "January 17th - 19th, 2025",
+      "RegistEndDate": "December 6th, 2024",
       "Location": "Offline",
       "EventType": "Internasional",
-      "EventCategory": "IYSA Event",
+      "EventCategory": "IYSA Event Affiliation",
       "ImageVeneu": "",
       "LinkGmaps": "",
-      "NameLocation": "Bali Creative Industry Center, Bali"
+      "NameLocation": "SEOUL NATIONAL UNIVERSITY OF EDUCATION"
     }
   ],
   "event7": [
     {
       "id": 1,
-      "image": "./assets/images/poster/nrtc.WebP",
-      "title": "National Research Teacher Competition (NRTC) 2024",
-      "LinkRegist": "https://registrasi-nrtc-2024.vercel.app/",
-      "Hastag": "#nrtc2024 #irtc2024 #iysaevent #iysa #infolomba #lombaiysa #bali #Bali Creative Industry Center #daring 3luring",
-      "DateAdTime": "5 - 9 November, 2024",
-      "RegistEndDate": "3 Oktober, 2024",
+      "image": "./assets/images/poster/ICPC.jpg",
+      "title": "The International Creative Papers Conference",
+      "LinkRegist": "https://bit.ly/Registration-ICPC-2024",
+      "Hastag": "#icpc #2024 #korea #offline #infolomba #iysaafiliasi #iysaevent",
+      "DateAdTime": "January 17th - 19th, 2025",
+      "RegistEndDate": "December 6th, 2024",
       "Location": "Offline",
-      "EventType": "Nasional",
-      "EventCategory": "IYSA Event",
+      "EventType": "Internasional",
+      "EventCategory": "IYSA Event Affiliation",
       "ImageVeneu": "",
-      "LinkGmaps": "", 
-      "NameLocation": "Bali Creative Industry Center, Bali"
+      "LinkGmaps": "",
+      "NameLocation": "SEOUL NATIONAL UNIVERSITY OF EDUCATION"
     }
   ],
   "event8": [

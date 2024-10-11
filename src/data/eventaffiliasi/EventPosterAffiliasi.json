@@ -17,6 +17,33 @@
         "location": "Online",
         "date": "October 1st - 14th 2024",
         "link": "/EventPage3"
+      },
+      {
+        "id": 12,
+        "image": "./assets/images/poster/IISEEF.jpg",
+        "title": "Izmir International Innovation Science Energy Engineering Fair",
+        "level": "International",
+        "location": "Offline",
+        "date": "30 November - 2 December 2024",
+        "link": "/EventPage4"
+      }, 
+      {
+        "id": 13,
+        "image": "./assets/images/poster/AIGC.jpg",
+        "title": "Advanced Innovation Global Competition",
+        "level": "International",
+        "location": "Hybrid",
+        "date": "17 - 18 December 2024",
+        "link": "/EventPage5"
+      },
+      {
+        "id": 14,
+        "image": "./assets/images/poster/ICPC.jpg",
+        "title": "International Creative Papers Conference",
+        "level": "International",
+        "location": "Offline",
+        "date": "17 - 19 January 2025",
+        "link": "/EventPage6"
       }
     ]
   }
