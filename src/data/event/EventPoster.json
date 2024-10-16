@@ -1,15 +1,6 @@
 {
   "event": [                                                                                                                                                                                                                                                                                
     {
-      "id": 8,
-      "image": "./assets/images/poster/ptk.jpg",
-      "title": "Lomba Invensi dan PTK 2024",
-      "level": "Nasional",
-      "location": "Indonesia International Institute for Life-Sciences (i3L)",
-      "date": "25 November, 2024",
-      "link": "/EventPage1"
-    },
-    {
       "id": 9,
       "image": "./assets/images/poster/i2aspo.WebP",
       "title": "Indonesia International Applied Science Project Olympiad (I2ASPO) 2024",
