@@ -46,27 +46,39 @@ function EventPoster3() {
                 <div className="main-colom row col-12 mt-5 mb-5">
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail3.title}</h1>
-                    <p>ONLINE COMPETITION🥳</p>
-                    <p>WSDG 2024, Malaysia🥳</p>
+                    <h1 className="fw-bolder">{EventPosterDetail3.title}</h1>
+                    <p>‼️6th AISEEF 2025‼️</p>
+                    <p>International Event</p>
+                    <br></br>
                     <p>
-                      WORLD SUSTAINABLE DEVELOPMENT GOALS CHALLENGE
+                    After the success of the AISEEF 2024 event, IYSA is again collaborating with the Faculty of Engineering, Diponegoro University.
+                    </p>
+
+                    <p>
+                    ASEAN INNOVATIVE SCIENCE ENVIRONMENTAL AND ENTREPRENEUR FAIR 2025
                     </p>
                     <br></br>
-                    <p>Save the date 👇🏻</p>
+
+                    <p>Save the date ‼️</p>
                     <ul>
                       <li>
-                        <strong>📍 Registration Deadline:</strong> September 17th,
-                        2024
+                        <strong>📍Registration deadline: </strong> January 3, 2025
                       </li>
                       <li>
-                        <strong>📍 Payment & Document Deadline: </strong> September 23rd, 2024
+                        <strong>📍Payment deadline: </strong> January 10, 2025
                       </li>
                       <li>
-                        <strong>📍 Judging Period : </strong> October 1st - 14th,
-                        2024
+                        <strong>📍Event date:</strong>February 3-6, 2025
+                      </li>
+                      <li>
+                        <strong>📍Venue:</strong> Diponegoro University, Semarang
                       </li>
                     </ul>
-
+                    <br></br>
+                    <p>
+                    What are you waiting for, let's register!!
+                    </p>
+                    <p>📱Registration Link: 👇</p>
                     <a
                       className="btn btn-primary mb-4"
                       href={EventPosterDetail3.LinkRegist}
@@ -74,6 +86,8 @@ function EventPoster3() {
                     >
                       Registration Form
                     </a>
+                    <br></br>
+                    <p>See you in Semarang, Indonesia🙋‍♂️</p>
                     <br />
                     <p className="hastag">{EventPosterDetail3.Hastag}</p>
                   </div>

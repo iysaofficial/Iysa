@@ -1,6 +1,42 @@
 {
   "event": [                                                                                                                                                                                                                                                                                
     {
+      "id": 1,
+      "image": "./assets/images/poster/gyiif2025.jpeg",
+      "title": "Global Youth Invention and Innovative Fair (GYIIF) 2025",
+      "level": "International",
+      "location": "Institut Pertanian Bogor , Bogor.",
+      "date": "January 11th - 25th, 2025",
+      "link": "/EventPage1"
+    },
+    {
+      "id": 2,
+      "image": "./assets/images/poster/iymia2025.jpeg",
+      "title": "International Young Moslem Inventor Award (IYMIA) 2025",
+      "level": "International",
+      "location": "Institut Pertanian Bogor , Bogor.",
+      "date": "January 11th - 25th, 2025",
+      "link": "/EventPage2"
+    },
+    {
+      "id": 3,
+      "image": "./assets/images/poster/aiseef2025.jpeg",
+      "title": "Asean Innovative Science Environmental and Entrepreneur Fair (AISEEF) 2025",
+      "level": "International",
+      "location": "Universitas Diponegoro, Semarang.",
+      "date": "February 2nd - 7th, 2025",
+      "link": "/EventPage3"
+    },
+    {
+      "id": 4,
+      "image": "./assets/images/poster/niseef2025.jpeg",
+      "title": "National Innovative Science Environmental and Entrepreneur Fair (NISEEF) 2025",
+      "level": "Nasional",
+      "location": "Universitas Diponegoro, Semarang.",
+      "date": "2 - 7 Februari, 2025",
+      "link": "/EventPage4"
+    },
+    {
       "id": 9,
       "image": "./assets/images/poster/i2aspo.WebP",
       "title": "Indonesia International Applied Science Project Olympiad (I2ASPO) 2024",

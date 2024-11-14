@@ -43,61 +43,44 @@ function EventPoster1() {
                 <div className="main-colom row col-12 mt-5 mb-5 mx-auto">
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail1.title}</h1>
-                    <p>Lomba Invensi dan PTK 2024 👏</p>
-                    <p>Kategori Guru dan Dosen</p>
+                    <p>Opening Event in 2025 3rd GYIIF🥳</p>
+                    <p>Global Youth Invention and Innovation Fair</p>
                     <br></br>
                     <p>
-                      Tahun ini merupakan kali ke-2 penyelenggaraan Lomba
-                      Invensi & PTK dalam rangka Hari Guru Nasional.
+                    IYSA will hold 3rd GYIIF in collaboration with the Department of Food Science and Technology, Institut Pertanian Bogor.
                     </p>
 
                     <p>
-                      IYSA bekerja sama dengan Indonesia International Institute
-                      for Life-Sciences (i3L) @i3l_official, dan event ini akan
-                      berlangsung pada bulan November 2024.
+                   This event will take place in January 2025, will be conducted online and offline at the Institut Pertanian Bogor 👏🏻👏🏻
                     </p>
                     <br></br>
 
                     <p>Save the date ‼️</p>
                     <ul>
                       <li>
-                        <strong>📍 Batas Registrasi :</strong> 16 Oktober, 2024
+                        <strong>📍Registration Deadline: </strong> December 15, 2024
                       </li>
                       <li>
-                        <strong>📍 Batas Pengumpulan Full Paper :</strong> 23
-                        Oktober, 2024
+                        <strong>📍Payment Deadline: </strong> December 22, 2024
                       </li>
                       <li>
-                        <strong>📍 Pengumuman Finalis :</strong> 4 November,
-                        2024
-                      </li>
-                      <li>
-                        <strong>📍 Tanggal Acara :</strong> 25 November, 2024
+                        <strong>📍Event date: </strong> January 11-14, 2025
                       </li>
                     </ul>
                     <br></br>
                     <p>
-                      Bapak Ibu Guru dan Dosen di Indonesia yuk ketemu sama
-                      minsa di event ini...🎉
+                    What are you waiting for, let's register!!
                     </p>
-                    <p>Jangan lupa daftar ya disini 👇</p>
+                    <p>📱Register now 👇🏻</p>
                     <a
                       className="btn btn-primary mb-4"
                       href={EventPosterDetail1.LinkRegist}
                       target="-blank"
                     >
-                      Formulir Registrasi
-                    </a>
-                    <p>Lihat Guide Book nya disini 👇</p>
-                    <a
-                      className="btn btn-primary mb-4"
-                      href="https://drive.google.com/file/d/1TED9ZY9GmXRfyhGtRmrhAzMnJGm2G4Nt/view?usp=sharing"
-                      target="-blank"
-                    >
-                      Guide Book
+                      Registration Form
                     </a>
                     <br></br>
-                    <p>See you in Jakarta, Indonesia🙋‍♂️</p>
+                    <p>See you in Semarang, Indonesia🙋‍♂️</p>
                     <br />
                     <p className="hastag">{EventPosterDetail1.Hastag}</p>
                     <br></br>

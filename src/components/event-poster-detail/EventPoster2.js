@@ -46,64 +46,38 @@ function EventPoster2() {
                 <div className="main-colom row col-12 mt-5 mb-5">
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail2.title}</h1>
-                    <p>Kompetisi Offline di Jeddah</p>
+                    <p>Opening Event in 2025 3rd IYMIA🥳</p>
                     <p>Saudi Global Invention and Innovations Expo 2024</p>
                     <p>
-                      Halo peneliti belia, Kalian sudah punya agenda umroh di
-                      tahun ini?
+                      IYSA will hold 3rd IYMIA in collaboration with the Department of Food Science and Technology, Institut Pertanian Bogor.
                     </p>
                     <p>
-                      IYSA punya event offline ni di Jeddah, siapa tahu bisa
-                      jadi event pilihan kalian💥
+                      This event will take place in January 2025, conducted online and offline at the Institut Pertanian Bogor 👏🏻👏🏻
                     </p>
                     <br></br>
-                    <p>-------------------------------------</p>
-
-                    <p>Catat tanggalnya ‼️</p>
-
+                    <p>Save the date ‼️</p>
                     <ul>
                       <li>
-                        <strong>📍 Batas Waktu Pendaftaran : </strong>
-                        11 September, 2024
+                        <strong>📍Registration Deadline: </strong>December 15, 2024
                       </li>
                       <li>
-                        <strong>📍 Batas Waktu Pembayaran :</strong> 16
-                        September, 2024
+                        <strong>📍Payment Deadline: </strong>December 22, 2024
                       </li>
                       <li>
-                        <strong>📍Tanggal Acara :</strong> 5 - 8 November, 2024
+                        <strong>📍Event Date: </strong> January 11-14, 2025
                       </li>
-                      {/* <li>
-                        <strong>Place:</strong> Institut Pertanian
-                        Bogor, IPB Campus Dramaga
-                      </li> */}
                     </ul>
-                    {/* <p>
-                    Jadi tunggu apa lagi, pastikan Anda dan tim Anda untuk
-                      bergabung dalam acara ini!
-                    </p>
-                    <p>
-                      📱Kepoin website nya 👇
-                      <a href="https://jnsf.or.id/" target="_blank" rel="noreferrer"  >
-                        jnsf.or.id
-                      </a>
-                    </p> */}
-                    {/* <p>Sampai Jumpa di Jakarta, Indonesia🙋‍♂️</p> */}
 
-                    {/* <p>Register now 👇🏻</p> */}
-
-                    {/* <p>Get the guide book in registration link‼️</p> */}
-                    {/* <p className="mt-5">{EventPosterDetail2.paragraf5}</p> */}
+                    <p>Register now 👇🏻</p>
                     <a
                       className="btn btn-primary mb-4"
                       href={EventPosterDetail2.LinkRegist}
                       target="-blank"
                     >
-                      Formulir Pendaftaran
+                      Registration Here
                     </a>
                     <br />
-                    {/* <p>Get the guide book in registration link‼️</p>
-                    <p>See you in Bogor, Indonesia 🙋‍♀️🙋‍♂️</p> */}
+                    <p>See you in Bogor, Indonesia 🙋‍♀️🙋‍♂️</p>
                     <br></br>
                     <p className="hastag">{EventPosterDetail2.Hastag}</p>
                   </div>

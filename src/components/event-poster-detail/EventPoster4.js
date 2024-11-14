@@ -46,40 +46,34 @@ function EventPoster4() {
                 <div className="main-colom row col-12 mt-5 mb-5">
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail4.title}</h1>
-                    <p>Izmir International Innovation Science Energy Engineering Fair 2024 🎉</p>
-                    <p>Offline</p>
+                    <p>‼️NISEEF 2025 Ke-1‼️</p>
+                    <p>Event Nasional</p>
                     <br></br>
-                    <p>Offline Competition in Turkey
-                    For those of you who are asking about the event in Türkiye, MINSA will tell you that the event will take place on November 28 – December 3, 2024.</p>
+                    <p>
+                      Setelah sukses diajang Internasional AISEEF, IYSA kembali berkolaborasi dengan Fakultas Teknik Universitas Diponegoro akan menggelar event nasional yaitu NISEEF untuk pertama kali nya
+                    </p>
+                    <p>
+                      NATIONAL INNOVATIVE SCIENCE ENVIRONMENTAL AND ENTREPRENEUR FAIR 2025
+                    </p>
+                    <p>Kompetisi online dan offline 🎉🤗</p>
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📍 Registration Deadline:</strong> October 20th,
-                        2024
+                        <strong>📍Batas akhir pendaftaran: </strong>3 Januari 2025
                       </li>
                       <li>
-                        <strong>📍 Payment Deadline:</strong> October 28th, 2024
+                        <strong>📍Batas akhir pembayaran: </strong> 10 Januari 2025
                       </li>
-                      {/* <li>
-                        <strong>📍 Submission Deadline:</strong> January 12, 2024
-                      </li> */}
                       <li>
-                        <strong>📍 Event Date:</strong> November 30th - december 2nd, 2024
+                        <strong>📍Tanggal acara: </strong> 3-6 Februari 2025
                       </li>
-                      {/* <li>
-                        <strong>Place:</strong> Auditorium Imam Bardjo, Universitas Diponegoro Semarang
-                      </li> */}
+                      <li>
+                        <strong>📍Tempat: </strong>  Universitas Diponegoro Semarang
+                      </li>
                     </ul>
 
                     <p>
-                      For those of you who want to take part in this
-                      competition, let's register via
-                    </p>
-                    <p>
-                      📱Register via:
-                      <a href="https://bit.ly/Registration-IISEEF-2024" target="_blank" rel="noreferrer" >
-                      https://bit.ly/Registration-IISEEF-2024
-                      </a>
+                      Tunggu apa lagi, yuk daftar!!
                     </p>
                     <br></br>
                     <a
@@ -87,7 +81,7 @@ function EventPoster4() {
                       href={EventPosterDetail4.LinkRegist}
                       target="-blank"
                     >
-                      Registration Form
+                      Daftar Disini
                     </a>
                     <br></br>
                     {/* <p>Sampai jumpa di Malaysia</p> */}
