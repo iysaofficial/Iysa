@@ -77,7 +77,7 @@ function EventPoster1() {
                       href={EventPosterDetail1.LinkRegist}
                       target="-blank"
                     >
-                      Registration Form
+                      Registration Here
                     </a>
                     <br></br>
                     <p>See you in Semarang, Indonesia🙋‍♂️</p>

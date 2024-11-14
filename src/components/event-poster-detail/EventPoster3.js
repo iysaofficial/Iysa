@@ -46,7 +46,6 @@ function EventPoster3() {
                 <div className="main-colom row col-12 mt-5 mb-5">
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail3.title}</h1>
-                    <h1 className="fw-bolder">{EventPosterDetail3.title}</h1>
                     <p>‼️6th AISEEF 2025‼️</p>
                     <p>International Event</p>
                     <br></br>
@@ -84,7 +83,7 @@ function EventPoster3() {
                       href={EventPosterDetail3.LinkRegist}
                       target="-blank"
                     >
-                      Registration Form
+                      Registration Here
                     </a>
                     <br></br>
                     <p>See you in Semarang, Indonesia🙋‍♂️</p>

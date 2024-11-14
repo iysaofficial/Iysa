@@ -47,7 +47,6 @@ function EventPoster2() {
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail2.title}</h1>
                     <p>Opening Event in 2025 3rd IYMIA🥳</p>
-                    <p>Saudi Global Invention and Innovations Expo 2024</p>
                     <p>
                       IYSA will hold 3rd IYMIA in collaboration with the Department of Food Science and Technology, Institut Pertanian Bogor.
                     </p>
