@@ -47,48 +47,58 @@ function EventPoster26() {
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail26.title}</h1>
                     <br></br>
-                    <p>NASPO 2024 ke-5 🎉</p>
+                    <p>‼️YISF 2025 is Back‼️🎉</p>
 
-                    <p>SUDAH BUKA PENDAFTARAN!!! Kompetisi Online & Offline</p>
+                    <p>
+                      In 2025 YISF will be held in Malang East Java, Indonesia
+                      👏👏
+                    </p>
                     <br></br>
                     <p>
-                      Sebagai organisasi yang menyediakan wadah dan
-                      memfasilitasi para ilmuwan muda Indonesia khususnya di
-                      bidang sains, IYSA selalu menghadirkan kompetisi sains di
-                      tingkat nasional dan internasional. NASPO merupakan
-                      kompetisi tingkat nasional IYSA yang diadakan setiap bulan
-                      Desember di akhir tahun.
+                      IYSA in collaboration with Faculty of Letter, Universitas
+                      Negeri Malang will hold: YOUTH INTERNATIONAL SCIENCE FAIR
+                      2025
+                    </p>
+                    <p>
+                      Hybrid competition 🎉🤗 Let's join us and enjoy the crowd
+                      on:
                     </p>
                     <br></br>
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📌 Batas Pendaftaran : </strong> 13 November
+                        <strong>📍Registration Deadline : </strong> January 13,
+                        2025
+                      </li>
+                      <li>
+                        <strong>📍Submission Deadline : </strong> January 17,
+                        2025
+                      </li>
+                      <li>
+                        <strong>📍Payment Deadline : </strong> January 17, 2025
                         2024
                       </li>
                       <li>
-                        <strong>📌 Batas Pembayaran : </strong> 18 November 2024
-                      </li>
-                      <li>
-                        <strong>📌 Tanggal Event : </strong> 18 - 21 Desember
-                        2024
-                      </li>
-                      <li>
-                        <strong>📌 Tempat : </strong> Departemen Aktuaria FSAD
-                        ITS, Surabya
+                        <strong>📍Event Date : </strong> February 21-25, 2024
                       </li>
                     </ul>
                     <br></br>
-                    <p>Daftar Melalui</p>
+                    <p>
+                      So wait no more, Make sure you and your team to join this
+                      event!
+                    </p>
+                    <p>📱Register via: https://www.yisf.or.id/</p>
                     <p>
                       website :
                       <a
-                        href="https://www.naspoi2aspo.or.id/naspo "
-                        target="_blank" rel="noreferrer" 
+                        href="https://www.yisf.or.id/"
+                        target="_blank"
+                        rel="noreferrer"
                       >
-                        naspo.or.id
+                        yisf.or.id
                       </a>
                     </p>
+                    <p>See you in Malang, Indonesia🙋‍♂️</p>
                     <a
                       className="btn btn-primary mb-4"
                       href={EventPosterDetail26.LinkRegist}
@@ -129,7 +139,8 @@ function EventPoster26() {
                           window.location.href
                         )}`}
                         title="Share this page on Facebook"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquareFacebook}
@@ -142,7 +153,8 @@ function EventPoster26() {
                           window.location.href
                         )}`}
                         title="Share this page on Twitter"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquareTwitter}
@@ -155,7 +167,8 @@ function EventPoster26() {
                           window.location.href
                         )}`}
                         title="Share this page on Linkedin"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faLinkedin}
@@ -168,7 +181,8 @@ function EventPoster26() {
                           window.location.href
                         )}`}
                         title="Share this page on Pinterest"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquarePinterest}

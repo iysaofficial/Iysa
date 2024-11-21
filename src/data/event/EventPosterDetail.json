@@ -410,18 +410,18 @@
   "event26": [
     {
       "id": 1,
-      "image": "./assets/images/poster/naspo.WebP",
-      "title": "National Applied Science Project Olympiad (NASPO) 2024",
-      "LinkRegist": "https://registrasi-naspo.vercel.app/",
-      "Hastag": "#naspo2024 #naspoi2aspo #iysa2024 #eventiysa2024 #iysaevent #surabaya #infolomba #sains2024 #naspo",
-      "DateAdTime": "18 - 21 Desember 2024",
-      "RegistEndDate": "13 November 2024",
+      "image": "./assets/images/poster/YISF.WebP",
+      "title": "YOUTH INTERNATIONAL SCIENCE FAIR (YISF) 2025",
+      "LinkRegist": "https://yisf.or.id/homeregist",
+      "Hastag": "",
+      "DateAdTime": "February 21st - 25th, 2024",
+      "RegistEndDate": "January 13rd, 2025",
       "Location": "Offline",
-      "EventType": "Nasional",
+      "EventType": "Internasional",
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
-      "NameLocation": "Departemen Aktuaria FSAD ITS, Surabya"
+      "NameLocation": "Universitas Negri Malang"
     }
   ],
   "event27": [
