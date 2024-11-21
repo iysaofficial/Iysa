@@ -67,19 +67,19 @@ function EventPoster26() {
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📍Registration Deadline : </strong> January 13,
+                        <strong>📍Registration Deadline : </strong> January 13rd,
                         2025
                       </li>
                       <li>
-                        <strong>📍Submission Deadline : </strong> January 17,
+                        <strong>📍Submission Deadline : </strong> January 17th,
                         2025
                       </li>
                       <li>
-                        <strong>📍Payment Deadline : </strong> January 17, 2025
+                        <strong>📍Payment Deadline : </strong> January 17th, 2025
                         2024
                       </li>
                       <li>
-                        <strong>📍Event Date : </strong> February 21-25, 2024
+                        <strong>📍Event Date : </strong> February 21st - 25th, 2024
                       </li>
                     </ul>
                     <br></br>
