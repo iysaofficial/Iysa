@@ -17,7 +17,6 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
-
 // Import Data
 import EventPosterDetail from "../../data/event/EventPosterDetail.json";
 
@@ -48,57 +47,55 @@ function EventPoster27() {
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail27.title}</h1>
                     <br></br>
-                    <p>5th I2ASPO 2024 🎉</p>
+                    <p>‼️YNSF 2025‼️🎉</p>
 
-                    <p>REGISTRATION IS OPEN!!! Online & Offline Competitions</p>
                     <p>
-                      Indonesia International Applied Science Project Olympiad
+                      Di tahun 2025 YNSF kembali diselenggarakan di Malang Jawa
+                      Timur 👏👏
+                    </p>
+                    <p>
+                      IYSA bekerja sama dengan Fakultas Sastra Universitas
+                      Negeri Malang akan menyelenggarakan : YOUTH NATIONAL
+                      SCIENCE FAIR 2025
                     </p>
                     <br></br>
-                    <p>
-                      As an organization that provides a platform and
-                      facilitates young scientists, especially in the field of
-                      science, IYSA always presents science competitions at
-                      national and international levels. I2ASPO is an IYSA
-                      International level competition held every December at the
-                      end of the year.
-                    </p>
-                    <br></br>
-                    <p>
-                      In this 5th year, IYSA is still collaborating with the
-                      Actuarial Department of FSAD ITS, Surabaya.
-                    </p>
+                    <p>Online & Offline Kompetisi 🎉🤗 Yuk cek tanggalnya 👇</p>
                     <br></br>
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📌 Registration Deadline : </strong> November
-                        13rd, 2024
+                        <strong>📍Batas Pendaftaran : </strong> 13 Januari 2025
                       </li>
                       <li>
-                        <strong>📌 Payment & Submission Deadline : </strong>
-                        November 18th, 2024
+                        <strong>📍Batas Waktu Pengumpulan Berkas : </strong>
+                        17 Januari 2025
                       </li>
                       <li>
-                        <strong>📌 Event Date : </strong> 18th - 21st December
-                        2024
+                        <strong>📍Batas Waktu Pembayaran : </strong> 17 Januari
+                        2025 2024
                       </li>
                       <li>
-                        <strong>📌 Venue : </strong> ITS FSAD Actuarial
-                        Department, Surabaya
+                        <strong>📍Tanggal Acara : </strong> 21 - 25 Februari
+                        2025
                       </li>
                     </ul>
                     <br></br>
-                    <p>Register via:</p>
+                    <p>
+                      Jadi tunggu apa lagi, Pastikan kamu dan tim join event
+                      ini!
+                    </p>
+                    <p>📱Daftar melalui</p>
                     <p>
                       website :
                       <a
-                        href="https://www.naspoi2aspo.or.id/i2aspo "
-                        target="_blank" rel="noreferrer" 
+                        href="https://www.ynsf.or.id/"
+                        target="_blank"
+                        rel="noreferrer"
                       >
-                        i2aspo.or.id
+                        ynsf.or.id
                       </a>
                     </p>
+                    <p>Sampai jumpa di Malang, Indonesia🙋‍♂️</p>
                     {/* <p>Registration link: </p> */}
                     <a
                       className="btn btn-primary mb-4"
@@ -140,7 +137,8 @@ function EventPoster27() {
                           window.location.href
                         )}`}
                         title="Share this page on Facebook"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquareFacebook}
@@ -153,7 +151,8 @@ function EventPoster27() {
                           window.location.href
                         )}`}
                         title="Share this page on Twitter"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquareTwitter}
@@ -166,7 +165,8 @@ function EventPoster27() {
                           window.location.href
                         )}`}
                         title="Share this page on Linkedin"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faLinkedin}
@@ -179,7 +179,8 @@ function EventPoster27() {
                           window.location.href
                         )}`}
                         title="Share this page on Pinterest"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquarePinterest}

@@ -427,18 +427,18 @@
   "event27": [
     {
       "id": 1,
-      "image": "./assets/images/poster/i2aspo.WebP",
-      "title": "Indonesia International Applied Science Project Olympiad (I2ASPO) 2024",
-      "LinkRegist": "https://registrasi-i2aspo.vercel.app/",
-      "Hastag": "#i2aspo2024 #naspoi2aspo #iysa2024 #eventiysa2024 #iysaevent #surabaya #infolomba #sains2024 #naspo",
-      "DateAdTime": "December 18th - 21st, 2024",
-      "RegistEndDate": "November 13rd, 2024",
+      "image": "./assets/images/poster/YNSF.WebP",
+      "title": "YOUTH NATIONAL SCIENCE FAIR (YNSF) 2025",
+      "LinkRegist": "https://ynsf-registration-2024.vercel.app/",
+      "Hastag": "",
+      "DateAdTime": "21 - 25 Februari 2025",
+      "RegistEndDate": "13 Januari 2025",
       "Location": "Offline",
-      "EventType": "International",
+      "EventType": "National",
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
-      "NameLocation": "ITS FSAD Actuarial Department, Surabaya"
+      "NameLocation": "Universitas Negri Malang"
     }
   ],
   "event28": [

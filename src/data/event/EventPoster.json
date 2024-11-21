@@ -44,6 +44,15 @@
       "location": "Universitas Negeri Malang, Indonesia.",
       "date": "February 21st - 25th, 2024",
       "link": "/EventPage26"
+    },
+    {
+      "id": 10,
+      "image": "./assets/images/poster/YNSF.WebP",
+      "title": "YOUTH NATIONAL SCIENCE FAIR (YNSF) 2025",
+      "level": "National",
+      "location": "Universitas Negeri Malang, Indonesia.",
+      "date": "February 21 - 25, 2024",
+      "link": "/EventPage27"
     }
   ]
 }

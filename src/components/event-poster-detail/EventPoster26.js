@@ -87,7 +87,7 @@ function EventPoster26() {
                       So wait no more, Make sure you and your team to join this
                       event!
                     </p>
-                    <p>📱Register via: https://www.yisf.or.id/</p>
+                    <p>📱Register via</p>
                     <p>
                       website :
                       <a
