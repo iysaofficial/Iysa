@@ -1,41 +1,5 @@
 {
-    "eventaffiliasi": [                                                                                                                                                                                                                                                                               
-      {
-        "id": 10,
-        "image": "./assets/images/poster/sgie.WebP",
-        "title": "Saudi Global Invention and Innovations Expo (SGIE) 2024",
-        "level": "International",
-        "location": "Offline",
-        "date": "5 - 8 November, 2024",
-        "link": "/EventPage2"
-      },
-      {
-        "id": 11,
-        "image": "./assets/images/poster/wsdg.png",
-        "title": "World Sustainable Development Goal Challenge (WSDG) 2024",
-        "level": "International",
-        "location": "Online",
-        "date": "October 1st - 14th 2024",
-        "link": "/EventPage3"
-      },
-      {
-        "id": 12,
-        "image": "./assets/images/poster/IISEEF.jpg",
-        "title": "Izmir International Innovation Science Energy Engineering Fair",
-        "level": "International",
-        "location": "Offline",
-        "date": "30 November - 2 December 2024",
-        "link": "/EventPage4"
-      }, 
-      {
-        "id": 13,
-        "image": "./assets/images/poster/AIGC.jpg",
-        "title": "Advanced Innovation Global Competition",
-        "level": "International",
-        "location": "Hybrid",
-        "date": "17 - 18 December 2024",
-        "link": "/EventPage5"
-      },
+    "eventaffiliasi": [                                                                                                                                                                                                                                                                                
       {
         "id": 14,
         "image": "./assets/images/poster/ICPC.jpg",
