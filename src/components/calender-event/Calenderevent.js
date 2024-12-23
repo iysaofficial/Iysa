@@ -6,7 +6,7 @@ const Calenderevent = () => {
           Calender Event IYSA 2025
         </h1>
         <iframe className="iframe"
-          src="https://heyzine.com/flip-book/0f297518a9.html"
+          src="https://heyzine.com/flip-book/a05c3e5f10.html"
           allowFullScreen
           title="calender"
         ></iframe>
