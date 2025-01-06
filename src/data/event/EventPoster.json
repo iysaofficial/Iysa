@@ -1,24 +1,6 @@
 {
   "event": [                                                                                                                                                                                                                                                                                
     {
-      "id": 3,
-      "image": "./assets/images/poster/aiseef2025.jpeg",
-      "title": "Asean Innovative Science Environmental and Entrepreneur Fair (AISEEF) 2025",
-      "level": "International",
-      "location": "Universitas Diponegoro, Semarang.",
-      "date": "February 2nd - 7th, 2025",
-      "link": "/EventPage3"
-    },
-    {
-      "id": 4,
-      "image": "./assets/images/poster/niseef2025.jpeg",
-      "title": "National Innovative Science Environmental and Entrepreneur Fair (NISEEF) 2025",
-      "level": "Nasional",
-      "location": "Universitas Diponegoro, Semarang.",
-      "date": "2 - 7 Februari, 2025",
-      "link": "/EventPage4"
-    },
-    {
       "id": 9,
       "image": "./assets/images/poster/YISF.WebP",
       "title": "YOUTH INTERNATIONAL SCIENCE FAIR (YISF) 2025",
