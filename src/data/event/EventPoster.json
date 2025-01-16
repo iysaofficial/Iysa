@@ -1,22 +1,13 @@
 {
-  "event": [                                                                                                                                                                                                                                                                                
+  "event": [  
     {
-      "id": 9,
-      "image": "./assets/images/poster/YISF.WebP",
-      "title": "YOUTH INTERNATIONAL SCIENCE FAIR (YISF) 2025",
-      "level": "International",
-      "location": "Universitas Negeri Malang, Indonesia.",
-      "date": "February 21st - 25th, 2024",
-      "link": "/EventPage26"
-    },
-    {
-      "id": 10,
-      "image": "./assets/images/poster/YNSF.WebP",
-      "title": "YOUTH NATIONAL SCIENCE FAIR (YNSF) 2025",
-      "level": "National",
-      "location": "Universitas Negeri Malang, Indonesia.",
-      "date": "February 21 - 25, 2024",
-      "link": "/EventPage27"
+      "id": 1,
+      "image": "./assets/images/poster/lktin.WebP",
+      "title": "LOMBA KARYA TULIS ILMIAH NASIONAL (LKTIN) 2025",
+      "level": "Nasional",
+      "location": "Kompetisi Online",
+      "date": "17 Februari - 12 Maret, 2025",
+      "link": "/EventPage1"
     }
   ]
 }

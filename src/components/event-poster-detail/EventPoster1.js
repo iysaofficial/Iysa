@@ -43,44 +43,62 @@ function EventPoster1() {
                 <div className="main-colom row col-12 mt-5 mb-5 mx-auto">
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail1.title}</h1>
-                    <p>Opening Event in 2025 3rd GYIIF🥳</p>
-                    <p>Global Youth Invention and Innovation Fair</p>
+                    <p>📝LKTIN 2025📝 LKTIN Smart Researcher ke-4</p>
+                    <p>Event ini akan dilaksanakan secara online dengan jadwal sebagai berikut:</p>
                     <br></br>
-                    <p>
-                    IYSA will hold 3rd GYIIF in collaboration with the Department of Food Science and Technology, Institut Pertanian Bogor.
+                    {/* <p>
+                      IYSA will hold 3rd GYIIF in collaboration with the
+                      Department of Food Science and Technology, Institut
+                      Pertanian Bogor.
                     </p>
 
                     <p>
-                   This event will take place in January 2025, will be conducted online and offline at the Institut Pertanian Bogor 👏🏻👏🏻
+                      This event will take place in January 2025, will be
+                      conducted online and offline at the Institut Pertanian
+                      Bogor 👏🏻👏🏻
                     </p>
-                    <br></br>
+                    <br></br> */}
 
-                    <p>Save the date ‼️</p>
+                    {/* <p>Save the date ‼️</p> */}
                     <ul>
                       <li>
-                        <strong>📍Registration Deadline: </strong> December 15, 2024
+                        <strong>📍Batas Pendaftaran : </strong> 13 Februari 2025
                       </li>
                       <li>
-                        <strong>📍Payment Deadline: </strong> December 22, 2024
+                        <strong>📍Batas Pembayaran : </strong> 17 Februari 2025
                       </li>
                       <li>
-                        <strong>📍Event date: </strong> January 11-14, 2025
+                        <strong>📍Pengumpulan Full Paper : </strong> 17 Februari 2025
+                      </li>
+                      <li>
+                        <strong>📍Pengumuman Finalis 10 besar : </strong> 28 Februari 2025
+                      </li>
+                      <li>
+                        <strong>📍Penjurian Daring : </strong> 10 Maret 2025
+                      </li>
+                      <li>
+                        <strong>📍Pengumuman Pemenang : </strong> 12 Maret 2025
                       </li>
                     </ul>
                     <br></br>
+                    <p>Link Pendaftaran:!!</p>
+                    <p>📱Daftar Sekarang 👇🏻</p>
                     <p>
-                    What are you waiting for, let's register!!
+                      website :
+                      <a href="https://www.lktin.or.id/ " target="_blank" rel="noreferrer" >
+                        lktin.or.id
+                      </a>
                     </p>
-                    <p>📱Register now 👇🏻</p>
+
                     <a
                       className="btn btn-primary mb-4"
                       href={EventPosterDetail1.LinkRegist}
                       target="-blank"
                     >
-                      Registration Here
+                      Daftar Disini
                     </a>
                     <br></br>
-                    <p>See you in Semarang, Indonesia🙋‍♂️</p>
+                    {/* <p>See you in Semarang, Indonesia🙋‍♂️</p> */}
                     <br />
                     <p className="hastag">{EventPosterDetail1.Hastag}</p>
                     <br></br>
@@ -113,7 +131,8 @@ function EventPoster1() {
                           window.location.href
                         )}`}
                         title="Share this page on Facebook"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquareFacebook}
@@ -126,7 +145,8 @@ function EventPoster1() {
                           window.location.href
                         )}`}
                         title="Share this page on Twitter"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquareTwitter}
@@ -139,7 +159,8 @@ function EventPoster1() {
                           window.location.href
                         )}`}
                         title="Share this page on Linkedin"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faLinkedin}
@@ -152,7 +173,8 @@ function EventPoster1() {
                           window.location.href
                         )}`}
                         title="Share this page on Pinterest"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquarePinterest}
@@ -176,7 +198,10 @@ function EventPoster1() {
                     {showContent && (
                       <div className="row event-venue">
                         <div className="event-venue-left col-lg-3 col-12">
-                          <img src={EventPosterDetail1.ImageVeneu} alt="veneu"></img>
+                          <img
+                            src={EventPosterDetail1.ImageVeneu}
+                            alt="veneu"
+                          ></img>
                         </div>
                         <div className="event-venue-right col-lg-8 col-12 mt-auto mb-auto">
                           <a
