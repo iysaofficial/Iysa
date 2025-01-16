@@ -46,22 +46,26 @@ function EventPoster3() {
                 <div className="main-colom row col-12 mt-5 mb-5">
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail3.title}</h1>
-                    <p>‼️6th AISEEF 2025‼️</p>
-                    <p>International Event</p>
+                    <p>IIF 2025 ke-3</p>
+                    <p>Kompetisi Daring Tingkat Nasional</p>
                     <br></br>
                     <p>
-                    After the success of the AISEEF 2024 event, IYSA is again collaborating with the Faculty of Engineering, Diponegoro University.
+                      Hai peneliti belia 🙋‍♀️ Untuk mengisi kegiatan di bulan
+                      Ramadhan, event nasional IYSA, yaitu @iif.official kembali
+                      lagi ni ditahun 2025!
                     </p>
 
-                    <p>
-                    ASEAN INNOVATIVE SCIENCE ENVIRONMENTAL AND ENTREPRENEUR FAIR 2025
+                    {/* <p>
+                      ASEAN INNOVATIVE SCIENCE ENVIRONMENTAL AND ENTREPRENEUR
+                      FAIR 2025
                     </p>
                     <br></br>
 
                     <p>Save the date ‼️</p>
                     <ul>
                       <li>
-                        <strong>📍Registration deadline: </strong> January 3, 2025
+                        <strong>📍Registration deadline: </strong> January 3,
+                        2025
                       </li>
                       <li>
                         <strong>📍Payment deadline: </strong> January 10, 2025
@@ -70,12 +74,19 @@ function EventPoster3() {
                         <strong>📍Event date:</strong>February 3-6, 2025
                       </li>
                       <li>
-                        <strong>📍Venue:</strong> Diponegoro University, Semarang
+                        <strong>📍Venue:</strong> Diponegoro University,
+                        Semarang
                       </li>
-                    </ul>
+                    </ul> */}
                     <br></br>
+                    <p>Daftar disini ya:</p>
+                    <p>Link Pendaftaran:!!</p>
+                    {/* <p>📱Daftar Sekarang 👇🏻</p> */}
                     <p>
-                    What are you waiting for, let's register!!
+                      website :
+                      <a href="https://www.iif-nasional.or.id/ " target="_blank" rel="noreferrer" >
+                        iif-nasional.or.id
+                      </a>
                     </p>
                     <p>📱Registration Link: 👇</p>
                     <a
@@ -86,7 +97,7 @@ function EventPoster3() {
                       Registration Here
                     </a>
                     <br></br>
-                    <p>See you in Semarang, Indonesia🙋‍♂️</p>
+                    {/* <p>See you in Semarang, Indonesia🙋‍♂️</p> */}
                     <br />
                     <p className="hastag">{EventPosterDetail3.Hastag}</p>
                   </div>
@@ -118,7 +129,8 @@ function EventPoster3() {
                           window.location.href
                         )}`}
                         title="Share this page on Facebook"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquareFacebook}
@@ -131,7 +143,8 @@ function EventPoster3() {
                           window.location.href
                         )}`}
                         title="Share this page on Twitter"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquareTwitter}
@@ -144,7 +157,8 @@ function EventPoster3() {
                           window.location.href
                         )}`}
                         title="Share this page on Linkedin"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faLinkedin}

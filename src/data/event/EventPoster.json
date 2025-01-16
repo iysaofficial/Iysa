@@ -8,6 +8,24 @@
       "location": "Kompetisi Online",
       "date": "17 Februari - 12 Maret, 2025",
       "link": "/EventPage1"
+    },
+    {
+      "id": 2,
+      "image": "./assets/images/poster/ospc.WebP",
+      "title": "ONLINE SCIENCE PROJECT COMPETITION (OSPC ) 2025",
+      "level": "Nasional",
+      "location": "Kompetisi Online",
+      "date": "17 Februari - 12 Maret, 2025",
+      "link": "/EventPage2"
+    },
+    {
+      "id": 3,
+      "image": "./assets/images/poster/iif.WebP",
+      "title": "INVENTION AND INNOVATION FAIR (IIF) 2025",
+      "level": "Nasional",
+      "location": "Kompetisi Online",
+      "date": "17 Februari - 12 Maret, 2025",
+      "link": "/EventPage3"
     }
   ]
 }

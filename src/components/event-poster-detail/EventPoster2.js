@@ -46,15 +46,18 @@ function EventPoster2() {
                 <div className="main-colom row col-12 mt-5 mb-5">
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail2.title}</h1>
-                    <p>Opening Event in 2025 3rd IYMIA🥳</p>
+                    <p>OSPC 2025 Ke-7</p>
                     <p>
-                      IYSA will hold 3rd IYMIA in collaboration with the Department of Food Science and Technology, Institut Pertanian Bogor.
+                      Online Science Project Competition🎉 Kompetisi Daring
+                      Tingkat Nasional
                     </p>
                     <p>
-                      This event will take place in January 2025, conducted online and offline at the Institut Pertanian Bogor 👏🏻👏🏻
+                      Halo pelajar Indonesia, OSPC hadir lagi di tahun 2025,
+                      kalian yang mau ikut kompetisi secara online bisa daftar
+                      event ini yaa👏
                     </p>
                     <br></br>
-                    <p>Save the date ‼️</p>
+                    {/* <p>Save the date ‼️</p>
                     <ul>
                       <li>
                         <strong>📍Registration Deadline: </strong>December 15, 2024
@@ -65,7 +68,20 @@ function EventPoster2() {
                       <li>
                         <strong>📍Event Date: </strong> January 11-14, 2025
                       </li>
-                    </ul>
+                    </ul> */}
+
+                    <p>Gimana cara daftarnya?</p>
+                    <p>gampang kok, kalian bisa buka</p>
+                    <p>
+                    website :
+                      <a
+                        href="https://www.ospc.or.id/ "
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        ospc.or.id
+                      </a>
+                    </p>
 
                     <p>Register now 👇🏻</p>
                     <a
@@ -76,7 +92,7 @@ function EventPoster2() {
                       Registration Here
                     </a>
                     <br />
-                    <p>See you in Bogor, Indonesia 🙋‍♀️🙋‍♂️</p>
+                    {/* <p>See you in Bogor, Indonesia 🙋‍♀️🙋‍♂️</p> */}
                     <br></br>
                     <p className="hastag">{EventPosterDetail2.Hastag}</p>
                   </div>
@@ -109,7 +125,8 @@ function EventPoster2() {
                           window.location.href
                         )}`}
                         title="Share this page on Facebook"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquareFacebook}
@@ -122,7 +139,8 @@ function EventPoster2() {
                           window.location.href
                         )}`}
                         title="Share this page on Twitter"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquareTwitter}
@@ -135,7 +153,8 @@ function EventPoster2() {
                           window.location.href
                         )}`}
                         title="Share this page on Linkedin"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faLinkedin}
@@ -148,7 +167,8 @@ function EventPoster2() {
                           window.location.href
                         )}`}
                         title="Share this page on Pinterest"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquarePinterest}
@@ -172,7 +192,10 @@ function EventPoster2() {
                     {showContent && (
                       <div className="row event-venue">
                         <div className="event-venue-left col-3">
-                          <img src={EventPosterDetail2.ImageVeneu} alt="Veneu"></img>
+                          <img
+                            src={EventPosterDetail2.ImageVeneu}
+                            alt="Veneu"
+                          ></img>
                         </div>
                         <div className="event-venue-right col-8 mt-auto mb-auto">
                           <a
