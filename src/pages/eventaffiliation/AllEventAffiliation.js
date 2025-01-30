@@ -3,7 +3,7 @@ import "../../css/event/allEventPosterPage.css"
 function AllEventAffiliation() {
     return (  
       <div>
-        <AllEventPoster />
+        <AllEventPoster></AllEventPoster>
       </div>
     );
   }

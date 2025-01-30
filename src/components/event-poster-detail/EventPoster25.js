@@ -39,7 +39,7 @@ function EventPoster25() {
                       <FontAwesomeIcon icon={faArrowLeft} /> Previous Page{" "}
                     </a>{" "}
                   </div>
-                  <img src={EventPosterDetail25.image}></img>
+                  <img src={EventPosterDetail25.image} alt="foto"></img>
                 </div>
                 <br />
                 <br />
@@ -97,9 +97,9 @@ function EventPoster25() {
                     <p className="hastag">{EventPosterDetail25.Hastag}</p>
                   </div>
                   <div className="colom-right col-md-4 text-center text-md-start ">
-                    <a className="btn btn-primary shadow mt-2">
+                    <p className="btn btn-primary shadow mt-2">
                       About The Event
-                    </a>
+                    </p>
                     <br />
                     <br />
                     <h4 className="fw-bolder">Date and Time</h4>
@@ -187,7 +187,7 @@ function EventPoster25() {
                     {showContent && (
                       <div className="row event-venue">
                         <div className="event-venue-left col-6">
-                          <img src={EventPosterDetail25.ImageVeneu}></img>
+                          <img src={EventPosterDetail25.ImageVeneu} alt="foto"></img>
                         </div>
                         <div className="event-venue-right col-8 mt-auto mb-auto">
                           <a

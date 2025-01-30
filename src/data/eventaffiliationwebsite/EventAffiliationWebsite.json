@@ -65,6 +65,12 @@
         "WebsiteName": "INNOVERSE EXPO",
         "EventType": "Affiliation",
         "link": "/EventAffiliationPage11"
+      },
+      {
+        "Id": "1",
+        "WebsiteName": "ICPC",
+        "EventType": "Affiliation",
+        "link": "/EventAffiliationPage12"
       }
     ]
   }

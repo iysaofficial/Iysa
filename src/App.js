@@ -36,6 +36,7 @@ import EventAffiliationPage8 from "./pages/alleventaffiliationweb/EventAffiliati
 import EventAffiliationPage9 from "./pages/alleventaffiliationweb/EventAffiliationPage9";
 import EventAffiliationPage10 from "./pages/alleventaffiliationweb/EventAffiliationPage10";
 import EventAffiliationPage11 from "./pages/alleventaffiliationweb/EventAffiliationPage11";
+import EventAffiliationPage12 from "./pages/alleventaffiliationweb/EventAffiliationPage112";
 
 // Import Team
 import ExpertTeam from "./components/team/ExpertTeam";
@@ -194,6 +195,10 @@ function App() {
             <Route
               path="/EventAffiliationPage11"
               element={<EventAffiliationPage11 />}
+            />
+            <Route
+              path="/EventAffiliationPage12"
+              element={<EventAffiliationPage12 />}
             />
 
             {/* Curation */}

@@ -26,70 +26,70 @@ const ExpertTeam = () => {
                 <h1 className='text-center row-cols-sm-2'>IYSA Expert Team</h1>
                 <div className="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
                     <div className="col">
-                        <img src="./assets/images/team/1.png" className="gallery-item " alt="gallery" />
+                        <img src="./assets/images/team/NewDesign/1.png" className="gallery-item " alt="gallery" />
                     </div>
                     <div className="col">
-                        <img src="./assets/images/team/2.png" className="gallery-item" alt="gallery" />
+                        <img src="./assets/images/team/NewDesign/2.png" className="gallery-item" alt="gallery" />
                     </div>
                     <div className="col">
-                        <img src="./assets/images/team/3.png" className="gallery-item" alt="gallery" />
+                        <img src="./assets/images/team/NewDesign/3.png" className="gallery-item" alt="gallery" />
                     </div>
                     <div className="col">
-                        <img src="./assets/images/team/4.png" className="gallery-item" alt="gallery" />
+                        <img src="./assets/images/team/NewDesign/4.png" className="gallery-item" alt="gallery" />
                     </div>
                     <div className="col">
-                        <img src="./assets/images/team/5.png" className="gallery-item" alt="gallery" />
+                        <img src="./assets/images/team/NewDesign/5.png" className="gallery-item" alt="gallery" />
                     </div>
                     <div className="col">
-                        <img src="./assets/images/team/6.png" className="gallery-item" alt="gallery" />
+                        <img src="./assets/images/team/NewDesign/6.png" className="gallery-item" alt="gallery" />
                     </div>
                     {/* <div className="col">
-                        <img src="./assets/images/team/7.png" className="gallery-item" alt="gallery" />
+                        <img src="./assets/images/team/NewDesign/7.png" className="gallery-item" alt="gallery" />
                     </div> */}
                     <div className="col">
-                        <img src="./assets/images/team/8.png" className="gallery-item" alt="gallery" />
+                        <img src="./assets/images/team/NewDesign/8.png" className="gallery-item" alt="gallery" />
                     </div>
                     <div className="col">
-                        <img src="./assets/images/team/9.png" className="gallery-item" alt="gallery" />
+                        <img src="./assets/images/team/NewDesign/9.png" className="gallery-item" alt="gallery" />
                     </div>
                     <div className="col">
-                        <img src="./assets/images/team/10.png" className="gallery-item" alt="gallery" />
+                        <img src="./assets/images/team/NewDesign/10.png" className="gallery-item" alt="gallery" />
                     </div>
                     <div className="col">
-                        <img src="./assets/images/team/11.png" className="gallery-item" alt="gallery" />
+                        <img src="./assets/images/team/NewDesign/11.png" className="gallery-item" alt="gallery" />
                     </div>
                     <div className="col">
-                        <img src="./assets/images/team/12.png" className="gallery-item" alt="gallery" />
+                        <img src="./assets/images/team/NewDesign/12.png" className="gallery-item" alt="gallery" />
                     </div>
                     <div className="col">
-                        <img src="./assets/images/team/13.png" className="gallery-item" alt="gallery" />
+                        <img src="./assets/images/team/NewDesign/13.png" className="gallery-item" alt="gallery" />
                     </div>
                     <div className="col">
-                        <img src="./assets/images/team/14.png" className="gallery-item" alt="gallery" />
+                        <img src="./assets/images/team/NewDesign/14.png" className="gallery-item" alt="gallery" />
                     </div>
                     <div className="col">
-                        <img src="./assets/images/team/15.png" className="gallery-item" alt="gallery" />
+                        <img src="./assets/images/team/NewDesign/15.png" className="gallery-item" alt="gallery" />
                     </div>
                     {/* <div className="col">
-                        <img src="./assets/images/team/16.png" className="gallery-item" alt="gallery" />
+                        <img src="./assets/images/team/NewDesign/16.png" className="gallery-item" alt="gallery" />
                     </div> */}
                     <div className="col">
-                        <img src="./assets/images/team/17.png" className="gallery-item" alt="gallery" />
+                        <img src="./assets/images/team/NewDesign/17.png" className="gallery-item" alt="gallery" />
                     </div>
                     <div className="col">
-                        <img src="./assets/images/team/18.png" className="gallery-item" alt="gallery" />
+                        <img src="./assets/images/team/NewDesign/18.png" className="gallery-item" alt="gallery" />
                     </div>
                     <div className="col">
-                        <img src="./assets/images/team/19.png" className="gallery-item" alt="gallery" />
+                        <img src="./assets/images/team/NewDesign/19.png" className="gallery-item" alt="gallery" />
                     </div>
                     <div className="col">
-                        <img src="./assets/images/team/20.png" className="gallery-item" alt="gallery" />
+                        <img src="./assets/images/team/NewDesign/20.png" className="gallery-item" alt="gallery" />
                     </div>
                     <div className="col">
-                        <img src="./assets/images/team/21.png" className="gallery-item" alt="gallery" />
+                        <img src="./assets/images/team/NewDesign/21.png" className="gallery-item" alt="gallery" />
                     </div>
                     {/* <div className="col">
-                        <img src="./assets/images/team/23.png" className="gallery-item" alt="gallery" />
+                        <img src="./assets/images/team/NewDesign/23.png" className="gallery-item" alt="gallery" />
                     </div> */}
                 </div>
             </div>

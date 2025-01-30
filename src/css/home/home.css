@@ -930,3 +930,7 @@ input::placeholder {
 }
 
 /*-------------------------- newsletter end --------------------------*/
+
+.text-justify {
+  text-align: justify;
+}
