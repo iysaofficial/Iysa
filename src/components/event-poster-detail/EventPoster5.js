@@ -46,34 +46,38 @@ function EventPoster5() {
                 <div className="main-colom row col-12 mt-5 mb-5">
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail5.title}</h1>
+                    <p>Event Olimpiade IYSA di bulan April 2025🥳</p>
                     <p>
-                    ADVANCED INNOVATION GLOBAL
-                    COMPETITION 2024
+                      IYSA kembali menyelenggarakan event nasional yaitu
+                      OLIMPIADE SAINS SISWA MADRASAH NASIONAL 2025, kompetisi
+                      daring ini bisa diikuti oleh pelajar madrasah seperti MI,
+                      MTS, MA & MAN ayo bersiap daftarkan tim kalian ! 💥
                     </p>
-                    <p>IYSA affiliation event in Singapore, come and join guys!
-                    For more information and guide book you can check in registration link 👇🏻</p>
                     <p></p>
                     <p></p>
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📍 Registration Deadline:</strong> 5th November 2024
+                        <strong>📍 Registration Deadline:</strong> 10 Maret 2025
                       </li>
-                      <li>
+                      {/* <li>
                         <strong>📍 Payment Deadline:</strong> 7th November 2024
-                      </li>
+                      </li> */}
                       <li>
-                        <strong>📍 Event Date:</strong> 17th - 18th December 2024
+                        <strong>📍 Event Date:</strong> 10 - 17 April 2025
                       </li>
                     </ul>
                     <br></br>
 
-                    <p>For those of you who want to take part in this
-                    competition, let's register via</p>
+                    <p>Daftar melalui</p>
                     <p>
                       📱Register via:
-                      <a href="https://bit.ly/AIGC_REGISTRATION_FORM_2024" target="_blank" rel="noreferrer" >
-                      https://bit.ly/AIGC_REGISTRATION_FORM_2024
+                      <a
+                        href="https://www.os2mn.or.id/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                         www.os2mn.or.id
                       </a>
                     </p>
 
@@ -116,7 +120,8 @@ function EventPoster5() {
                           window.location.href
                         )}`}
                         title="Share this page on Facebook"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquareFacebook}
@@ -129,7 +134,8 @@ function EventPoster5() {
                           window.location.href
                         )}`}
                         title="Share this page on Twitter"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquareTwitter}
@@ -142,7 +148,8 @@ function EventPoster5() {
                           window.location.href
                         )}`}
                         title="Share this page on Linkedin"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faLinkedin}
@@ -155,7 +162,8 @@ function EventPoster5() {
                           window.location.href
                         )}`}
                         title="Share this page on Pinterest"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquarePinterest}

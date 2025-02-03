@@ -26,6 +26,24 @@
       "location": "Kompetisi Online",
       "date": "17 Februari - 12 Maret, 2025",
       "link": "/EventPage3"
+    },
+    {
+      "id": 4,
+      "image": "./assets/images/poster/wseec.jpeg",
+      "title": "IWorld Science Environment And Engineering Competition (WSEEC) 2025",
+      "level": "Internasional",
+      "location": "hybrid",
+      "date": "May 19 - 22, 2025",
+      "link": "/EventPage4"
+    },
+    {
+    "id": 5,
+    "image": "./assets/images/poster/os2mn.jpeg",
+    "title": "OLIMPIADE SAINS SISWA MADRASAH NASIONAL (OS2MN) 2025",
+    "level": "Nasional",
+    "location": "Kompetisi Online",
+    "date": "10 - 17 April 2025",
+    "link": "/EventPage5"
     }
   ]
 }

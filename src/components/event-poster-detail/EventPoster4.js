@@ -46,42 +46,48 @@ function EventPoster4() {
                 <div className="main-colom row col-12 mt-5 mb-5">
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail4.title}</h1>
-                    <p>‼️NISEEF 2025 Ke-1‼️</p>
-                    <p>Event Nasional</p>
+                    <p>WSEEC 2025🔥</p>
+                    <p>Hello, hi young scientists🙋‍♀️🙋‍♂️</p>
                     <br></br>
                     <p>
-                      Setelah sukses diajang Internasional AISEEF, IYSA kembali berkolaborasi dengan Fakultas Teknik Universitas Diponegoro akan menggelar event nasional yaitu NISEEF untuk pertama kali nya
+                      In May 2025 IYSA is holding an international hybrid event
+                      which will be held in Jakarta, Indonesia.
                     </p>
                     <p>
-                      NATIONAL INNOVATIVE SCIENCE ENVIRONMENTAL AND ENTREPRENEUR FAIR 2025
+                      In collaboration with Pancasila University, the Faculty of
+                      Pharmacy and Institut Pertanian Bogor (IPB). This event
+                      will take place on May 19-22, 2025 at Pancasila
+                      University.
                     </p>
-                    <p>Kompetisi online dan offline 🎉🤗</p>
+                    <p>
+                      Save this information and share it with your friends!! and
+                      don't forget to register👇
+                    </p>
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📍Batas akhir pendaftaran: </strong>3 Januari 2025
+                        <strong>📍Registration Deadline: </strong>April 14, 2025
                       </li>
                       <li>
-                        <strong>📍Batas akhir pembayaran: </strong> 10 Januari 2025
+                        <strong>📍Payment Deadline: </strong> April 21, 2025
                       </li>
                       <li>
-                        <strong>📍Tanggal acara: </strong> 3-6 Februari 2025
+                        <strong>📍TEvent Date: </strong> May 19-22, 2025
                       </li>
-                      <li>
-                        <strong>📍Tempat: </strong>  Universitas Diponegoro Semarang
-                      </li>
+                      {/* <li>
+                        <strong>📍Tempat: </strong> Universitas Diponegoro
+                        Semarang
+                      </li> */}
                     </ul>
 
-                    <p>
-                      Tunggu apa lagi, yuk daftar!!
-                    </p>
+                    {/* <p>Tunggu apa lagi, yuk daftar!!</p> */}
                     <br></br>
                     <a
                       className="btn btn-primary mb-4"
                       href={EventPosterDetail4.LinkRegist}
                       target="-blank"
                     >
-                      Daftar Disini
+                      Regist Here
                     </a>
                     <br></br>
                     {/* <p>Sampai jumpa di Malaysia</p> */}
@@ -116,7 +122,8 @@ function EventPoster4() {
                           window.location.href
                         )}`}
                         title="Share this page on Facebook"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquareFacebook}
@@ -129,7 +136,8 @@ function EventPoster4() {
                           window.location.href
                         )}`}
                         title="Share this page on Twitter"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquareTwitter}
@@ -142,7 +150,8 @@ function EventPoster4() {
                           window.location.href
                         )}`}
                         title="Share this page on Linkedin"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faLinkedin}
@@ -155,7 +164,8 @@ function EventPoster4() {
                           window.location.href
                         )}`}
                         title="Share this page on Pinterest"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquarePinterest}
