@@ -17,7 +17,8 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 // Import Data
-import EventPosterDetail from "../../data/event/EventPosterDetail.json";
+// import EventPosterDetail from "../../data/event/EventPosterDetail.json";
+import EventPosterDetail from "../../data/eventaffiliasi/EventPosterDetailAffiliasi.json"
 
 function EventPoster6() {
   const [showContent, setShowContent] = useState(false);
@@ -51,32 +52,33 @@ function EventPoster6() {
                     </p>
                     <br></br>
                     <p>
-                    There is one more offline event in Korea, the International Creative Papers Conference (ICPC) 2024.
+                    Korea International Women's Invention Exposition 2025 is back 🎉
                     </p>
                     <br></br>
-                    <p>An IYSA affiliated event that will take place in January 2025 offline, at Seoul National University of Education, Korea.</p>
+                    <p>Will be held in a hybrid manner in Korea on May 22-24, 2025🔥👏</p>
                     <br></br>
+                    <p>Let's register for KIWIE 2025, when else can you compete but can also travel 😍, you can register via this link👇</p>
                     <ul>
                       <li>
-                        <strong>📍Registration Deadline:</strong> December 6th, 2024
+                        <strong>📍Registration Deadline:</strong> April 25, 2025
                       </li>
                       <li>
-                        <strong>📍Payment Deadline: </strong> December 17th, 2024
+                        <strong>📍Payment Deadline: </strong> April 30, 2025
                       </li>
                       <li>
                         <strong>📍Event Date: </strong> 
-                        January 17th - 19th, 2025
+                        May 22 - 24, 2025
                       </li>
                       <li>
-                        <strong>📍Venue: </strong> Seoul National University of Education, Korea
+                        <strong>📍Venue: </strong> Hall 10A, Exhibition Center 2, KINTEX
                       </li>
                     </ul>
                     <br></br>
                     <p>registration now 🤩‼️‼️</p>
                     <p>
                       📱Register via:
-                      <a href="https://bit.ly/Registration-ICPC-2024" target="_blank" rel="noreferrer" >
-                        &nbsp;https://bit.ly/Registration-ICPC-2024
+                      <a href="https://bit.ly/REGISTRATION-KIWIE-2025" target="_blank" rel="noreferrer" >
+                        &nbsp;https://bit.ly/REGISTRATION-KIWIE-2025
                       </a>
                     </p>
                     <br></br>

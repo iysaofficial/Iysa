@@ -1,14 +1,14 @@
 {
-    "event1": [
+    "event6": [
       {
         "id": 1,
-        "image": "./assets/images/poster/sgie.WebP",
-        "title": "Saudi Global Invention and Innovations Expo (SGIE) 2024",
-        "LinkRegist": "https://bit.ly/Registration-SGiE-2024",
-        "Hastag": "#iysaevent #iysa2024 #iysaofficial #iysaafiliasi #SGiE2024",
-        "DateAdTime": "5 - 8 November, 2024",
-        "RegistEndDate": "11 September, 2024",
-        "Location": "KINGDOM OF SAUDI ARABIA - JEDDAH",
+        "image": "./assets/images/poster/Kiwie.jpg",
+        "title": "KOREA INTERNATIONAL WOMEN'S INVENTION EXPOSITION",
+        "LinkRegist": "https://bit.ly/REGISTRATION-KIWIE-2025",
+        "Hastag": "#kiwie2025 #iysaeventafiliasi #infolomba #2025 #korea #hybrid",
+        "DateAdTime": "22nd - 24th May, 2025",
+        "RegistEndDate": "25th April, 2025",
+        "Location": "Hall 10A, Exhibition Center 2, KINTEX",
         "EventType": "Internasional",
         "EventCategory": "IYSA Event Affiliation",
         "ImageVeneu": "",
