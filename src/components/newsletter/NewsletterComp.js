@@ -26,6 +26,13 @@ const NewsletterComp = () => {
             <button
               type="button"
               className="control"
+              onClick={() => handleFilterChange("duapuluhlima")}
+            >
+              2025
+            </button>
+            <button
+              type="button"
+              className="control"
               onClick={() => handleFilterChange("duapuluhempat")}
             >
               2024
