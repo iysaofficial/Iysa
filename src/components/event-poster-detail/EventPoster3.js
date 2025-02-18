@@ -46,46 +46,55 @@ function EventPoster3() {
                 <div className="main-colom row col-12 mt-5 mb-5">
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail3.title}</h1>
-                    <p>IIF 2025 ke-3</p>
-                    <p>Kompetisi Daring Tingkat Nasional</p>
+                    <p>🌐I3O 2025🌐 HYBRID COMPETITION</p>
+                    <p>
+                      Indonesian Young Scientist Association in collaboration
+                      with Warmadewa University Denpasar🎉
+                    </p>
                     <br></br>
                     <p>
-                      Hai peneliti belia 🙋‍♀️ Untuk mengisi kegiatan di bulan
-                      Ramadhan, event nasional IYSA, yaitu @iif.official kembali
-                      lagi ni ditahun 2025!
+                      Will hold an International event namely the Indonesia
+                      International IoT Olympiad (I3O) 2025 in Bali, Indonesia
+                      👏🏻👏🏻
                     </p>
 
                     {/* <p>
                       ASEAN INNOVATIVE SCIENCE ENVIRONMENTAL AND ENTREPRENEUR
                       FAIR 2025
-                    </p>
+                    </p> */}
                     <br></br>
 
-                    <p>Save the date ‼️</p>
+                    <p>Save the date! 👇🏻</p>
                     <ul>
                       <li>
-                        <strong>📍Registration deadline: </strong> January 3,
-                        2025
+                        <strong>📍Registration deadline: </strong> May 14, 2025
                       </li>
                       <li>
-                        <strong>📍Payment deadline: </strong> January 10, 2025
+                        <strong>📍Payment deadline: </strong> May 20, 2025
                       </li>
                       <li>
-                        <strong>📍Event date:</strong>February 3-6, 2025
+                        <strong>📍Event date:</strong>June 19 - 23, 2025
                       </li>
-                      <li>
+                      {/* <li>
                         <strong>📍Venue:</strong> Diponegoro University,
                         Semarang
-                      </li>
-                    </ul> */}
+                      </li> */}
+                    </ul>
                     <br></br>
-                    <p>Daftar disini ya:</p>
-                    <p>Link Pendaftaran:!!</p>
+                    <p>
+                      So wait no more, Make sure you and your team join this
+                      event!
+                    </p>
+                    <p>Register via:</p>
                     {/* <p>📱Daftar Sekarang 👇🏻</p> */}
                     <p>
                       website :
-                      <a href="https://www.iif-nasional.or.id/ " target="_blank" rel="noreferrer" >
-                        iif-nasional.or.id
+                      <a
+                        href="https://i3o.or.id/ "
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        i3o.or.id
                       </a>
                     </p>
                     <p>📱Registration Link: 👇</p>
@@ -97,7 +106,7 @@ function EventPoster3() {
                       Registration Here
                     </a>
                     <br></br>
-                    {/* <p>See you in Semarang, Indonesia🙋‍♂️</p> */}
+                    <p>See you 🙋‍♀️🙋‍♂️</p>
                     <br />
                     <p className="hastag">{EventPosterDetail3.Hastag}</p>
                   </div>

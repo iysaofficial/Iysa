@@ -2,29 +2,29 @@
   "event": [  
     {
       "id": 1,
-      "image": "./assets/images/poster/lktin.WebP",
-      "title": "LOMBA KARYA TULIS ILMIAH NASIONAL (LKTIN) 2025",
-      "level": "Nasional",
-      "location": "Kompetisi Online",
-      "date": "17 Februari - 12 Maret, 2025",
+      "image": "./assets/images/poster/bisf.WebP",
+      "title": "Bali International Science Fair (BISF) 2025",
+      "level": "International",
+      "location": "hybrid",
+      "date": "June 19 - 23, 2025",
       "link": "/EventPage1"
     },
     {
       "id": 2,
-      "image": "./assets/images/poster/ospc.WebP",
-      "title": "ONLINE SCIENCE PROJECT COMPETITION (OSPC ) 2025",
-      "level": "Nasional",
-      "location": "Kompetisi Online",
-      "date": "17 Februari - 12 Maret, 2025",
+      "image": "./assets/images/poster/iybc.WebP",
+      "title": "INTERNATIONAL YOUTH BUSINESS COMPETITION (IYBC) 2025",
+      "level": "International",
+      "location": "hybrid",
+      "date": "June 19 - 23, 2025",
       "link": "/EventPage2"
     },
     {
       "id": 3,
-      "image": "./assets/images/poster/iif.WebP",
-      "title": "INVENTION AND INNOVATION FAIR (IIF) 2025",
-      "level": "Nasional",
-      "location": "Kompetisi Online",
-      "date": "17 Februari - 12 Maret, 2025",
+      "image": "./assets/images/poster/i3o.WebP",
+      "title": "International IoT Olympiad (I3O) 2025",
+      "level": "International",
+      "location": "hybrid",
+      "date": "June 19 - 23, 2025",
       "link": "/EventPage3"
     },
     {

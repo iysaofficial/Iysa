@@ -46,40 +46,40 @@ function EventPoster2() {
                 <div className="main-colom row col-12 mt-5 mb-5">
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail2.title}</h1>
-                    <p>OSPC 2025 Ke-7</p>
+                    <p>IYBC 2025 Hybrid Competition</p>
                     <p>
-                      Online Science Project Competition🎉 Kompetisi Daring
-                      Tingkat Nasional
+                      Indonesian Young Scientist Association in collaboration
+                      with Warmadewa University Denpasar🎉
                     </p>
                     <p>
-                      Halo pelajar Indonesia, OSPC hadir lagi di tahun 2025,
-                      kalian yang mau ikut kompetisi secara online bisa daftar
-                      event ini yaa👏
+                      Will hold an International event namely the INTERNATIONAL
+                      YOUTH BUSINESS COMPETITION in Bali, Indonesia 👏🏻👏🏻
                     </p>
                     <br></br>
-                    {/* <p>Save the date ‼️</p>
+                    <p>Save the date! 👇🏻</p>
                     <ul>
                       <li>
-                        <strong>📍Registration Deadline: </strong>December 15, 2024
+                        <strong>📍Registration Deadline: </strong>May 14, 2025
                       </li>
                       <li>
-                        <strong>📍Payment Deadline: </strong>December 22, 2024
+                        <strong>📍Payment Deadline: </strong>May 20, 2025
                       </li>
                       <li>
-                        <strong>📍Event Date: </strong> January 11-14, 2025
+                        <strong>📍Event Date: </strong> June 19 - 23, 2025
                       </li>
-                    </ul> */}
+                    </ul>
 
-                    <p>Gimana cara daftarnya?</p>
-                    <p>gampang kok, kalian bisa buka</p>
+                    <p>So wait no more,
+                    Make sure you and your team join this event!</p>
+                    <p>Register via:</p>
                     <p>
-                    website :
+                      website :
                       <a
-                        href="https://www.ospc.or.id/ "
+                        href="https://www.iybc.or.id/ "
                         target="_blank"
                         rel="noreferrer"
                       >
-                        ospc.or.id
+                        iybc.or.id
                       </a>
                     </p>
 

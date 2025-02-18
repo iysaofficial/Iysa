@@ -43,50 +43,62 @@ function EventPoster1() {
                 <div className="main-colom row col-12 mt-5 mb-5 mx-auto">
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail1.title}</h1>
-                    <p>📝LKTIN 2025📝 LKTIN Smart Researcher ke-4</p>
-                    <p>Event ini akan dilaksanakan secara online dengan jadwal sebagai berikut:</p>
+                    <p>1st BISF 2025 Bali International Science Fair</p>
+                    <p>
+                      Bali is a foreign tourist destination in Indonesia, with
+                      its culture Bali is able to attract foreign interest to
+                      come there.
+                    </p>
                     <br></br>
-                    {/* <p>
-                      IYSA will hold 3rd GYIIF in collaboration with the
-                      Department of Food Science and Technology, Institut
-                      Pertanian Bogor.
+                    <p>
+                      IYSA for the first time in collaboration with Warmadewa
+                      University Denpasar, held the Bali International Science
+                      Fair 2025, this event is expected to continue to grow in
+                      providing potential for young researchers around the
+                      world.
                     </p>
 
-                    <p>
+                    {/* <p>
                       This event will take place in January 2025, will be
                       conducted online and offline at the Institut Pertanian
                       Bogor 👏🏻👏🏻
-                    </p>
-                    <br></br> */}
+                    </p> */}
+                    <br></br>
 
-                    {/* <p>Save the date ‼️</p> */}
+                    <p>Save the date ‼️</p>
                     <ul>
                       <li>
-                        <strong>📍Batas Pendaftaran : </strong> 13 Februari 2025
+                        <strong>📍Registration Deadline : </strong> May 14, 2025
                       </li>
                       <li>
-                        <strong>📍Batas Pembayaran : </strong> 17 Februari 2025
+                        <strong>📍Payment & Submission Deadline : </strong> May
+                        20, 2025
                       </li>
                       <li>
-                        <strong>📍Pengumpulan Full Paper : </strong> 17 Februari 2025
+                        <strong>📍Event Date : </strong> June 19 - 23, 2025
                       </li>
-                      <li>
-                        <strong>📍Pengumuman Finalis 10 besar : </strong> 28 Februari 2025
+                      {/* <li>
+                        <strong>📍Pengumuman Finalis 10 besar : </strong> 28
+                        Februari 2025
                       </li>
                       <li>
                         <strong>📍Penjurian Daring : </strong> 10 Maret 2025
                       </li>
                       <li>
                         <strong>📍Pengumuman Pemenang : </strong> 12 Maret 2025
-                      </li>
+                      </li> */}
                     </ul>
                     <br></br>
-                    <p>Link Pendaftaran:!!</p>
-                    <p>📱Daftar Sekarang 👇🏻</p>
+                    <p>Registration Link:!!</p>
+                    <p>📱Come on, register now 👇🏻</p>
                     <p>
                       website :
-                      <a href="https://www.lktin.or.id/ " target="_blank" rel="noreferrer" >
-                        lktin.or.id
+                      <a
+                        href="https://www.bisf.or.id/ "
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        bisf.or.id
                       </a>
                     </p>
 
@@ -95,7 +107,7 @@ function EventPoster1() {
                       href={EventPosterDetail1.LinkRegist}
                       target="-blank"
                     >
-                      Daftar Disini
+                      Click Here
                     </a>
                     <br></br>
                     {/* <p>See you in Semarang, Indonesia🙋‍♂️</p> */}
