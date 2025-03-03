@@ -15,6 +15,23 @@
         "LinkGmaps": "",
         "NameLocation": ""
       }
+    ],
+    "event7": [
+      {
+        "id": 1,
+        "image": "./assets/images/poster/1world.jpeg",
+        "title": "INNOVATION DESIGN STARTUP COMPETITION 2025 (1idea1world)",
+        "LinkRegist": "https://bit.ly/Registration-1i1w-2025",
+        "Hastag": "#1idea1world #turki #iysaevent #iysaafiliasi #iysaevent",
+        "DateAdTime": "25th May - 26th April, 2025",
+        "RegistEndDate": "19th March, 2025",
+        "Location": "Turkey",
+        "EventType": "Internasional",
+        "EventCategory": "IYSA Event Affiliation",
+        "ImageVeneu": "",
+        "LinkGmaps": "",
+        "NameLocation": ""
+      }
     ]
   }
   

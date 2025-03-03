@@ -8,6 +8,15 @@
       "location": "Hybrid Competition",
       "date": "22nd May - 24th May, 2025",
       "link": "/EventPage6"
+    },
+    {
+      "id": 2,
+      "image": "./assets/images/poster/1world.jpeg",
+      "title": "INNOVATION DESIGN STARTUP COMPETITION 2025 (1idea1world)",
+      "level": "International",
+      "location": "Hybrid Competition",
+      "date": "25th May - 26th April, 2025",
+      "link": "/EventPage7"
     }
   ]
 }

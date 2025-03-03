@@ -18,7 +18,8 @@ import {
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 // Import Data
-import EventPosterDetail from "../../data/event/EventPosterDetail.json";
+// import EventPosterDetail from "../../data/event/EventPosterDetail.json";
+import EventPosterDetail from "../../data/eventaffiliasi/EventPosterDetailAffiliasi.json"
 
 function EventPoster7() {
   const [showContent, setShowContent] = useState(false);
@@ -46,38 +47,40 @@ function EventPoster7() {
                 <div className="main-colom row col-12 mt-5 mb-5">
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail7.title}</h1>
-                    <p>NRTC 2024 ke-4 🎉</p>
+                    <p>Hybrid Competition in Turkey</p>
                     <p>
-                      Hai halo para guru dan dosen di seluruh Indonesia, IYSA
-                      punya event nih buat bapak, ibu guru dan dosen🔥
+                      1idea1world INNOVATION DESIGN STARTUP COMPETITION 2025
                     </p>
                     <p>
-                      Dilaksanakan secara daring & luring, National Research
-                      Teacher Competition kembali diselenggarakan di Denpasar,
-                      Bali 👏🏻
+                      Hello young scientist 👋🏻 In April IYSA affiliates in
+                      Türkiye held online and offline events
                     </p>
                     <br></br>
                     <p>Yuk daftar!!!</p>
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📍Batas Registrasi :</strong> 3 Oktober, 2024
+                        <strong>📍Registration Deadline:</strong> March 19th, 2025
                       </li>
                       <li>
-                        <strong>📍Batas Pembayaran :</strong> 8 Oktober, 2024
+                        <strong>📍Payment Deadline: </strong> March 26th, 2025
                       </li>
                       <li>
-                        <strong>📍Tanggal Acara :</strong> 5 - 9 November, 2024
+                        <strong>📍Event Date: </strong> 25th May - 26th April, 2025
                       </li>
                     </ul>
                     <br></br>
-                    <p>Yuk daftar melalui: </p>
-                    <p>
+                    {/* <p>Yuk daftar melalui: </p> */}
+                    {/* <p>
                       📱Daftar Melalui:
-                      <a href="https://www.nrtc.or.id/" target="_blank" rel="noreferrer" >
+                      <a
+                        href="https://www.nrtc.or.id/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
                         nrtc.or.id
                       </a>
-                    </p>
+                    </p> */}
                     <a
                       className="btn btn-primary mb-4"
                       href={EventPosterDetail7.LinkRegist}
@@ -116,7 +119,8 @@ function EventPoster7() {
                           window.location.href
                         )}`}
                         title="Share this page on Facebook"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquareFacebook}
@@ -129,7 +133,8 @@ function EventPoster7() {
                           window.location.href
                         )}`}
                         title="Share this page on Twitter"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquareTwitter}
@@ -142,7 +147,8 @@ function EventPoster7() {
                           window.location.href
                         )}`}
                         title="Share this page on Linkedin"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faLinkedin}
@@ -155,7 +161,8 @@ function EventPoster7() {
                           window.location.href
                         )}`}
                         title="Share this page on Pinterest"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquarePinterest}
