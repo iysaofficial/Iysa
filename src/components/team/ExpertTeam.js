@@ -88,9 +88,9 @@ const ExpertTeam = () => {
                     <div className="col">
                         <img src="./assets/images/team/NewDesign/21.png" className="gallery-item" alt="gallery" />
                     </div>
-                    {/* <div className="col">
-                        <img src="./assets/images/team/NewDesign/23.png" className="gallery-item" alt="gallery" />
-                    </div> */}
+                    <div className="col">
+                        <img src="./assets/images/team/NewDesign/24.png" className="gallery-item" alt="gallery" />
+                    </div>
                 </div>
             </div>
 
