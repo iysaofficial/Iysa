@@ -5,16 +5,16 @@ const Newsletter2025Detail2 = () => {
     return (
         <section className='hero-iframe'>
             <div className="container">
-                {DataLetter.NewsletterJanuary2025.map((Letter2) => {
+                {DataLetter.NewsletterFebruary2025.map((Letter1) => {
                     return (
                         <div className="">
-                            <div className="kotak row text-center col-12 mx-auto" key={Letter2.id}>
+                            <div className="kotak row text-center col-12 mx-auto" key={Letter1.id}>
                                 <div className='pag col-lg-4 col-12'>
-                                    <img src={Letter2.images} alt='Footer Logo' className='mt-5'></img>
-                                    <h2 className='mt-3 text-lg-start'>{Letter2.title}</h2>
+                                    <img src={Letter1.images} alt='Footer Logo' className='mt-5'></img>
+                                    <h2 className='mt-3 text-lg-start'>{Letter1.title}</h2>
                                 </div>
                                 <div className='if text-center col-lg-8 col-12 mt-5 mb-5'>
-                                    <iframe src={Letter2.linkpdf} width="80%" height="570" />
+                                    <iframe src={Letter1.linkpdf} width="80%" height="570" />
 
                                 </div>
                             </div>
