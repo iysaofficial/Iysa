@@ -32,6 +32,23 @@
         "LinkGmaps": "",
         "NameLocation": ""
       }
+    ],
+    "event8": [
+      {
+        "id": 1,
+        "image": "./assets/images/poster/wico.jpeg",
+        "title": "World Invention Creativity Olympic 2025 (WICO)",
+        "LinkRegist": "https://bit.ly/Registration-WICO-2025",
+        "Hastag": "#wicokorea #iysaeventafiliasi #infolomba #offline #wico2025 #affiliasi",
+        "DateAdTime": "17th - 18th July, 2025",
+        "RegistEndDate": "14th May, 2025",
+        "Location": "Seoul National University of Education, Korea",
+        "EventType": "Internasional",
+        "EventCategory": "IYSA Event Affiliation",
+        "ImageVeneu": "",
+        "LinkGmaps": "",
+        "NameLocation": ""
+      }
     ]
   }
   

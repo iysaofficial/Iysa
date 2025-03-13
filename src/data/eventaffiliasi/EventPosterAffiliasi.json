@@ -17,6 +17,15 @@
       "location": "Hybrid Competition",
       "date": "25th May - 26th April, 2025",
       "link": "/EventPage7"
+    },
+    {
+      "id": 3,
+      "image": "./assets/images/poster/wico.jpeg",
+      "title": "World Invention Creativity Olympic 2025 (WICO)",
+      "level": "International",
+      "location": "Hybrid Competition",
+      "date": "17th - 18th July, 2025",
+      "link": "/EventPage8"
     }
   ]
 }

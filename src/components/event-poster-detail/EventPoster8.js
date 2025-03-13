@@ -18,7 +18,8 @@ import {
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 // Import Data
-import EventPosterDetail from "../../data/event/EventPosterDetail.json";
+// import EventPosterDetail from "../../data/event/EventPosterDetail.json";
+import EventPosterDetail from "../../data/eventaffiliasi/EventPosterDetailAffiliasi.json"
 
 function EventPoster8() {
   const [showContent, setShowContent] = useState(false);
@@ -46,14 +47,13 @@ function EventPoster8() {
                 <div className="main-colom row col-12 mt-5 mb-5">
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail8.title}</h1>
-                    <p>Hello young researchers all over the world ✨👋</p>
-                    <p>
-                      INTERNATIONAL YOUTH PHYSICS OLYMPIAD (IYPO) 2024 ✨‼️ OPEN
-                      REGISTRATION
-                    </p>
+                    <p>Kompetisi Offline Korea Selatan</p>
+                    <p>World Invention Creativity Olympics (WICO) 2025🔥</p>
                     <br></br>
                     <p>
-                      Register now 🤩 For Senior High School and University.
+                      Kompetisi Internasional WICO akan kembali diadakan pada
+                      tahun 2025, kalian yang ingin berwisata ke Korea dan
+                      berkompetisi, yuk daftarkan tim kalian di WICO 2025
                     </p>
                     <br></br>
                     {/* <p>Ada event online afiliasi IYSA nih di Romania, International Innovation & Invention New Education Worldwide 
@@ -63,22 +63,26 @@ function EventPoster8() {
                     <br></br>
                     <ul>
                       <li>
-                        <strong>Registration Deadline :</strong> August 26th,
-                        2024
+                        <strong>Registration Deadline :</strong> May 14th,
+                        2025
                       </li>
                       <li>
-                        <strong>Payment Deadline : </strong> August 29th, 2024
+                        <strong>Payment Deadline : </strong> May 21st - 28th, 2025
                       </li>
                       <li>
-                        <strong>Event Date : </strong> September 13th - 24th,
-                        2024
+                        <strong>Event Date : </strong> July 17th - 18th,
+                        2025
                       </li>
                     </ul>
                     <br></br>
                     <p>
-                      📱Registration in the link below 👇:
-                      <a href="https://iypo-iysa.or.id" target="_blank" rel="noreferrer">
-                        iypo-iysa.or.id
+                      📱yuk daftarkan tim kalian:
+                      <a
+                        href="https://bit.ly/Registration-WICO-2025"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        WICO Registration
                       </a>
                     </p>
                     <br></br>
@@ -126,7 +130,8 @@ function EventPoster8() {
                           window.location.href
                         )}`}
                         title="Share this page on Facebook"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquareFacebook}
@@ -139,7 +144,8 @@ function EventPoster8() {
                           window.location.href
                         )}`}
                         title="Share this page on Twitter"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquareTwitter}
@@ -152,7 +158,8 @@ function EventPoster8() {
                           window.location.href
                         )}`}
                         title="Share this page on Linkedin"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faLinkedin}
@@ -165,7 +172,8 @@ function EventPoster8() {
                           window.location.href
                         )}`}
                         title="Share this page on Pinterest"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquarePinterest}
@@ -189,7 +197,10 @@ function EventPoster8() {
                     {showContent && (
                       <div className="row event-venue">
                         <div className="event-venue-left col-3">
-                          <img src={EventPosterDetail8.ImageVeneu} alt="poster"></img>
+                          <img
+                            src={EventPosterDetail8.ImageVeneu}
+                            alt="poster"
+                          ></img>
                         </div>
                         <div className="event-venue-right col-8 mt-auto mb-auto">
                           <a
