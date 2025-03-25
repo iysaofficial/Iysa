@@ -18,7 +18,8 @@ import {
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 // Import Data
-import EventPosterDetail from "../../data/event/EventPosterDetail.json";
+// import EventPosterDetail from "../../data/event/EventPosterDetail.json";
+import EventPosterDetail from "../../data/eventaffiliasi/EventPosterDetailAffiliasi.json";
 
 function EventPoster9() {
   const [showContent, setShowContent] = useState(false);
@@ -46,31 +47,32 @@ function EventPoster9() {
                 <div className="main-colom row col-12 mt-5 mb-5">
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail9.title}</h1>
-                    <p>WYSII 2024🎉</p>
-                    <p>World Youth Stem Invention Innovation, Malaysia</p>
-                    <br></br>
+                    <p>Kompetisi Daring🎉 di Polandia</p>
                     <p>
-                      Hai halo peneliti belia Ada lagi nih event afiliasi IYSA
-                      dari Malaysia, event ini diselenggarakan secara online
-                      pada May 31st - June 8th 2024
+                      E-nnovate 2025 International Innovation and Invention 2025
                     </p>
                     <br></br>
                     <p>
+                      Hai peneliti belia 👋🏻 Ingin ikut serta dalam kompetisi
+                      daring yang diadakan afiliasi IYSA?
+                    </p>
+                    <br></br>
+                    {/* <p>
                       Save this information and share it with your friends!!and
                       don't forget to register👇
-                    </p>
+                    </p> */}
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📍Registration Deadline :</strong> May 19th,
-                        2024
+                        <strong>📍Registration Deadline :</strong> April 30th,
+                        2025
                       </li>
                       <li>
-                        <strong>📍Payment Deadline : </strong> May 23rd, 2024
+                        <strong>📍Payment Deadline : </strong> May 7th, 2025
                       </li>
                       <li>
-                        <strong>📍Event Date : </strong> May 31st - June 8th,
-                        2024
+                        <strong>📍Event Date : </strong> June 20th - July 12th,
+                        2025
                       </li>
                       {/* <li>
                         <strong>📍Venue : </strong> Universitas Pancasila,
@@ -79,10 +81,17 @@ function EventPoster9() {
                     </ul>
                     <br></br>
                     <p>Join Us!</p>
-                    {/* <p>
-                      Be a part of young researcher in Indonesia, prepare your
-                      team and your best project💃💃
-                    </p> */}
+                    <p>
+                      📱Yuk daftar melalui link ini:
+                      <a
+                        href="https://bit.ly/Registration-Ennovate-2025"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        E-nnovate Registration
+                      </a>
+                    </p>
+                    <br></br>
                     <a
                       className="btn btn-primary mb-4"
                       href={EventPosterDetail9.LinkRegist}
@@ -122,7 +131,8 @@ function EventPoster9() {
                           window.location.href
                         )}`}
                         title="Share this page on Facebook"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquareFacebook}
@@ -135,7 +145,8 @@ function EventPoster9() {
                           window.location.href
                         )}`}
                         title="Share this page on Twitter"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquareTwitter}
@@ -148,7 +159,8 @@ function EventPoster9() {
                           window.location.href
                         )}`}
                         title="Share this page on Linkedin"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faLinkedin}
@@ -161,7 +173,8 @@ function EventPoster9() {
                           window.location.href
                         )}`}
                         title="Share this page on Pinterest"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquarePinterest}
@@ -185,7 +198,10 @@ function EventPoster9() {
                     {showContent && (
                       <div className="row event-venue">
                         <div className="event-venue-left col-3">
-                          <img src={EventPosterDetail9.ImageVeneu} alt="foto"></img>
+                          <img
+                            src={EventPosterDetail9.ImageVeneu}
+                            alt="foto"
+                          ></img>
                         </div>
                         <div className="event-venue-right col-8 mt-auto mb-auto">
                           <a

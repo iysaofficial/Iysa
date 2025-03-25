@@ -26,6 +26,15 @@
       "location": "Hybrid Competition",
       "date": "17th - 18th July, 2025",
       "link": "/EventPage8"
+    },
+    {
+      "id": 4,
+      "image": "./assets/images/poster/ennovate.jpeg",
+      "title": "International Innovation Summit 2025 (E-NNOVATE)",
+      "level": "International",
+      "location": "Hybrid Competition",
+      "date": "June 20th - July 12th",
+      "link": "/EventPage9"
     }
   ]
 }

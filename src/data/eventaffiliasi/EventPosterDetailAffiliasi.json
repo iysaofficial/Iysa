@@ -49,6 +49,23 @@
         "LinkGmaps": "",
         "NameLocation": ""
       }
+    ],
+    "event9": [
+      {
+        "id": 1,
+        "image": "./assets/images/poster/ennovate.jpeg",
+        "title": "International Innovation Summit 2025 (E-NNOVATE)",
+        "LinkRegist": "https://bit.ly/Registration-Ennovate-2025",
+        "Hastag": "#e-nnovate2025 #polandia #iysaeventafiliasi #event2025 #iysa2025",
+        "DateAdTime": "June 20th - July 12th, 2025",
+        "RegistEndDate": "April 30th, 2025",
+        "Location": "Polandia",
+        "EventType": "Internasional",
+        "EventCategory": "IYSA Event Affiliation",
+        "ImageVeneu": "",
+        "LinkGmaps": "",
+        "NameLocation": ""
+      }
     ]
   }
   
