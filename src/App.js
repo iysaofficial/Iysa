@@ -85,10 +85,10 @@ import Newsletter2024DetailPage10 from "./pages/newsletter/Newsletter2024DetailP
 import Newsletter2024DetailPage11 from "./pages/newsletter/Newsletter2024DetailPage11";
 import Newsletter2024DetailPage12 from "./pages/newsletter/Newsletter2024DetailPage12";
 
-
 // Import Newsletter 2024
 import Newsletter2025DetailPage1 from "./pages/newsletter/Newsletter2025DetailPage1";
 import Newsletter2025DetailPage2 from "./pages/newsletter/Newsletter2025DetailPage2";
+import Newsletter2025DetailPage3 from "./pages/newsletter/Newsletter2025DetailPage3";
 
 // Import Gallery
 import GalleryPhoto from "./pages/gallery/GalleryPhoto";
@@ -428,6 +428,10 @@ function App() {
             <Route
               path="/Newsletter2025DetailPage2"
               element={<Newsletter2025DetailPage2 />}
+            />
+            <Route
+              path="/Newsletter2025DetailPage3"
+              element={<Newsletter2025DetailPage3 />}
             />
           </Routes>
         </Router>
