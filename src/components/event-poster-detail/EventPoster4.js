@@ -46,41 +46,35 @@ function EventPoster4() {
                 <div className="main-colom row col-12 mt-5 mb-5">
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail4.title}</h1>
-                    <p>WSEEC 2025🔥</p>
-                    <p>Hello, hi young scientists🙋‍♀️🙋‍♂️</p>
+                    <p></p>
+                    <p>
+                      Tahun ini merupakan tahun ke-4 IYSA menyelenggarakan event
+                      NICYMS secara hybrid (online dan offline)💥
+                    </p>
                     <br></br>
                     <p>
-                      In May 2025 IYSA is holding an international hybrid event
-                      which will be held in Jakarta, Indonesia.
+                      Tahun ini IYSA masih bekerjasama dengan Universitas
+                      Komputer Indonesia (UNIKOM) Bandung👏🏻👏🏻
                     </p>
-                    <p>
-                      In collaboration with Pancasila University, the Faculty of
-                      Pharmacy and Institut Pertanian Bogor (IPB). This event
-                      will take place on May 19-22, 2025 at Pancasila
-                      University.
-                    </p>
-                    <p>
-                      Save this information and share it with your friends!! and
-                      don't forget to register👇
-                    </p>
+                    <p></p>
+                    <p>Catat tanggalnya 👇🏻</p>
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📍Registration Deadline: </strong>April 14, 2025
+                        <strong>📍Registration Deadline: </strong>25 Juni 2025
                       </li>
                       <li>
-                        <strong>📍Payment Deadline: </strong> April 21, 2025
+                        <strong>📍Payment Deadline: </strong>4 Juli 2025
                       </li>
                       <li>
-                        <strong>📍TEvent Date: </strong> May 19-22, 2025
+                        <strong>📍Event Date: </strong> 28-31 Juli, 2025
                       </li>
-                      {/* <li>
-                        <strong>📍Tempat: </strong> Universitas Diponegoro
-                        Semarang
-                      </li> */}
+                      <li>
+                        <strong>📍Tempat: </strong> Universitas Komputer Indonesia (UNIKOM) Bandung
+                      </li>
                     </ul>
 
-                    {/* <p>Tunggu apa lagi, yuk daftar!!</p> */}
+                    <p>Tunggu apa lagi, yuk daftar!!</p>
                     <br></br>
                     <a
                       className="btn btn-primary mb-4"
@@ -90,7 +84,7 @@ function EventPoster4() {
                       Regist Here
                     </a>
                     <br></br>
-                    {/* <p>Sampai jumpa di Malaysia</p> */}
+                    <p>Sampai jumpa di Bandung</p>
                     <br />
                     <p className="hastag">{EventPosterDetail4.Hastag}</p>
                   </div>

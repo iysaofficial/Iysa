@@ -30,7 +30,7 @@ function EventPoster10() {
     <section>
       <div id="main-event" className="container">
         <div className="row event-wrapper ">
-          {EventPosterDetail.event10.map((EventPosterDetail10) => {
+          {EventPosterDetail.event6.map((EventPosterDetail10) => {
             return (
               <section>
                 <div className="event-poster col-12 text-center">
@@ -46,33 +46,27 @@ function EventPoster10() {
                 <div className="main-colom row col-12 mt-5 mb-5">
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail10.title}</h1>
-                    <p>🌐IYBC 2024🌐</p>
+                    <p>🌐World Robotics & Computer Science Olympiad🌐</p>
                     <p>HYBRID COMPETITION</p>
                     <br></br>
                     <p>
-                      Indonesian Young Scientist Association in collaboration
-                      with Sekolah Vokasi Universitas Diponegoro, Semarang🎉
+                      IYSA is collaborating with Universitas Komputer Indonesia
+                      (UNIKOM) Bandung👏🏻👏🏻
                     </p>
                     <p>
-                      Will hold an International event focussing on the Business
-                      Category namely the International Youth Business
-                      Competition (IYBC) 2024, which will be held together with
-                      I3O 2024 👏🏻👏🏻
                     </p>
                     <br></br>
                     <p>Save the date! 👇🏻</p>
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📍Registration Deadline : </strong> May 19th,
-                        2024
+                        <strong>📍Registration Deadline : </strong> June 25, 2025
                       </li>
                       <li>
-                        <strong>📍Payment & Submission Deadline : </strong> May
-                        24th, 2024
+                        <strong>📍Payment & Submission Deadline : </strong> July 4, 2025
                       </li>
                       <li>
-                        <strong>📍Event Date :</strong> June 25 - 28, 2024
+                        <strong>📍Event Date :</strong> July 28 - 31, 2025
                       </li>
                     </ul>
                     <br></br>
@@ -82,9 +76,13 @@ function EventPoster10() {
                     </p>
                     <br></br>
                     <p>
-                      📱Register via:
-                      <a href="https://iybc.or.id/" target="_blank" rel="noreferrer" >
-                        iybc.or.id
+                      📱Register via : 
+                      <a
+                        href="https://wrcso.or.id/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                         Regist Here
                       </a>
                     </p>
                     <br></br>
@@ -96,15 +94,7 @@ function EventPoster10() {
                       Registration Form
                     </a>
                     <br></br>
-                    <p>Get the Guidebook on the Official IYBC Website ‼️</p>
-                    {/* <p>
-                      Kalian dapat melihat guide book pada link pendaftaran 📖
-                    </p>
-                    <br />
-                    <p>
-                      Yuk, tunggu apalagi bikin tim kamu berprestasi di ajang
-                      internasional
-                    </p> */}
+                    <p>Get the Guidebook on the Official WRCSO Website ‼️</p>
                     <p className="hastag">{EventPosterDetail10.Hastag}</p>
                   </div>
                   <div className="colom-right col-md-4 text-center text-md-start ">
@@ -136,7 +126,7 @@ function EventPoster10() {
                         )}`}
                         rel="noreferrer noopener"
                         title="Share this page on Facebook"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
                       >
                         <FontAwesomeIcon
                           icon={faSquareFacebook}
@@ -150,7 +140,7 @@ function EventPoster10() {
                         )}`}
                         rel="noreferrer noopener"
                         title="Share this page on Twitter"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
                       >
                         <FontAwesomeIcon
                           icon={faSquareTwitter}
@@ -164,7 +154,7 @@ function EventPoster10() {
                         )}`}
                         rel="noreferrer noopener"
                         title="Share this page on Linkedin"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
                       >
                         <FontAwesomeIcon
                           icon={faLinkedin}
@@ -178,7 +168,7 @@ function EventPoster10() {
                         )}`}
                         rel="noreferrer noopener"
                         title="Share this page on Pinterest"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
                       >
                         <FontAwesomeIcon
                           icon={faSquarePinterest}
@@ -202,7 +192,10 @@ function EventPoster10() {
                     {showContent && (
                       <div className="row event-venue">
                         <div className="event-venue-left col-3">
-                          <img src={EventPosterDetail10.ImageVeneu} alt="veneu"></img>
+                          <img
+                            src={EventPosterDetail10.ImageVeneu}
+                            alt="veneu"
+                          ></img>
                         </div>
                         <div className="event-venue-right col-8 mt-auto mb-auto">
                           <a

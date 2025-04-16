@@ -29,21 +29,30 @@
     },
     {
       "id": 4,
-      "image": "./assets/images/poster/wseec.jpeg",
-      "title": "IWorld Science Environment And Engineering Competition (WSEEC) 2025",
-      "level": "Internasional",
-      "location": "hybrid",
-      "date": "May 19 - 22, 2025",
+      "image": "./assets/images/poster/nicyms.jpeg",
+      "title": "NATIONAL INVENTION COMPETITION FOR YOUNG MOSLEM SCIENTISTS (NICYMS) 2025",
+      "level": "Nasional",
+      "location": "Kompetisi Hybrid",
+      "date": "28 - 31 Juli, 2025",
       "link": "/EventPage4"
     },
     {
     "id": 5,
-    "image": "./assets/images/poster/os2mn.jpeg",
-    "title": "OLIMPIADE SAINS SISWA MADRASAH NASIONAL (OS2MN) 2025",
-    "level": "Nasional",
-    "location": "Kompetisi Online",
-    "date": "10 - 17 April 2025",
+    "image": "./assets/images/poster/iicyms.jpeg",
+    "title": "INTERNATIONAL INVENTION COMPETITION FOR YOUNG MOSLEM SCIENTISTS (IICYMS) 2025",
+    "level": "International",
+    "location": "hybrid",
+    "date": "July 28 - 31, 2025",
     "link": "/EventPage5"
+    },
+    {
+    "id": 5,
+    "image": "./assets/images/poster/wrcso.jpeg",
+    "title": "WORLD ROBOTICS & COMPUTER SCIENCE OLYMPIAD (WRCSO) 2025",
+    "level": "International",
+    "location": "hybrid",
+    "date": "July 28 - 31, 2025",
+    "link": "/EventPage10"
     }
   ]
 }

@@ -1,18 +1,31 @@
 const Calenderevent = () => {
   return (
     <section className="calender">
-      <div className="wrapper mx-auto text-center">
-        <h1 className="h1-calender fw-bold mb-5">
-          Calender Event IYSA 2025
-        </h1>
-        <iframe className="iframe"
-          src="https://heyzine.com/flip-book/a05c3e5f10.html"
-          allowFullScreen
-          title="calender"
-        ></iframe>
+      <div className="row">
+        <div className="col-lg-6 wrapper mx-auto text-center">
+          <h2 className="h1-calender fw-bold mb-5">
+            Calendar of Events – IYSA Semester 1, 2025
+          </h2>
+          <iframe
+            className="iframe"
+            src="https://heyzine.com/flip-book/a05c3e5f10.html"
+            allowFullScreen
+            title="calender"
+          ></iframe>
+        </div>
+        <div className="col-lg-6 wrapper mx-auto text-center">
+          <h2 className="h1-calender fw-bold mb-5">
+            Calendar of Events – IYSA Semester 2, 2025
+          </h2>
+          <iframe
+            className="iframe"
+            src="https://heyzine.com/flip-book/8c03a438a7.html"
+            allowFullScreen
+            title="calender"
+          ></iframe>
+        </div>
       </div>
     </section>
-    
   );
 };
 

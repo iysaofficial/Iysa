@@ -53,52 +53,52 @@
   "event4": [
     {
       "id": 1,
-      "image": "./assets/images/poster/wseec.jpeg",
-      "title": "World Science Environment And Engineering Competition (WSEEC) 2025",
-      "LinkRegist": "https://wsec.or.id/",
-      "Hastag": "#wseec #iysaevent #wseec2025 #univpancasila #infolomba #iysa2025 #ipbbogor #jakarta #indonesia",
-      "DateAdTime": "May 19 - 22, 2025",
-      "RegistEndDate": "April 14, 2025",
-      "Location": "Jakarta",
-      "EventType": "Interasional",
+      "image": "./assets/images/poster/nicyms.jpeg",
+      "title": "NATIONAL INVENTION COMPETITION FOR YOUNG MOSLEM SCIENTISTS (NICYMS) 2025",
+      "LinkRegist": "https://www.nicyms.or.id/",
+      "Hastag": "#nicyms #iysaevent #nicyms2025 #unikom #infolomba #iysa2025 #bandung #indonesia",
+      "DateAdTime": "28 - 31 Juli, 2025",
+      "RegistEndDate": "25 Juni, 2025",
+      "Location": "Bandung",
+      "EventType": "Nasional",
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
-      "NameLocation": ""
+      "NameLocation": "Kampus UNIKOM"
     }
   ],
   "event5": [
     {
       "id": 1,
-      "image": "./assets/images/poster/os2mn.jpeg",
-      "title": "OLIMPIADE SAINS SISWA MADRASAH NASIONAL (OS2MN) 2025",
-      "LinkRegist": "https://www.os2mn.or.id/",
-      "Hastag": "#os2mn2025 #eventiysa #iysaonlineevent #iysa2025 #os2mn",
-      "DateAdTime": "10-17 April 2025",
-      "RegistEndDate": "10 Maret 2025",
-      "Location": "Online",
-      "EventType": "National",
+      "image": "./assets/images/poster/iicyms.jpeg",
+      "title": "INTERNATIONAL INVENTION COMPETITION FOR YOUNG MOSLEM SCIENTISTS (IICYMS) 2025",
+      "LinkRegist": "https://www.iicyms.or.id/",
+      "Hastag": "#iicyms2025 #eventiysa #iysaevent #iysa2025 #iicyms #bandung #indonesia",
+      "DateAdTime": "July 28 - 31, 2025",
+      "RegistEndDate": "June 25 2025",
+      "Location": "Bandung",
+      "EventType": "International",
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
-      "NameLocation": ""
+      "NameLocation": "Campus UNIKOM"
     }
   ],
   "event6": [
     {
       "id": 1,
-      "image": "./assets/images/poster/ICPC.jpg",
-      "title": "The International Creative Papers Conference",
-      "LinkRegist": "https://bit.ly/Registration-ICPC-2024",
-      "Hastag": "#icpc #2024 #korea #offline #infolomba #iysaafiliasi #iysaevent",
-      "DateAdTime": "January 17th - 19th, 2025",
-      "RegistEndDate": "December 6th, 2024",
-      "Location": "Offline",
+      "image": "./assets/images/poster/wrcso.jpeg",
+      "title": "WORLD ROBOTICS & COMPUTER SCIENCE OLYMPIAD (WRCSO) 2025",
+      "LinkRegist": "https://www.wrcso.or.id/",
+      "Hastag": "#wrso #2025 #indonesia #iysaevent #bandung #iysaevent #indonesia",
+      "DateAdTime": "July 28 - 31, 2025",
+      "RegistEndDate": "June 25, 2025",
+      "Location": "Bandung",
       "EventType": "Internasional",
-      "EventCategory": "IYSA Event Affiliation",
+      "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
-      "NameLocation": "SEOUL NATIONAL UNIVERSITY OF EDUCATION"
+      "NameLocation": "Campus UNIKOM"
     }
   ],
   "event7": [

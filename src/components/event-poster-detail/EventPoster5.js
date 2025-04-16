@@ -46,38 +46,36 @@ function EventPoster5() {
                 <div className="main-colom row col-12 mt-5 mb-5">
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail5.title}</h1>
-                    <p>Event Olimpiade IYSA di bulan April 2025🥳</p>
+                    <p>This is the 5th year that IYSA has held the IICYMS event in a hybrid competition (online and offline)💥
+                    </p>
                     <p>
-                      IYSA kembali menyelenggarakan event nasional yaitu
-                      OLIMPIADE SAINS SISWA MADRASAH NASIONAL 2025, kompetisi
-                      daring ini bisa diikuti oleh pelajar madrasah seperti MI,
-                      MTS, MA & MAN ayo bersiap daftarkan tim kalian ! 💥
+                    This year, IYSA is collaborating with Universitas Komputer Indonesia (UNIKOM) Bandung👏🏻👏🏻
                     </p>
                     <p></p>
-                    <p></p>
+                    <p>Save the date 👇🏻</p>
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📍 Registration Deadline:</strong> 10 Maret 2025
+                        <strong>📍 Registration Deadline:</strong> June 25, 2025
                       </li>
-                      {/* <li>
-                        <strong>📍 Payment Deadline:</strong> 7th November 2024
-                      </li> */}
                       <li>
-                        <strong>📍 Event Date:</strong> 10 - 17 April 2025
+                        <strong>📍 Payment Deadline:</strong> July 4, 2025
+                      </li>
+                      <li>
+                        <strong>📍 Event Date:</strong> July 28 - 31 2025
                       </li>
                     </ul>
                     <br></br>
 
                     <p>Daftar melalui</p>
                     <p>
-                      📱Register via:
+                      📱Register via: 
                       <a
-                        href="https://www.os2mn.or.id/"
+                        href="https://www.iicyms.or.id/"
                         target="_blank"
                         rel="noreferrer"
                       >
-                         www.os2mn.or.id
+                        www.iicyms.or.id
                       </a>
                     </p>
 
