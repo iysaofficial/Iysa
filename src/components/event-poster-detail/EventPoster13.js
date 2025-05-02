@@ -47,33 +47,33 @@ function EventPoster13() {
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail13.title}</h1>
                     <br></br>
-                    <p>4th GloCoLiS 2024</p>
+                    <p>
+                      4th IIIEX 2025🎉 INDONESIA INTERNATIONAL INVENTION EXPO
+                    </p>
                     <br></br>
                     <p>Hybrid Competition 💥</p>
                     <br></br>
                     <p>
-                      IYSA will hold an international event specializing in the
-                      Life Science category, namely Global Competition for Life
-                      Sciences (GloCoLiS) 2024. 👏🏻👏🏻
+                      4th IIIEX 2025🎉 INDONESIA INTERNATIONAL INVENTION EXPO is
+                      a hybrid competition.
                     </p>
                     <br></br>
                     <p>
-                      This year the GloCoLiS will take place online and offline
-                      in Surabaya...
+                      2025 is the fourth year that IIIEX has been held. This
+                      year, IYSA is still collaborating with Politeknik Negeri
+                      Semarang, Indonesia.
                     </p>
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📌 Registration Deadline : </strong> July 28th,
-                        2024
+                        <strong>📌 Registration Deadline : </strong> July 3rd, 2025
                       </li>
                       <li>
                         <strong>📌 Payment & Submission Deadline : </strong>{" "}
-                        Agustus 2nd, 2024
+                        July 11th, 2025
                       </li>
                       <li>
-                        <strong>📌 Event Date : </strong> Agustus 30th -
-                        September 2nd, 2024
+                        <strong>📌 Event Date : </strong>August 8th - 11th, 2025
                       </li>
                     </ul>
                     <p>
@@ -83,8 +83,12 @@ function EventPoster13() {
                     <br></br>
                     <p>
                       📱Register via:
-                      <a href="https://glocolis.or.id/" target="_blank" rel="noreferrer" >
-                        glocolis.or.id
+                      <a
+                        href="https://www.iiiex.or.id/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        iiiex.or.id
                       </a>
                     </p>
                     <p>Registration Here:</p>
@@ -129,7 +133,8 @@ function EventPoster13() {
                           window.location.href
                         )}`}
                         title="Share this page on Facebook"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquareFacebook}
@@ -142,7 +147,8 @@ function EventPoster13() {
                           window.location.href
                         )}`}
                         title="Share this page on Twitter"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquareTwitter}
@@ -155,7 +161,8 @@ function EventPoster13() {
                           window.location.href
                         )}`}
                         title="Share this page on Linkedin"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faLinkedin}
@@ -168,7 +175,8 @@ function EventPoster13() {
                           window.location.href
                         )}`}
                         title="Share this page on Pinterest"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquarePinterest}
@@ -192,7 +200,10 @@ function EventPoster13() {
                     {showContent && (
                       <div className="row event-venue">
                         <div className="event-venue-left col-3">
-                          <img src={EventPosterDetail13.ImageVeneu} alt="veneu"></img>
+                          <img
+                            src={EventPosterDetail13.ImageVeneu}
+                            alt="veneu"
+                          ></img>
                         </div>
                         <div className="event-venue-right col-8 mt-auto mb-auto">
                           <a

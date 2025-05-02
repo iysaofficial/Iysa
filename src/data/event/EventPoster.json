@@ -53,6 +53,15 @@
     "location": "hybrid",
     "date": "July 28 - 31, 2025",
     "link": "/EventPage10"
+    },
+    {
+    "id": 6,
+    "image": "./assets/images/poster/iiiex.jpeg",
+    "title": "4th IIIEX 2025 INDONESIA INTERNATIONAL INVENTION EXPO",
+    "level": "International",
+    "location": "hybrid",
+    "date": "August 8 - 11, 2025",
+    "link": "/EventPage13"
     }
   ]
 }
