@@ -18,8 +18,8 @@ import {
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 // Import Data
-// import EventPosterDetail from "../../data/event/EventPosterDetail.json";
-import EventPosterDetail from "../../data/eventaffiliasi/EventPosterDetailAffiliasi.json"
+import EventPosterDetail from "../../data/event/EventPosterDetail.json";
+// import EventPosterDetail from "../../data/eventaffiliasi/EventPosterDetailAffiliasi.json";
 
 function EventPoster7() {
   const [showContent, setShowContent] = useState(false);
@@ -47,40 +47,41 @@ function EventPoster7() {
                 <div className="main-colom row col-12 mt-5 mb-5">
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail7.title}</h1>
-                    <p>Hybrid Competition in Turkey</p>
+                    <p>WICE 2025 🤗 HYBRID COMPETITION</p>
                     <p>
-                      1idea1world INNOVATION DESIGN STARTUP COMPETITION 2025
+                      HELLO YOUNG SCIENTIST 🙋‍♀️🙋‍♂️ Indonesian Young Scientist
+                      Association (IYSA) in collaboration with SEGi University,
+                      Kota Damansara, Malaysia presents:
                     </p>
                     <p>
-                      Hello young scientist 👋🏻 In April IYSA affiliates in
-                      Türkiye held online and offline events
+                    🌐WORLD INVENTION COMPETITION AND EXHIBITION 2025🌐
                     </p>
                     <br></br>
-                    <p>Yuk daftar!!!</p>
+                    <p>Save the date :</p>
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📍Registration Deadline:</strong> March 19th, 2025
+                        <strong>📍Registration Deadline:</strong> August 15th, 2025
                       </li>
                       <li>
-                        <strong>📍Payment Deadline: </strong> March 26th, 2025
+                        <strong>📍Payment Deadline: </strong> August 22nd, 2025
                       </li>
                       <li>
-                        <strong>📍Event Date: </strong> 25th May - 26th April, 2025
+                        <strong>📍Event Date: </strong> September 21st - 26th, 2025
                       </li>
                     </ul>
                     <br></br>
                     {/* <p>Yuk daftar melalui: </p> */}
-                    {/* <p>
-                      📱Daftar Melalui:
+                    <p>
+                      📱Registration link:
                       <a
-                        href="https://www.nrtc.or.id/"
+                        href="https://wice.or.id/"
                         target="_blank"
                         rel="noreferrer"
                       >
-                        nrtc.or.id
+                        wice.or.id
                       </a>
-                    </p> */}
+                    </p>
                     <a
                       className="btn btn-primary mb-4"
                       href={EventPosterDetail7.LinkRegist}

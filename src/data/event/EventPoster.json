@@ -60,8 +60,17 @@
     "title": "4th IIIEX 2025 INDONESIA INTERNATIONAL INVENTION EXPO",
     "level": "International",
     "location": "hybrid",
-    "date": "August 8 - 11, 2025",
+    "date": "August 8th - 11th, 2025",
     "link": "/EventPage13"
+    },
+    {
+    "id": 7,
+    "image": "./assets/images/poster/wice.jpeg",
+    "title": "WORLD INVENTION COMPETITION AND EXHIBITION (WICE) 2025",
+    "level": "International",
+    "location": "hybrid",
+    "date": "September 21st - 26th, 2025",
+    "link": "/EventPage7"
     }
   ]
 }
