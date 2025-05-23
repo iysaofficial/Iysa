@@ -53,21 +53,26 @@ function EventPoster7() {
                       Association (IYSA) in collaboration with SEGi University,
                       Kota Damansara, Malaysia presents:
                     </p>
-                    <p>
-                    🌐WORLD INVENTION COMPETITION AND EXHIBITION 2025🌐
-                    </p>
+                    <p>🌐WORLD INVENTION COMPETITION AND EXHIBITION 2025🌐</p>
                     <br></br>
                     <p>Save the date :</p>
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📍Registration Deadline:</strong> August 15th, 2025
+                        <strong>📍Registration Deadline:</strong> August 15th,
+                        2025
                       </li>
                       <li>
                         <strong>📍Payment Deadline: </strong> August 22nd, 2025
                       </li>
                       <li>
-                        <strong>📍Event Date: </strong> September 21st - 26th, 2025
+                        <strong>📍Online Competition: </strong> September, 12th -15th 2025
+                      </li>
+                      <li>
+                        <strong>📍Offline Competition: </strong> September, 21st - 25th 2025
+                      </li>
+                      <li>
+                        <strong>📍Event Date: </strong> September, 12th - 25th 2025
                       </li>
                     </ul>
                     <br></br>
