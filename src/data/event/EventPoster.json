@@ -71,6 +71,33 @@
     "location": "hybrid",
     "date": "September 12th - 25th 2025",
     "link": "/EventPage7"
+    },
+    {
+    "id": 8,
+    "image": "./assets/images/poster/wecc.jpeg",
+    "title": "WORLD ECONOMICS CHALLANGE AND COMPETITION (WECC) 2025",
+    "level": "International",
+    "location": "hybrid",
+    "date": "August 26th - September 9th, 2025",
+    "link": "/EventPage14"
+    },
+    {
+    "id": 9,
+    "image": "./assets/images/poster/ispc.jpeg",
+    "title": "INTERNATIONAL SCIENCE PROJECT COMPETITION (ISPC) 2025",
+    "level": "International",
+    "location": "hybrid",
+    "date": "August 26th - September 9th, 2025",
+    "link": "/EventPage15"
+    },
+    {
+    "id": 10,
+    "image": "./assets/images/poster/glocolis.jpeg",
+    "title": "Global Competition for Life Sciences (GLOCOLIS) 2025",
+    "level": "International",
+    "location": "hybrid",
+    "date": "August 26th - September 9th, 2025",
+    "link": "/EventPage16"
     }
   ]
 }

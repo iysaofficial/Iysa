@@ -46,36 +46,33 @@ function EventPoster15() {
                 <div className="main-colom row col-12 mt-5 mb-5">
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail15.title}</h1>
-                    <p>OFFLINE COMPETITION, KOREA</p>
-                    <p>World Invention Creativity Olympic (WICO) 2024🔥</p>
+                    <p>2nd ISPC 2025🥳</p>
+                    <p>IYSA is holding another hybrid event in Central Java. Are you an elementary, secondary, or college student in Semarang? Could you come on, prepare yourself to register!</p>
                     <br></br>
                     <p>
-                      WICO is back in 2024, for those of you who want to travel
-                      to Korea while competing, let's register for WICO 2024
+                      IYSA collaborates with the Universitas Dian Nuswantoro (UDINUS) to organize an international event called the International Science Project Competition💥
                     </p>
                     <br></br>
                     <p>This event will take place on : </p>
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📌 Registration Deadline : </strong> May 9th,
-                        2024
+                        <strong>📌 Registration Deadline : </strong> July 24th, 2025
                       </li>
                       <li>
-                        <strong>📌 Payment & Submission Deadline : </strong>May
-                        17th, 20244
+                        <strong>📌 Payment & Submission Deadline : </strong> August 1st, 2025
                       </li>
                       <li>
-                        <strong>📌 Event Date : </strong> July 24th - 26th, 2024
+                        <strong>📌 Event Date : </strong> August 26th - September 9th, 2025
                       </li>
                     </ul>
                     <br></br>
-                    {/* <p>Register via: </p>
-                    <a href="https://www.iif-nasional.or.id/" target="_blank" rel="noreferrer" >
-                      📲 iif-nasional.or.id
-                    </a>
-                    <br></br>
-                    <p>Kalian bisa cek Guide book di link web nya juga ya👆</p> */}
+                      <p>Register via: </p>
+                      <a href="https://www.ispc.or.id/" target="_blank" rel="noreferrer" >
+                        📲 ispc.or.id
+                      </a>
+                      <br></br>
+                      {/* <p>Kalian bisa cek Guide book di link web nya juga ya👆</p> */}
 
                     <br></br>
                     <p>Registration Here:</p>

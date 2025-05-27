@@ -47,30 +47,30 @@ function EventPoster16() {
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail16.title}</h1>
                     <br></br>
-                    <p>IYSA has a new event in Jakarta..🔥</p>
+                    <p>5th GloCoLiS 2025</p>
+                    <br></br>
+                    <p>Hybrid Competition 💥</p>
                     <br></br>
                     <p>
-                      IYSA collaborates with @i3l_official to hold the WECC 2024
-                      online & offline competition.
+                      IYSA will hold an international event specializing in the
+                      Life Science category, namely Global Competition for Life
+                      Sciences (GloCoLiS)👏🏻👏🏻
                     </p>
                     <br></br>
                     <p>
-                      "World Economics Challenge and Competition" Come on to
-                      Jakarta and join this event...👏
+                      This year, the GloCoLiS will take place online and offline in Universitas Dian Nuswantoro (UDINUS) Semarang.
                     </p>
                     <br></br>
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📌 Registration Deadline : </strong> June 27th,
-                        2024
+                        <strong>📌 Registration Deadline : </strong> July 24th, 2025
                       </li>
                       <li>
-                        <strong>📌 Payment & Submission Deadline : </strong>July
-                        2nd, 2024
+                        <strong>📌 Payment & Submission Deadline : </strong> August 1st, 2025
                       </li>
                       <li>
-                        <strong>📌 Event Date : </strong> July 27th - 31st, 2024
+                        <strong>📌 Event Date : </strong> August 26th - September 9th, 2025
                       </li>
                     </ul>
                     <p>
@@ -80,8 +80,12 @@ function EventPoster16() {
                     <br></br>
                     <p>
                       Visit the website :
-                      <a href="http://wecc.or.id/" target="_blank" rel="noreferrer" >
-                        wecc.or.id
+                      <a
+                        href="https://www.glocolis.or.id/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        glocolis.or.id
                       </a>
                     </p>
                     <p>Registration Here:</p>
@@ -126,7 +130,8 @@ function EventPoster16() {
                           window.location.href
                         )}`}
                         title="Share this page on Facebook"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquareFacebook}
@@ -139,7 +144,8 @@ function EventPoster16() {
                           window.location.href
                         )}`}
                         title="Share this page on Twitter"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquareTwitter}
@@ -152,7 +158,8 @@ function EventPoster16() {
                           window.location.href
                         )}`}
                         title="Share this page on Linkedin"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faLinkedin}
@@ -165,7 +172,8 @@ function EventPoster16() {
                           window.location.href
                         )}`}
                         title="Share this page on Pinterest"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquarePinterest}
@@ -189,7 +197,10 @@ function EventPoster16() {
                     {showContent && (
                       <div className="row event-venue">
                         <div className="event-venue-left col-6">
-                          <img src={EventPosterDetail16.ImageVeneu} alt="veneu"></img>
+                          <img
+                            src={EventPosterDetail16.ImageVeneu}
+                            alt="veneu"
+                          ></img>
                         </div>
                         <div className="event-venue-right col-8 mt-auto mb-auto">
                           <a

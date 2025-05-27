@@ -47,35 +47,37 @@ function EventPoster14() {
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail14.title}</h1>
                     <br></br>
-                    <p>Online Competition</p>
-                    <p>Deva, Romania</p>
+                    <p>IYSA is back to hold the 2nd WECC</p>
+                    <p>event in Central Java..🔥</p>
                     <br></br>
-                    <p>5th International Exhibition</p>
                     <p>
-                      INVENTCOR 2024, there is an IYSA affiliate online event,
-                      let's register now!!! 🔥
+                      YSA collaborates with Universitas Dian Nuswantoro (UDINUS)
+                      Semarang, to hold the WECC 2025 online & offline
+                      competition.
+                    </p>
+                    <p>
+                      "World Economics Challenge and Competition" Come on to
+                      Semarang and join this event...👏
                     </p>
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📌 Registration Deadline : </strong> February
-                        19th, 2024
+                        <strong>📌 Registration Deadline : </strong> July 24th, 2025
                       </li>
                       <li>
-                        <strong>📌 Payment & Submission Deadline : </strong>{" "}
-                        February 23rd, 2024
+                        <strong>📌 Payment & Submission Deadline : </strong> August 1st, 2025
                       </li>
                       <li>
-                        <strong>📌 Event Date : </strong> April 4th - 6th, 2024
+                        <strong>📌 Event Date : </strong> August 26th - September 9th, 2025
                       </li>
                     </ul>
                     <br></br>
-                    {/* <p>
-                      📱Register via:
-                      <a href="https://glocolis.or.id/" target="_blank" rel="noreferrer"  >
-                        glocolis.or.id
+                    <p>
+                      Visit the website 👇:
+                      <a href="http://wecc.or.id/" target="_blank" rel="noreferrer"  >
+                        wecc.or.id
                       </a>
-                    </p> */}
+                    </p>
                     <p>Registration Here:</p>
                     <a
                       className="btn btn-primary mb-4"
@@ -117,7 +119,8 @@ function EventPoster14() {
                           window.location.href
                         )}`}
                         title="Share this page on Facebook"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquareFacebook}
@@ -130,7 +133,8 @@ function EventPoster14() {
                           window.location.href
                         )}`}
                         title="Share this page on Twitter"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquareTwitter}
@@ -143,7 +147,8 @@ function EventPoster14() {
                           window.location.href
                         )}`}
                         title="Share this page on Linkedin"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faLinkedin}
@@ -156,7 +161,8 @@ function EventPoster14() {
                           window.location.href
                         )}`}
                         title="Share this page on Pinterest"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquarePinterest}
@@ -180,7 +186,10 @@ function EventPoster14() {
                     {showContent && (
                       <div className="row event-venue">
                         <div className="event-venue-left col-4">
-                          <img src={EventPosterDetail14.ImageVeneu} alt="veneu"></img>
+                          <img
+                            src={EventPosterDetail14.ImageVeneu}
+                            alt="veneu"
+                          ></img>
                         </div>
                         <div className="event-venue-right col-8 mt-auto mb-auto">
                           <a
