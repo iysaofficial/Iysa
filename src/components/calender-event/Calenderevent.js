@@ -19,7 +19,7 @@ const Calenderevent = () => {
           </h2>
           <iframe
             className="iframe"
-            src="https://heyzine.com/flip-book/1b8cf0b459.html"
+            src="https://heyzine.com/flip-book/60417061c7.html"
             allowFullScreen
             title="calender"
           ></iframe>
