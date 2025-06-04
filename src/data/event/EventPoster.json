@@ -1,33 +1,6 @@
 {
   "event": [  
     {
-      "id": 1,
-      "image": "./assets/images/poster/bisf.WebP",
-      "title": "Bali International Science Fair (BISF) 2025",
-      "level": "International",
-      "location": "hybrid",
-      "date": "June 19 - 23, 2025",
-      "link": "/EventPage1"
-    },
-    {
-      "id": 2,
-      "image": "./assets/images/poster/iybc.WebP",
-      "title": "INTERNATIONAL YOUTH BUSINESS COMPETITION (IYBC) 2025",
-      "level": "International",
-      "location": "hybrid",
-      "date": "June 19 - 23, 2025",
-      "link": "/EventPage2"
-    },
-    {
-      "id": 3,
-      "image": "./assets/images/poster/i3o.WebP",
-      "title": "International IoT Olympiad (I3O) 2025",
-      "level": "International",
-      "location": "hybrid",
-      "date": "June 19 - 23, 2025",
-      "link": "/EventPage3"
-    },
-    {
       "id": 4,
       "image": "./assets/images/poster/nicyms.jpeg",
       "title": "NATIONAL INVENTION COMPETITION FOR YOUNG MOSLEM SCIENTISTS (NICYMS) 2025",
