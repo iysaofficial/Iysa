@@ -253,7 +253,15 @@
       "content": "",
       "gambar": "./assets/images/newsletter/NewsletterApril2025Edition.jpg",
       "linkbtn": "/Newsletter2025DetailPage4"
+    },
+    {
+      "id": 5,
+      "title": "IYSA Newsletter May 2025",
+      "content": "",
+      "gambar": "./assets/images/newsletter/NewsletterMayEdition2025.jpg",
+      "linkbtn": "/Newsletter2025DetailPage5"
     }
+    
   ],
 
   "NewsletterJanuary2025": [
@@ -287,6 +295,14 @@
       "title": "IYSA Newsletter April",
       "images": "./assets/images/newsletter/NewsletterApril2025Edition.jpg",
       "linkpdf": "https://drive.google.com/file/d/14Kcl-6xD6S-rVHLiQhauYsXzVDhvbg5W/preview"
+    }
+  ],
+    "NewsletterMay2025": [
+    {
+      "id": 1,
+      "title": "IYSA Newsletter May",
+      "images": "./assets/images/newsletter/NewsletterMayEdition2025.jpg",
+      "linkpdf": "https://drive.google.com/file/d/1Id9g7jAVBDuAsZ54sS4Ag_aKajBMdK8m/preview"
     }
   ],
 
