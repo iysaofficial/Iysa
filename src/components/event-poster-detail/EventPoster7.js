@@ -69,10 +69,10 @@ function EventPoster7() {
                         <strong>📍Online Competition: </strong> September, 12th -15th 2025
                       </li>
                       <li>
-                        <strong>📍Offline Competition: </strong> September, 21st - 25th 2025
+                        <strong>📍Offline Competition: </strong> September, 21st - 24th 2025
                       </li>
                       <li>
-                        <strong>📍Event Date: </strong> September, 12th - 25th 2025
+                        <strong>📍Event Date: </strong> September, 12th - 24th 2025
                       </li>
                     </ul>
                     <br></br>

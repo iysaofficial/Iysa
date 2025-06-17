@@ -38,11 +38,11 @@
     },
     {
     "id": 7,
-    "image": "./assets/images/poster/wice2.jpeg",
+    "image": "./assets/images/poster/wice.jpg",
     "title": "WORLD INVENTION COMPETITION AND EXHIBITION (WICE) 2025",
     "level": "International",
     "location": "hybrid",
-    "date": "September 12th - 25th 2025",
+    "date": "September 12th - 24th, 2025",
     "link": "/EventPage7"
     },
     {
@@ -71,6 +71,15 @@
     "location": "hybrid",
     "date": "August 26th - September 9th, 2025",
     "link": "/EventPage16"
+    },    
+    {
+    "id": 11,
+    "image": "./assets/images/poster/isf.jpg",
+    "title": "International Science Festival (ISF) 2025",
+    "level": "International",
+    "location": "Offline",
+    "date": "September 12th - 24th, 2025",
+    "link": "/EventPage17"
     }
   ]
 }

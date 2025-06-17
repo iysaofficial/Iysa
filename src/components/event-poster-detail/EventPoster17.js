@@ -47,39 +47,35 @@ function EventPoster17() {
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail17.title}</h1>
                     <br></br>
-                    <p>4th IRTC 2024 🎉</p>
+                    <p>🌍✨ 1st International Science Festival 2025 ✨🌍</p>
                     <br></br>
                     <p>
-                      Hi, hello teachers and lecturers in the world, IYSA has an
-                      event for you, teachers and lecturers🔥
+                      Get ready for an exciting in-person science competition at:
                     </p>
-                    <p>
+                    {/* <p>
                       Held online & offline, the International Research Teacher
                       Competition was held again in Denpasar, Bali
-                    </p>
+                    </p> */}
                     <br></br>
-                    <p>Come on</p>
+                    <p>🏛️ SEGi University</p>
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📌 Registration Deadline : </strong> October
-                        3rd, 2024
+                        <strong>📌 Registration Deadline : </strong> August 15th, 2025
                       </li>
                       <li>
                         <strong>📌 Payment & Submission Deadline : </strong>
-                        October 8th, 2024
-                      </li>
+                        August 22nd, 2025                     </li>
                       <li>
-                        <strong>📌 Event Date : </strong> November 5th - 9th,
-                        2024
+                        <strong>📌 Event Date : </strong> September 21st - 24th, 2025
                       </li>
                     </ul>
-                    <p>Come on, register via:</p>
+                    <p>🔗 Register now at:</p>
                     <br></br>
                     <p>
                       Visit the website :
-                      <a href="http://irtc.or.id/" target="_blank" rel="noreferrer" >
-                        irtc.or.id
+                      <a href="https://isfofficial.or.id" target="_blank" rel="noreferrer" >
+                        isfofficial.or.id
                       </a>
                     </p>
                     <p>Registration link: </p>
