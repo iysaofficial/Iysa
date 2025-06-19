@@ -47,35 +47,31 @@ function EventPoster20() {
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail20.title}</h1>
                     <br></br>
-                    <p>Hallo hai Peneliti belia 🙌🤩 </p>
+                    <p>🌍✨ 7th ISIF 2025 is Coming! ✨🌍</p>
                     <br></br>
-                    <p>NATIONAL YOUTH CHEMISTRY OLYMPIAD 2024!! 👏</p>
+                    <p>Get ready for the most prestigious event in the world of science and innovation!</p>
                     <p>
-                      Sudah buka pendaftaran nih.. Untuk SMA dan Universitas loh
-                      🥳
+                      📣 The 7th International Science and Invention Fair (ISIF) is back in a Hybrid Competition!
                     </p>
                     <br></br>
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📌 Registration Deadline : </strong> 22 Mei,
-                        2024
+                        <strong>📌 Registration Deadline : </strong> October 3rd, 2025
                       </li>
                       <li>
-                        <strong>📌 Payment & Submission Deadline : </strong>
-                        24 Maret, 2024
+                        <strong>📌 Payment & Submission Deadline : </strong> October 3rd, 2025
                       </li>
                       <li>
-                        <strong>📌 Event Date : </strong> 12 Juni - 27 Juni,
-                        2024
+                        <strong>📌 Event Date : </strong>November 3rd - 16th, 2025
                       </li>
                     </ul>
-                    <p>Pendaftarannya di link bawa sinii !!</p>
+                    <p>💡 It's time to show your best discoveries and scientific works to the international stage!</p>
                     <br></br>
                     <p>
-                      website :
-                      <a href="https://nyco-iysa.or.id " target="_blank" rel="noreferrer" >
-                        nyco-iysa.or.id
+                      🔗 Register now at :
+                      <a href="https://isif.or.id " target="_blank" rel="noreferrer" >
+                        isif.or.id
                       </a>
                     </p>
                     <p>Registration link: </p>
@@ -87,7 +83,7 @@ function EventPoster20() {
                     >
                       Registration Here
                     </a>
-                    <p>daftar sekarang 🙌</p>
+                    <p>📆 Don't miss this golden opportunity!</p>
                     <br></br>
                     <br />
                     <p className="hastag">{EventPosterDetail20.Hastag}</p>

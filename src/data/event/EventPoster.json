@@ -80,6 +80,33 @@
     "location": "Offline",
     "date": "September 12th - 24th, 2025",
     "link": "/EventPage17"
+    },    
+    {
+    "id": 12,
+    "image": "./assets/images/poster/nrtc.jpg",
+    "title": "NATIONAL RESEARCH TEACHER COMPETITION (NRTC) 2025",
+    "level": "Nasional",
+    "location": "Hybrid",
+    "date": "November 3rd - 16th, 2025",
+    "link": "/EventPage19"
+    },    
+    {
+    "id": 13,
+    "image": "./assets/images/poster/istc.jpg",
+    "title": "International Research Teacher Competition (IRTC) 2025",
+    "level": "International",
+    "location": "Hybrid",
+    "date": "November 3rd - 16th, 2025",
+    "link": "/EventPage18"
+    },    
+    {
+    "id": 14,
+    "image": "./assets/images/poster/isif.jpg",
+    "title": "International Science and Invention Fair (ISIF)",
+    "level": "International",
+    "location": "Hybrid",
+    "date": "November 3rd - 16th, 2025",
+    "link": "/EventPage20"
     }
   ]
 }

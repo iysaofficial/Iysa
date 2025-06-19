@@ -47,38 +47,39 @@ function EventPoster18() {
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail18.title}</h1>
                     <br></br>
-                    <p>WorldInvent™ Singapore 2024</p>
+                    <p>🌍 Calling All Inspiring Educators! ✨</p>
                     <br></br>
                     <p>
-                      Offline Competition On 9-11, July 2024 WorldInvent™
-                      Singapore is back!
+                      Join us at the 5th International Research Teacher
+                      Competition (IRTC) a Hybrid Competition held in the
+                      beautiful island of Bali, Indonesia! 🇮🇩 On 9-11, July 2024
+                      WorldInvent™ Singapore is back!
                     </p>
                     <p>
-                      For those of you who didn’t have time to register last
-                      year, let’s register at this link
+                      💡 Showcase your research, share innovative teaching
+                      practices, and connect with passionate teachers from
+                      around the globe!
                     </p>
                     <br></br>
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📌 Registration Deadline : </strong> May 15th,
-                        2024
+                        <strong>📌 Registration Deadline : </strong> October 3rd, 2025
                       </li>
                       <li>
-                        <strong>📌 Payment & Submission Deadline : </strong>
-                        May 20th, 2024
+                        <strong>📌 Payment & Submission Deadline : </strong> October 3rd, 2025
                       </li>
                       <li>
-                        <strong>📌 Event Date : </strong>July 9th - 11th, 2024
+                        <strong>📌 Event Date : </strong>November 3rd - 16th, 2025
                       </li>
                     </ul>
 
-                    {/* <p>
+                    <p>
                       Visit the website :
-                      <a href="http://wecc.or.id/" target="_blank" rel="noreferrer" >
-                        wecc.or.id
+                      <a href="http://irtc.or.id/" target="_blank" rel="noreferrer" >
+                        irtc.or.id
                       </a>
-                    </p> */}
+                    </p>
                     <p>Registration link: </p>
                     <br></br>
                     <a
@@ -121,7 +122,8 @@ function EventPoster18() {
                           window.location.href
                         )}`}
                         title="Share this page on Facebook"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquareFacebook}
@@ -134,7 +136,8 @@ function EventPoster18() {
                           window.location.href
                         )}`}
                         title="Share this page on Twitter"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquareTwitter}
@@ -147,7 +150,8 @@ function EventPoster18() {
                           window.location.href
                         )}`}
                         title="Share this page on Linkedin"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faLinkedin}
@@ -160,7 +164,8 @@ function EventPoster18() {
                           window.location.href
                         )}`}
                         title="Share this page on Pinterest"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <FontAwesomeIcon
                           icon={faSquarePinterest}
@@ -184,7 +189,10 @@ function EventPoster18() {
                     {showContent && (
                       <div className="row event-venue">
                         <div className="event-venue-left col-6">
-                          <img src={EventPosterDetail18.ImageVeneu} alt="veneu"></img>
+                          <img
+                            src={EventPosterDetail18.ImageVeneu}
+                            alt="veneu"
+                          ></img>
                         </div>
                         <div className="event-venue-right col-8 mt-auto mb-auto">
                           <a

@@ -47,38 +47,34 @@ function EventPoster19() {
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail19.title}</h1>
                     <br></br>
-                    <p>Hello young researchers all over the world 🤩🙌 </p>
+                    <p>📚👩‍🏫 NATIONAL RESEARCH TEACHER COMPETITION (NRTC) 2025 - ke-5 </p>
                     <br></br>
-                    <p>INTERNATIONAL YOUTH CHEMISTRY OLYMPIAD 2024 👏 !!</p>
+                    <p>Bersiaplah untuk kompetisi paling bergengsi bagi para pendidik di seluruh Indonesia! 🇮🇩✨</p>
                     <p>
-                      Registration is now open.. for Senior high school and
-                      University
+                      Ikuti NRTC 2025 dan tunjukkan inovasi terbaikmu dalam dunia pendidikan dan penelitian!
                     </p>
+                    <p>IYSA bekerjasama dengan @vokasi.undip</p>
                     <br></br>
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📌 Registration Deadline : </strong> May 22nd,
-                        2024
+                        <strong>📌 Registration Deadline : </strong> October 3rd, 2025
                       </li>
                       <li>
-                        <strong>📌 Payment & Submission Deadline : </strong>
-                        March 24th, 2024
+                        <strong>📌 Payment & Submission Deadline : </strong> October 3rd, 2025
                       </li>
                       <li>
-                        <strong>📌 Event Date : </strong> June 12th - June 27th,
-                        2024
+                        <strong>📌 Event Date : </strong>November 3rd - 16th, 2025
                       </li>
                     </ul>
                     <p>
-                      So wait no more, Make sure you and your team join this
-                      event!
+                      Daftar sekarang
                     </p>
                     <br></br>
                     <p>
                       Visit the website :
-                      <a href="https://iyco-iysa.or.id " target="_blank" rel="noreferrer" >
-                        iyco-iysa.or.id
+                      <a href="https://nrtc.or.id " target="_blank" rel="noreferrer" >
+                        nrtc.or.id
                       </a>
                     </p>
                     <p>Registration link: </p>

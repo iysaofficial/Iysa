@@ -275,7 +275,7 @@
     {
       "id": 1,
       "image": "./assets/images/poster/isf.jpg",
-      "title": "International Science Festival (ISF 2025",
+      "title": "International Science Festival (ISF) 2025",
       "LinkRegist": "https://isfofficial.or.id",
       "Hastag": "#ISF2025 #SEGiUniversity #Malaysia #IYSA #MIICA #MYSO #ScienceFestival #YouthInnovation #SEGiUniversity #GlobalCompetition",
       "DateAdTime": "September 12th - 24th, 2025",
@@ -288,38 +288,55 @@
       "NameLocation": "Kota Damansara, Selangor, Malaysia"
     }
   ],
+    "event18": [
+    {
+      "id": 1,
+      "image": "./assets/images/poster/istc.jpg",
+      "title": "International Research Teacher Competition (IRTC) 2025",
+      "LinkRegist": "https://www.irtc.or.id/",
+      "Hastag": "#IRTC2025 #TeacherCompetition #GlobalEducation #IYSA #ResearchForEducation #IRTCBali",
+      "DateAdTime": "November 3rd - 16th, 2025",
+      "RegistEndDate": "October 3rd, 2025",
+      "Location": "Hybrid",
+      "EventType": "International",
+      "EventCategory": "IYSA Event",
+      "ImageVeneu": "",
+      "LinkGmaps": "",
+      "NameLocation": "📍 Offline Venue: Bali, Indonesia"
+    }
+  ],
   "event19": [
     {
       "id": 1,
-      "image": "./assets/images/poster/iyco.WebP",
-      "title": "INTERNATIONAL YOUTH CHEMISTRY OLYMPIAD 2024 👏 !!",
-      "LinkRegist": "https://registrasi-iyco.vercel.app/",
-      "Hastag": "",
-      "DateAdTime": "June 12th - June 27th, 2024",
-      "RegistEndDate": "May 22nd, 2024",
-      "Location": "Online",
+      "image": "./assets/images/poster/nrtc.jpg",
+      "title": "Nasional Research Teacher Competition (NRTC) 2025",
+      "LinkRegist": "https://www.nrtc.or.id/",
+      "Hastag": "#NRTC2025 #KompetisiGuruNasional #IYSA #InovasiPendidikan #GuruPeneliti #NRTCke5 #Bali2025",
+      "DateAdTime": "November 3rd - 16th, 2025",
+      "RegistEndDate": "October 3rd, 2025",
+      "Location": "Hybrid",
       "EventType": "International",
-      "EventCategory": "IYSA Event Olympiad",
+      "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
-      "NameLocation": ""
+      "NameLocation": "📍 Lokasi: Bali, Indonesia"
     }
   ],
   "event20": [
     {
       "id": 1,
-      "image": "./assets/images/poster/nyco.WebP",
-      "title": "NATIONAL YOUTH CHEMISTRY OLYMPIAD 2024 👏 !!",
-      "LinkRegist": "https://registrasi-nyco.vercel.app/",
-      "Hastag": "",
-      "DateAdTime": "12 Juni - 27 Juni, 2024",
-      "RegistEndDate": "22 Mei, 2024",
-      "Location": "Online",
-      "EventType": "Nasional",
-      "EventCategory": "IYSA Event Olympiad",
+      "image": "./assets/images/poster/isif.jpg",
+      "title": "International Science and Invention Fair (ISIF) ",
+      "LinkRegist": "https://www.isif.or.id/",
+      "Hastag": "#ISIF2025 #ScienceFair #Innovation #IYSA #YoungScientists #HybridCompetition #Bali #InternationalEvent #ISIF7th",
+      "DateAdTime": "November 3rd - 16th, 2025",
+      "RegistEndDate": "October 3rd, 2025",
+      "Location": "Hybrid",
+      "EventType": "International",
+      "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
-      "NameLocation": ""
+      "NameLocation": "📍 Offline Venue: Bali, Indonesia"
     }
   ],
   "event21": [
