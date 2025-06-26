@@ -1,33 +1,6 @@
 {
   "event": [  
     {
-      "id": 4,
-      "image": "./assets/images/poster/nicyms.jpeg",
-      "title": "NATIONAL INVENTION COMPETITION FOR YOUNG MOSLEM SCIENTISTS (NICYMS) 2025",
-      "level": "Nasional",
-      "location": "Kompetisi Hybrid",
-      "date": "28 - 31 Juli, 2025",
-      "link": "/EventPage4"
-    },
-    {
-    "id": 5,
-    "image": "./assets/images/poster/iicyms.jpeg",
-    "title": "INTERNATIONAL INVENTION COMPETITION FOR YOUNG MOSLEM SCIENTISTS (IICYMS) 2025",
-    "level": "International",
-    "location": "hybrid",
-    "date": "July 28 - 31, 2025",
-    "link": "/EventPage5"
-    },
-    {
-    "id": 5,
-    "image": "./assets/images/poster/wrcso.jpeg",
-    "title": "WORLD ROBOTICS & COMPUTER SCIENCE OLYMPIAD (WRCSO) 2025",
-    "level": "International",
-    "location": "hybrid",
-    "date": "July 28 - 31, 2025",
-    "link": "/EventPage10"
-    },
-    {
     "id": 6,
     "image": "./assets/images/poster/iiiex.jpeg",
     "title": "4th IIIEX 2025 INDONESIA INTERNATIONAL INVENTION EXPO",
