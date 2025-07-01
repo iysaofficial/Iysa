@@ -1,40 +1,4 @@
 {
   "eventaffiliasi": [  
-    {
-      "id": 1,
-      "image": "./assets/images/poster/Kiwie.jpg",
-      "title": "KOREA INTERNATIONAL WOMEN'S INVENTION EXPOSITION",
-      "level": "International",
-      "location": "Hybrid Competition",
-      "date": "22nd May - 24th May, 2025",
-      "link": "/EventPage6"
-    },
-    {
-      "id": 2,
-      "image": "./assets/images/poster/1world.jpeg",
-      "title": "INNOVATION DESIGN STARTUP COMPETITION 2025 (1idea1world)",
-      "level": "International",
-      "location": "Hybrid Competition",
-      "date": "25th May - 26th April, 2025",
-      "link": "/EventPage7"
-    },
-    {
-      "id": 3,
-      "image": "./assets/images/poster/wico.jpeg",
-      "title": "World Invention Creativity Olympic 2025 (WICO)",
-      "level": "International",
-      "location": "Hybrid Competition",
-      "date": "17th - 18th July, 2025",
-      "link": "/EventPage8"
-    },
-    {
-      "id": 4,
-      "image": "./assets/images/poster/ennovate.jpeg",
-      "title": "International Innovation Summit 2025 (E-NNOVATE)",
-      "level": "International",
-      "location": "Hybrid Competition",
-      "date": "June 20th - July 12th",
-      "link": "/EventPage9"
-    }
   ]
 }
