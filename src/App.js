@@ -91,6 +91,7 @@ import Newsletter2025DetailPage2 from "./pages/newsletter/Newsletter2025DetailPa
 import Newsletter2025DetailPage3 from "./pages/newsletter/Newsletter2025DetailPage3";
 import Newsletter2025DetailPage4 from "./pages/newsletter/Newsletter2025DetailPage4";
 import Newsletter2025DetailPage5 from "./pages/newsletter/Newsletter2025DetailPage5";
+import Newsletter2025DetailPage6 from "./pages/newsletter/Newsletter2025DetailPage6";
 
 // Import Gallery
 import GalleryPhoto from "./pages/gallery/GalleryPhoto";
@@ -442,6 +443,10 @@ function App() {
             <Route
               path="/Newsletter2025DetailPage5"
               element={<Newsletter2025DetailPage5 />}
+            />
+            <Route
+              path="/Newsletter2025DetailPage6"
+              element={<Newsletter2025DetailPage6 />}
             />
           </Routes>
         </Router>
