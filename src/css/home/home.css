@@ -680,9 +680,10 @@ btn:hover{
   animation-play-state: paused;
 }
 
+
 .logos-slide {
   display: inline-block;
-
+  
   animation: 50s slide infinite linear;
 }
 
@@ -691,6 +692,24 @@ btn:hover{
   margin: 0 40px;
 }
 
+/* Media logos responsive */
+.media-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 16px 0;
+}
+
+.media-logos img {
+  max-width: 75%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  object-fit: contain;
+}
 /*-------------------------- National Affiliation End --------------------------*/
 
 
