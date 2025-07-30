@@ -1,13 +1,22 @@
 {
   "event": [  
     {
-    "id": 6,
-    "image": "./assets/images/poster/iiiex.jpeg",
-    "title": "4th IIIEX 2025 INDONESIA INTERNATIONAL INVENTION EXPO",
+    "id": 5,
+    "image": "./assets/images/poster/wyiia.jpeg",
+    "title": "5th WYIIA – World Youth Invention and Innovation Award",
     "level": "International",
     "location": "hybrid",
-    "date": "August 8th - 11th, 2025",
+    "date": "October 7th - 10th, 2025 for (Online), October 15th - 18th, 2025 (Offline)",
     "link": "/EventPage13"
+    },
+    {
+    "id": 6,
+    "image": "./assets/images/poster/nyiia.jpeg",
+    "title": "NYIIA ke-2 (National Youth Invention and Innovation Award) 2025",
+    "level": "Nasional" ,
+    "location": "hybrid",
+    "date": "7 - 10 Oktober, 2025 (Online), 15 - 18 Oktober, 2025 (Offline)",
+    "link": "/EventPage14"
     },
     {
     "id": 7,
@@ -17,34 +26,7 @@
     "location": "hybrid",
     "date": "September 12th - 24th, 2025",
     "link": "/EventPage7"
-    },
-    {
-    "id": 8,
-    "image": "./assets/images/poster/wecc.jpeg",
-    "title": "WORLD ECONOMICS CHALLANGE AND COMPETITION (WECC) 2025",
-    "level": "International",
-    "location": "hybrid",
-    "date": "August 26th - September 9th, 2025",
-    "link": "/EventPage14"
-    },
-    {
-    "id": 9,
-    "image": "./assets/images/poster/ispc.jpeg",
-    "title": "INTERNATIONAL SCIENCE PROJECT COMPETITION (ISPC) 2025",
-    "level": "International",
-    "location": "hybrid",
-    "date": "August 26th - September 9th, 2025",
-    "link": "/EventPage15"
-    },
-    {
-    "id": 10,
-    "image": "./assets/images/poster/glocolis.jpeg",
-    "title": "Global Competition for Life Sciences (GLOCOLIS) 2025",
-    "level": "International",
-    "location": "hybrid",
-    "date": "August 26th - September 9th, 2025",
-    "link": "/EventPage16"
-    },    
+    },   
     {
     "id": 11,
     "image": "./assets/images/poster/isf.jpg",

@@ -47,44 +47,47 @@ function EventPoster14() {
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail14.title}</h1>
                     <br></br>
-                    <p>IYSA is back to hold the 2nd WECC</p>
-                    <p>event in Central Java..🔥</p>
+                    <p>Haloo, Young Scientist!</p>
+                    <p>Pendaftaran NYIIA ke-2 (National Youth Invention and Innovation Award) resmi DIBUKA! 🚀</p>
                     <br></br>
                     <p>
-                      YSA collaborates with Universitas Dian Nuswantoro (UDINUS)
-                      Semarang, to hold the WECC 2025 online & offline
-                      competition.
+                      Tahun ini, IYSA bekerja sama dengan Dinas Pendidikan Provinsi Jawa Timur (Disdik Jatim) dan Student Achievement Center (SAC) Jawa Timur.
                     </p>
                     <p>
-                      "World Economics Challenge and Competition" Come on to
-                      Semarang and join this event...👏
+                      Kolaborasi keren ini hadir untuk mendukung generasi muda Indonesia dalam menciptakan inovasi nyata dan berdampak! 💡🌱
+                    </p>
+                    <p>
+                     Kamu siswa atau mahasiswa yang punya ide keren di bidang sains, teknologi, lingkungan, sosial, atau lainnya?
+                    </p>
+                    <p>
+                      Segera daftarkan tim kamu dan unjuk gigi di panggung nasional!
                     </p>
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📌 Registration Deadline : </strong> July 24th, 2025
+                        <strong>📌 Batas Pendaftaran : </strong> 3 September, 2025
                       </li>
                       <li>
-                        <strong>📌 Payment & Submission Deadline : </strong> August 1st, 2025
+                        <strong>📌 Batas waktu pembayaran dan pengumpulan berkas : </strong> 10 September, 2025
                       </li>
                       <li>
-                        <strong>📌 Event Date : </strong> August 26th - September 9th, 2025
+                        <strong>📌 Pelaksaan Event : </strong> 7 - 10 Oktober, 2025 (Online), 15 - 18 Oktober, 2025 (Offline)
                       </li>
                     </ul>
                     <br></br>
                     <p>
-                      Visit the website 👇:
-                      <a href="http://wecc.or.id/" target="_blank" rel="noreferrer"  >
-                        wecc.or.id
+                      Visit the website 👇:<br/>
+                      <a href="http://nyiia.or.id/" target="_blank" rel="noreferrer"  >
+                        nyiia.or.id
                       </a>
                     </p>
-                    <p>Registration Here:</p>
+                    <p>Registrasi Disini:</p>
                     <a
                       className="btn btn-primary mb-4"
                       href={EventPosterDetail14.LinkRegist}
                       target="-blank"
                     >
-                      Registration Form
+                      Formulir Registrasi
                     </a>
                     {/* <p>See you 🙋‍♀️🙋‍♂️</p> */}
                     <br></br>

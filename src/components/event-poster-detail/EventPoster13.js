@@ -48,32 +48,32 @@ function EventPoster13() {
                     <h1 className="fw-bolder">{EventPosterDetail13.title}</h1>
                     <br></br>
                     <p>
-                      4th IIIEX 2025🎉 INDONESIA INTERNATIONAL INVENTION EXPO
+                      Calling all young changemakers!
                     </p>
                     <br></br>
                     <p>Hybrid Competition 💥</p>
                     <br></br>
                     <p>
-                      4th IIIEX 2025🎉 INDONESIA INTERNATIONAL INVENTION EXPO is
-                      a hybrid competition.
+                      Get ready for the 5th WYIIA – World Youth Invention and Innovation Award! 🎉
                     </p>
                     <br></br>
                     <p>
-                      2025 is the fourth year that IIIEX has been held. This
-                      year, IYSA is still collaborating with Politeknik Negeri
-                      Semarang, Indonesia.
+                      Organized by IYSA, in collaboration with the East Java Provincial Education Office and the Student Achievement Center (SAC), this event aims to empower the next generation of global innovators.
                     </p>
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📌 Registration Deadline : </strong> July 3rd, 2025
+                        <strong>📌 Place : </strong> 📍 Surabaya, Indonesia
+                      </li>
+                      <li>
+                        <strong>📌 Registration Deadline : </strong> September 3rd, 2025
                       </li>
                       <li>
                         <strong>📌 Payment & Submission Deadline : </strong>{" "}
-                        July 11th, 2025
+                        September 10th, 2025
                       </li>
                       <li>
-                        <strong>📌 Event Date : </strong>August 8th - 11th, 2025
+                        <strong>📌 Event Date : </strong>October 7th - 10th, 2025 for Online <br/> October 15th - 18th, 2025 for Offline
                       </li>
                     </ul>
                     <p>
@@ -84,11 +84,11 @@ function EventPoster13() {
                     <p>
                       📱Register via:
                       <a
-                        href="https://www.iiiex.or.id/"
+                        href="https://www.wyiia.or.id/"
                         target="_blank"
                         rel="noreferrer"
                       >
-                        iiiex.or.id
+                         wyiia.or.id
                       </a>
                     </p>
                     <p>Registration Here:</p>
