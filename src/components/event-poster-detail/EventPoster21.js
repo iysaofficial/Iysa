@@ -47,38 +47,34 @@ function EventPoster21() {
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail21.title}</h1>
                     <br></br>
-                    <p>NSIF 2024 💥 Event Nasional ke-1</p>
+                    <p>🔬🔥 KOMPETISI SAINS TERAPAN TERBESAR KEMBALI HADIR di YOGYAKARTA 🔥🔬</p>
                     <br></br>
                     <p>
-                      National Science and Invention Fair Merupakan event
-                      nasional IYSA yang akan diselenggarakan di Bali secara
-                      daring dan luring 🤗🥳
-                    </p>
-                    <p>
-                      NSIF 2024 akan berlangsung pada bulan November 2024, jangn
-                      lupa catat tanggal nya ya👇🏻
+                      NASPO (National Applied Science Project Olympiad) 2025 siap digelar untuk ke-6 kalinya, kerja sama antara IYSA dengan Fakultas MIPA Universitas Gadjah Mada 💥
                     </p>
                     <br></br>
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📌 Registration Deadline : </strong> 3 Oktober
-                        2024
+                        <strong>📌 Registration Deadline : </strong> 3 November 2025
                       </li>
                       <li>
-                        <strong>📌 Payment & Submission Deadline : </strong>8
-                        Oktober 2024
+                        <strong>📌 Payment & Submission Deadline : </strong>7
+                        November 2025
                       </li>
                       <li>
-                        <strong>📌 Event Date : </strong> 5 - 10 November 2024
+                        <strong>📌 Event Date : </strong> 9 - 21 Desember 2025
                       </li>
                     </ul>
-                    <p>Kalian bisa daftat melalui:</p>
+                    <p>
+                      Jangan lewatkan kesempatan untuk menampilkan inovasi ilmiah terbaikmu di tingkat nasional bersama para ilmuwan muda dari seluruh Indonesia! 🚀👩‍🔬👨‍🔬
+                    </p>
+                      Daftarkan dirimu sekarang di:
                     <br></br>
                     <p>
                       website :
-                      <a href="www.nsif.or.id" target="_blank" rel="noreferrer" >
-                        nsif.or.id
+                      <a href="www.naspo.or.id" target="_blank" rel="noreferrer" >
+                        www.naspo.or.id
                       </a>
                     </p>
                     <p>Registration link: </p>
@@ -90,10 +86,6 @@ function EventPoster21() {
                     >
                       Registration Here
                     </a>
-                    <p>
-                      Yuk buat kalian pelajar di seluruh Indonesia, daftar
-                      kompetisi ini ya 🤗
-                    </p>
                     <br></br>
                     <br />
                     <p className="hastag">{EventPosterDetail21.Hastag}</p>

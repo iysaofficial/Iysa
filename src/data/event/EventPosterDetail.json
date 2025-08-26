@@ -342,35 +342,35 @@
   "event21": [
     {
       "id": 1,
-      "image": "./assets/images/poster/nsif.WebP",
-      "title": "NATIONAL SCIENCE AND INVENTION FAIR (NSIF) 2024",
-      "LinkRegist": "https://registrasi-nsif-2024.vercel.app/",
-      "Hastag": "#nsif #2024 #bali #iysaevent #iysa2024 #nsifbali #infolomba2024 #sains #eventiysa2024",
-      "DateAdTime": "5 - 10 November, 2024",
-      "RegistEndDate": "3 Oktober 2024",
-      "Location": "Offline",
+      "image": "./assets/images/poster/naspo.jpg",
+      "title": "NATIONAL APPLIED SCIENCE PROJECT OLYMPIAD (NASPO) 2025",
+      "LinkRegist": "https://www.naspo.or.id/",
+      "Hastag": "#NASPO2025 #KompetisiSains #IYSA #UGM #IlmuwanMuda #InovasiAnakBangsa #HybridCompetition #ScienceOlympiad #IndonesiaBerinovasi #NaspoKe6",
+      "DateAdTime": "9 - 21 December, 2025",
+      "RegistEndDate": "3 November 2025",
+      "Location": "Hybrid",
       "EventType": "Nasional",
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
-      "NameLocation": "Bali Creative Industry Center, Bali"
+      "NameLocation": "Fakultas MIPA, Universitas Gadjah Mada"
     }
   ],
   "event22": [
     {
       "id": 1,
-      "image": "./assets/images/poster/wyiia.WebP",
-      "title": "World Youth Invention And Innovation Award (WYIIA) 2024",
-      "LinkRegist": "https://registrasi-wyiia-2024.vercel.app/",
-      "Hastag": "#iysa #iysaonlinecompetition #event2024 #penelitibelia #iysaofficer #iysaevent2024 #wyiia #offlinecompetition #yogyakarta #jogja #eventoffline #iysaevent #wyiia2024 #wyiiaiysa",
-      "DateAdTime": "October 10th - 14th, 2024",
-      "RegistEndDate": "September 15th, 2024",
-      "Location": "Offline",
+      "image": "./assets/images/poster/i2aspo.jpg",
+      "title": "INDONESIA INTERNATIONAL APPLIED SCIENCE PROJECT OLYMPIAD (I2ASPO) 2025",
+      "LinkRegist": "https://www.i2aspo.or.id/",
+      "Hastag": "#I2ASPO2025 #BeTheNextInnovator #ScienceCompetition #YouthPower #ResearchForImpact #GlobalStage",
+      "DateAdTime": "December 9th - 21st, 2025",
+      "RegistEndDate": "November 3rd, 2025",
+      "Location": "Hybrid",
       "EventType": "Internasional",
       "EventCategory": "IYSA Event",
-      "ImageVeneu": "./assets/images/venue/ust.Webp",
-      "LinkGmaps": "https://maps.app.goo.gl/WKwZrVm9bBySi76M9",
-      "NameLocation": "Universitas Sarjanawiyata Tamansiswa (UST)"
+      "ImageVeneu": "",
+      "LinkGmaps": "",
+      "NameLocation": "Fakultas MIPA, Universitas Gadjah Mada"
     }
   ],
   "event23": [

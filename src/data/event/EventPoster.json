@@ -42,8 +42,26 @@
     "title": "International Science and Invention Fair (ISIF)",
     "level": "International",
     "location": "Hybrid",
-    "date": "November 3rd - 16th, 2025",
+    "date": "November 9th - 16th, 2025",
     "link": "/EventPage20"
+    },    
+    {
+    "id": 15,
+    "image": "./assets/images/poster/naspo.jpg",
+    "title": "National Applied Science Project Olympiad (NASPO)",
+    "level": "National",
+    "location": "Hybrid",
+    "date": "December 9th - 21st, 2025",
+    "link": "/EventPage21"
+    },    
+    {
+    "id": 16,
+    "image": "./assets/images/poster/i2aspo.jpg",
+    "title": "Indonesia International Applied Science Project Olympiad (I2ASPO)",
+    "level": "International",
+    "location": "Hybrid",
+    "date": "December 9th - 21st, 2025",
+    "link": "/EventPage22"
     }
   ]
 }

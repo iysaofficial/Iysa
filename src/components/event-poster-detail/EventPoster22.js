@@ -47,41 +47,34 @@ function EventPoster22() {
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail22.title}</h1>
                     <br></br>
-                    <p>WYIIA 2024 Hybrid Competition</p>
+                    <p>I2ASPO 2025 Hybrid Competition</p>
                     <br></br>
-                    <p>Hello young inventors, innovators and scientis , 🥳</p>
+                    <p>💥 Ready to turn your research into a global spotlight?</p>
                     <p>
-                      In this 4th year WYIIA is held in Yogyakarta again, in
-                      collaboration with Universitas Sarjanawiyata Tamansiswa
-                      (UST) and Institut Pertanian Bogor (IPB), @wyiiaofficial
-                      👏🏻👏🏻
+                      The 6th I2ASPO 2025, IYSA in collaboration with Faculty of Mathematics and Natural Science Gadjah Mada University (UGM) are calling all young innovators, researchers, and changemakers!
                     </p>
+                    <br></br>
+                    <p>Bring your applied science project and compete in an international arena, ONLINE or ONSITE, you choose! 🌍💡</p>
                     <br></br>
                     <br></br>
                     <ul>
                       <li>
-                        <strong>📌 Registration Deadline : </strong> September
-                        15th, 2024
+                        <strong>📌 Registration Deadline : </strong> November 3rd, 2025
                       </li>
                       <li>
                         <strong>📌 Payment & Submission Deadline : </strong>
-                        September 20th, 20244
+                        November 7th, 2025
                       </li>
                       <li>
-                        <strong>📌 Event Date : </strong> October 10th - 14th,
-                        2024
+                        <strong>📌 Event Date : </strong> October 9th - 21st,
+                        2025
                       </li>
                     </ul>
-                    <p>
-                      So for all of you international and national students,
-                      especially students on the nearest Java island, let's
-                      register your team to take part in this offline event, 😉
-                    </p>
                     <br></br>
                     <p>
                       website :
-                      <a href="https://wyiia.or.id/ " target="_blank" rel="noreferrer" >
-                        wyiia.or.id
+                      <a href="https://i2aspo.or.id/ " target="_blank" rel="noreferrer" >
+                        https://i2aspo.or.id/
                       </a>
                     </p>
                     {/* <p>Registration link: </p> */}
@@ -93,7 +86,7 @@ function EventPoster22() {
                     >
                       Registration Here
                     </a>
-                    <p>See you in Yogyakarta, Indonesia🙋‍♀️🙋‍♂️</p>
+                    <p>Tag your research buddies and let’s represent your country with pride! 🇮🇩✨</p>
                     <br></br>
                     <br />
                     <p className="hastag">{EventPosterDetail22.Hastag}</p>
