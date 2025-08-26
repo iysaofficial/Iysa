@@ -17,25 +17,7 @@
     "location": "hybrid",
     "date": "7 - 10 Oktober, 2025 (Online), 15 - 18 Oktober, 2025 (Offline)",
     "link": "/EventPage14"
-    },
-    {
-    "id": 7,
-    "image": "./assets/images/poster/wice.jpg",
-    "title": "WORLD INVENTION COMPETITION AND EXHIBITION (WICE) 2025",
-    "level": "International",
-    "location": "hybrid",
-    "date": "September 12th - 24th, 2025",
-    "link": "/EventPage7"
-    },   
-    {
-    "id": 11,
-    "image": "./assets/images/poster/isf.jpg",
-    "title": "International Science Festival (ISF) 2025",
-    "level": "International",
-    "location": "Offline",
-    "date": "September 12th - 24th, 2025",
-    "link": "/EventPage17"
-    },    
+    },  
     {
     "id": 12,
     "image": "./assets/images/poster/nrtc.jpg",
