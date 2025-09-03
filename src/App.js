@@ -136,6 +136,7 @@ import EventPage28 from "./pages/event/EventPage28";
 
 // import event affiliasi
 import AllEventAffiliation from "./pages/eventaffiliation/AllEventAffiliation";
+import Newsletter2025DetailPage7 from "./pages/newsletter/Newsletter2025DetailPage7";
 
 function App() {
   return (
@@ -447,6 +448,10 @@ function App() {
             <Route
               path="/Newsletter2025DetailPage6"
               element={<Newsletter2025DetailPage6 />}
+            />
+            <Route
+              path="/Newsletter2025DetailPage7"
+              element={<Newsletter2025DetailPage7 />}
             />
           </Routes>
         </Router>
