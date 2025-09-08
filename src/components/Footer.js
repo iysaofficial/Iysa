@@ -20,8 +20,8 @@ const Footer = () =>{
                     <a href='https://goo.gl/maps/9x18coXGCmSscKec6' target="_blank" rel="noreferrer"  className='office text-justify'>Jl. Kemang, Pasir Putih, Kecamatan. Sawangan, Kota Depok, Jawa Barat 16519</a>
                     <br></br><br></br>
                     <a href='mailto:youngscientist.iysa@gmail.com' target="_blank" rel="noreferrer"  className='office '>youngscientist.iysa@gmail.com</a>
-                    <br></br><br></br>
-                    <a href='https://wa.me/+6281770914129' target="_blank" rel="noreferrer"  className='office '>+62 817 7091 4129</a>
+                    {/* <br></br><br></br>
+                    <a href='https://wa.me/+6281770914129' target="_blank" rel="noreferrer"  className='office '>+62 817 7091 4129</a> */}
                     <br></br><br></br>
                     <a href='https://wa.me/+6288213248890' target="_blank" rel="noreferrer"  className='office '>+62 882 1324 8890</a>
                 </div>

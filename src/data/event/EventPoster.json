@@ -1,23 +1,5 @@
 {
-  "event": [  
-    {
-    "id": 5,
-    "image": "./assets/images/poster/wyiia.jpeg",
-    "title": "5th WYIIA – World Youth Invention and Innovation Award",
-    "level": "International",
-    "location": "hybrid",
-    "date": "October 7th - 10th, 2025 for (Online), October 15th - 18th, 2025 (Offline)",
-    "link": "/EventPage13"
-    },
-    {
-    "id": 6,
-    "image": "./assets/images/poster/nyiia.jpeg",
-    "title": "NYIIA ke-2 (National Youth Invention and Innovation Award) 2025",
-    "level": "Nasional" ,
-    "location": "hybrid",
-    "date": "7 - 10 Oktober, 2025 (Online), 15 - 18 Oktober, 2025 (Offline)",
-    "link": "/EventPage14"
-    },  
+  "event": [ 
     {
     "id": 12,
     "image": "./assets/images/poster/nrtc.jpg",
