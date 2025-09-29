@@ -85,13 +85,15 @@ import Newsletter2024DetailPage10 from "./pages/newsletter/Newsletter2024DetailP
 import Newsletter2024DetailPage11 from "./pages/newsletter/Newsletter2024DetailPage11";
 import Newsletter2024DetailPage12 from "./pages/newsletter/Newsletter2024DetailPage12";
 
-// Import Newsletter 2024
+// Import Newsletter 2025
 import Newsletter2025DetailPage1 from "./pages/newsletter/Newsletter2025DetailPage1";
 import Newsletter2025DetailPage2 from "./pages/newsletter/Newsletter2025DetailPage2";
 import Newsletter2025DetailPage3 from "./pages/newsletter/Newsletter2025DetailPage3";
 import Newsletter2025DetailPage4 from "./pages/newsletter/Newsletter2025DetailPage4";
 import Newsletter2025DetailPage5 from "./pages/newsletter/Newsletter2025DetailPage5";
 import Newsletter2025DetailPage6 from "./pages/newsletter/Newsletter2025DetailPage6";
+import Newsletter2025DetailPage7 from "./pages/newsletter/Newsletter2025DetailPage7";
+import Newsletter2025DetailPage8 from "./pages/newsletter/Newsletter2025DetailPage8";
 
 // Import Gallery
 import GalleryPhoto from "./pages/gallery/GalleryPhoto";
@@ -136,7 +138,6 @@ import EventPage28 from "./pages/event/EventPage28";
 
 // import event affiliasi
 import AllEventAffiliation from "./pages/eventaffiliation/AllEventAffiliation";
-import Newsletter2025DetailPage7 from "./pages/newsletter/Newsletter2025DetailPage7";
 
 function App() {
   return (
@@ -452,6 +453,10 @@ function App() {
             <Route
               path="/Newsletter2025DetailPage7"
               element={<Newsletter2025DetailPage7 />}
+            />
+            <Route
+              path="/Newsletter2025DetailPage8"
+              element={<Newsletter2025DetailPage8 />}
             />
           </Routes>
         </Router>
