@@ -43,19 +43,16 @@ function EventPoster1() {
                 <div className="main-colom row col-12 mt-5 mb-5 mx-auto">
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail1.title}</h1>
-                    <p>1st BISF 2025 Bali International Science Fair</p>
+                    <p>🌐 International Call for Young Innovators!</p>
                     <p>
-                      Bali is a foreign tourist destination in Indonesia, with
-                      its culture Bali is able to attract foreign interest to
-                      come there.
+                      The 4th Global Youth Invention and Innovation Fair (GYIIF)
+                      2026 is officially open for registration!
                     </p>
                     <br></br>
                     <p>
-                      IYSA for the first time in collaboration with Warmadewa
-                      University Denpasar, held the Bali International Science
-                      Fair 2025, this event is expected to continue to grow in
-                      providing potential for young researchers around the
-                      world.
+                      💡 Join a prestigious global platform to present your
+                      groundbreaking ideas, meet fellow innovators, and bring
+                      your inventions to the world stage. 🌎
                     </p>
 
                     {/* <p>
@@ -68,14 +65,16 @@ function EventPoster1() {
                     <p>Save the date ‼️</p>
                     <ul>
                       <li>
-                        <strong>📍Registration Deadline : </strong> May 14, 2025
+                        <strong>📍Registration Deadline : </strong> December
+                        7th, 2026
                       </li>
                       <li>
-                        <strong>📍Payment & Submission Deadline : </strong> May
-                        20, 2025
+                        <strong>📍Payment & Submission Deadline : </strong>{" "}
+                        December 11th, 2026
                       </li>
                       <li>
-                        <strong>📍Event Date : </strong> June 19 - 23, 2025
+                        <strong>📍Event Date : </strong> January 7th - 9th
+                        (online) 16th - 18th (offline), 2026
                       </li>
                       {/* <li>
                         <strong>📍Pengumuman Finalis 10 besar : </strong> 28
@@ -92,14 +91,7 @@ function EventPoster1() {
                     <p>Registration Link:!!</p>
                     <p>📱Come on, register now 👇🏻</p>
                     <p>
-                      website :
-                      <a
-                        href="https://www.bisf.or.id/ "
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        bisf.or.id
-                      </a>
+                      website : <a>gyiif.or.id</a>
                     </p>
 
                     <a

@@ -1,49 +1,40 @@
 {
-  "event": [ 
+  "event": [
     {
-    "id": 12,
-    "image": "./assets/images/poster/nrtc.jpg",
-    "title": "NATIONAL RESEARCH TEACHER COMPETITION (NRTC) 2025",
-    "level": "Nasional",
-    "location": "Hybrid",
-    "date": "November 3rd - 16th, 2025",
-    "link": "/EventPage19"
-    },    
+      "id": 15,
+      "image": "./assets/images/poster/naspo.jpg",
+      "title": "National Applied Science Project Olympiad (NASPO)",
+      "level": "National",
+      "location": "Hybrid",
+      "date": "December 9th - 21st, 2025",
+      "link": "/EventPage21"
+    },
     {
-    "id": 13,
-    "image": "./assets/images/poster/istc.jpg",
-    "title": "International Research Teacher Competition (IRTC) 2025",
-    "level": "International",
-    "location": "Hybrid",
-    "date": "November 3rd - 16th, 2025",
-    "link": "/EventPage18"
-    },    
+      "id": 16,
+      "image": "./assets/images/poster/i2aspo.jpg",
+      "title": "Indonesia International Applied Science Project Olympiad (I2ASPO)",
+      "level": "International",
+      "location": "Hybrid",
+      "date": "December 9th - 21st, 2025",
+      "link": "/EventPage22"
+    },
     {
-    "id": 14,
-    "image": "./assets/images/poster/isif.jpg",
-    "title": "International Science and Invention Fair (ISIF)",
-    "level": "International",
-    "location": "Hybrid",
-    "date": "November 9th - 16th, 2025",
-    "link": "/EventPage20"
-    },    
+      "id": 17,
+      "image": "./assets/images/poster/GYIIF2026.jpeg",
+      "title": "Global Youth Invention and Innovation Fair (GYIIF) 2026",
+      "level": "International",
+      "location": "Hybrid",
+      "date": "January 7th - 9th (online) 16th - 18th (offline), 2026",
+      "link": "/EventPage1"
+    },
     {
-    "id": 15,
-    "image": "./assets/images/poster/naspo.jpg",
-    "title": "National Applied Science Project Olympiad (NASPO)",
-    "level": "National",
-    "location": "Hybrid",
-    "date": "December 9th - 21st, 2025",
-    "link": "/EventPage21"
-    },    
-    {
-    "id": 16,
-    "image": "./assets/images/poster/i2aspo.jpg",
-    "title": "Indonesia International Applied Science Project Olympiad (I2ASPO)",
-    "level": "International",
-    "location": "Hybrid",
-    "date": "December 9th - 21st, 2025",
-    "link": "/EventPage22"
+      "id": 18,
+      "image": "./assets/images/poster/IYMIA2026.jpeg",
+      "title": "International Young Moslem Inventor Award (IYMIA) 2026",
+      "level": "International",
+      "location": "Hybrid",
+      "date": "January 7th - 9th (online) 16th - 18th (offline), 2026",
+      "link": "/EventPage2"
     }
   ]
 }

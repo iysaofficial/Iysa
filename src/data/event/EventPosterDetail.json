@@ -2,35 +2,35 @@
   "event1": [
     {
       "id": 1,
-      "image": "./assets/images/poster/bisf.WebP",
-      "title": "Bali International Science Fair (BISF) 2025",
-      "LinkRegist": "https://bisf.or.id/",
-      "Hastag": "#bisfbali #2025 #bisf2025 #iysaevent #iysa2025 #offline #online #hybrid #iysaofficial",
-      "DateAdTime": "June 19 - 23, 2025",
-      "RegistEndDate": "May 14, 2025",
+      "image": "./assets/images/poster/GYIIF2026.jpeg",
+      "title": "Global Youth Invention and Innovation Fair (GYIIF) 2026",
+      "LinkRegist": "https://gyiif.or.id/",
+      "Hastag": "#gyiif2026 #iysaevent #iysa2026 #hybrid #online #offline",
+      "DateAdTime": "January 7th - 9th (online) 16th - 18th (offline), 2026",
+      "RegistEndDate": "December 7th, 2026",
       "Location": "hybrid",
       "EventType": "International",
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
-      "NameLocation": ""
+      "NameLocation": "Institut Pertanian Bogor (IPB)"
     }
   ],
   "event2": [
     {
       "id": 1,
-      "image": "./assets/images/poster/iybc.WebP",
-      "title": "INTERNATIONAL YOUTH BUSINESS COMPETITION (IYBC) 2025",
-      "LinkRegist": "https://iybc.or.id/",
-      "Hastag": "#iybc2025 #bali #warmadewauniversity #infolomba #iysaevent #iysa2025",
-      "DateAdTime": "June 19 - 23, 2025",
-      "RegistEndDate": "May 14, 2025",
+      "image": "./assets/images/poster/IYMIA2026.jpeg",
+      "title": "International Young Moslem Inventor Award (IYMIA) 2026",
+      "LinkRegist": "https://iymia.or.id/",
+      "Hastag": "#iymia2026 #bogor #ipb #infolomba #iysaevent #iysa2026",
+      "DateAdTime": "January 7th - 9th (online) 16th - 18th (offline), 2026",
+      "RegistEndDate": "December 7th, 2026",
       "Location": "hybrid",
       "EventType": "International",
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
-      "NameLocation": ""
+      "NameLocation": "Institut Pertanian Bogor (IPB)"
     }
   ],
   "event3": [

@@ -46,41 +46,42 @@ function EventPoster2() {
                 <div className="main-colom row col-12 mt-5 mb-5">
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail2.title}</h1>
-                    <p>IYBC 2025 Hybrid Competition</p>
+                    <p>🌟 Calling All Young Muslim Innovators!</p>
                     <p>
-                      Indonesian Young Scientist Association in collaboration
-                      with Warmadewa University Denpasar🎉
+                      Get ready for the 4th International Young Moslem Inventor
+                      Award (IYMIA) 2026 🚀
                     </p>
                     <p>
-                      Will hold an International event namely the INTERNATIONAL
-                      YOUTH BUSINESS COMPETITION in Bali, Indonesia 👏🏻👏🏻
+                      Showcase your brilliant ideas and inventions to the world!
+                      🌍 This is your chance to compete, connect, and
+                      collaborate with young Muslim inventors from across the
+                      globe. Let’s shape the future together through innovation!
+                      💡✨
                     </p>
                     <br></br>
                     <p>Save the date! 👇🏻</p>
                     <ul>
                       <li>
-                        <strong>📍Registration Deadline: </strong>May 14, 2025
+                        <strong>📍Registration Deadline : </strong> December
+                        7th, 2026
                       </li>
                       <li>
-                        <strong>📍Payment Deadline: </strong>May 20, 2025
+                        <strong>📍Payment & Submission Deadline : </strong>{" "}
+                        December 11th, 2026
                       </li>
                       <li>
-                        <strong>📍Event Date: </strong> June 19 - 23, 2025
+                        <strong>📍Event Date : </strong> January 7th - 9th
+                        (online) 16th - 18th (offline), 2026
                       </li>
                     </ul>
 
-                    <p>So wait no more,
-                    Make sure you and your team join this event!</p>
+                    <p>
+                      So wait no more, Make sure you and your team join this
+                      event!
+                    </p>
                     <p>Register via:</p>
                     <p>
-                      website :
-                      <a
-                        href="https://www.iybc.or.id/ "
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        iybc.or.id
-                      </a>
+                      website : <a>iymia.or.id</a>
                     </p>
 
                     <p>Register now 👇🏻</p>
