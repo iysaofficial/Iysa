@@ -9,6 +9,7 @@ const EventAffiliation6 = () => {
           <img
             className="rounded mx-auto d-block"
             src="./assets/images/logo afiliasi/ennovate.png"
+            alt=""
           />
           <h3 className="text-center fw-bold">
             International Innovation and Invention Show (E-nnovate)

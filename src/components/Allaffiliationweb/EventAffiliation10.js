@@ -9,6 +9,7 @@ const EventAffiliation10 = () => {
           <img
             className="rounded mx-auto d-block"
             src="./assets/images/logo afiliasi/wico.png"
+            alt=""
           />
           <h3 className="text-center fw-bold">
             World Invention Creativity Olympic (WICO)
@@ -65,7 +66,7 @@ const EventAffiliation10 = () => {
                       </div>
                   </div> */}
           <p className="text-center">
-            Gallery of WICO event activities ->
+            Gallery of WICO event activities
             <a
               href="https://drive.google.com/drive/folders/1hI5NSgttY2dmwYIfSzpL6F8RVvUlrXeP?usp=sharing"
               target="_blank"

@@ -39,7 +39,7 @@ function EventPoster26() {
                       <FontAwesomeIcon icon={faArrowLeft} /> Previous Page{" "}
                     </a>{" "}
                   </div>
-                  <img src={EventPosterDetail26.image}></img>
+                  <img src={EventPosterDetail26.image} alt=""></img>
                 </div>
                 <br />
                 <br />
@@ -112,9 +112,9 @@ function EventPoster26() {
                     <p className="hastag">{EventPosterDetail26.Hastag}</p>
                   </div>
                   <div className="colom-right col-md-4 text-center text-md-start ">
-                    <a className="btn btn-primary shadow mt-2">
+                    <button className="btn btn-primary shadow mt-2" href="#">
                       About The Event
-                    </a>
+                    </button>
                     <br />
                     <br />
                     <h4 className="fw-bolder">Date and Time</h4>
@@ -206,7 +206,7 @@ function EventPoster26() {
                     {showContent && (
                       <div className="row event-venue">
                         <div className="event-venue-left col-6">
-                          <img src={EventPosterDetail26.ImageVeneu}></img>
+                          <img src={EventPosterDetail26.ImageVeneu} alt="event venue"></img>
                         </div>
                         <div className="event-venue-right col-8 mt-auto mb-auto">
                           <a

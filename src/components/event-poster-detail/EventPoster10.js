@@ -98,9 +98,9 @@ function EventPoster10() {
                     <p className="hastag">{EventPosterDetail10.Hastag}</p>
                   </div>
                   <div className="colom-right col-md-4 text-center text-md-start ">
-                    <a className="btn btn-primary shadow mt-2">
+                    <button className="btn btn-primary shadow mt-2" href="#">
                       About The Event
-                    </a>
+                    </button>
                     <br />
                     <br />
                     <h4 className="fw-bolder">Date and Time</h4>

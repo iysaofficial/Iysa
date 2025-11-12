@@ -9,6 +9,7 @@ const EventAffiliation7 = () => {
           <img
             className="rounded mx-auto d-block"
             src="./assets/images/logo afiliasi/wosg.jpeg"
+            alt=""
           />
           <br></br>
           <h3 className="text-center fw-bold">WorldInvent Singapore (WoSG)</h3>
@@ -64,7 +65,7 @@ const EventAffiliation7 = () => {
                       </div>
                   </div> */}
           <p className="text-center">
-            Gallery of WOSG event activities ->
+            Gallery of WOSG event activities
             <a
               href="https://drive.google.com/drive/folders/14yspxk4-E81gqIUdUfVgBudrUqFrHlBW?usp=sharing"
               target="_blank"

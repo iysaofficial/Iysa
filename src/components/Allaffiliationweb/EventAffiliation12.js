@@ -37,6 +37,7 @@ const EventAffiliation12 = () => {
             <a
               className="btn btn-primary m-2"
               target="_blank"
+              rel="noreferrer"
               href="https://drive.google.com/file/d/1Of3yjWHmqDBuMcS3MaYsD6Y5uz_XY38y/view?usp=sharing"
             >
               Press Release 2025
@@ -44,6 +45,7 @@ const EventAffiliation12 = () => {
             <a
               className="btn btn-primary m-2"
               target="_blank"
+              rel="noreferrer"
               href="https://drive.google.com/drive/folders/1lpiVfQlxcF-gIzuOvBmy8GI06BtoXUhg?usp=sharing"
             >
               Gallery 2025

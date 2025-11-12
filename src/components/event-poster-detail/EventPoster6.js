@@ -39,7 +39,7 @@ function EventPoster6() {
                       <i className="fas fa-arrow-left"></i> Previous Page
                     </a>
                   </div>
-                  <img src={EventPosterDetail6.image}></img>
+                  <img src={EventPosterDetail6.image} alt=""></img>
                 </div>
                 <br />
                 <br />
@@ -98,9 +98,9 @@ function EventPoster6() {
                     <p className="hastag">{EventPosterDetail6.Hastag}</p>
                   </div>
                   <div className="colom-right col-md-4 text-center text-md-start ">
-                    <a className="btn btn-primary shadow mt-2">
+                    <button className="btn btn-primary shadow mt-2" href="#">
                       About The Event
-                    </a>
+                    </button>
                     <br />
                     <br />
                     <h4 className="fw-bolder">Date and Time</h4>
@@ -188,7 +188,7 @@ function EventPoster6() {
                     {showContent && (
                       <div className="row event-venue">
                         <div className="event-venue-left col-3">
-                          <img src={EventPosterDetail6.ImageVeneu}></img>
+                          <img src={EventPosterDetail6.ImageVeneu} alt="event venue"></img>
                         </div>
                         <div className="event-venue-right col-8 mt-auto mb-auto">
                           <a

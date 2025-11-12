@@ -10,6 +10,7 @@ const EventAffiliation5 = () => {
           <img
             className="rounded mx-auto d-block"
             src="./assets/images/logo afiliasi/miix.png"
+            alt=""
           />
           <br></br>
           <h3 className="text-center fw-bold">

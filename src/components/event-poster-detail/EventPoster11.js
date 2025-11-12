@@ -98,9 +98,9 @@ function EventPoster11() {
                     <p className="hastag">{EventPosterDetail11.Hastag}</p>
                   </div>
                   <div className="colom-right col-md-4 text-center text-md-start ">
-                    <a className="btn btn-primary shadow mt-2">
+                    <button className="btn btn-primary shadow mt-2" href="#">
                       About The Event
-                    </a>
+                    </button>
                     <br />
                     <br />
                     <h4 className="fw-bolder">Date and Time</h4>
@@ -126,7 +126,7 @@ function EventPoster11() {
                         )}`}
                         rel="noreferrer noopener"
                         title="Share this page on Facebook"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"  
                       >
                         <FontAwesomeIcon
                           icon={faSquareFacebook}
@@ -140,7 +140,7 @@ function EventPoster11() {
                         )}`}
                         rel="noreferrer noopener"
                         title="Share this page on Twitter"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"  
                       >
                         <FontAwesomeIcon
                           icon={faSquareTwitter}
@@ -154,7 +154,7 @@ function EventPoster11() {
                         )}`}
                         rel="noreferrer noopener"
                         title="Share this page on Linkedin"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank" 
                       >
                         <FontAwesomeIcon
                           icon={faLinkedin}
@@ -168,7 +168,7 @@ function EventPoster11() {
                         )}`}
                         rel="noreferrer noopener"
                         title="Share this page on Pinterest"
-                        target="_blank" rel="noreferrer" 
+                        target="_blank"
                       >
                         <FontAwesomeIcon
                           icon={faSquarePinterest}

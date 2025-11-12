@@ -14,7 +14,7 @@ const Newsletter2024Detail10 = () => {
                                     <h2 className='mt-3 text-lg-start'>{Letter1.title}</h2>
                                 </div>
                                 <div className='if text-center col-lg-8 col-12 mt-5 mb-5'>
-                                    <iframe src={Letter1.linkpdf} width="80%" height="570" />
+                                    <iframe src={Letter1.linkpdf} width="80%" height="570" title="10"/>
 
                                 </div>
                             </div>

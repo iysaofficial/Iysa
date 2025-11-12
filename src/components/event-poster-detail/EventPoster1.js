@@ -91,7 +91,7 @@ function EventPoster1() {
                     <p>Registration Link:!!</p>
                     <p>📱Come on, register now 👇🏻</p>
                     <p>
-                      website : <a>gyiif.or.id</a>
+                      website : <p>gyiif.or.id</p>
                     </p>
 
                     <a
@@ -108,9 +108,9 @@ function EventPoster1() {
                     <br></br>
                   </div>
                   <div className="colom-right col-md-4 text-center text-md-start ">
-                    <a className="btn btn-primary shadow mt-2">
+                    <button assName="btn btn-primary shadow mt-2" href="#">
                       About The Event
-                    </a>
+                    </button>
                     <br />
                     <br />
                     <h4 className="fw-bolder">Date and Time</h4>

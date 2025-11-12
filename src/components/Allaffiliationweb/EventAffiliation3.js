@@ -9,6 +9,7 @@ const EventAffiliation3 = () => {
           <img
             className="rounded mx-auto d-block"
             src="./assets/images/logo afiliasi/pisf.png"
+            alt=""
           />
           <h3 className="text-center fw-bold">
             Phatthalung International Science Fair
@@ -66,7 +67,7 @@ const EventAffiliation3 = () => {
                       </div>
                   </div> */}
           <p className="text-center">
-            Gallery of BYSCC event activities ->
+            Gallery of BYSCC event activities
             <a
               href="https://drive.google.com/drive/folders/1-H0sgwoL0ey7KI0XRaFm-WL-9uqFC4m6"
               target="_blank"

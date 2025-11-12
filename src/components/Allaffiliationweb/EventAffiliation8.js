@@ -9,6 +9,7 @@ const EventAffiliation8 = () => {
           <img
             className="rounded mx-auto d-block"
             src="./assets/images/logo afiliasi/asbf.png"
+            alt=""
           />
           <h3 className="text-center fw-bold">
             Africa Science Buskers Festival

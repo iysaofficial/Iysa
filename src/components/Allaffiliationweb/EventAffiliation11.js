@@ -10,6 +10,7 @@ const EventAffiliation11 = () => {
           <img
             className="rounded mx-auto d-block"
             src="./assets/images/logo afiliasi/IIIE.png"
+            alt=""
           />
           <br></br>
           <h3 className="text-center fw-bold">
@@ -59,7 +60,7 @@ const EventAffiliation11 = () => {
         {/* <div>
           <h3 className="text-center fw-bold">Gallery WICO 2024</h3>
           <p className="text-center">
-            Gallery of WICO event activities ->
+            Gallery of WICO event activities 
             <a
               href="https://drive.google.com/drive/folders/1hI5NSgttY2dmwYIfSzpL6F8RVvUlrXeP?usp=sharing"
               target="_blank"

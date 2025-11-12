@@ -9,6 +9,7 @@ const EventAffiliation2 = () => {
           <img
             className="rounded mx-auto d-block"
             src="./assets/images/logo afiliasi/tisf.png"
+            alt=""
           />
           <h3 className="text-center fw-bold">
             Taiwan International Science Fair
@@ -68,7 +69,7 @@ const EventAffiliation2 = () => {
                       </div>
                   </div> */}
           <p className="text-center">
-            Gallery of TISF event activities ->
+            Gallery of TISF event activities
             <a
               href="https://drive.google.com/drive/folders/1vo41Ek45-MWX779uWSwL5h8khynkWwtN?usp=sharing"
               target="_blank"

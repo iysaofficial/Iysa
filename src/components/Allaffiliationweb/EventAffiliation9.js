@@ -11,6 +11,7 @@ const EventAffiliation9 = () => {
           <img
             className="rounded mx-auto d-block"
             src="./assets/images/logo afiliasi/castic.png"
+            alt=""
           />
           <br />
           <h3 className="text-center fw-bold">
@@ -68,7 +69,6 @@ const EventAffiliation9 = () => {
                       </div>
                   </div> */}
           <p className="text-center">
-            Gallery of CASTIC event activities ->
             <a
               href="https://drive.google.com/drive/folders/11OJdLQ4aW6ky1uqwKO4lWefTyZtW8Go0?usp=sharing"
               target="_blank"
