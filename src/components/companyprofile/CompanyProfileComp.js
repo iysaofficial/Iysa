@@ -25,10 +25,12 @@ const CompanyProfileComp = () => {
               collaboration program between young Indonesian researchers
             </p>
             <p>
-              <span className="fw-bold">2.</span> Implement an in-country competition program</p>
+              <span className="fw-bold">2.</span> Implement an in-country
+              competition program
+            </p>
             <p>
-            <span className="fw-bold">3.</span> Preparing young Indonesian researchers to represent Indonesia
-              in the international arena
+              <span className="fw-bold">3.</span> Preparing young Indonesian
+              researchers to represent Indonesia in the international arena
             </p>
           </div>
 
@@ -39,20 +41,24 @@ const CompanyProfileComp = () => {
               alt="logo"
             ></img>
           </div>
-          <div className="about-iframe text-center">
-            {/* <iframe
-              src="https://drive.google.com/file/d/1ugnGlm8fgfojHUD32qMmce9l2yPxKt3k/preview"
-              width="70%"
-              height="560"
-            ></iframe> */}
-          </div>
+          {/* <div className="about-iframe text-center">
+            <iframe
+              width="100%"
+              height="505"
+              src="https://www.youtube.com/embed/w-VKoOfn9Lk?si=zWxHJR8QH9u_rHgI"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div> */}
         </div>
         <div className="row mt-1 ">
           <div className="hero-image text-center">
             <img
-              src="assets/images/logo/pendiri.WebP"
+              src="assets/images/logo/IYSAStructure2025.png"
               className="img-fluid"
-              height="400px"
+              height="auto"
               alt="pendiri"
             ></img>
           </div>
