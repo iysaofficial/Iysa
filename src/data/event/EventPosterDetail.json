@@ -36,12 +36,12 @@
   "event3": [
     {
       "id": 1,
-      "image": "./assets/images/poster/i3o.WebP",
-      "title": "International IoT Olympiad (I3O) 2025",
-      "LinkRegist": "https://i3o.or.id/",
-      "Hastag": "#i3o2025 #bali #warmadewauniversity #infolomba #iysaevent #iysa2025",
-      "DateAdTime": "June 19 - 23, 2025",
-      "RegistEndDate": "May 14, 2025",
+      "image": "./assets/images/poster/AISEEF2026.jpg",
+      "title": "ASEAN Innovative Science Environmental and Entrepreneur Fair (AISEEF) 2026",
+      "LinkRegist": "https://aisef.or.id/",
+      "Hastag": "#aiseef2026 #semarang #universitasdiponegoro #infolomba #iysaevent #iysa2026",
+      "DateAdTime": "January 26th - 29th (online) February 9th - 12th (offline), 2026",
+      "RegistEndDate": "January 3rd, 2026",
       "Location": "hybrid",
       "EventType": "International",
       "EventCategory": "IYSA Event",
@@ -53,18 +53,18 @@
   "event4": [
     {
       "id": 1,
-      "image": "./assets/images/poster/nicyms.jpeg",
-      "title": "NATIONAL INVENTION COMPETITION FOR YOUNG MOSLEM SCIENTISTS (NICYMS) 2025",
-      "LinkRegist": "https://www.nicyms.or.id/",
-      "Hastag": "#nicyms #iysaevent #nicyms2025 #unikom #infolomba #iysa2025 #bandung #indonesia",
-      "DateAdTime": "28 - 31 Juli, 2025",
-      "RegistEndDate": "25 Juni, 2025",
-      "Location": "Bandung",
+      "image": "./assets/images/poster/NISEEF2026.jpg",
+      "title": "National Innovative Science Environmental and Entrepreneur Fair (NISEEF) 2026",
+      "LinkRegist": "https://niseef.or.id/",
+      "Hastag": "#niseef2026 #iysaevent #niseef2026 #unikom #infolomba #iysa2026 #bandung #indonesia",
+      "DateAdTime": "Januari 26 - 29 (daring) Februari 9 - 12 (luring), 2026",
+      "RegistEndDate": ", 2026",
+      "Location": "hybrid",
       "EventType": "Nasional",
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
-      "NameLocation": "Kampus UNIKOM"
+      "NameLocation": ""
     }
   ],
   "event5": [

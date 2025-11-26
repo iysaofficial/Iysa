@@ -46,39 +46,38 @@ function EventPoster3() {
                 <div className="main-colom row col-12 mt-5 mb-5">
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail3.title}</h1>
-                    <p>🌐I3O 2025🌐 HYBRID COMPETITION</p>
+                    <p>🚀 7th AISEEF 2026 is Coming!</p>
                     <p>
-                      Indonesian Young Scientist Association in collaboration
-                      with Warmadewa University Denpasar🎉
+                      Get ready to showcase your innovation at the ASEAN Innovative Science Environmental and Entrepreneur Fair 🌱💡
                     </p>
                     <br></br>
-                    <p>
+                    {/* <p>
                       Will hold an International event namely the Indonesia
                       International IoT Olympiad (I3O) 2025 in Bali, Indonesia
                       👏🏻👏🏻
-                    </p>
-
-                    {/* <p>
-                      ASEAN INNOVATIVE SCIENCE ENVIRONMENTAL AND ENTREPRENEUR
-                      FAIR 2025
                     </p> */}
+
+                    <p>
+                      ASEAN INNOVATIVE SCIENCE ENVIRONMENTAL AND ENTREPRENEUR
+                      FAIR 2026
+                    </p>
                     <br></br>
 
                     <p>Save the date! 👇🏻</p>
                     <ul>
                       <li>
-                        <strong>📍Registration deadline: </strong> May 14, 2025
+                        <strong>📍Registration deadline: </strong> January 3rd, 2026
                       </li>
                       <li>
-                        <strong>📍Payment deadline: </strong> May 20, 2025
+                        <strong>📍Payment deadline: </strong> January 8th, 2026
                       </li>
                       <li>
-                        <strong>📍Event date:</strong>June 19 - 23, 2025
+                        <strong>📍Event date: </strong>January 26th - 29th (online) February 9th - 12th (offline), 2026
                       </li>
-                      {/* <li>
-                        <strong>📍Venue:</strong> Diponegoro University,
+                      <li>
+                        <strong>📍Venue for Offline:</strong> Diponegoro University,
                         Semarang
-                      </li> */}
+                      </li>
                     </ul>
                     <br></br>
                     <p>
@@ -90,11 +89,11 @@ function EventPoster3() {
                     <p>
                       website :
                       <a
-                        href="https://i3o.or.id/ "
+                        href="https://aisef.or.id/"
                         target="_blank"
                         rel="noreferrer"
                       >
-                        i3o.or.id
+                         aisef.or.id
                       </a>
                     </p>
                     <p>📱Registration Link: 👇</p>

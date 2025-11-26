@@ -1,25 +1,7 @@
 {
   "event": [
     {
-      "id": 15,
-      "image": "./assets/images/poster/naspo.jpg",
-      "title": "National Applied Science Project Olympiad (NASPO)",
-      "level": "National",
-      "location": "Hybrid",
-      "date": "December 9th - 21st, 2025",
-      "link": "/EventPage21"
-    },
-    {
-      "id": 16,
-      "image": "./assets/images/poster/i2aspo.jpg",
-      "title": "Indonesia International Applied Science Project Olympiad (I2ASPO)",
-      "level": "International",
-      "location": "Hybrid",
-      "date": "December 9th - 21st, 2025",
-      "link": "/EventPage22"
-    },
-    {
-      "id": 17,
+      "id": 1,
       "image": "./assets/images/poster/GYIIF2026.jpeg",
       "title": "Global Youth Invention and Innovation Fair (GYIIF) 2026",
       "level": "International",
@@ -28,13 +10,31 @@
       "link": "/EventPage1"
     },
     {
-      "id": 18,
+      "id": 2,
       "image": "./assets/images/poster/IYMIA2026.jpeg",
       "title": "International Young Moslem Inventor Award (IYMIA) 2026",
       "level": "International",
       "location": "Hybrid",
       "date": "January 7th - 9th (online) 16th - 18th (offline), 2026",
       "link": "/EventPage2"
+    },
+    {
+      "id": 3,
+      "image": "./assets/images/poster/AISEEF2026.jpg",
+      "title": "ASEAN Innovative Science Environmental and Entrepreneur Fair (AISEEF) 2026",
+      "level": "International",
+      "location": "Hybrid",
+      "date": "January 26th - 29th (online) February 9th - 12th (offline), 2026",
+      "link": "/EventPage3"
+    },
+    {
+      "id": 4,
+      "image": "./assets/images/poster/NISEEF2026.jpg",
+      "title": "National Innovative Science Environmental and Entrepreneur Fair (NISEEF) 2026",
+      "level": "National",
+      "location": "Hybrid",
+      "date": "Januari 26 - 29 (daring) Februari 9 - 12 (luring), 2026",
+      "link": "/EventPage4"
     }
   ]
 }

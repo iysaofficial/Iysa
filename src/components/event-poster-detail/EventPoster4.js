@@ -47,20 +47,18 @@ function EventPoster4() {
                   <div className="colom-left col-md-8  mt-2">
                     <h1 className="fw-bolder">{EventPosterDetail4.title}</h1>
                     <p></p>
-                    <p>
-                      Tahun ini merupakan tahun ke-4 IYSA menyelenggarakan event
-                      NICYMS secara hybrid (online dan offline)💥
-                    </p>
+                    <p>🌍✨ 2nd NISEEF 2026 is Coming! ✨🌍</p>
                     <br></br>
                     <p>
-                      Tahun ini IYSA masih bekerjasama dengan Universitas
-                      Komputer Indonesia (UNIKOM) Bandung👏🏻👏🏻
+                      Siapkan inovasi terbaikmu dalam National Innovative
+                      Science Environmental and Entrepreneur Fair (NISEEF) yang
+                      ke-2! 🧪🌱💡
                     </p>
                     <p></p>
                     <p>Catat tanggalnya 👇🏻</p>
                     <br></br>
                     <ul>
-                      <li>
+                      {/* <li>
                         <strong>📍Registration Deadline: </strong>25 Juni 2025
                       </li>
                       <li>
@@ -68,23 +66,40 @@ function EventPoster4() {
                       </li>
                       <li>
                         <strong>📍Event Date: </strong> 28-31 Juli, 2025
+                      </li> */}
+                      <li>
+                        <strong>📍Batasan Waktu Pendaftaran : </strong>3 Januari
+                        2026
                       </li>
                       <li>
-                        <strong>📍Tempat: </strong> Universitas Komputer Indonesia (UNIKOM) Bandung
+                        <strong>📍Batasan Waktu Pembayaran : </strong>8 Januari
+                        2026
+                      </li>
+                      <li>
+                        <strong>📍Tanggal Acara : </strong> Januari 26 - 29
+                        (daring) Februari 9 - 12 (luring), 2026
+                      </li>
+                      <li>
+                        <strong>📍Lokasi untuk Luring: </strong> Universitas
+                        Diponegoro, Semarang.
                       </li>
                     </ul>
 
-                    <p>Tunggu apa lagi, yuk daftar!!</p>
+                    <p>
+                      Tunggu apa lagi, 📣 Jangan lewatkan kesempatan untuk
+                      berinovasi dan berkolaborasi dengan peserta dari seluruh
+                      Indonesia!
+                    </p>
                     <br></br>
                     <a
                       className="btn btn-primary mb-4"
                       href={EventPosterDetail4.LinkRegist}
                       target="-blank"
                     >
-                      Regist Here
+                      Registrasi disini!
                     </a>
                     <br></br>
-                    <p>Sampai jumpa di Bandung</p>
+                    <p>Sampai jumpa di Semarang</p>
                     <br />
                     <p className="hastag">{EventPosterDetail4.Hastag}</p>
                   </div>
@@ -183,7 +198,10 @@ function EventPoster4() {
                     {showContent && (
                       <div className="row event-venue">
                         <div className="event-venue-left col-3">
-                          <img src={EventPosterDetail4.ImageVeneu} alt="event venue"></img>
+                          <img
+                            src={EventPosterDetail4.ImageVeneu}
+                            alt="event venue"
+                          ></img>
                         </div>
                         <div className="event-venue-right col-8 mt-auto mb-auto">
                           <a
