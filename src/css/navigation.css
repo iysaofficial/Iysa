@@ -166,6 +166,7 @@ a{
 	transition: all 0.3s ease;
 	opacity:0;
 	visibility: hidden;
+	z-index: 100000;
 }
 @media(min-width: 992px){
 .header .menu > .menu-item-has-children:hover > .sub-menu{
