@@ -128,8 +128,26 @@ const Navigation = () => {
                 <FaHouse /> Home
               </a>
             </li>
-            <li className="menu-item">
+            {/* <li className="menu-item">
               <a href="/About">About</a>
+            </li> */}
+            <li className="menu-item menu-item-has-children">
+              <p
+                data-toggle="sub-menu"
+                onClick={(e) => e.preventDefault()}
+              >
+                About <FaChevronDown />
+              </p>
+              <ul className="sub-menu">
+                <li className="menu-item">
+                  <a href="/OurTeam">Our Team</a>
+                </li>
+                <li className="menu-item">
+                  <a href="/About">
+                    Overview
+                  </a>
+                </li>
+              </ul>
             </li>
             <li className="menu-item">
               <a href="/CalenderEvent">Calender Event</a>

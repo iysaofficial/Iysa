@@ -54,14 +54,14 @@ const CompanyProfileComp = () => {
           </div> */}
         </div>
         <div className="row mt-1 ">
-          <div className="hero-image text-center">
+          {/* <div className="hero-image text-center">
             <img
               src="assets/images/logo/IYSAStructure2025.png"
               className="img-fluid"
               height="auto"
               alt="pendiri"
             ></img>
-          </div>
+          </div> */}
 
           {/* founder */}
           <div className="col-md-6 hero-content mt-5 mb-auto">
@@ -71,9 +71,7 @@ const CompanyProfileComp = () => {
             <p className="mt-4">
               IYSA was established in November 2018, and was legally confirmed
               at the Ministry of Law and Human Rights in the form of a notarial
-              deed in 2019. IYSA was founded by Mr. Deni Irawan and later
-              collaborated with Ms. Anggraini and Ms. Prita Elriza in its
-              management team.
+              deed in 2019, IYSA was founded by Mr. Deni Irawan.
             </p>
             {/* member */}
             <h1 className="fw-bold text-center text-lg-start text-md-start">

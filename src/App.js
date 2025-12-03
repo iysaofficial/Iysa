@@ -139,6 +139,7 @@ import EventPage28 from "./pages/event/EventPage28";
 
 // import event affiliasi
 import AllEventAffiliation from "./pages/eventaffiliation/AllEventAffiliation";
+import OurTeam from "./components/companyprofile/OurTeam";
 
 function App() {
   return (
@@ -151,6 +152,7 @@ function App() {
 
             {/* Company Profile */}
             <Route path="/About" element={<CompanyProfile />} />
+            <Route path="/OurTeam" element={<OurTeam />} />
 
             {/* Calender Event */}
             <Route path="/CalenderEvent" element={<CalenderEvent />} />
