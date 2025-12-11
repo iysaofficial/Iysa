@@ -132,20 +132,18 @@ const Navigation = () => {
               <a href="/About">About</a>
             </li> */}
             <li className="menu-item menu-item-has-children">
-              <p
-                data-toggle="sub-menu"
-                onClick={(e) => e.preventDefault()}
-              >
+              <p data-toggle="sub-menu" onClick={(e) => e.preventDefault()}>
                 About <FaChevronDown />
               </p>
               <ul className="sub-menu">
                 <li className="menu-item">
+                  <a href="/About">Overview</a>
+                </li>
+                <li className="menu-item">
                   <a href="/OurTeam">Our Team</a>
                 </li>
                 <li className="menu-item">
-                  <a href="/About">
-                    Overview
-                  </a>
+                  <a href="/ExpertTeam">IYSA Expert Team</a>
                 </li>
               </ul>
             </li>
@@ -154,10 +152,7 @@ const Navigation = () => {
             </li>
 
             <li className="menu-item menu-item-has-children">
-              <p
-                data-toggle="sub-menu"
-                onClick={(e) => e.preventDefault()}
-              >
+              <p data-toggle="sub-menu" onClick={(e) => e.preventDefault()}>
                 Our Events Website <FaChevronDown />
               </p>
               <ul className="sub-menu">
@@ -173,10 +168,7 @@ const Navigation = () => {
             </li>
 
             <li className="menu-item menu-item-has-children">
-              <p
-                data-toggle="sub-menu"
-                onClick={(e) => e.preventDefault()}
-              >
+              <p data-toggle="sub-menu" onClick={(e) => e.preventDefault()}>
                 Our Events <FaChevronDown />
               </p>
               <ul className="sub-menu">
@@ -190,10 +182,7 @@ const Navigation = () => {
             </li>
 
             <li className="menu-item menu-item-has-children">
-              <p
-                data-toggle="sub-menu"
-                onClick={(e) => e.preventDefault()}
-              >
+              <p data-toggle="sub-menu" onClick={(e) => e.preventDefault()}>
                 Event Info <FaChevronDown />
               </p>
               <ul className="sub-menu">
@@ -209,29 +198,12 @@ const Navigation = () => {
               </ul>
             </li>
 
-            <li className="menu-item menu-item-has-children">
-              <p
-                data-toggle="sub-menu"
-                onClick={(e) => e.preventDefault()}
-              >
-                Our Team <FaChevronDown />
-              </p>
-              <ul className="sub-menu">
-                <li className="menu-item text-center">
-                  <a href="/ExpertTeam">IYSA Expert Team</a>
-                </li>
-              </ul>
-            </li>
-
             <li className="menu-item">
               <a href="/NewsletterPage">Newsletter</a>
             </li>
 
             <li className="menu-item menu-item-has-children">
-              <p
-                data-toggle="sub-menu"
-                onClick={(e) => e.preventDefault()}
-              >
+              <p data-toggle="sub-menu" onClick={(e) => e.preventDefault()}>
                 Gallery <FaChevronDown />
               </p>
               <ul className="sub-menu">
