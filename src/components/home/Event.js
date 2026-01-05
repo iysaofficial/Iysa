@@ -21,7 +21,7 @@ const Event = () => {
         <div className="featured-section-bottom ">
           {limitedData.map((event) => {
             return (
-              <a href={`/Event/${event.id}`} className="featured-item shadow ">
+              <a href={`/Event/${event.id}`} key={event.id} className="featured-item shadow ">
                 <div className="featured-item-image">
                   <img src={event.image} alt="Featured" className="featured-img" />
                 </div>

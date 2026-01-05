@@ -13,10 +13,9 @@ const WebsiteEvent = () => {
                     <h1 className='text-center'>IYSA Event Website <div className='underline'><span></span></div></h1>
                 </div>
                 <div className='row mx-auto '>
-                {limitedData.map((website) => {
-                    
+                {limitedData.map((website, index) => {
                   return (
-                    <div className='col-md-6 col-lg-4 mt-4'>
+                    <div className='col-md-6 col-lg-4 mt-4' key={index}>
                         <div className="box">
                             <div className="content">
                                 <div className="icon">

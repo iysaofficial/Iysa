@@ -25,7 +25,7 @@ const AllEventPoster = ({ maxItems }) => {
         <div className="featured-section-bottom  ">
           {eventsToShow.map((eventt) => {
             return (
-              <a href={`/Event/${eventt.id}`} className="featured-item shadow">
+              <a href={`/Event/${eventt.id}`} key={eventt.id} className="featured-item shadow">
                 <div className="featured-item-image">
                   <img src={eventt.image} alt="Featured" className="featured-img" />
                 </div>
