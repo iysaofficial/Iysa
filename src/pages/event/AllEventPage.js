@@ -3,7 +3,7 @@ import "../../css/event/allEventPosterPage.css"
 function AllEventPage() {
     return (  
       <div>
-        <AllEventPoster />
+        <AllEventPoster maxItems={5} />
       </div>
     );
   }

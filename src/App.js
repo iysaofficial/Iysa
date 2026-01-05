@@ -40,7 +40,7 @@ import EventAffiliationPage12 from "./pages/alleventaffiliationweb/EventAffiliat
 
 // Import Team
 import ExpertTeam from "./components/team/ExpertTeam";
-import ExpertStaff from "./components/team/ExpertStaff";
+// import ExpertStaff from "./components/team/ExpertStaff";
 
 // Import Newsletter 2022
 import NewsletterPage from "./pages/newsletter/NewsletterPage";
@@ -108,34 +108,7 @@ import ContactPage from "./pages/contact/ContactPage";
 
 // Import Event Poster
 import AllEventPage from "./pages/event/AllEventPage";
-import EventPage1 from "./pages/event/EventPage1";
-import EventPage2 from "./pages/event/EventPage2";
-import EventPage3 from "./pages/event/EventPage3";
-import EventPage4 from "./pages/event/EventPage4";
-import EventPage5 from "./pages/event/EventPage5";
-import EventPage6 from "./pages/event/EventPage6";
-import EventPage7 from "./pages/event/EventPage7";
-import EventPage8 from "./pages/event/EventPage8";
-import EventPage9 from "./pages/event/EventPage9";
-import EventPage10 from "./pages/event/EventPage10";
-import EventPage11 from "./pages/event/EventPage11";
-import EventPage12 from "./pages/event/EventPage12";
-import EventPage13 from "./pages/event/EventPage13";
-import EventPage14 from "./pages/event/EventPage14";
-import EventPage15 from "./pages/event/EventPage15";
-import EventPage16 from "./pages/event/EventPage16";
-import EventPage17 from "./pages/event/EventPage17";
-import EventPage18 from "./pages/event/EventPage18";
-import EventPage19 from "./pages/event/EventPage19";
-import EventPage20 from "./pages/event/EventPage20";
-import EventPage21 from "./pages/event/EventPage21";
-import EventPage22 from "./pages/event/EventPage22";
-import EventPage23 from "./pages/event/EventPage23";
-import EventPage24 from "./pages/event/EventPage24";
-import EventPage25 from "./pages/event/EventPage25";
-import EventPage26 from "./pages/event/EventPage26";
-import EventPage27 from "./pages/event/EventPage27";
-import EventPage28 from "./pages/event/EventPage28";
+import EventPage from "./pages/event/EventPage";
 
 // import event affiliasi
 import AllEventAffiliation from "./pages/eventaffiliation/AllEventAffiliation";
@@ -221,7 +194,7 @@ function App() {
 
             {/* Expert Team */}
             <Route path="/ExpertTeam" element={<ExpertTeam />} />
-            <Route path="/ExpertStaff" element={<ExpertStaff />} />
+            {/* <Route path="/ExpertStaff" element={<ExpertStaff />} /> */}
 
             {/* Gallery Photo */}
             <Route path="/GalleryPhoto" element={<GalleryPhoto />} />
@@ -242,34 +215,7 @@ function App() {
 
             {/* Event */}
             <Route path="/AllEventPage" element={<AllEventPage />} />
-            <Route path="/EventPage1" element={<EventPage1 />} />
-            <Route path="/EventPage2" element={<EventPage2 />} />
-            <Route path="/EventPage3" element={<EventPage3 />} />
-            <Route path="/EventPage4" element={<EventPage4 />} />
-            <Route path="/EventPage5" element={<EventPage5 />} />
-            <Route path="/EventPage6" element={<EventPage6 />} />
-            <Route path="/EventPage7" element={<EventPage7 />} />
-            <Route path="/EventPage8" element={<EventPage8 />} />
-            <Route path="/EventPage9" element={<EventPage9 />} />
-            <Route path="/EventPage10" element={<EventPage10 />} />
-            <Route path="/EventPage11" element={<EventPage11 />} />
-            <Route path="/EventPage12" element={<EventPage12 />} />
-            <Route path="/EventPage13" element={<EventPage13 />} />
-            <Route path="/EventPage14" element={<EventPage14 />} />
-            <Route path="/EventPage15" element={<EventPage15 />} />
-            <Route path="/EventPage16" element={<EventPage16 />} />
-            <Route path="/EventPage17" element={<EventPage17 />} />
-            <Route path="/EventPage18" element={<EventPage18 />} />
-            <Route path="/EventPage19" element={<EventPage19 />} />
-            <Route path="/EventPage20" element={<EventPage20 />} />
-            <Route path="/EventPage21" element={<EventPage21 />} />
-            <Route path="/EventPage22" element={<EventPage22 />} />
-            <Route path="/EventPage23" element={<EventPage23 />} />
-            <Route path="/EventPage24" element={<EventPage24 />} />
-            <Route path="/EventPage25" element={<EventPage25 />} />
-            <Route path="/EventPage26" element={<EventPage26 />} />
-            <Route path="/EventPage27" element={<EventPage27 />} />
-            <Route path="/EventPage28" element={<EventPage28 />} />
+            <Route path="/Event/:id" element={<EventPage />} />
 
             {/* event affiliasi */}
             <Route

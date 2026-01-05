@@ -2,38 +2,47 @@
   "event": [
     {
       "id": 1,
-      "image": "./assets/images/poster/GYIIF2026.jpeg",
-      "title": "Global Youth Invention and Innovation Fair (GYIIF) 2026",
-      "level": "International",
+      "image": "./assets/images/poster/ynsf2026.png",
+      "title": "Youth National Science Fair (YNSF) 2026",
+      "level": "National",
       "location": "Hybrid",
-      "date": "January 7th - 9th (online) 16th - 18th (offline), 2026",
+      "date": "March 31st - April 3rd (online) April 5th - April 9th (offline), 2026",
       "link": "/EventPage1"
     },
     {
       "id": 2,
-      "image": "./assets/images/poster/IYMIA2026.jpeg",
-      "title": "International Young Moslem Inventor Award (IYMIA) 2026",
+      "image": "./assets/images/poster/yisf2026.png",
+      "title": "Youth International Science Fair (YISF) 2026",
       "level": "International",
       "location": "Hybrid",
-      "date": "January 7th - 9th (online) 16th - 18th (offline), 2026",
+      "date": "March 31st - April 3rd (online) April 5th - April 9th (offline), 2026",
       "link": "/EventPage2"
     },
     {
       "id": 3,
-      "image": "./assets/images/poster/AISEEF2026.jpg",
-      "title": "ASEAN Innovative Science Environmental and Entrepreneur Fair (AISEEF) 2026",
-      "level": "International",
-      "location": "Hybrid",
-      "date": "January 26th - 29th (online) February 9th - 12th (offline), 2026",
+      "image": "./assets/images/poster/ospc2026.png",
+      "title": "Online Science Project Competition (OSPC) 2026",
+      "level": "National",
+      "location": "Online",
+      "date": "February 13rd - March 13th (online), 2026",
       "link": "/EventPage3"
     },
     {
       "id": 4,
-      "image": "./assets/images/poster/NISEEF2026.jpg",
-      "title": "National Innovative Science Environmental and Entrepreneur Fair (NISEEF) 2026",
+      "image": "./assets/images/poster/lktin2026.png",
+      "title": "Lomba Karya Tulis Ilmiah Nasional (LKTIN) 2026",
       "level": "National",
-      "location": "Hybrid",
-      "date": "Januari 26 - 29 (daring) Februari 9 - 12 (luring), 2026",
+      "location": "Online",
+      "date": "March 10th - 13rd (online), 2026",
+      "link": "/EventPage3"
+    },
+    {
+      "id": 5,
+      "image": "./assets/images/poster/iif2026.png",
+      "title": "Invention and Innovation Fair (IIF) 2026",
+      "level": "National",
+      "location": "Online",
+      "date": "March 10th - 13rd (online), 2026",
       "link": "/EventPage4"
     }
   ]

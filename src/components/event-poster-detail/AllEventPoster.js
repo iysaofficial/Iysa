@@ -6,10 +6,12 @@ import {
   } from "@fortawesome/free-solid-svg-icons";
 
 // Import Data
-import DataEvent from "../../data/event/EventPoster.json";
+import DataEvent from "../../data/event/EventPosterDetail.json";
 
 
-const AllEventPoster = () => {
+const AllEventPoster = ({ maxItems }) => {
+  const eventsToShow = maxItems ? DataEvent.events.slice(-maxItems) : DataEvent.events;
+
   return (
     <section id="All-Event-properties" className="AllEventPoster">
       <div className="container">
@@ -21,30 +23,30 @@ const AllEventPoster = () => {
       </div>
       <div className="container">
         <div className="featured-section-bottom  ">
-          {DataEvent.event.map((eventt) => {
+          {eventsToShow.map((eventt) => {
             return (
-              <a href={eventt.link} className="featured-item shadow">
+              <a href={`/Event/${eventt.id}`} className="featured-item shadow">
                 <div className="featured-item-image">
                   <img src={eventt.image} alt="Featured" className="featured-img" />
                 </div>
                 <div className="content-wrapper">
                   <div key={eventt.id}></div>
                   <h3 className="text-dark">{eventt.title}</h3>
-                  <p className="">{eventt.level}</p>
+                  <p className="">{eventt.EventType}</p>
                   <div className="deatils-short">
                     <div>
                       <FontAwesomeIcon
                         icon={faLocationDot}
                         className="featured-icon"
                       />
-                      <p className="text-dark">{eventt.location}</p>
+                      <p className="text-dark">{eventt.Location}</p>
                     </div>
                     <div>
                       <FontAwesomeIcon
                         icon={faCalendarDays}
                         className="featured-icon"
                       />
-                      <p className="text-dark">{eventt.date}</p>
+                      <p className="text-dark">{eventt.DateAdTime}</p>
                     </div>
                   </div>
                 </div>
