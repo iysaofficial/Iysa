@@ -72,7 +72,7 @@ function EventPoster() {
                 <p>Registration Link:!!</p>
                 <p>📱Come on, register now 👇🏻</p>
                 <p>
-                  website : <p>{event.LinkRegist}</p>
+                  website : <span>{event.LinkRegist}</span>
                 </p>
                 <a
                   className="btn btn-primary mb-4"
