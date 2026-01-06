@@ -108,7 +108,7 @@ const Navigation = () => {
       <div className="header-main">
         <div className="logo">
           <img
-            src="./assets/images/logo/navigation-logo.WebP"
+            src="https://res.cloudinary.com/dtik1z1qd/image/upload/v1767663839/navigation-logo_f6wxg6.png"
             alt="IYSA Navigation Logo"
           />
         </div>

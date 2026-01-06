@@ -407,7 +407,7 @@
     },
     {
       "id": 28,
-      "image": "./assets/images/poster/GYIIF2026.jpeg",
+      "image": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1767664184/GYIIF2026_ax5r2o.jpg",
       "title": "Global Youth Invention and Innovation Fair (GYIIF) 2026",
       "LinkRegist": "https://gyiif.or.id/",
       "Hastag": "#gyiif2026 #iysaevent #iysa2026 #hybrid #online #offline",
@@ -422,7 +422,7 @@
     },
     {
       "id": 29,
-      "image": "./assets/images/poster/ynsf2026.png",
+      "image": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1767664027/ynsf2026_nge1w7.png",
       "title": "Youth National Science Fair (YNSF) 2026",
       "LinkRegist": "https://ynsf.or.id/",
       "Hastag": "",
@@ -437,7 +437,7 @@
     },
     {
       "id": 30,
-      "image": "./assets/images/poster/yisf2026.png",
+      "image": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1767664071/yisf2026_s8qs1e.png",
       "title": "Youth International Science Fair (YISF) 2026",
       "LinkRegist": "https://yisf.or.id/",
       "Hastag": "",
@@ -452,7 +452,7 @@
     },
     {
       "id": 31,
-      "image": "./assets/images/poster/ospc2026.png",
+      "image": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1767664106/ospc2026_s93vbt.png",
       "title": "Online Science Project Competition (OSPC) 2026",
       "LinkRegist": "https://ospc.or.id/",
       "Hastag": "",
@@ -467,7 +467,7 @@
     },
     {
       "id": 32,
-      "image": "./assets/images/poster/lktin2026.png",
+      "image": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1767664146/lktin2026_xoxual.png",
       "title": "Lomba Karya Tulis Ilmiah Nasional (LKTIN) 2026",
       "LinkRegist": "https://lktin.or.id/",
       "Hastag": "",
@@ -482,7 +482,7 @@
     },
     {
       "id": 33,
-      "image": "./assets/images/poster/iif2026.png",
+      "image": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1767664185/iif2026_oexk8f.png",
       "title": "Invention and Innovation Fair (IIF) 2026",
       "LinkRegist": "https://iif-nasional.or.id/",
       "Hastag": "",
