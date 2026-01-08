@@ -13,6 +13,7 @@
       "EventCategory": "IYSA Event Olympiad",
       "ImageVeneu": "",
       "LinkGmaps": "",
+      "LinkGmapsEmbed": "",
       "NameLocation": ""
     },
     {
@@ -28,6 +29,7 @@
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
+      "LinkGmapsEmbed": "",
       "NameLocation": "Universitas Negri Malang"
     },
     {
@@ -43,6 +45,7 @@
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
+      "LinkGmapsEmbed": "",
       "NameLocation": "Universitas Negri Malang"
     },
     {
@@ -58,6 +61,7 @@
       "EventCategory": "IYSA Event",
       "ImageVeneu": "./assets/images/venue/ust.Webp",
       "LinkGmaps": "https://maps.app.goo.gl/WKwZrVm9bBySi76M9",
+      "LinkGmapsEmbed": "",
       "NameLocation": "Universitas Sarjanawiyata Tamansiswa (UST)"
     },
     {
@@ -73,6 +77,7 @@
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
+      "LinkGmapsEmbed": "",
       "NameLocation": "Universitas Muhammadiyah Malang (UMM)"
     },
     {
@@ -88,6 +93,7 @@
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
+      "LinkGmapsEmbed": "",
       "NameLocation": "Mahsa University, Selangor, Malaysia"
     },
     {
@@ -103,6 +109,7 @@
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
+      "LinkGmapsEmbed": "",
       "NameLocation": "Fakultas MIPA, Universitas Gadjah Mada"
     },
     {
@@ -118,6 +125,7 @@
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
+      "LinkGmapsEmbed": "",
       "NameLocation": "Fakultas MIPA, Universitas Gadjah Mada"
     },
     {
@@ -133,6 +141,7 @@
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
+      "LinkGmapsEmbed": "",
       "NameLocation": "📍 Offline Venue: Bali, Indonesia"
     },
     {
@@ -148,6 +157,7 @@
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
+      "LinkGmapsEmbed": "",
       "NameLocation": "📍 Lokasi: Bali, Indonesia"
     },
     {
@@ -163,6 +173,7 @@
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
+      "LinkGmapsEmbed": "",
       "NameLocation": "📍 Offline Venue: Bali, Indonesia"
     },
     {
@@ -178,6 +189,7 @@
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
+      "LinkGmapsEmbed": "",
       "NameLocation": "Kota Damansara, Selangor, Malaysia"
     },
     {
@@ -193,6 +205,7 @@
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
+      "LinkGmapsEmbed": "",
       "NameLocation": ""
     },
     {
@@ -208,6 +221,7 @@
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
+      "LinkGmapsEmbed": "",
       "NameLocation": ""
     },
     {
@@ -223,6 +237,7 @@
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
+      "LinkGmapsEmbed": "",
       "NameLocation": ""
     },
     {
@@ -238,6 +253,7 @@
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
+      "LinkGmapsEmbed": "",
       "NameLocation": ""
     },
     {
@@ -253,6 +269,7 @@
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
+      "LinkGmapsEmbed": "",
       "NameLocation": ""
     },
     {
@@ -268,6 +285,7 @@
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
+      "LinkGmapsEmbed": "",
       "NameLocation": ""
     },
     {
@@ -283,6 +301,7 @@
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
+      "LinkGmapsEmbed": "",
       "NameLocation": ""
     },
     {
@@ -298,6 +317,7 @@
       "EventCategory": "IYSA Event Affiliation",
       "ImageVeneu": "",
       "LinkGmaps": "",
+      "LinkGmapsEmbed": "",
       "NameLocation": ""
     },
     {
@@ -313,6 +333,7 @@
       "EventCategory": "IYSA Event Olympiad",
       "ImageVeneu": "",
       "LinkGmaps": "",
+      "LinkGmapsEmbed": "",
       "NameLocation": ""
     },
     {
@@ -328,6 +349,7 @@
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
+      "LinkGmapsEmbed": "",
       "NameLocation": "SEGi University, Kota Damansara, Malaysia"
     },
     {
@@ -343,6 +365,7 @@
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
+      "LinkGmapsEmbed": "",
       "NameLocation": "Campus UNIKOM"
     },
     {
@@ -358,6 +381,7 @@
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
+      "LinkGmapsEmbed": "",
       "NameLocation": "Campus UNIKOM"
     },
     {
@@ -373,6 +397,7 @@
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
+      "LinkGmapsEmbed": "",
       "NameLocation": ""
     },
     {
@@ -388,6 +413,7 @@
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
+      "LinkGmapsEmbed": "",
       "NameLocation": ""
     },
     {
@@ -403,6 +429,7 @@
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
+      "LinkGmapsEmbed": "",
       "NameLocation": "Institut Pertanian Bogor (IPB)"
     },
     {
@@ -416,8 +443,9 @@
       "Location": "hybrid",
       "EventType": "International",
       "EventCategory": "IYSA Event",
-      "ImageVeneu": "",
-      "LinkGmaps": "",
+      "ImageVeneu": "-",
+      "LinkGmaps": "https://maps.app.goo.gl/g15RD7baPvTyGV7R6",
+      "LinkGmapsEmbed": "",
       "NameLocation": "Institut Pertanian Bogor (IPB)"
     },
     {
@@ -431,8 +459,9 @@
       "Location": "Hybrid",
       "EventType": "National",
       "EventCategory": "IYSA Event",
-      "ImageVeneu": "",
+      "ImageVeneu": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1767863062/uin_jogja_bhlcqv.jpg",
       "LinkGmaps": "https://maps.app.goo.gl/bF2269prExiVL4yj6",
+      "LinkGmapsEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.0475970980838!2d110.39178397588643!3d-7.78477857724906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59db2dacb069%3A0x7f35156a4aeb645a!2sUIN%20Sunan%20Kalijaga%20Yogyakarta!5e0!3m2!1sen!2sid!4v1767863292431!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
       "NameLocation": "UIN Sunan Kalijaga, Yogyakarta"
     },
     {
@@ -448,6 +477,7 @@
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "https://maps.app.goo.gl/bF2269prExiVL4yj6",
+      "LinkGmapsEmbed": "",
       "NameLocation": "UIN Sunan Kalijaga, Yogyakarta"
     },
     {
@@ -463,6 +493,7 @@
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
+      "LinkGmapsEmbed": "",
       "NameLocation": "Online"
     },
     {
@@ -478,6 +509,7 @@
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
+      "LinkGmapsEmbed": "",
       "NameLocation": "Online"
     },
     {
@@ -493,6 +525,7 @@
       "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
+      "LinkGmapsEmbed": "",
       "NameLocation": "Online"
     }
   ]

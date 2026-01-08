@@ -1,113 +1,91 @@
-section{
-  background-color: #f5fafe;
+.event-detail-section {
+  padding: 60px 0;
+  background-color: #f8f9fa;
 }
 
-#main-event .event-poster {
-    /* padding-top: 2em;
-    padding-left: 15em;
-    padding-right: 15em; */
-    margin-top: 25vh;
-  }
-  
-  #main-event .event-poster img {
-    width: 75%;
-    height: auto;
-  }
-  
-@media (max-width:769px){
-  #main-event .event-poster img {
-    width: 300px;
-    height: auto;
-  }
-}
-.btn{
-  -webkit-transition: all 0.1s;
-	-moz-transition: all 0.1s;
-	transition: all 0.1s;
-
-	
-  -webkit-box-shadow: 0px 6px 0px #0d6efd;
-  -moz-box-shadow: 0px 6px 0px #0d6efd;
-  box-shadow: 0px 6px 0px #99bdff;
+.event-details-card {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
 }
 
-.btn:hover{
-  /* box-shadow: 8px 8px #99bdff;
-  transition: .3s; */
-  -webkit-box-shadow: 0px 2px 0px #99bdff;
-  -moz-box-shadow: 0px 2px 0px #99bdff;
-  box-shadow: 0px 2px 0px #99bdff;
-  position:relative;
-  top:4px;
+.event-details-card .card-title {
+  color: #212529;
+  font-weight: 700;
+  margin-bottom: 1rem;
 }
 
-#main-event .main-colom{
-  margin-left: 0.1px;
+.event-details-card p {
+  color: #495057;
+  margin-bottom: 1rem;
 }
 
-  .main-colom .event-venue-wrapper {
-    background-color: #f5f5f5;
-    border-bottom: solid whitesmoke;
-    border-top: solid whitesmoke;
-    padding: 0 !important;
-    cursor: pointer;
-  }
-  
-  .main-colom .event-venue-wrapper .event-venue {
-    background-color: #ffff;
-  }
-  
-  .main-colom .event-venue-wrapper .event-venue img {
-    width: 15rem;
-    margin: 1rem 0rem;
-  }
-  
-  .main-colom .event-venue-wrapper .event-venue .event-venue-right a {
-    font-size: 34px;
-    text-decoration: none;
-    color: #000;
-  }
+.event-details-card strong {
+  color: #212529;
+}
 
-  @media (max-width:426px){
-    .main-colom .event-venue-wrapper .event-venue .event-venue-right a {
-      font-size: 19px;
-    }
-  }
-  
-  .main-colom .event-venue-wrapper .event-venue .event-venue-right a:hover {
-    box-shadow: 8px 8px #99bdff;
-  transition: .3s;
-  }
-  
-  .event-wrapper .colom-left p {
-    margin-bottom: 0.3rem !important;
-  }
-  
-  .event-wrapper .main-colom {
-    border-left: solid whitesmoke;
-    border-top: solid whitesmoke;
-    border-bottom: solid whitesmoke;
-    border-right: solid whitesmoke;
-    border-radius: 1rem;
-    padding: 0 !important;
-    margin-right: 0;
-    margin-left: 0;
-  }
-  
-  .event-wrapper .colom-right {
-    border-left: solid whitesmoke;
-    border-radius: 1rem;
-  }
-  
-  .event-wrapper .colom-right p {
-    width: 100%;
-  }
-  .event-wrapper .colom-right h4 {
-    margin-bottom: 0 !important;
-  }
-  
-  #main-event .colom-right .event-share .event-share-logo {
-    height: 30px;
-    margin: 5px 8px;
-  }
-  
+.event-venue-card {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.event-venue-card .card-header {
+  background-color: #fff;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.event-venue-card .card-body {
+  padding: 1rem;
+  border: 1px solid #e9ecef;
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.event-share h5 {
+  font-weight: 700;
+  color: #212529;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.event-share a {
+  color: #0d6efd;
+  font-size: 1.25rem;
+  margin-right: 0.5rem;
+  border: 1px solid #ced4da;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.25rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.event-share a:hover {
+  background-color: #0d6efd;
+  color: #fff;
+  border-color: #0d6efd;
+}
+
+.event-description ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.event-description ul li {
+  margin-bottom: 0.5rem;
+}
