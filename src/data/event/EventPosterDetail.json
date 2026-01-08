@@ -450,7 +450,7 @@
     },
     {
       "id": 29,
-      "image": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1767664027/ynsf2026_nge1w7.png",
+      "image": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1767864182/ynsf_fkxchp.jpg",
       "title": "Youth National Science Fair (YNSF) 2026",
       "LinkRegist": "https://ynsf.or.id/",
       "Hastag": "#ynsf2026 #iysaevent #iysa2026 #infolomba #hybrid #online #offline",
@@ -466,7 +466,7 @@
     },
     {
       "id": 30,
-      "image": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1767664071/yisf2026_s8qs1e.png",
+      "image": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1767864182/yisf_sw9kpq.jpg",
       "title": "Youth International Science Fair (YISF) 2026",
       "LinkRegist": "https://yisf.or.id/",
       "Hastag": "#yisf2026 #iysaevent #iysa2026 #infolomba #hybrid #online #offline",
@@ -475,14 +475,14 @@
       "Location": "Hybrid",
       "EventType": "International",
       "EventCategory": "IYSA Event",
-      "ImageVeneu": "",
+      "ImageVeneu": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1767863062/uin_jogja_bhlcqv.jpg",
       "LinkGmaps": "https://maps.app.goo.gl/bF2269prExiVL4yj6",
-      "LinkGmapsEmbed": "",
+      "LinkGmapsEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.0475970980838!2d110.39178397588643!3d-7.78477857724906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59db2dacb069%3A0x7f35156a4aeb645a!2sUIN%20Sunan%20Kalijaga%20Yogyakarta!5e0!3m2!1sen!2sid!4v1767863292431!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
       "NameLocation": "UIN Sunan Kalijaga, Yogyakarta"
     },
     {
       "id": 31,
-      "image": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1767664106/ospc2026_s93vbt.png",
+      "image": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1767864182/ospc_shmr7x.jpg",
       "title": "Online Science Project Competition (OSPC) 2026",
       "LinkRegist": "https://ospc.or.id/",
       "Hastag": "#ospc2026 #iysaevent #iysa2026 #infolomba #onlineevent",
@@ -498,7 +498,7 @@
     },
     {
       "id": 32,
-      "image": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1767664146/lktin2026_xoxual.png",
+      "image": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1767864182/lktin_tydujf.jpg",
       "title": "Lomba Karya Tulis Ilmiah Nasional (LKTIN) 2026",
       "LinkRegist": "https://lktin.or.id/",
       "Hastag": "#lktin2026 #iysaevent #iysa2026 #infolomba #onlineevent",
@@ -514,7 +514,7 @@
     },
     {
       "id": 33,
-      "image": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1767664185/iif2026_oexk8f.png",
+      "image": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1767864181/iif_th4nwu.jpg",
       "title": "Invention and Innovation Fair (IIF) 2026",
       "LinkRegist": "https://iif-nasional.or.id/",
       "Hastag": "#iif2026 #iysaevent #iysa2026 #infolomba #onlineevent",
