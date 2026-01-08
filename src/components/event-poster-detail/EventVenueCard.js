@@ -57,6 +57,9 @@ const EventVenueCard = ({
                   className="map-responsive"
                   dangerouslySetInnerHTML={{ __html: event.LinkGmapsEmbed }}
                 ></div>
+              <p className="mt-3 text-muted fst-italic">
+                Venue sewaktu-waktu bisa berubah sesuai dengan informasi terbaru panitia
+              </p>
             </div>
           ) : (
             <p>This is an online event. No physical venue.</p>
