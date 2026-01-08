@@ -14,7 +14,7 @@ const OurTeam = () => {
         <div className="row mt-1 ">
           <div className="hero-image text-center">
             <img
-              src="assets/images/logo/IYSAStructure2025.png"
+              src="https://placehold.co/1000x600?text=On+Update&font=roboto"
               className="img-fluid"
               height="auto"
               alt="pendiri"
