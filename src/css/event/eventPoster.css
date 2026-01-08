@@ -3,10 +3,12 @@
   background-color: #f8f9fa;
 }
 
-.event-details-card {
+.event-content-wrapper {
+  background-color: #fff;
   border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
 }
 
 .event-details-card .card-title {
@@ -26,7 +28,8 @@
 
 .event-venue-card {
   border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: none;
+  border: 1px solid #e9ecef;
 }
 
 .event-venue-card .card-header {

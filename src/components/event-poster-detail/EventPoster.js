@@ -30,44 +30,50 @@ function EventPoster() {
           </a>
         </div>
         <div className="row">
-          <div className="col-lg-7">
-            <EventPosterImage image={event.image} title={event.title} />
-            <div className="event-description mt-4">
-              <h1 className="fw-bolder">{event.title}</h1>
-              <p>🌐 International Call for Young Innovators!</p>
-              <p>
-                The {event.title} is officially open for registration!
-              </p>
-              <p>
-                💡 Join a prestigious global platform to present your
-                groundbreaking ideas, meet fellow innovators, and bring
-                your inventions to the world stage. 🌎
-              </p>
-              <p>Save the date ‼️</p>
-              <ul>
-                <li>
-                  <strong>Registration Deadline : </strong>
-                  {event.RegistEndDate}
-                </li>
-                <li>
-                  <strong>Event Date : </strong> {event.DateAdTime}
-                </li>
-              </ul>
-              <p>Registration Link:!!</p>
-              <p>📱Come on, register now 👇🏻</p>
-              <p>
-                website : <span>{event.LinkRegist}</span>
-              </p>
-              <p className="hastag">{event.Hastag}</p>
+          <div className="col-12">
+            <div className="event-content-wrapper">
+              <div className="row">
+                <div className="col-lg-7">
+                  <EventPosterImage image={event.image} title={event.title} />
+                  <div className="event-description mt-4">
+                    <h1 className="fw-bolder">{event.title}</h1>
+                    <p>🌐 International Call for Young Innovators!</p>
+                    <p>
+                      The {event.title} is officially open for registration!
+                    </p>
+                    <p>
+                      💡 Join a prestigious global platform to present your
+                      groundbreaking ideas, meet fellow innovators, and bring
+                      your inventions to the world stage. 🌎
+                    </p>
+                    <p>Save the date ‼️</p>
+                    <ul>
+                      <li>
+                        <strong>Registration Deadline : </strong>
+                        {event.RegistEndDate}
+                      </li>
+                      <li>
+                        <strong>Event Date : </strong> {event.DateAdTime}
+                      </li>
+                    </ul>
+                    <p>Registration Link:!!</p>
+                    <p>📱Come on, register now 👇🏻</p>
+                    <p>
+                      website : <span>{event.LinkRegist}</span>
+                    </p>
+                    <p className="hastag">{event.Hastag}</p>
+                  </div>
+                </div>
+                <div className="col-lg-5">
+                  <EventDetailsCard event={event} />
+                  <EventVenueCard
+                    event={event}
+                    showContent={showContent}
+                    toggleContent={toggleContent}
+                  />
+                </div>
+              </div>
             </div>
-          </div>
-          <div className="col-lg-5">
-            <EventDetailsCard event={event} />
-            <EventVenueCard
-              event={event}
-              showContent={showContent}
-              toggleContent={toggleContent}
-            />
           </div>
         </div>
       </div>
