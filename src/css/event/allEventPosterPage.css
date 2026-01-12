@@ -47,8 +47,20 @@
   #All-Event-properties .featured-section-bottom {
     padding-top: 3rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     gap: 2.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    #All-Event-properties .featured-section-bottom {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 992px) {
+    #All-Event-properties .featured-section-bottom {
+      grid-template-columns: repeat(3, 1fr);
+    }
   }
   #All-Event-properties
     .featured-section-bottom
