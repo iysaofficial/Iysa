@@ -9,8 +9,14 @@ import {
 import DataEvent from "../../data/event/EventPosterDetail.json";
 
 
-const AllEventPoster = ({ maxItems }) => {
-  const eventsToShow = maxItems ? DataEvent.events.slice(-maxItems) : DataEvent.events;
+const AllEventPoster = () => {
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+
+  const upcomingEvents = DataEvent.events.filter(event => {
+    const registEndDate = new Date(event.RegistEndDate.replace(/(\d+)(st|nd|rd|th)/, '$1'));
+    return registEndDate >= today;
+  });
 
   const hoverEffect = `
     .featured-item:hover {
@@ -34,7 +40,7 @@ const AllEventPoster = ({ maxItems }) => {
       </div>
       <div className="container">
         <div className="featured-section-bottom  ">
-          {eventsToShow.map((eventt) => {
+          {upcomingEvents.map((eventt) => {
             return (
               <a href={`/Event/${eventt.id}`} key={eventt.id} className="featured-item shadow">
                 <div className="featured-item-image">
