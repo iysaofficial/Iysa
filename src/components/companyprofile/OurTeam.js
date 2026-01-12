@@ -14,7 +14,7 @@ const OurTeam = () => {
         <div className="row mt-1 ">
           <div className="hero-image text-center">
             <img
-              src="https://placehold.co/1000x600?text=On+Update&font=roboto"
+              src="https://res.cloudinary.com/dtik1z1qd/image/upload/v1767926879/IYSA_Organizational_Structure_2026_erml6h.jpg"
               className="img-fluid"
               height="auto"
               alt="pendiri"
