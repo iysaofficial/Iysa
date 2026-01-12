@@ -9,4 +9,3 @@ function AllEventAffiliation() {
   }
   
 export default AllEventAffiliation;
-  

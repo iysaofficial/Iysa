@@ -6,10 +6,17 @@ import {
   } from "@fortawesome/free-solid-svg-icons";
 
 // Import Data
-import DataEvent from "../../data/eventaffiliasi/EventPosterAffiliasi.json";
-
+import DataEvent from "../../data/event/EventPosterDetail.json";
 
 const AllPosterAffiliasi = () => {
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+
+  const upcomingAffiliationEvents = DataEvent.events.filter(event => {
+    const registEndDate = new Date(event.RegistEndDate.replace(/(\d+)(st|nd|rd|th)/, '$1'));
+    return registEndDate >= today && event.EventCategory === "Affiliation Event";
+  });
+
   return (
     <section id="All-Event-properties" className="AllEventPoster">
       <div className="container">
@@ -21,30 +28,31 @@ const AllPosterAffiliasi = () => {
       </div>
       <div className="container">
         <div className="featured-section-bottom  ">
-          {DataEvent.eventaffiliasi.map((eventt) => {
+          {upcomingAffiliationEvents.map((eventt) => {
             return (
-              <a href={eventt.link} className="featured-item shadow">
+              <a href={`/Event/${eventt.id}`} key={eventt.id} className="featured-item shadow">
                 <div className="featured-item-image">
                   <img src={eventt.image} alt="Featured" className="featured-img" />
                 </div>
-                <div className="content-wrapper">
-                  <div key={eventt.id}></div>
-                  <h3 className="text-dark">{eventt.title}</h3>
-                  <p className="">{eventt.level}</p>
-                  <div className="deatils-short">
-                    <div>
+                <div className="content-wrapper" style={{ padding: '15px' }}>
+                  <h3 className="text-dark" style={{ marginBottom: '10px', fontSize: '1.25rem', fontWeight: 'bold' }}>{eventt.title}</h3>
+                  <p className="" style={{ marginBottom: '15px', color: '#555' }}>{eventt.EventType}</p>
+                  <div className="deatils-short" style={{ display: 'block' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
                       <FontAwesomeIcon
                         icon={faLocationDot}
                         className="featured-icon"
+                        style={{ marginRight: '10px', color: '#007bff' }}
                       />
-                      <p className="text-dark">{eventt.location}</p>
+                      <p className="text-dark" style={{ margin: 0 }}>{eventt.Location}</p>
                     </div>
-                    <div>
+                    <div style={{ display: 'flex', alignItems: 'center' }}>
                       <FontAwesomeIcon
                         icon={faCalendarDays}
                         className="featured-icon"
+                        style={{ marginRight: '10px', color: '#007bff' }}
                       />
-                      <p className="text-dark">{eventt.date}</p>
+                      <p className="text-dark" style={{ margin: 0 }}>{eventt.DateAdTime}</p>
                     </div>
                   </div>
                 </div>
@@ -53,7 +61,6 @@ const AllPosterAffiliasi = () => {
           })}
         </div>
       </div>
-        
     </section>
   );
 };

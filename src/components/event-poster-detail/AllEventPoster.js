@@ -8,14 +8,13 @@ import {
 // Import Data
 import DataEvent from "../../data/event/EventPosterDetail.json";
 
-
 const AllEventPoster = () => {
   const today = new Date();
   today.setHours(0, 0, 0, 0);
 
   const upcomingEvents = DataEvent.events.filter(event => {
     const registEndDate = new Date(event.RegistEndDate.replace(/(\d+)(st|nd|rd|th)/, '$1'));
-    return registEndDate >= today;
+    return registEndDate >= today && event.EventCategory === "IYSA Event";
   });
 
   const hoverEffect = `
