@@ -578,19 +578,19 @@
     },
     {
       "id": 37,
-      "image": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1767864181/imsef_aial9x.jpg",
-      "title": "IMSEF (International Mathematics and Science Education Fair) 2026",
-      "LinkRegist": "https://bit.lyRegistration_IMSEF_2026/",
-      "Hastag": "#imsef2026 #affiliationevent #iysa2026 #infolomba #offline",
-      "DateAdTime": "June 1st - 6th (offline), 2026",
-      "RegistEndDate": "January 30th, 2026",
-      "Location": "Offline",
-      "EventType": "International",
+      "image": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1768187546/61_ocbqwb.jpg",
+      "title": "OS2MN (Olimpiade Sains Siswa Madrasah Nasional 2026",
+      "LinkRegist": "https://www.os2mn.or.id/",
+      "Hastag": "#os2mn2026 #iysaevent #iysa2026 #infolomba #offline",
+      "DateAdTime": "March 2nd - 13th (online), 2026",
+      "RegistEndDate": "February 12th, 2026",
+      "Location": "Online",
+      "EventType": "National",
       "EventCategory": "IYSA Event",
-      "ImageVeneu": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1767945829/turkey_toqhjf.jpg",
-      "LinkGmaps": "https://maps.app.goo.gl/f4naiDG22vdMyNyq5",
-      "LinkGmapsEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.709639025922!2d106.78006727475234!3d-6.4313336935597665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69e906913915c7%3A0x1de9ddf653d9736f!2sIYSA!5e0!3m2!1sid!2sid!4v1768185536947!5m2!1sid!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
-      "NameLocation": "Turkey"
+      "ImageVeneu": "",
+      "LinkGmaps": "",
+      "LinkGmapsEmbed": "",
+      "NameLocation": "Online"
     }
   ]
 }
