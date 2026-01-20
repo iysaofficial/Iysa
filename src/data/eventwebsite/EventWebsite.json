@@ -167,18 +167,30 @@
       "WebsiteName": "NYIIA",
       "EventType": "Nasional",
       "link": "https://nyiia.or.id"
-    },    
+    },
     {
       "Id": "29",
       "WebsiteName": "NICE",
       "EventType": "Nasional",
       "link": "https://nice-iysa.or.id"
-    },    
+    },
     {
       "Id": "30",
       "WebsiteName": "NSIF",
       "EventType": "Nasional",
       "link": "https://nsif.or.id"
+    },
+    {
+      "Id": "31",
+      "WebsiteName": "BISF",
+      "EventType": "International",
+      "link": "https://www.bisf.or.id/"
+    },
+    {
+      "Id": "32",
+      "WebsiteName": "TISIIF",
+      "EventType": "International",
+      "link": "https://www.tisiif.or.id/"
     }
   ]
 }
