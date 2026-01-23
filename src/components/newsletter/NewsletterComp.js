@@ -55,7 +55,7 @@ const NewsletterComp = () => {
           {selectedFilter === "all" && (
             <>
               <div className="row">
-                {DataLetter.duapuluhempat.map((Letter) => {
+                {DataLetter.duapuluhlima.slice(0).reverse().map((Letter) => {
                   return (
                     <div className="col-lg-3 col-md-6 col-sm-12">
                       <div className="box mx-auto" key={Letter.id}>
@@ -73,31 +73,46 @@ const NewsletterComp = () => {
                     </div>
                   );
                 })}
-              </div>
-              
-              <div className="row">
-                {DataLetter.duapuluhtiga.map((Letter) => {
-                  return (
-                    <div className="col-lg-3 col-md-6 col-sm-12">
-                      <div className="box mx-auto" key={Letter.id}>
-                        <div className="mx-auto text-center">
-                          <img
-                            className="newsletter-image img-fluid mx-auto"
-                            src={Letter.gambar}
-                            alt=""
-                          ></img>
-                          <div className="read-more-overlay">
-                            <a href={Letter.linkbtn}>Read More</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
 
-              <div className="row">
-                {DataLetter.duapuluhdua.map((Letter) => {
+                {DataLetter.duapuluhempat.slice(0).reverse().map((Letter) => {
+                  return (
+                    <div className="col-lg-3 col-md-6 col-sm-12">
+                      <div className="box mx-auto" key={Letter.id}>
+                        <div className="mx-auto text-center">
+                          <img
+                            className="newsletter-image img-fluid mx-auto"
+                            src={Letter.gambar}
+                            alt=""
+                          ></img>
+                          <div className="read-more-overlay">
+                            <a href={Letter.linkbtn}>Read More</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  );
+                })}
+
+                {DataLetter.duapuluhtiga.slice(0).reverse().map((Letter) => {
+                  return (
+                    <div className="col-lg-3 col-md-6 col-sm-12">
+                      <div className="box mx-auto" key={Letter.id}>
+                        <div className="mx-auto text-center">
+                          <img
+                            className="newsletter-image img-fluid mx-auto"
+                            src={Letter.gambar}
+                            alt=""
+                          ></img>
+                          <div className="read-more-overlay">
+                            <a href={Letter.linkbtn}>Read More</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  );
+                })}
+
+                {DataLetter.duapuluhdua.slice(0).reverse().map((Letter) => {
                   return (
                     <div className="col-lg-3 col-md-6 col-sm-12">
                       <div className="box mx-auto" key={Letter.id}>
@@ -121,7 +136,7 @@ const NewsletterComp = () => {
 
           {selectedFilter !== "all" && (
             <div className="row">
-              {DataLetter[selectedFilter].map((Letter) => {
+              {DataLetter[selectedFilter].slice(0).reverse().map((Letter) => {
                 return (
                   <div className="col-lg-3 col-md-6 col-sm-12">
                     <div className="box mx-auto" key={Letter.id}>
