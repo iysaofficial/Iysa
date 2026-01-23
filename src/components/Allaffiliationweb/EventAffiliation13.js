@@ -86,7 +86,31 @@ const EventAffiliation13 = () => {
           </Col>
         </Row>
       </Container>
+
+      {/* Guidebook Section */}
+      <Container className="py-5">
+        <Row>
+          <Col className="text-center">
+            <h3 className="fw-bold d-inline-block">
+              <span className="section-title">Guidebook</span>
+            </h3>
+          </Col>
+        </Row>
+        <Row className="justify-content-center mt-4">
+          <Col md={10} style={{ height: "800px" }}>
+            <iframe
+              src="https://drive.google.com/file/d/1SFYb5g_nwEf6pCagvdxC8kNSC2ZJc5GU/preview"
+              width="100%"
+              height="100%"
+              allow="autoplay"
+              title="Guidebook MIYIO 2025"
+            ></iframe>
+          </Col>
+        </Row>
+      </Container>
+      
       <hr className="fw-bold"></hr>
+      
       {/* <div>
           <h3 className="text-center fw-bold">After Event 2024</h3>
           <div className="text-center">
