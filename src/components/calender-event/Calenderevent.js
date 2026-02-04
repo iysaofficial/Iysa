@@ -19,7 +19,7 @@ const Calenderevent = () => {
             </h2>
             <div className="flipbook-container">
               <iframe
-                src="https://heyzine.com/flip-book/737d09a886.html"
+                src="https://heyzine.com/flip-book/c528ba32d6.html"
                 title="Calendar of Invention Events – IYSA 2026"
                 allowFullScreen
               ></iframe>
