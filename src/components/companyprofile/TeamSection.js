@@ -6,8 +6,8 @@ import TeamMemberCard from './TeamMemberCard';
 const TeamSection = ({ team, index }) => {
   const getTeamClass = (position) => {
     if (position.toLowerCase().includes('it')) return 'team-it';
-    if (position.toLowerCase().includes('administrasi')) return 'team-administrasi';
-    if (position.toLowerCase().includes('publikasi')) return 'team-publikasi';
+    if (position.toLowerCase().includes('administration')) return 'team-administrasi';
+    if (position.toLowerCase().includes('publication')) return 'team-publikasi';
     return '';
   };
 
