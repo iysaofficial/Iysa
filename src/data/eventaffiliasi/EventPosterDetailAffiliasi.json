@@ -18,7 +18,7 @@
     ],
     "event7": [
       {
-        "id": 1,
+        "id": 2,
         "image": "./assets/images/poster/1world.jpeg",
         "title": "INNOVATION DESIGN STARTUP COMPETITION 2025 (1idea1world)",
         "LinkRegist": "https://bit.ly/Registration-1i1w-2025",
@@ -35,7 +35,7 @@
     ],
     "event8": [
       {
-        "id": 1,
+        "id": 3,
         "image": "./assets/images/poster/wico.jpeg",
         "title": "World Invention Creativity Olympic 2025 (WICO)",
         "LinkRegist": "https://bit.ly/Registration-WICO-2025",
@@ -52,8 +52,25 @@
     ],
     "event9": [
       {
-        "id": 1,
+        "id": 4,
         "image": "./assets/images/poster/ennovate.jpeg",
+        "title": "International Innovation Summit 2025 (E-NNOVATE)",
+        "LinkRegist": "https://bit.ly/Registration-Ennovate-2025",
+        "Hastag": "#e-nnovate2025 #polandia #iysaeventafiliasi #event2025 #iysa2025",
+        "DateAdTime": "June 20th - July 12th, 2025",
+        "RegistEndDate": "April 30th, 2025",
+        "Location": "Polandia",
+        "EventType": "Internasional",
+        "EventCategory": "IYSA Event Affiliation",
+        "ImageVeneu": "",
+        "LinkGmaps": "",
+        "NameLocation": ""
+      }
+    ],
+    "event10": [
+      {
+        "id": 5,
+        "image": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771573355/wico_poster_xn3pw4.jpg",
         "title": "International Innovation Summit 2025 (E-NNOVATE)",
         "LinkRegist": "https://bit.ly/Registration-Ennovate-2025",
         "Hastag": "#e-nnovate2025 #polandia #iysaeventafiliasi #event2025 #iysa2025",

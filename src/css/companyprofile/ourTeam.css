@@ -1,0 +1,283 @@
+/* src/css/companyprofile/ourTeam.css */
+
+.team-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.team-tier {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Default to left-align */
+  gap: 30px;
+  width: 100%;
+}
+
+/* === Team Section Styles === */
+
+.team-section {
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 50px;
+  padding: 30px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+}
+
+.team-section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #343a40;
+  margin-bottom: 30px;
+  text-align: center;
+  position: relative;
+}
+
+.team-section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, #007bff, #00d4ff);
+  border-radius: 2px;
+}
+
+
+.team-section-content {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.team-section-coordinator {
+  flex-basis: 220px; /* Fixed width for coordinator card */
+  flex-shrink: 0;
+}
+
+.team-section-members {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  flex: 1;
+}
+
+
+/* Styling untuk TeamMemberCard (can be slightly adjusted if needed) */
+.team-member-card {
+  display: flex;
+  align-items: center;
+  width: 320px;
+  height: 150px;
+  border-radius: 16px;
+  padding-right: 10px; 
+  transition: transform 0.3s ease;
+  overflow: hidden;
+}
+
+/* === Team-specific Gradients === */
+.team-it .team-member-card, .team-it .coordinator-card {
+  background: linear-gradient(135deg, #57e0fb, #4149b5);
+}
+.team-administrasi .team-member-card, .team-administrasi .coordinator-card {
+  background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+}
+.team-publikasi .team-member-card, .team-publikasi .coordinator-card {
+  background: linear-gradient(135deg, #6f42c1, #e83e8c);
+}
+
+.member-image-container {
+  width: 130px;
+  height: 100%;
+  position: relative;
+  /* border-radius: 12px; */
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.member-photo {
+  position: absolute;
+  top: -10px;
+  left: -30px;
+  width: 150%;
+  height: 150%;
+  object-fit: cover;
+}
+
+.member-photo-hover {
+  position: absolute;
+  top: 0;
+  left: -10px;
+  width: 120%;
+  height: 120%;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+}
+
+.member-info {
+  margin-left: 15px;
+  text-align: left;
+}
+
+.member-name {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.member-position {
+  font-size: 0.9rem;
+  color: #fff;
+  opacity: 0.9;
+  margin-top: 4px;
+}
+
+/* === Leadership Card Styles === */
+
+.leadership-card {
+  display: flex;
+  align-items: stretch; /* Make children stretch to full height */
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  width: 85%;
+  max-width: 600px;
+  height: 250px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.leadership-image-container {
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.leadership-photo,
+.leadership-photo-hover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.leadership-info {
+  width: 50%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.leadership-name {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.leadership-position {
+  font-size: 1.1rem;
+  color: #a0a0a0;
+  margin: 10px 0 0 0;
+  font-weight: 400;
+}
+
+.leadership-card.reversed {
+  flex-direction: row-reverse;
+}
+
+.leadership-card.reversed .leadership-info {
+  margin-left: 0;
+  margin-right: 40px;
+}
+
+.team-tier.tier-reversed {
+  justify-content: flex-end;
+}
+
+/* === Gradient Overlay for Cards === */
+.gradient-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 70%;
+  background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
+  z-index: 2;
+}
+
+
+/* === Coordinator Card Styles === */
+.coordinator-card {
+  position: relative;
+  width: 200px;
+  height: 250px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.18);
+  cursor: pointer;
+  overflow: hidden;
+  /* border: 3px solid #fff; */
+}
+
+.coordinator-photo{
+  position: absolute;
+  top: -10px;
+  left: -55px;
+  width: 150%;
+  height: 150%;
+  object-fit: cover;
+}
+
+.coordinator-photo-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.coordinator-info {
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  color: #fff;
+  z-index: 3;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease-out;
+}
+
+.coordinator-card:hover .coordinator-info {
+  transform: translateY(-10px);
+}
+
+.coordinator-name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.coordinator-position {
+  font-size: 0.9rem;
+  color: #fff;
+  opacity: 0.9;
+  margin-top: 5px;
+}
