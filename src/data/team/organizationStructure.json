@@ -22,10 +22,10 @@
             "children": [
               {
                 "id": 4,
-                "name": "Zidan Adi Prasetya",
+                "name": "Up Coming",
                 "position": "Koordinator Tim IT",
-                "photo1": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771825955/pras_hn8zpc.png",
-                "photo2": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771825955/pras_hn8zpc.png",
+                "photo1": "https://static.vecteezy.com/system/resources/thumbnails/003/337/584/small/default-avatar-photo-placeholder-profile-icon-vector.jpg",
+                "photo2": "https://static.vecteezy.com/system/resources/thumbnails/003/337/584/small/default-avatar-photo-placeholder-profile-icon-vector.jpg",
                 "children": [
                   {
                     "id": 5,
@@ -33,6 +33,13 @@
                     "position": "Anggota Tim",
                     "photo1": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771826117/eki_iman_y3ih3r.png",
                     "photo2": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771826117/eki_iman_y3ih3r.png"
+                  },
+                  {
+                    "id": 22,
+                    "name": "Zaidan Adi Prasetya",
+                    "position": "Anggota Tim",
+                    "photo1": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771825955/pras_hn8zpc.png",
+                    "photo2": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771825955/pras_hn8zpc.png"
                   }
                 ]
               },
@@ -47,8 +54,8 @@
                   { "id": 9, "name": "Nur Azizah, S. M", "position": "Staff Administrasi", "photo1": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771829200/azizah_dcmxes.png", "photo2": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771829200/azizah_dcmxes.png" },
                   { "id": 10, "name": "Dini Juniarsih, S. Pd", "position": "Staff Administrasi", "photo1": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771829156/dini2_ruwdyg.png", "photo2": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771829156/dini2_ruwdyg.png" },
                   { "id": 11, "name": "Candini Ardiyanah", "position": "Staff Administrasi", "photo1": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771829350/candini2_vr3e9w.png", "photo2": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771829350/candini2_vr3e9w.png" },
-                  { "id": 12, "name": "Aziza Cinta Nadia R", "position": "Staff Administrasi", "photo1": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771821570/cinta_afjsnp.png", "photo2": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771821570/cinta_afjsnp.png" },
-                  { "id": 13, "name": "Rafida", "position": "Staff Administrasi", "photo1": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771829031/rafida2_dpvbve.png", "photo2": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771829031/rafida2_dpvbve.png" },
+                  { "id": 12, "name": "Aziza Cinta Nadia Radjaloa", "position": "Staff Administrasi", "photo1": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771821570/cinta_afjsnp.png", "photo2": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771821570/cinta_afjsnp.png" },
+                  { "id": 13, "name": "Rafida Anzelia", "position": "Staff Administrasi", "photo1": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771829031/rafida2_dpvbve.png", "photo2": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771829031/rafida2_dpvbve.png" },
                   { "id": 14, "name": "Umi Safitry, S. Ak", "position": "Staff Administrasi", "photo1": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771822433/umi_ontvyq.png", "photo2": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771822433/umi_ontvyq.png" }
                 ]
               },
