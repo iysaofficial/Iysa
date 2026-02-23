@@ -281,3 +281,94 @@
   opacity: 0.9;
   margin-top: 5px;
 }
+
+/* === Mobile Responsiveness === */
+@media (max-width: 768px) {
+  .team-section-content {
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid black; */
+  }
+
+  .team-section-members {
+    justify-content: center;
+  }
+
+  .team-member-card {
+    width: 130px;
+    height: 220px; /* Increased height for better portrait display */
+    flex-direction: column;
+    position: relative;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .member-image-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .member-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
+    padding: 15px;
+    margin: 0;
+    color: white;
+  }
+
+  .member-name {
+    font-size: 1rem;
+  }
+
+  .member-position {
+    display: none;
+  }
+
+  .leadership-card {
+    flex-direction: column;
+    width: 90%;
+    max-width: 350px; /* Portrait-friendly max-width */
+    height: 450px; /* Taller for portrait */
+    position: relative;
+  }
+
+  .leadership-image-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .leadership-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.9) 20%, rgba(0,0,0,0) 100%);
+    padding: 20px;
+    text-align: center;
+  }
+
+  .leadership-name {
+    font-size: 1.8rem;
+    color: #fff;
+  }
+
+  .leadership-position {
+    color: #e0e0e0;
+  }
+
+  .leadership-card.reversed .leadership-info {
+    margin: 0;
+  }
+
+  .team-tier {
+    justify-content: center;
+  }
+
+  .team-tier.tier-reversed {
+    justify-content: center;
+  }
+}
