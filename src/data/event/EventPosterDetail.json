@@ -10,7 +10,7 @@
       "RegistEndDate": "19 Juli, 2024",
       "Location": "Online",
       "EventType": "Nasional",
-      "EventCategory": "IYSA Event Olympiad",
+      "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
       "LinkGmapsEmbed": "",
@@ -314,7 +314,7 @@
       "RegistEndDate": "May 19, 2024",
       "Location": "Online",
       "EventType": "Internasional",
-      "EventCategory": "IYSA Event Affiliation",
+      "EventCategory": "Affiliation Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
       "LinkGmapsEmbed": "",
@@ -330,7 +330,7 @@
       "RegistEndDate": "August 26th, 2024",
       "Location": " Online ",
       "EventType": "Internasional",
-      "EventCategory": "IYSA Event Olympiad",
+      "EventCategory": "IYSA Event",
       "ImageVeneu": "",
       "LinkGmaps": "",
       "LinkGmapsEmbed": "",
@@ -655,6 +655,22 @@
       "LinkGmaps": "https://maps.app.goo.gl/DZMRWxX5tRCuuUvQ6",
       "LinkGmapsEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.524925251296!2d106.87417298475978!3d-6.194253644664801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f4ed14403213%3A0x2412a91a0f6a01c8!2sUniversitas%20Negeri%20Jakarta!5e0!3m2!1sid!2sid!4v1769583894882!5m2!1sid!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
       "NameLocation": "Universitas Warmadewa, Bali, Indonesia"
+    },
+    {
+      "id": 42,
+      "image": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771573355/wico_poster_xn3pw4.jpg",
+      "title": "Wico (World Innovation and Creativity Olympiad) 2026",
+      "LinkRegist": "https://bit.ly/REGISTRATION-WICO-2026",
+      "Hastag": "#wico2026 #wicoevent #iysa2026 #infolomba #offline #affiliationevent",
+      "DateAdTime": "July 16th - 18th, 2026",
+      "RegistEndDate": "April 27th, 2026",
+      "Location": "Offline",
+      "EventType": "International",
+      "EventCategory": "Affiliation Event",
+      "ImageVeneu": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771898294/1650_Seocho-dong_Seocho-gu_Seoul_Korea_b1qgi8.jpg",
+      "LinkGmaps": "https://maps.app.goo.gl/tv1n4Bd4Gnqnwtxf6",
+      "LinkGmapsEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.752016310443!2d127.013659675336!3d37.49017792850373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca16af9afaaed%3A0xf9ae11dbe62f396f!2sSeoul%20National%20University%20of%20Education%20(SNUE)!5e0!3m2!1sen!2sid!4v1771898345557!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+      "NameLocation": "Seoul National University of Education, Seoul, South Korea"
     }
   ]
 }
