@@ -32,7 +32,7 @@ const TeamSection = ({ team, index }) => {
       whileInView="visible"
       viewport={{ once: true, amount: 0.3 }}
     >
-      <h2 className="team-section-title">{team.position.replace('Koordinator ', '')}</h2>
+      <h2 className="team-section-title">{team.position.replace('Coordinator', '')}</h2>
       <div className="team-section-content">
         <div className="team-section-coordinator">
           <CoordinatorCard member={team} />
