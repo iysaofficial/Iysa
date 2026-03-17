@@ -35,7 +35,7 @@ const TeamSection = ({ team, index }) => {
       <h2 className="team-section-title">{team.position.replace('Coordinator', '')}</h2>
       <div className="team-section-content">
         <div className="team-section-coordinator">
-          <CoordinatorCard member={team} />
+          {team.name !== "Up Coming" && <CoordinatorCard member={team} />}
         </div>
         <div className="team-section-members">
           {team.children.map((member) => (
