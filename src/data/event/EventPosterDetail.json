@@ -719,6 +719,22 @@
       "LinkGmaps": "https://maps.app.goo.gl/vPRdBiQrQHPye7fb7",
       "LinkGmapsEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.0296161818196!2d107.61289967499619!3d-6.887055993111933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6f8aa08188b%3A0x632d24e6061e8903!2sUniversitas%20Komputer%20Indonesia%20(UNIKOM)!5e0!3m2!1sid!2sid!4v1775099016016!5m2!1sid!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
       "NameLocation": "Universitas Komputer Indonesia, Bandung, Indonesia"
+    },
+    {
+      "id": 46,
+      "image": "https://res.cloudinary.com/dtik1z1qd/image/upload/q_auto/f_auto/v1775121199/TISIIF_2026_tzfmud.png",
+      "title": "(TISIIF) Thailand International Science, Invention and Innovation Fair",
+      "LinkRegist": "https://wrcso.or.id",
+      "Hastag": "#tisiif2026 #tisiifevent #iysa2026 #infolomba #offline #event",
+      "DateAdTime": "21th - 24th July, 2026 (Online), 30th July - 2nd August, 2026 (Offline)",
+      "RegistEndDate": "June 23rd, 2026",
+      "Location": "Hybrid",
+      "EventType": "International", 
+      "EventCategory": "IYSA Event",
+      "ImageVeneu": "https://res.cloudinary.com/dtik1z1qd/image/upload/q_auto/f_auto/v1775121385/TISIIF_vm5um9.jpg",
+      "LinkGmaps": "https://maps.app.goo.gl/DjNJJXkFaBrLF317A",
+      "LinkGmapsEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.752016310443!2d100.501671475336!3d37.49017792850373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d603243111111%3A0x311d603243111111!2sBangkok%20International%20Trade%20and%20Exhibition%20Centre%20(BITEC)!5e0!3m2!1sen!2sid!4v1775121434878!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+      "NameLocation": "Pathum Thani, Thailand"
     }
   ]
 }
