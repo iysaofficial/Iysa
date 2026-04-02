@@ -31,7 +31,7 @@ const AllEventPoster = () => {
     const registEndDate = new Date(event.RegistEndDate.replace(/(\d+)(st|nd|rd|th)/, '$1'));
     const eventDate = parseEventDate(event.DateAdTime);
     const isUpcoming = registEndDate >= today || eventDate >= today;
-    return isUpcoming && event.EventCategory === "IYSA Event";
+    return isUpcoming && event.EventCategory === "IYSA Event" && event.id >= 38;
   });
 
   const hoverEffect = `
