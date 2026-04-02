@@ -12,9 +12,29 @@ const AllPosterAffiliasi = () => {
   const today = new Date();
   today.setHours(0, 0, 0, 0);
 
+  const parseEventDate = (dateStr) => {
+    // Try to extract the last meaningful date from the DateAdTime string
+    const cleaned = dateStr.replace(/(\d+)(st|nd|rd|th)/g, '$1');
+    // Try parsing the whole string first
+    let d = new Date(cleaned);
+    if (!isNaN(d.getTime())) return d;
+    // Try extracting year and latest month/day pattern
+    const yearMatch = cleaned.match(/(\d{4})/);
+    const year = yearMatch ? yearMatch[1] : new Date().getFullYear();
+    const monthDayMatches = cleaned.match(/(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d+/gi);
+    if (monthDayMatches) {
+      const lastMatch = monthDayMatches[monthDayMatches.length - 1];
+      d = new Date(`${lastMatch}, ${year}`);
+      if (!isNaN(d.getTime())) return d;
+    }
+    return new Date(0); // fallback
+  };
+
   const upcomingAffiliationEvents = DataEvent.events.filter(event => {
     const registEndDate = new Date(event.RegistEndDate.replace(/(\d+)(st|nd|rd|th)/, '$1'));
-    return registEndDate >= today && event.EventCategory === "Affiliation Event";
+    const eventDate = parseEventDate(event.DateAdTime);
+    const isUpcoming = registEndDate >= today || eventDate >= today;
+    return isUpcoming && event.EventCategory === "Affiliation Event";
   });
 
   return (

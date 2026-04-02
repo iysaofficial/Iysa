@@ -671,6 +671,54 @@
       "LinkGmaps": "https://maps.app.goo.gl/tv1n4Bd4Gnqnwtxf6",
       "LinkGmapsEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.752016310443!2d127.013659675336!3d37.49017792850373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca16af9afaaed%3A0xf9ae11dbe62f396f!2sSeoul%20National%20University%20of%20Education%20(SNUE)!5e0!3m2!1sen!2sid!4v1771898345557!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
       "NameLocation": "Seoul National University of Education, Seoul, South Korea"
+    },
+    {
+      "id": 43,
+      "image": "https://res.cloudinary.com/dtik1z1qd/image/upload/q_auto/f_auto/v1775098085/NICYMS_zz3480.png",
+      "title": "(NICYMS) National Invention Competition for Young Moslem Scientist",
+      "LinkRegist": "https://nicyms.or.id",
+      "Hastag": "#nicyms2026 #nicymsevent #iysa2026 #infolomba #offline #event",
+      "DateAdTime": "1 - 3 July, 2026 (Online), 7 - 10 July, 2026 (Offline)",
+      "RegistEndDate": "June 1st, 2026",
+      "Location": "Hybrid",
+      "EventType": "National", 
+      "EventCategory": "IYSA Event",
+      "ImageVeneu": "https://res.cloudinary.com/dtik1z1qd/image/upload/q_auto/f_auto/v1775098956/d5ba2160-6040-4df9-860c-c0e33ead24e5.png",
+      "LinkGmaps": "https://maps.app.goo.gl/vPRdBiQrQHPye7fb7",
+      "LinkGmapsEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.0296161818196!2d107.61289967499619!3d-6.887055993111933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6f8aa08188b%3A0x632d24e6061e8903!2sUniversitas%20Komputer%20Indonesia%20(UNIKOM)!5e0!3m2!1sid!2sid!4v1775099016016!5m2!1sid!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+      "NameLocation": "Universitas Komputer Indonesia, Bandung, Indonesia"
+    },
+    {
+      "id": 44,
+      "image": "https://res.cloudinary.com/dtik1z1qd/image/upload/q_auto/f_auto/v1775098085/IICYMS_tptgrn.png",
+      "title": "(IICYMS) International Invention Competition for Young Moslem Scientists",
+      "LinkRegist": "https://iicyms.or.id",
+      "Hastag": "#iicyms2026 #iicymsevent #iysa2026 #infolomba #offline #event",
+      "DateAdTime": "1 - 3 July, 2026 (Online), 7 - 10 July, 2026 (Offline)",
+      "RegistEndDate": "June 1st, 2026",
+      "Location": "Hybrid",
+      "EventType": "International", 
+      "EventCategory": "IYSA Event",
+      "ImageVeneu": "https://res.cloudinary.com/dtik1z1qd/image/upload/q_auto/f_auto/v1775098956/d5ba2160-6040-4df9-860c-c0e33ead24e5.png",
+      "LinkGmaps": "https://maps.app.goo.gl/vPRdBiQrQHPye7fb7",
+      "LinkGmapsEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.0296161818196!2d107.61289967499619!3d-6.887055993111933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6f8aa08188b%3A0x632d24e6061e8903!2sUniversitas%20Komputer%20Indonesia%20(UNIKOM)!5e0!3m2!1sid!2sid!4v1775099016016!5m2!1sid!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+      "NameLocation": "Universitas Komputer Indonesia, Bandung, Indonesia"
+    },
+    {
+      "id": 45,
+      "image": "https://res.cloudinary.com/dtik1z1qd/image/upload/q_auto/f_auto/v1775098085/WRCSO_fjdgoz.png",
+      "title": "(WRCSO) World Robotic and Computer Science Olympiad",
+      "LinkRegist": "https://wrcso.or.id",
+      "Hastag": "#wrcso2026 #wrcsoevent #iysa2026 #infolomba #offline #event",
+      "DateAdTime": "1 - 3 July, 2026 (Online), 7 - 10 July, 2026 (Offline)",
+      "RegistEndDate": "June 1st, 2026",
+      "Location": "Hybrid",
+      "EventType": "International", 
+      "EventCategory": "IYSA Event",
+      "ImageVeneu": "https://res.cloudinary.com/dtik1z1qd/image/upload/q_auto/f_auto/v1775098956/d5ba2160-6040-4df9-860c-c0e33ead24e5.png",
+      "LinkGmaps": "https://maps.app.goo.gl/vPRdBiQrQHPye7fb7",
+      "LinkGmapsEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.0296161818196!2d107.61289967499619!3d-6.887055993111933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6f8aa08188b%3A0x632d24e6061e8903!2sUniversitas%20Komputer%20Indonesia%20(UNIKOM)!5e0!3m2!1sid!2sid!4v1775099016016!5m2!1sid!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+      "NameLocation": "Universitas Komputer Indonesia, Bandung, Indonesia"
     }
   ]
 }

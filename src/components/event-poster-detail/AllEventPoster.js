@@ -12,9 +12,26 @@ const AllEventPoster = () => {
   const today = new Date();
   today.setHours(0, 0, 0, 0);
 
+  const parseEventDate = (dateStr) => {
+    const cleaned = dateStr.replace(/(\d+)(st|nd|rd|th)/g, '$1');
+    let d = new Date(cleaned);
+    if (!isNaN(d.getTime())) return d;
+    const yearMatch = cleaned.match(/(\d{4})/);
+    const year = yearMatch ? yearMatch[1] : new Date().getFullYear();
+    const monthDayMatches = cleaned.match(/(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d+/gi);
+    if (monthDayMatches) {
+      const lastMatch = monthDayMatches[monthDayMatches.length - 1];
+      d = new Date(`${lastMatch}, ${year}`);
+      if (!isNaN(d.getTime())) return d;
+    }
+    return new Date(0);
+  };
+
   const upcomingEvents = DataEvent.events.filter(event => {
     const registEndDate = new Date(event.RegistEndDate.replace(/(\d+)(st|nd|rd|th)/, '$1'));
-    return registEndDate >= today && event.EventCategory === "IYSA Event";
+    const eventDate = parseEventDate(event.DateAdTime);
+    const isUpcoming = registEndDate >= today || eventDate >= today;
+    return isUpcoming && event.EventCategory === "IYSA Event";
   });
 
   const hoverEffect = `
