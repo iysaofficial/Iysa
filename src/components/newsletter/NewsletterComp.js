@@ -26,6 +26,13 @@ const NewsletterComp = () => {
             <button
               type="button"
               className="control"
+              onClick={() => handleFilterChange("duapuluhenam")}
+            >
+              2026
+            </button>
+            <button
+              type="button"
+              className="control"
               onClick={() => handleFilterChange("duapuluhlima")}
             >
               2025
@@ -55,6 +62,25 @@ const NewsletterComp = () => {
           {selectedFilter === "all" && (
             <>
               <div className="row">
+                {DataLetter.duapuluhenam.slice(0).reverse().map((Letter) => {
+                  return (
+                    <div className="col-lg-3 col-md-6 col-sm-12">
+                      <div className="box mx-auto" key={Letter.id}>
+                        <div className="mx-auto text-center">
+                          <img
+                            className="newsletter-image img-fluid mx-auto"
+                            src={Letter.gambar}
+                            alt=""
+                          ></img>
+                          <div className="read-more-overlay">
+                            <a href={Letter.linkbtn}>Read More</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  );
+                })}
+
                 {DataLetter.duapuluhlima.slice(0).reverse().map((Letter) => {
                   return (
                     <div className="col-lg-3 col-md-6 col-sm-12">
