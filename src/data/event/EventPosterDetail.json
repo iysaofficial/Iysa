@@ -735,6 +735,54 @@
       "LinkGmaps": "https://maps.app.goo.gl/DjNJJXkFaBrLF317A",
       "LinkGmapsEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.752016310443!2d100.501671475336!3d37.49017792850373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d603243111111%3A0x311d603243111111!2sBangkok%20International%20Trade%20and%20Exhibition%20Centre%20(BITEC)!5e0!3m2!1sen!2sid!4v1775121434878!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
       "NameLocation": "Pathum Thani, Thailand"
+    },
+    {
+      "id": 47,
+      "image": "https://res.cloudinary.com/dtik1z1qd/image/upload/q_auto/f_auto/v1775442824/WSEEC_hdycpv.jpg",
+      "title": "(WSEEC) World Science, Environment & Engineering Competition",
+      "LinkRegist": "https://wsec.or.id",
+      "Hastag": "#wseec2026 #wseec2026 #iysa2026 #infolomba #offline #event",
+      "DateAdTime": "5 August - 7th August, 2026 (Online), 11th August - 14th August, 2026 (Offline)",
+      "RegistEndDate": "July 5th, 2026",
+      "Location": "Hybrid",
+      "EventType": "International", 
+      "EventCategory": "IYSA Event",
+      "ImageVeneu": "https://res.cloudinary.com/dtik1z1qd/image/upload/q_auto/f_auto/v1775442821/UP_nca3bz.jpg",
+      "LinkGmaps": "https://maps.app.goo.gl/h9M98kV77Hi6Lsrm6",
+      "LinkGmapsEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.317944504325!2d106.83137777499618!3d-6.284586993111934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e577777777%3A0x977684685648327!2sUniversitas%20Pancasila!5e0!3m2!1sid!2sid!4v1775442860817!5m2!1sid!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+      "NameLocation": "Universitas Pancasila, Jakarta, Indonesia"
+    },
+    {
+      "id": 48,
+      "image": "https://res.cloudinary.com/dtik1z1qd/image/upload/q_auto/f_auto/v1775442823/IIIEX_lblo1p.png",
+      "title": "(IIIEX) Indonesia International Invention EXPO",
+      "LinkRegist": "https://iiiex.or.id",
+      "Hastag": "#iiiex2026 #iiiexevent #iysa2026 #infolomba #offline #event",
+      "DateAdTime": "24th August - 26th August, 2026 (Online), 31st August - 3rd September, 2026 (Offline)",
+      "RegistEndDate": "July 20th, 2026",
+      "Location": "Hybrid",
+      "EventType": "International", 
+      "EventCategory": "IYSA Event",
+      "ImageVeneu": "https://res.cloudinary.com/dtik1z1qd/image/upload/q_auto/f_auto/v1775443870/polines_e8yxcx.jpg",
+      "LinkGmaps": "https://maps.app.goo.gl/3o2skyN7QDqPkhka9",
+      "LinkGmapsEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.630402286455!2d110.43184537499778!3d-7.0526423929496636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708c0396ceec97%3A0x10b388f0c8411e72!2sPoliteknik%20Negeri%20Semarang!5e0!3m2!1sen!2sid!4v1775444395797!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+      "NameLocation": "Politeknik Negeri Semarang, Semarang, Indonesia"
+    },
+    {
+      "id": 49, 
+      "image": "https://res.cloudinary.com/dtik1z1qd/image/upload/q_auto/f_auto/v1775442823/WICE_wlh0tl.png",
+      "title": "(WICE) World Invention Competition and Exhibition",
+      "LinkRegist": "https://wice.or.id",
+      "Hastag": "#wice2026 #wiceevent #iysa2026 #infolomba #offline #event",
+      "DateAdTime": "10th September - 14th September, 2026 (Online), 20st September - 24th September, 2026 (Offline)",
+      "RegistEndDate": "July 30th, 2026",
+      "Location": "Hybrid",
+      "EventType": "International", 
+      "EventCategory": "IYSA Event",
+      "ImageVeneu": "https://res.cloudinary.com/dtik1z1qd/image/upload/q_auto/f_auto/v1775444301/SEGI_bfgj1c.jpg",
+      "LinkGmaps": "https://maps.app.goo.gl/qp7mzdFjUzvAdrSH7",
+      "LinkGmapsEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2037197.7032366619!2d99.69932155893434!3d4.239386088940675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc4efc1320915b%3A0x71780032b534e07b!2sSEGi%20University!5e0!3m2!1sen!2sid!4v1775444395797!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+      "NameLocation": "Segi University, Kota Damansara, Malaysia"
     }
   ]
 }
