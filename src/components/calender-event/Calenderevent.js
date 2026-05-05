@@ -15,7 +15,7 @@ const Calenderevent = () => {
         <div className="row">
           <div className="col-lg-6 wrapper mx-auto text-center">
             <h2 className="h1-calender fw-bold mb-5">
-              Calendar of Invention Events – IYSA 2026
+              Calendar of Invention Events - IYSA 2026
             </h2>
             <div className="flipbook-container">
               <iframe
