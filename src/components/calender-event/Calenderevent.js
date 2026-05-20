@@ -1,13 +1,13 @@
-import { useState } from 'react';
-import Modal from 'react-bootstrap/Modal';
+// import { useState } from 'react';
+// import Modal from 'react-bootstrap/Modal';
 
 const Calenderevent = () => {
-  const [show, setShow] = useState(false);
+  // const [show, setShow] = useState(false);
 
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  // const handleClose = () => setShow(false);
+  // const handleShow = () => setShow(true);
 
-  const imageUrl = "https://res.cloudinary.com/dtik1z1qd/image/upload/v1770000860/IYSA_Event_Calender_New_lmxetx.png";
+  // const imageUrl = "https://res.cloudinary.com/dtik1z1qd/image/upload/v1770000860/IYSA_Event_Calender_New_lmxetx.png";
 
   return (
     <>
@@ -15,17 +15,17 @@ const Calenderevent = () => {
         <div className="row">
           <div className="col-lg-6 wrapper mx-auto text-center">
             <h2 className="h1-calender fw-bold mb-5">
-              Calendar of Invention Events - IYSA 2026 
+              Calendar of Invention Events - IYSA 2026
             </h2>
             <div className="flipbook-container">
               <iframe
-                src="https://heyzine.com/flip-book/e71ca827d2.html"
+                src="https://heyzine.com/flip-book/b1c96dcb07.html"
                 title="Calendar of Invention Events – IYSA 2026"
                 allowFullScreen
               ></iframe>
             </div>
           </div>
-          <div className="col-lg-6 wrapper mx-auto text-center">
+          {/* <div className="col-lg-6 wrapper mx-auto text-center">
             <h2 className="h1-calender fw-bold mb-5">
               Calendar of Olympiad Events – IYSA 2026
             </h2>
@@ -44,18 +44,18 @@ const Calenderevent = () => {
                 cursor: "pointer"
               }}
             />
-          </div>
+          </div> */}
         </div>
       </section>
 
-      <Modal show={show} onHide={handleClose} size="lg" centered>
+      {/* <Modal show={show} onHide={handleClose} size="lg" centered>
         <Modal.Header closeButton>
           <Modal.Title>Calendar of Olympiad Events – IYSA 2026</Modal.Title>
         </Modal.Header>
         <Modal.Body style={{ textAlign: 'center' }}>
           <img src={imageUrl} alt="Olympiad Events Calendar Full Size" style={{ maxWidth: '100%', height: 'auto' }} />
         </Modal.Body>
-      </Modal>
+      </Modal> */}
     </>
   );
 };
