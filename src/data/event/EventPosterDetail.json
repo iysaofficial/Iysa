@@ -847,6 +847,38 @@
       "LinkGmaps": "https://maps.app.goo.gl/Zb84pZjo4VwYDZK99",
       "LinkGmapsEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.2581662591574!2d106.8246593749916!3d-6.360622893629397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ec1a804e8b85%3A0xd7bf80e1977cea07!2sUniversitas%20Indonesia!5e0!3m2!1sen!2sid!4v1778472164133!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe",
       "NameLocation": "Universitas Indonesia, Depok, Indonesia"
+    },
+    {
+      "id": 54, 
+      "image": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/nasisc.png",
+      "title": "NASISC 2026",
+      "LinkRegist": "https://www.nasisc.or.id/",
+      "Hastag": "#nasisc2026 #nasiscevent #iysa2026 #infolomba #offline #event",
+      "DateAdTime": "23th October - 26th October, 2026 (Online), 23th October - 26th October, 2026 (Offline)",
+      "RegistEndDate": "September 4th, 2026",
+      "Location": "Hybrid",
+      "EventType": "National", 
+      "EventCategory": "IYSA Event",
+      "ImageVeneu": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/sma-taruna-nusantara-malang.webp",
+      "LinkGmaps": "https://maps.app.goo.gl/UnuW8gmhbDxh7EtG9",
+      "LinkGmapsEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d987.2834540688146!2d112.53824197301795!3d-8.189272449574913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78a1001e965ff3%3A0x264530001a5826ce!2sSMA%20Taruna%20Nusantara%20Malang!5e0!3m2!1sid!2sid!4v1782809547452!5m2!1sid!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\"></iframe",
+      "NameLocation": "SMA Taruna Nusantara Malang, Malang, Indonesia"
+    },
+    {
+      "id": 55, 
+      "image": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/wasisc.png",
+      "title": "WASISC 2026",
+      "LinkRegist": "https://www.wasisc.or.id/",
+      "Hastag": "#wasisc2026 #wasiscevent #iysa2026 #infolomba #offline #event",
+      "DateAdTime": "23th October - 26th October, 2026 (Online), 23th October - 26th October, 2026 (Offline)",
+      "RegistEndDate": "September 4th, 2026",
+      "Location": "Hybrid",
+      "EventType": "National", 
+      "EventCategory": "IYSA Event",
+      "ImageVeneu": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/sma-taruna-nusantara-malang.webp",
+      "LinkGmaps": "https://maps.app.goo.gl/UnuW8gmhbDxh7EtG9",
+      "LinkGmapsEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d987.2834540688146!2d112.53824197301795!3d-8.189272449574913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78a1001e965ff3%3A0x264530001a5826ce!2sSMA%20Taruna%20Nusantara%20Malang!5e0!3m2!1sid!2sid!4v1782809547452!5m2!1sid!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\"></iframe",
+      "NameLocation": "SMA Taruna Nusantara Malang, Malang, Indonesia"
     }
   ]
 }
