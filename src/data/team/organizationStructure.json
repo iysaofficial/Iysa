@@ -3,101 +3,98 @@
     "id": 1,
     "name": "Deni Irawan, M. Pd",
     "position": "Owner & Founder",
-    "photo1": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771574345/pa_den_r1nzbs.png",
-    "photo2": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771574345/pa_den_r1nzbs.png",
+    "photo1": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/pa_den_r1nzbs.png?updatedAt=1781963601125",
+    "photo2": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/pa_den_r1nzbs.png?updatedAt=1781963601125",
     "children": [
       {
         "id": 2,
         "name": "Anggraini, A. Md",
         "position": "General Manager",
-        "photo1": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771829883/bu_en2_ejstat.png",
-        "photo2": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771829883/bu_en2_ejstat.png",
+        "photo1": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/bu_en2_ejstat.png?updatedAt=1781963600547",
+        "photo2": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/bu_en2_ejstat.png?updatedAt=1781963600547",
         "children": [
           {
             "id": 3,
             "name": "Kamal Putra",
             "position": "Supervisor",
-            "photo1": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771830026/kamal2_g4o82j.png",
-            "photo2": "https://res.cloudinary.com/dtik1z1qd/image/upload/q_auto/f_auto/v1776330655/kamal_ktcjtd.gif",
+            "photo1": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/kamal_slybh6.png?updatedAt=1781963598265",
+            "photo2": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/kamal_slybh6.png?updatedAt=1781963598265",
             "children": [
-              {
-                "id": 4,
-                "name": "Up Coming",
-                "position": "IT Team Coordinator",
-                "photo1": "https://static.vecteezy.com/system/resources/thumbnails/003/337/584/small/default-avatar-photo-placeholder-profile-icon-vector.jpg",
-                "photo2": "https://static.vecteezy.com/system/resources/thumbnails/003/337/584/small/default-avatar-photo-placeholder-profile-icon-vector.jpg",
-                "children": [
-                  {
-                    "id": 5,
-                    "name": "Eki Iman Jordiansyah",
-                    "position": "IT Staff",
-                    "photo1": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771826117/eki_iman_y3ih3r.png",
-                    "photo2": "https://res.cloudinary.com/dtik1z1qd/image/upload/q_auto/f_auto/v1776330713/eki_stn5yp.gif"
-                  },
                   {
                     "id": 22,
                     "name": "Zaidan Adi Prasetya",
                     "position": "IT Staff",
-                    "photo1": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771825955/pras_hn8zpc.png",
-                    "photo2": "https://res.cloudinary.com/dtik1z1qd/image/upload/q_auto/f_auto/v1776330655/pras_fu5wyk.gif"
-                  }
-                ]
-              },
+                    "photo1": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/pras_hn8zpc.png?updatedAt=1781963585733",
+                    "photo2": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/edit1.png?updatedAt=1781965701320",
+                    "photo3": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/edit2.png?updatedAt=1781965719989",
+                    "photo4": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/edit3.png?updatedAt=1781965739922"
+                  },
               {
                 "id": 7,
                 "name": "Astri, S. M",
                 "position": "Administration Team Coordinator",
-                "photo1": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771574705/astri_a4dujw.png",
-                "photo2": "https://res.cloudinary.com/dtik1z1qd/image/upload/q_auto/f_auto/v1776330656/astri_mnfogf.gif",
+                "photo1": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/astri_a4dujw.png?updatedAt=1781963604708",
+                "photo2": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/50.png?updatedAt=1781965755450",
+                "photo3": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/51.png?updatedAt=1781965770310",
                 "children": [
                   {
                     "id": 8,
                     "name": "Risnawati",
                     "position": "Administration Staff",
-                    "photo1": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771820942/risna_sejmjx.png",
-                    "photo2": "https://res.cloudinary.com/dtik1z1qd/image/upload/q_auto/f_auto/v1776330655/risna_hkytba.gif"
+                    "photo1": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/risna_sejmjx.png?updatedAt=1781963590196",
+                    "photo2": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/63.png?updatedAt=1781965768152",
+                    "photo3": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/64.png?updatedAt=1781965773825",
+                    "photo4": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/62.png?updatedAt=1781965775413"
                   },
                   {
                     "id": 9,
                     "name": "Nur Azizah, S. M",
                     "position": "Administration Staff",
-                    "photo1": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771829200/azizah_dcmxes.png",
-                    "photo2": "https://res.cloudinary.com/dtik1z1qd/image/upload/q_auto/f_auto/v1776330662/azizah_xdvzic.gif"
+                    "photo1": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/azizah_dcmxes.png?updatedAt=1781963594057",
+                    "photo2": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/60.png?updatedAt=1781965775570",
+                    "photo3": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/59.png?updatedAt=1781965772931"
                   },
                   {
                     "id": 10,
                     "name": "Dini Juniarsih, S. Pd",
                     "position": "Administration Staff",
-                    "photo1": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771829156/dini2_ruwdyg.png",
-                    "photo2": "https://res.cloudinary.com/dtik1z1qd/image/upload/q_auto/f_auto/v1776330713/dini_aoblty.gif"
+                    "photo1": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/dini2_ruwdyg.png?updatedAt=1781963591993",
+                    "photo2": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/56.png?updatedAt=1781965756349",
+                    "photo3": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/55.png?updatedAt=1781965762038"
                   },
                   {
                     "id": 11,
-                    "name": "Candini Ardiyanah",
+                    "name": "Al Khansa Ariska Yulia",
                     "position": "Administration Staff",
-                    "photo1": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771829350/candini2_vr3e9w.png",
-                    "photo2": "https://res.cloudinary.com/dtik1z1qd/image/upload/q_auto/f_auto/v1776330690/candini_hr0bhl.gif"
+                    "photo1": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/khansa1.png?updatedAt=1781965720477",
+                    "photo2": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/khansa2.png?updatedAt=1781965719449",
+                    "photo3": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/khansa3.png?updatedAt=1781965730050"
                   },
                   {
                     "id": 12,
                     "name": "Aziza Cinta Nadia Radjaloa",
                     "position": "Administration Staff",
-                    "photo1": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771821570/cinta_afjsnp.png",
-                    "photo2": "https://res.cloudinary.com/dtik1z1qd/image/upload/q_auto/f_auto/v1776330704/cinta_pvqjee.gif"
+                    "photo1": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/cinta_afjsnp.png?updatedAt=1781963595769",
+                    "photo2": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/54.png?updatedAt=1781965776280",
+                    "photo3": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/52.png?updatedAt=1781965774890",
+                    "photo4": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/53.png?updatedAt=1781965772306"
                   },
                   {
                     "id": 13,
                     "name": "Rafida Anzelia",
                     "position": "Administration Staff",
-                    "photo1": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771829031/rafida2_dpvbve.png",
-                    "photo2": "https://res.cloudinary.com/dtik1z1qd/image/upload/q_auto/f_auto/v1776330655/rafida_e18pvn.gif"
+                    "photo1": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/rafida2_dpvbve.png?updatedAt=1781963586843",
+                    "photo2": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/58.png?updatedAt=1781965766553",
+                    "photo3": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/57.png?updatedAt=1781965773473"
                   },
                   {
                     "id": 14,
                     "name": "Umi Safitry, S. Ak",
                     "position": "Administration Staff",
-                    "photo1": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771822433/umi_ontvyq.png",
-                    "photo2": "https://res.cloudinary.com/dtik1z1qd/image/upload/q_auto/f_auto/v1776330656/umi_vxpxdd.gif"
+                    "photo1": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/umi_ontvyq.png?updatedAt=1781963587985",
+                    "photo2": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/70.png",
+                    "photo3": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/71.png",
+                    "photo4": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/72.png"
                   }
                 ]
               },
@@ -105,50 +102,90 @@
                 "id": 15,
                 "name": "Irsyad Kamil Zaidan",
                 "position": "Promotion and Publication Team Coordinator",
-                "photo1": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771825556/zidan_lunpac.png",
-                "photo2": "https://res.cloudinary.com/dtik1z1qd/image/upload/q_auto/f_auto/v1776330656/zidan_t9k1ff.gif",
+                "photo1": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/zidan_lunpac.png?updatedAt=1781963580539",
+                "photo2": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/65.png",
+                "photo3": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/66.png",
+                "photo4": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/67.png",
                 "children": [
                   {
                     "id": 16,
                     "name": "Maulana Yusup",
                     "position": "Promotion and Publication Staff",
-                    "photo1": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771829594/usup2_np4sq3.png",
-                    "photo2": "https://res.cloudinary.com/dtik1z1qd/image/upload/q_auto/f_auto/v1776330655/maul_osnfdr.gif"
+                    "photo1": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/usup_fqioyz.png?updatedAt=1781963591428",
+                    "photo2": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/73.png",
+                    "photo3": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/74.png",
+                    "photo4": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/75.png"
                   },
                   {
                     "id": 17,
-                    "name": "Handaka Putra Atmaja, S. Ds",
+                    "name": "Handaka Putra Atmaja",
                     "position": "Promotion and Publication Staff",
-                    "photo1": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771829443/daka_zwmy8v.png",
-                    "photo2": "https://res.cloudinary.com/dtik1z1qd/image/upload/q_auto/f_auto/v1776330655/handaka_qkuc3t.gif"
+                    "photo1": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/daka_zwmy8v.png?updatedAt=1781963596765",
+                    "photo2": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/76.png",
+                    "photo3": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/77.png",
+                    "photo4": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/78.png"
                   },
                   {
                     "id": 18,
-                    "name": "Dhea Zulfa Naila",
+                    "name": "Auli Fadhillah S.Ds",
                     "position": "Promotion and Publication Staff",
-                    "photo1": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771822883/dhea_tjpkql.png",
-                    "photo2": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771822883/dhea_tjpkql.png"
+                    "photo1": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/49.png?updatedAt=1781965776954",
+                    "photo2": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/48.png?updatedAt=1781965764499",
+                    "photo3": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/48.png?updatedAt=1781965764499"
                   },
                   {
                     "id": 19,
                     "name": "Bunga Aulia Zahra",
                     "position": "Promotion and Publication Staff",
-                    "photo1": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771824821/bunga_olbags.png",
-                    "photo2": "https://res.cloudinary.com/dtik1z1qd/image/upload/q_auto/f_auto/v1776330676/bunga_clspu3.gif"
+                    "photo1": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/bunga_olbags.png?updatedAt=1781963601215",
+                    "photo2": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/80.png",
+                    "photo3": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/81.png",
+                    "photo4": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/82.png"
                   },
                   {
                     "id": 20,
                     "name": "Indah Khaira Azahra A.Md.I.Kom",
                     "position": "Promotion and Publication Staff",
-                    "photo1": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771824980/bunga_ty0gh4.png",
-                    "photo2": "https://res.cloudinary.com/dtik1z1qd/image/upload/q_auto/f_auto/v1776330655/indah_akafpo.gif"
+                    "photo1": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/bunga_ty0gh4.png?updatedAt=1781963604152",
+                    "photo2": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/86.png",
+                    "photo3": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/87.png",
+                    "photo4": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/88.png"
                   },
                   {
                     "id": 21,
                     "name": "Nadya Nur Aulia A.Md.I.Kom",
                     "position": "Promotion and Publication Staff",
-                    "photo1": "https://res.cloudinary.com/dtik1z1qd/image/upload/v1771829690/nadia2_iejnwm.png",
-                    "photo2": "https://res.cloudinary.com/dtik1z1qd/image/upload/q_auto/f_auto/v1776330655/nadya_goq3vj.gif"
+                    "photo1": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/nadia2_iejnwm.png?updatedAt=1781963583585",
+                    "photo2": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/83.png",
+                    "photo3": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/84.png",
+                    "photo4": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/85.png"
+                  }
+                ]
+              },
+              {
+                "id": 22,
+                "name": "Eki Iman Jordiansyah",
+                "position": "Research & Development Team Coordinator",
+                "photo1": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/eki_iman_y3ih3r.png",
+                "photo2": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/90.png",
+                "photo3": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/89.png",
+                "photo4": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/91.png",
+                "children": [
+                  {
+                    "id": 23,
+                    "name": "Candini Ardiyanah",
+                    "position": "Research & Development Staff",
+                    "photo1": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/candini_tpiejj.png?updatedAt=1781963593145",
+                    "photo2": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/92.png",
+                    "photo3": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/93.png",
+                    "photo4": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/94.png"
+                  },
+                  {
+                    "id": 24,
+                    "name": "Iqbal Rahmatullah",
+                    "position": "Research & Development Staff",
+                    "photo1": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/69.png",
+                    "photo2": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/68.png"
                   }
                 ]
               }

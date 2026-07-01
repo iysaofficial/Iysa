@@ -8,6 +8,7 @@ const TeamSection = ({ team, index }) => {
     if (position.toLowerCase().includes('it')) return 'team-it';
     if (position.toLowerCase().includes('administration')) return 'team-administrasi';
     if (position.toLowerCase().includes('publication')) return 'team-publikasi';
+    if (position.toLowerCase().includes('research')) return 'team-research';
     return '';
   };
 
@@ -32,16 +33,23 @@ const TeamSection = ({ team, index }) => {
       whileInView="visible"
       viewport={{ once: true, amount: 0.3 }}
     >
-      <h2 className="team-section-title">{team.position.replace('Coordinator', '')}</h2>
-      <div className="team-section-content">
-        <div className="team-section-coordinator">
-          {team.name !== "Up Coming" && <CoordinatorCard member={team} />}
-        </div>
-        <div className="team-section-members">
-          {team.children.map((member) => (
-            <TeamMemberCard key={member.id} member={member} />
-          ))}
-        </div>
+      <h2 className="team-section-title">{team.position.replace('Coordinator', '').replace('Staff', 'Team')}</h2>
+      <div 
+        className="team-section-content" 
+        style={(!team.children || team.children.length === 0) ? { justifyContent: 'center' } : {}}
+      >
+        {team.name !== "Up Coming" && (
+          <div className="team-section-coordinator">
+            <CoordinatorCard member={team} />
+          </div>
+        )}
+        {team.children && team.children.length > 0 && (
+          <div className="team-section-members" style={team.name === "Up Coming" ? { justifyContent: 'center' } : {}}>
+            {team.children.map((member) => (
+              <TeamMemberCard key={member.id} member={member} />
+            ))}
+          </div>
+        )}
       </div>
     </motion.section>
   );

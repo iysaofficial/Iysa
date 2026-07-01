@@ -93,6 +93,9 @@
 .team-publikasi .team-member-card, .team-publikasi .coordinator-card {
   background: linear-gradient(135deg, #6f42c1, #e83e8c);
 }
+.team-research .team-member-card, .team-research .coordinator-card {
+  background: linear-gradient(135deg, #f6d365, #fda085);
+}
 
 .member-image-container {
   width: 130px;
