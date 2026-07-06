@@ -879,6 +879,22 @@
       "LinkGmaps": "https://maps.app.goo.gl/UnuW8gmhbDxh7EtG9",
       "LinkGmapsEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d987.2834540688146!2d112.53824197301795!3d-8.189272449574913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78a1001e965ff3%3A0x264530001a5826ce!2sSMA%20Taruna%20Nusantara%20Malang!5e0!3m2!1sid!2sid!4v1782809547452!5m2!1sid!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\"></iframe",
       "NameLocation": "SMA Taruna Nusantara Malang, Malang, Indonesia"
+    },
+    {
+      "id": 42,
+      "image": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/5.jpg",
+      "title": "WSDG (World Sustainable Development Goals Challenge) 2026",
+      "LinkRegist": "https://bit.ly/WSDG_REGISTRATION_FORM_2026",
+      "Hastag": "#wsdg2026 #wsdgevent #iysa2026 #infolomba #offline #affiliationevent",
+      "DateAdTime": "August 1st, 2026 (Online), September 24 - 28th, 2026 (Offline)", 
+      "RegistEndDate": "15th April, 2026",
+      "Location": "Hybrid",
+      "EventType": "International",
+      "EventCategory": "Affiliation Event",
+      "ImageVeneu": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/Gambar_Dewan_Tunku_Canselor,_Universiti_Malaya.jpg",
+      "LinkGmaps": "https://maps.app.goo.gl/FREzQnhM5DMgVKMi9",
+      "LinkGmapsEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127496.25082151413!2d101.56693283125433!3d3.0252951270823534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cdb6e91af90d0b%3A0x397f973de1f102c0!2sDewan%20Tun%20Canselor!5e0!3m2!1sen!2sid!4v1783305468773!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\"></iframe>",
+      "NameLocation": "Tun Canselour Malaysia , Kuala Lumpur, Malaysia"
     }
   ]
 }
