@@ -851,7 +851,7 @@
     {
       "id": 54, 
       "image": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/nasisc.png",
-      "title": "NASISC 2026",
+      "title": "NASISC (National Agriculture Strategic Studies and Innovation Science Competition) ",
       "LinkRegist": "https://www.nasisc.or.id/",
       "Hastag": "#nasisc2026 #nasiscevent #iysa2026 #infolomba #offline #online #event",
       "DateAdTime": "23th October - 26th October, 2026 (Online), 23th October - 26th October, 2026 (Offline)",
@@ -867,13 +867,13 @@
     {
       "id": 55, 
       "image": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/wasisc.png",
-      "title": "WASISC 2026",
+      "title": "WASISC (World Agriculture Strategic Studies and Innovation Science Competition)",
       "LinkRegist": "https://www.wasisc.or.id/",
       "Hastag": "#wasisc2026 #wasiscevent #iysa2026 #infolomba #offline #online #event",
       "DateAdTime": "23th October - 26th October, 2026 (Online), 23th October - 26th October, 2026 (Offline)",
       "RegistEndDate": "September 4th, 2026",
       "Location": "Hybrid",
-      "EventType": "National", 
+      "EventType": "Internasional", 
       "EventCategory": "IYSA Event",
       "ImageVeneu": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/sma-taruna-nusantara-malang.webp",
       "LinkGmaps": "https://maps.app.goo.gl/UnuW8gmhbDxh7EtG9",
@@ -895,6 +895,38 @@
       "LinkGmaps": "https://maps.app.goo.gl/FREzQnhM5DMgVKMi9",
       "LinkGmapsEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127496.25082151413!2d101.56693283125433!3d3.0252951270823534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cdb6e91af90d0b%3A0x397f973de1f102c0!2sDewan%20Tun%20Canselor!5e0!3m2!1sen!2sid!4v1783305468773!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\"></iframe>",
       "NameLocation": "Tun Canselour Malaysia , Kuala Lumpur, Malaysia"
+    },
+    {
+      "id": 57, 
+      "image": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/NYIIA.png",
+      "title": "NYIIA (National Youth Invention and Innovation Award) ",
+      "LinkRegist": "https://www.nyiia.or.id/",
+      "Hastag": "#nyiia2026 #nyiiaevent #iysa2026 #infolomba #offline #online #event",
+      "DateAdTime": "2th November - 6th November, 2026 (Offline), 16th November - 18th November, 2026 (Online)",
+      "RegistEndDate": "September 28th, 2026",
+      "Location": "Hybrid",
+      "EventType": "National", 
+      "EventCategory": "IYSA Event",
+      "ImageVeneu": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/ub.jpeg",
+      "LinkGmaps": "https://maps.app.goo.gl/Ruc1seYX6y1gwPyZ7",
+      "LinkGmapsEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.714245288145!2d112.53271927781244!3d-7.931644292664751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7882e659b511c5%3A0xfe5c34983d74582a!2sUniversitas%20Brawijaya!5e0!3m2!1sen!2sid!4v1784684724444!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\"></iframe",
+      "NameLocation": "Universitas Brawijaya, Malang, Indonesia"
+    },
+    {
+      "id": 58, 
+      "image": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/WYIIA.png",
+      "title": "WYIIA (World Youth Invention and Innovation Award) ",
+      "LinkRegist": "https://www.wyiia.or.id/",
+      "Hastag": "#wyiia2026 #wyiiaevent #iysa2026 #infolomba #offline #online #event",
+      "DateAdTime": "2th November - 6th November, 2026 (Offline), 16th November - 18th November, 2026 (Online)",
+      "RegistEndDate": "September 28th, 2026",
+      "Location": "Hybrid",
+      "EventType": "Internasional",
+      "EventCategory": "IYSA Event",
+      "ImageVeneu": "https://ik.imagekit.io/iysaimg/ASSET%20IYSA/ub.jpeg",
+      "LinkGmaps": "https://maps.app.goo.gl/Ruc1seYX6y1gwPyZ7",
+      "LinkGmapsEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.714245288145!2d112.53271927781244!3d-7.931644292664751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7882e659b511c5%3A0xfe5c34983d74582a!2sUniversitas%20Brawijaya!5e0!3m2!1sen!2sid!4v1784684724444!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\"></iframe",
+      "NameLocation": "Universitas Brawijaya, Malang, Indonesia"
     }
   ]
 }
