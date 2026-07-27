@@ -7,7 +7,7 @@ const optimizeUrl = (url) => {
     const separator = url.includes('?') ? '&' : '?';
     return `${url}${separator}tr=w-600,q-80,f-auto`;
   }
-  if (url.includes('cloudinary.com') && !url.includes('q_auto')) {
+  if (url.includes('imageskit.io') && !url.includes('tr=')) {
     return url.replace('/image/upload/', '/image/upload/w_600,q_auto,f_auto/');
   }
   return url;

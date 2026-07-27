@@ -7,7 +7,6 @@ const Calenderevent = () => {
   // const handleClose = () => setShow(false);
   // const handleShow = () => setShow(true);
 
-  // const imageUrl = "https://res.cloudinary.com/dtik1z1qd/image/upload/v1770000860/IYSA_Event_Calender_New_lmxetx.png";
 
   return (
     <>

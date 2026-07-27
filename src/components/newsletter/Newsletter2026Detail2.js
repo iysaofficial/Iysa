@@ -28,4 +28,3 @@ const Newsletter2026Detail2 = () => {
 }
 
 export default Newsletter2026Detail2;
-N
