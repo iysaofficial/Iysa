@@ -1,14 +1,14 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { motion, useInView } from 'framer-motion';
+import React, { useState, useEffect, useRef } from "react";
+import { motion, useInView } from "framer-motion";
 
 const optimizeUrl = (url) => {
-  if (!url || typeof url !== 'string') return url;
-  if (url.includes('imagekit.io') && !url.includes('tr=')) {
-    const separator = url.includes('?') ? '&' : '?';
+  if (!url || typeof url !== "string") return url;
+  if (url.includes("imagekit.io") && !url.includes("tr=")) {
+    const separator = url.includes("?") ? "&" : "?";
     return `${url}${separator}tr=w-500,q-80,f-auto`;
   }
-  if (url.includes('cloudinary.com') && !url.includes('q_auto')) {
-    return url.replace('/image/upload/', '/image/upload/w_500,q_auto,f_auto/');
+  if (url.includes("imagekit.io") && !url.includes("q_auto")) {
+    return url.replace("/image/upload/", "/image/upload/w_500,q_auto,f_auto/");
   }
   return url;
 };
@@ -67,24 +67,26 @@ const CoordinatorCard = ({ member }) => {
       onClick={handleClick}
       whileHover={{ scale: 1.05 }}
       transition={{ duration: 0.3 }}
-      style={{ cursor: photos.length > 1 ? 'pointer' : 'default' }}
+      style={{ cursor: photos.length > 1 ? "pointer" : "default" }}
     >
       {photos.map((photo, index) => (
         <motion.img
           key={index}
           src={photo}
           alt={`${member.name} ${index + 1}`}
-          className={index === 0 ? "coordinator-photo" : "coordinator-photo-hover"}
+          className={
+            index === 0 ? "coordinator-photo" : "coordinator-photo-hover"
+          }
           initial={{ opacity: index === 0 ? 1 : 0 }}
           animate={{ opacity: index === photoIndex ? 1 : 0 }}
-          transition={{ duration: 0.4, ease: 'easeInOut' }}
+          transition={{ duration: 0.4, ease: "easeInOut" }}
         />
       ))}
-      
-      <motion.div 
+
+      <motion.div
         className="gradient-overlay"
         animate={{ opacity: isHovered ? 1 : 0 }}
-        transition={{ duration: 0.5, ease: 'easeOut' }}
+        transition={{ duration: 0.5, ease: "easeOut" }}
       />
 
       <div className="coordinator-info">
