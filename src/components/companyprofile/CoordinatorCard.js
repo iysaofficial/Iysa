@@ -7,13 +7,8 @@ const optimizeUrl = (url) => {
     const separator = url.includes("?") ? "&" : "?";
     return `${url}${separator}tr=w-500,q-80,f-auto`;
   }
-<<<<<<< HEAD
-  if (url.includes('imageskit.io') && !url.includes('tr=')) {
-    return url.replace('/image/upload/', '/image/upload/w_500,q_auto,f_auto/');
-=======
   if (url.includes("imagekit.io") && !url.includes("q_auto")) {
     return url.replace("/image/upload/", "/image/upload/w_500,q_auto,f_auto/");
->>>>>>> 07188758790e352cf94d4fbfabfaa30d13ad6b4a
   }
   return url;
 };
