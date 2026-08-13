@@ -17,7 +17,6 @@ const LeadershipCard = ({ member, isReversed = false }) => {
   const [isHovered, setIsHovered] = useState(false);
   const [photoIndex, setPhotoIndex] = useState(0);
   const ref = useRef(null);
-  const hasPlayedRef = useRef(false);
   const isInView = useInView(ref, { amount: 0.3 });
 
   useEffect(() => {

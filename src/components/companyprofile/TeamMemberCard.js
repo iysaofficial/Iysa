@@ -17,7 +17,6 @@ const TeamMemberCard = ({ member }) => {
   const [isHovered, setIsHovered] = useState(false);
   const [photoIndex, setPhotoIndex] = useState(0);
   const ref = useRef(null);
-  const hasPlayedRef = useRef(false);
   // Using amount: 0.2 ensures animation triggers reliably on mobile when scrolled into view
   const isInView = useInView(ref, { amount: 0.2 });
 

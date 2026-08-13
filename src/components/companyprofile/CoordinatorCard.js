@@ -17,7 +17,6 @@ const CoordinatorCard = ({ member }) => {
   const [isHovered, setIsHovered] = useState(false);
   const [photoIndex, setPhotoIndex] = useState(0);
   const ref = useRef(null);
-  const hasPlayedRef = useRef(false);
   const isInView = useInView(ref, { amount: 0.2 });
 
   const photos = [];
