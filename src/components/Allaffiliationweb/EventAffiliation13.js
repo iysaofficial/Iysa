@@ -34,7 +34,7 @@ const EventAffiliation13 = () => {
           <Col md={4} className="text-center">
             <img
               className="img-fluid rounded"
-              src="https://ik.imagekit.io/iysaimg/ASSET%20IYSA/Desain_tanpa_judul_2_zcvmjl.png?updatedAt=1781963609703g"
+              src="/assets/images/allimg/Desain_tanpa_judul_2_zcvmjl.png"
               alt="foto"
               style={{ maxWidth: "400px", height: "auto" }}
             />
@@ -67,19 +67,19 @@ const EventAffiliation13 = () => {
         </Row>
         <Row className="justify-content-center mt-4">
           <Col md={6} className="text-center mb-4">
-            <a href="https://ik.imagekit.io/iysaimg/ASSET%20IYSA/miyio1_odzdlm.jpg?updatedAt=1781963575867" target="_blank" rel="noreferrer">
+            <a href="/assets/images/allimg/miyio1_odzdlm.jpg" target="_blank" rel="noreferrer">
               <img
                 className="img-fluid rounded"
-                src="https://ik.imagekit.io/iysaimg/ASSET%20IYSA/miyio1_odzdlm.jpg?updatedAt=1781963575867"
+                src="/assets/images/allimg/miyio1_odzdlm.jpg"
                 alt="Dokumentasi 1"
               />
             </a>
           </Col>
           <Col md={6} className="text-center mb-4">
-            <a href="https://ik.imagekit.io/iysaimg/ASSET%20IYSA/miyio2_bauqhd.jpg?updatedAt=1781963575843" target="_blank" rel="noreferrer">
+            <a href="/assets/images/allimg/miyio2_bauqhd.jpg" target="_blank" rel="noreferrer">
               <img
                 className="img-fluid rounded"
-                src="https://ik.imagekit.io/iysaimg/ASSET%20IYSA/miyio2_bauqhd.jpg?updatedAt=1781963575843"
+                src="/assets/images/allimg/miyio2_bauqhd.jpg"
                 alt="Dokumentasi 2"
               />
             </a>

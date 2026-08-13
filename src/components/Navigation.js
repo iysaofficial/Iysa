@@ -108,7 +108,7 @@ const Navigation = () => {
       <div className="header-main">
         <div className="logo">
           <img
-            src="https://ik.imagekit.io/iysaimg/ASSET%20IYSA/navigation-logo_f6wxg6.png?updatedAt=1781963575875"
+            src="/assets/images/allimg/navigation-logo_f6wxg6.png"
             alt="IYSA Navigation Logo"
           />
         </div>
