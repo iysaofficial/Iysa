@@ -21,28 +21,10 @@ const LeadershipCard = ({ member, isReversed = false }) => {
   const isInView = useInView(ref, { amount: 0.3 });
 
   useEffect(() => {
-    let intervalId;
-    if ((isInView || isHovered) && !hasPlayedRef.current) {
-      if (member.photo2 && member.photo1 !== member.photo2) {
-        setPhotoIndex(1);
-        intervalId = setInterval(() => {
-          setPhotoIndex((prev) => {
-            if (prev >= 1) {
-              clearInterval(intervalId);
-              hasPlayedRef.current = true;
-              return 0; // Return to photo1 and stop playing
-            }
-            return prev + 1;
-          });
-        }, 1200);
-      }
-    } else if (!isInView && !isHovered) {
+    if (!isInView && !isHovered) {
       setPhotoIndex(0);
     }
-    return () => {
-      if (intervalId) clearInterval(intervalId);
-    };
-  }, [isInView, isHovered, member.photo1, member.photo2]);
+  }, [isInView, isHovered]);
 
   const showSecondPhoto = isHovered || photoIndex === 1;
 
@@ -67,6 +49,7 @@ const LeadershipCard = ({ member, isReversed = false }) => {
           src={optimizeUrl(member.photo1)}
           alt={member.name}
           className="leadership-photo"
+          loading="lazy"
           animate={{ opacity: showSecondPhoto ? 0 : 1 }}
           transition={{ duration: 0.4 }}
         />
@@ -75,6 +58,7 @@ const LeadershipCard = ({ member, isReversed = false }) => {
             src={optimizeUrl(member.photo2)}
             alt={member.name}
             className="leadership-photo-hover"
+            loading="lazy"
             animate={{ opacity: showSecondPhoto ? 1 : 0 }}
             transition={{ duration: 0.4 }}
           />

@@ -34,29 +34,10 @@ const CoordinatorCard = ({ member }) => {
   };
 
   useEffect(() => {
-    let intervalId;
-    if ((isInView || isHovered) && !hasPlayedRef.current) {
-      if (photos.length > 1) {
-        setPhotoIndex((prev) => (prev === 0 ? 1 : prev));
-        intervalId = setInterval(() => {
-          setPhotoIndex((prev) => {
-            if (prev >= photos.length - 1) {
-              clearInterval(intervalId);
-              hasPlayedRef.current = true;
-              return 0; // Return to photo1 and stop playing
-            }
-            return prev + 1;
-          });
-        }, 1000);
-      }
-    } else if (!isInView && !isHovered) {
+    if (!isInView && !isHovered) {
       setPhotoIndex(0);
     }
-
-    return () => {
-      if (intervalId) clearInterval(intervalId);
-    };
-  }, [isInView, isHovered, photos.length]);
+  }, [isInView, isHovered]);
 
   return (
     <motion.div
@@ -77,6 +58,7 @@ const CoordinatorCard = ({ member }) => {
           className={
             index === 0 ? "coordinator-photo" : "coordinator-photo-hover"
           }
+          loading="lazy"
           initial={{ opacity: index === 0 ? 1 : 0 }}
           animate={{ opacity: index === photoIndex ? 1 : 0 }}
           transition={{ duration: 0.4, ease: "easeInOut" }}
