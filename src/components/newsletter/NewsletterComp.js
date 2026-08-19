@@ -54,7 +54,6 @@ const NewsletterCard = ({ Letter, stats }) => {
 const NewsletterComp = () => {
   const [selectedFilter, setSelectedFilter] = useState("all");
   const [stats, setStats] = useState({});
-  const [loadingStats, setLoadingStats] = useState(true);
 
   // Fetch global view stats from Firebase on mount
   useEffect(() => {
@@ -64,8 +63,6 @@ const NewsletterComp = () => {
         setStats(allStats);
       } catch (error) {
         console.error('Error fetching newsletter stats:', error);
-      } finally {
-        setLoadingStats(false);
       }
     };
 
