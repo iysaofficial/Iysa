@@ -32,6 +32,29 @@ const NationalAffiliation = () => {
             {/* <img src="./assets/images/logo/National Affiliation/ck.WebP" alt="" /> */}
             <img src="./assets/images/logo/National Affiliation/isb.WebP" alt="" />
             {/* <img src="./assets/images/logo/National Affiliation/jgu.WebP" alt="" /> */}
+            <img src="./assets/images/logo/National Affiliation/FT UNBRAW.png" alt="" />
+            <img src="./assets/images/logo/National Affiliation/FT UNDIP.png" alt="" />
+            <img src="./assets/images/logo/National Affiliation/GISA.png" alt="" />
+            <img src="./assets/images/logo/National Affiliation/HIMITEPA.png" alt="" />
+            <img src="./assets/images/logo/National Affiliation/ICGI.png" alt="" />
+            <img src="./assets/images/logo/National Affiliation/IYORA.png" alt="" />
+            <img src="./assets/images/logo/National Affiliation/LIBERIKA.png" alt="" />
+            <img src="./assets/images/logo/National Affiliation/MIPA UGM.png" alt="" />
+            <img src="./assets/images/logo/National Affiliation/PNM.WebP" alt="" />
+            <img src="./assets/images/logo/National Affiliation/POLINES.png" alt="" />
+            <img src="./assets/images/logo/National Affiliation/RESOLUTION.png" alt="" />
+            <img src="./assets/images/logo/National Affiliation/TARNUS.png" alt="" />
+            <img src="./assets/images/logo/National Affiliation/UDINUS.png" alt="" />
+            <img src="./assets/images/logo/National Affiliation/UI.png" alt="" />
+            <img src="./assets/images/logo/National Affiliation/UIN YOGYA.png" alt="" />
+            {/* <img src="./assets/images/logo/National Affiliation/UMP.WebP" alt="" /> */}
+            {/* <img src="./assets/images/logo/National Affiliation/UNY.WebP" alt="" /> */}
+            {/* <img src="./assets/images/logo/National Affiliation/UP.png" alt="" /> */}
+            <img src="./assets/images/logo/National Affiliation/UUP.WebP" alt="" />
+            <img src="./assets/images/logo/National Affiliation/VOKASI UNDIP.png" alt="" />
+            <img src="./assets/images/logo/National Affiliation/WARMADEWA.png" alt="" />
+            <img src="./assets/images/logo/National Affiliation/YPBI.png" alt="" />
+            {/* <img src="./assets/images/logo/National Affiliation/its.WebP" alt="" /> */}
           </div>
         </div>
       </div>

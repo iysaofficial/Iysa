@@ -682,14 +682,17 @@ btn:hover{
 
 
 .logos-slide {
-  display: inline-block;
-  
+  display: inline-flex;
+  align-items: center;
   animation: 50s slide infinite linear;
 }
 
 .logos-slide img {
-  height: 10rem;
-  margin: 0 40px;
+  height: 150px;
+  width: 200px;
+  object-fit: contain;
+  margin: 0 30px;
+  vertical-align: middle;
 }
 
 /* Media logos responsive */
