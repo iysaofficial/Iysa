@@ -927,6 +927,38 @@
       "LinkGmaps": "https://maps.app.goo.gl/Ruc1seYX6y1gwPyZ7",
       "LinkGmapsEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.714245288145!2d112.53271927781244!3d-7.931644292664751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7882e659b511c5%3A0xfe5c34983d74582a!2sUniversitas%20Brawijaya!5e0!3m2!1sen!2sid!4v1784684724444!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\"></iframe",
       "NameLocation": "Universitas Brawijaya, Malang, Indonesia"
+    },
+    {
+      "id": 59, 
+      "image": "/assets/images/allimg/naspoi2aspo.jpeg",
+      "title": "NASPO (National Applied Science Project Olympiad) ",
+      "LinkRegist": "https://www.naspo.or.id/",
+      "Hastag": "#naspo2026 #naspoevent #iysa2026 #infolomba #offline #online #event",
+      "DateAdTime": "14th November - 17th November, 2026 (Offline), 20th December - 24th December, 2026 (Online)",
+      "RegistEndDate": "November 9th, 2026",
+      "Location": "Hybrid",
+      "EventType": "Internasional",
+      "EventCategory": "IYSA Event",
+      "ImageVeneu": "/assets/images/allimg/ugm.webp",
+      "LinkGmaps": "https://maps.app.goo.gl/PgALf92emuXdgm5V7",
+      "LinkGmapsEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.178760798006!2d110.3752943750048!3d-7.770860392248517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59b2d4729729%3A0xac4d7b5fcf34f8e4!2sUniversitas%20Gadjah%20Mada!5e0!3m2!1sen!2sid!4v1787899865330!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\"></iframe>",
+      "NameLocation": "Universitas Gadjah Mada, Yogyakarta, Indonesia"
+    },
+    {
+      "id": 60, 
+      "image": "/assets/images/allimg/naspoi2aspo.jpeg",
+      "title": "I2ASPO (Indonesian International Applied Science Project Olympiad) ",
+      "LinkRegist": "https://www.i2aspo.or.id/",
+      "Hastag": "#i2aspo2026 #i2aspoevent #iysa2026 #infolomba #offline #online #event",
+      "DateAdTime": "14th November - 17th November, 2026 (Offline), 20th December - 24th December, 2026 (Online)",
+      "RegistEndDate": "November 9th, 2026",
+      "Location": "Hybrid",
+      "EventType": "Internasional",
+      "EventCategory": "IYSA Event",
+      "ImageVeneu": "/assets/images/allimg/ugm.webp",
+      "LinkGmaps": "https://maps.app.goo.gl/PgALf92emuXdgm5V7",
+      "LinkGmapsEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.178760798006!2d110.3752943750048!3d-7.770860392248517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59b2d4729729%3A0xac4d7b5fcf34f8e4!2sUniversitas%20Gadjah%20Mada!5e0!3m2!1sen!2sid!4v1787899865330!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\"></iframe>",
+      "NameLocation": "Universitas Gadjah Mada, Yogyakarta, Indonesia"
     }
   ]
 }
