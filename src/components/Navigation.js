@@ -195,6 +195,15 @@ const Navigation = () => {
                     SK PTK 2025
                   </a>
                 </li>
+                <li className="menu-item">
+                  <a
+                    href="https://drive.google.com/file/d/1uwrJdqWGX6OlVYUjmBsRrfa-ukj0jj9y/view?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    GuideBook PTK 2026
+                  </a>
+                </li>
               </ul>
             </li>
 
