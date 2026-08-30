@@ -12,6 +12,20 @@ const Photo = () => {
 
         <div className="col-lg-4 col-md-6 col-sm-12">
             <a
+              href="https://drive.google.com/drive/folders/1YlEuMXgqC27fYPA_Rb6lxFfIgRf1yQ_4?usp=sharing"
+              rel='noreferrer noopener'
+              target="_blank"
+            >
+              <div className="box">
+                <div className="content">
+                  <h4 className="">Gallery Event 2025</h4>
+                </div>
+              </div>
+            </a>
+          </div>
+
+        <div className="col-lg-4 col-md-6 col-sm-12">
+            <a
               href="https://drive.google.com/drive/folders/1YgABahNuzqOOPmwssnd_9ht1Ogt8-qEG?usp=sharing"
               rel='noreferrer noopener'
               target="_blank"

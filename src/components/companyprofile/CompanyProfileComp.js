@@ -94,14 +94,11 @@ const CompanyProfileComp = () => {
             <span>Event Regional dan Nasional : </span>
             <br></br>
             <p className="fw-bold">
-              (LKTIN), (OSPC), (YNSF), (NICYMS), (IIF NASIONAL), (NRTC),
-              (NASPO), (JNSF), (NICE), (NSIF), (NYIIA).
+              (IIF-NASIONAL), (JNSF), (LKTIN), (NASISC), (NASPO), (NICYMS), (NRTC), (NSIF), (NYIIA), (OSPC), (YNSF).
             </p>
             <span>Event Internasional :</span>{" "}
             <p className="fw-bold">
-              (IYMIA), (GYIIF), (AISEEF), (YISF), (GloCoLiS), (IYBC), (I3O),
-              (IICYMS), (WSEEC), (WYIIA), (WICE), (IIIEX), (IRTC), (ISIF),
-              (I2ASPO), (JISF), (WECC).
+              (AISEEF), (BISF), (GLOCOLIS), (GYIIF), (I2ASPO), (I3O), (IICYMS), (IIIEX), (IRTC), (ISIF), (ISPC), (IYBC), (IYMIA), (JISF), (TISIIF), (WASISC), (WECC), (WICE), (WSEEC), (WYIIA), (YISF).
             </p>
             <span>IYSA Olympiad Tingkat Nasional :</span>
             <p className="fw-bold"> (NYMO), (NYEO), (NYBO), (NYCO), (NYPO).</p>

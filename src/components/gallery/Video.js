@@ -25,6 +25,13 @@ function Video() {
           <button
             type="button"
             className="control"
+            onClick={() => handleFilterChange("year2025")}
+          >
+            2025
+          </button>
+          <button
+            type="button"
+            className="control"
             onClick={() => handleFilterChange("year2024")}
           >
             2024
@@ -62,6 +69,27 @@ function Video() {
           {/* Tampilkan image sesuai dengan filter yang dipilih */}
           {selectedFilter === "all" && (
             <>
+              <div className="row">
+                {VideoData.year2025.map((video) => {
+                  return (
+                    <div
+                      className="col-md-6 col-lg-4 col-sm-12 text-center mb-4 mix year2025"
+                      key={video.id}
+                    >
+                      <p className="fw-bolder">{video.title}</p>
+                      <iframe
+                        width="auto"
+                        height="auto"
+                        src={video.src}
+                        frameBorder="0"
+                        allowFullScreen
+                        title="2025"
+                      ></iframe>
+                    </div>
+                  );
+                })}
+              </div>
+
               <div className="row">
                 {VideoData.year2024.map((video) => {
                   return (
