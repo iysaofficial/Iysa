@@ -937,7 +937,7 @@
       "DateAdTime": "14th November - 17th November, 2026 (Offline), 20th December - 24th December, 2026 (Online)",
       "RegistEndDate": "November 9th, 2026",
       "Location": "Hybrid",
-      "EventType": "Internasional",
+      "EventType": "National",
       "EventCategory": "IYSA Event",
       "ImageVeneu": "/assets/images/allimg/ugm.webp",
       "LinkGmaps": "https://maps.app.goo.gl/PgALf92emuXdgm5V7",
@@ -959,6 +959,22 @@
       "LinkGmaps": "https://maps.app.goo.gl/PgALf92emuXdgm5V7",
       "LinkGmapsEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.178760798006!2d110.3752943750048!3d-7.770860392248517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59b2d4729729%3A0xac4d7b5fcf34f8e4!2sUniversitas%20Gadjah%20Mada!5e0!3m2!1sen!2sid!4v1787899865330!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\"></iframe>",
       "NameLocation": "Universitas Gadjah Mada, Yogyakarta, Indonesia"
+    },
+    {
+      "id": 61, 
+      "image": "/assets/images/allimg/PTK2026.jpeg",
+      "title": "Lomba Invensi & PTK ",
+      "LinkRegist": "https://bit.ly/Formulir_Pendaftaran_PTK_2026",
+      "Hastag": "#ptk2026 #iysaevent #iysa2026 #infolomba #online #event",
+      "DateAdTime": "23th November - 25th November, 2026 (Online)",
+      "RegistEndDate": "October 5th, 2026",
+      "Location": "Online",
+      "EventType": "National",
+      "EventCategory": "IYSA Event",
+      "ImageVeneu": "",
+      "LinkGmaps": "",
+      "LinkGmapsEmbed": "",
+      "NameLocation": "Online"
     }
   ]
 }
