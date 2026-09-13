@@ -3,8 +3,8 @@
 footer{
     width: 100%;
     bottom: 0;
-    background: linear-gradient(to right, #0795fe,#092a49 );
-    color: #fff;
+    background: linear-gradient(to right, var(--iysa-navy),var(--iysa-navy-gelap) );
+    color: var(--iysa-putih);
     padding: 100px 0 30px;
     /* border-top-left-radius: 125px;
     border-top-right-radius: 125px  ; */
@@ -47,7 +47,7 @@ footer{
     color: white;
   }
   .office:hover{
-    color:  #D3D3D3;
+    color:  var(--iysa-garis);
   }
   
   ul li{
@@ -58,7 +58,7 @@ footer{
   ul li a{
     font-size: 1rem;
     text-decoration: none;
-    color: #fff;
+    color: var(--iysa-putih);
     margin-left: -30px;
   }
 
@@ -71,7 +71,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid var(--iysa-garis);
     margin-bottom: 50px;
   }
   
@@ -83,14 +83,14 @@ footer{
   form input{
     width: 100%;
     background: transparent;
-    color: #ccc;
+    color: var(--iysa-garis);
     border: 0;
     outline: none;
   }
 
   .colFooter input[type="email"],
   .colFooter input[type="email"]::placeholder {
-    color: #fff;
+    color: var(--iysa-putih);
   }
   
   form button{
@@ -102,7 +102,7 @@ footer{
   
   form button .logoButtonNewsletter{
     font-size: 16px;
-    color: #ccc;
+    color: var(--iysa-garis);
   }
 
   form button .logoButtonNewsletter:hover{
@@ -116,8 +116,8 @@ footer{
     text-align: center;
     line-height: 40px;
     font-size: 20px;
-    color: #000;
-    background: #fff;
+    color: var(--iysa-tinta);
+    background: var(--iysa-putih);
     margin-right: 15px;
     cursor: pointer;
     padding: 5px;
@@ -129,8 +129,8 @@ footer{
     text-align: center;
     line-height: 40px;
     font-size: 20px;
-    color: #000;
-    background: #fff;
+    color: var(--iysa-tinta);
+    background: var(--iysa-putih);
     margin-right: 15px;
     cursor: pointer;
     padding: 5px;
@@ -142,8 +142,8 @@ footer{
     text-align: center;
     line-height: 40px;
     font-size: 20px;
-    color: #000;
-    background: #fff;
+    color: var(--iysa-tinta);
+    background: var(--iysa-putih);
     margin-right: 15px;
     cursor: pointer;
     padding: 5px;
@@ -155,8 +155,8 @@ footer{
     text-align: center;
     line-height: 40px;
     font-size: 20px;
-    color: #000;
-    background: #fff;
+    color: var(--iysa-tinta);
+    background: var(--iysa-putih);
     margin-right: 15px;
     cursor: pointer;
     padding: 5px;
@@ -168,37 +168,37 @@ footer{
     text-align: center;
     line-height: 40px;
     font-size: 20px;
-    color: #000;
-    background: #fff;
+    color: var(--iysa-tinta);
+    background: var(--iysa-putih);
     margin-right: 15px;
     cursor: pointer;
     padding: 5px;
   }
   .social-icons .footer-social-icons-fb:hover{
     background-color: rgb(59, 89, 152);
-    color: #fff;
+    color: var(--iysa-putih);
   }
   .social-icons .footer-social-icons-ig:hover{
     background-color: rgb(195, 42, 163);
-    color: #fff;
+    color: var(--iysa-putih);
   }
   .social-icons .footer-social-icons-yt:hover{
     background-color: rgb(255, 0, 0);
-    color: #fff;
+    color: var(--iysa-putih);
   }
   .social-icons .footer-social-icons-tt:hover{
-    background: #000000;
-    color: #fff;
+    background: var(--iysa-tinta);
+    color: var(--iysa-putih);
   }
   .social-icons .footer-social-icons-ld:hover{
     background-color: rgb(0, 119, 181);
-    color: #fff;
+    color: var(--iysa-putih);
   }
   
   hr{
     width: 86%;
     border: 0;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid var(--iysa-garis);
   }
   
   .copyright{
@@ -208,7 +208,7 @@ footer{
   .underline{
     width: 50%;
     height: 5px;
-    background: #767676;
+    background: var(--iysa-tinta-2);
     border-radius: 3px;
     position: absolute;
     top: 50px;
@@ -219,7 +219,7 @@ footer{
   .underline span{
     width: 15px;
     height: 100%;
-    background: #fff;
+    background: var(--iysa-putih);
     border-radius: 3px;
     position: absolute;
     top: 0;

@@ -2,7 +2,7 @@
     /* margin-top: 150px; */
     padding-bottom: 150px;
     padding-top: 150px;
-    background: #f5fafe;
+    background: var(--iysa-kertas);
 }
 
 .kotak{
@@ -121,8 +121,8 @@
 }
 
 .newsletter-detail-view-info .view-stat {
-  background: linear-gradient(135deg, #e3f2fd, #bbdefb);
-  color: #1565c0;
+  background: linear-gradient(135deg, var(--iysa-kertas), var(--iysa-garis));
+  color: var(--iysa-navy);
   font-size: 12px;
   font-weight: 600;
   padding: 5px 12px;
@@ -130,7 +130,7 @@
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  border: 1px solid #90caf9;
+  border: 1px solid var(--iysa-garis);
   box-shadow: 0 1px 4px rgba(21, 101, 192, 0.15);
 }
 

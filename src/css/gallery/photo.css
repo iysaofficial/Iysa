@@ -12,7 +12,7 @@
 }
 
 .curation-section .box {
-  background: linear-gradient(to right, #0d6efd, #092a49);
+  background: linear-gradient(to right, var(--iysa-navy), var(--iysa-navy-gelap));
   width: 100%;
   height: 150px;
   border-radius: 2rem;
@@ -24,7 +24,7 @@
 }
 
 .curation-section .box:hover {
-  background: linear-gradient(to right, #0d6efd, #071f35);
+  background: linear-gradient(to right, var(--iysa-navy), var(--iysa-navy-gelap));
   transform: scale(1.05);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 

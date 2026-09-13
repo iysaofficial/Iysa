@@ -4,7 +4,7 @@
 }
 
 .calender {
-  background-color: #ffffff;
+  background-color: var(--iysa-putih);
 }
 
 .calender .wrapper {
@@ -37,7 +37,7 @@
 }
 
 .flipbook-container {
-  border: 1px solid #ddd;
+  border: 1px solid var(--iysa-garis);
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   overflow: hidden; /* Ensures the corners are rounded */

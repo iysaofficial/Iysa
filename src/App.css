@@ -11,7 +11,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to right, #0795fe,#092a49 ); /* Background color with some transparency */
+  background: linear-gradient(to right, var(--iysa-navy),var(--iysa-navy-gelap) ); /* Background color with some transparency */
   display: flex;
   flex-direction: column;
   justify-content: center;
