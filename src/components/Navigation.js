@@ -2,7 +2,7 @@
 import "../css/navigation.css";
 
 import React, { useState, useEffect, useCallback } from "react";
-import { FaChevronDown, FaHouse } from "react-icons/fa6";
+import { FaChevronDown, FaHouse, FaRightToBracket } from "react-icons/fa6";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
@@ -230,6 +230,25 @@ const Navigation = () => {
             </li>
             <li className="menu-item">
               <a href="/ContactPage">Contact Us</a>
+            </li>
+
+            {/*
+              Pintu masuk ke dasbor peserta.
+
+              Situs ini etalase; yang mendaftar, membayar, mengunggah karya, dan
+              mengunduh sertifikat melakukannya di dasbor. Sampai sekarang tidak
+              ada satu pun tautan ke sana dari situs resmi — pesertanya harus
+              tahu sendiri alamatnya, atau mencarinya di surel lama.
+
+              Dibuat menonjol (bukan tautan teks biasa) karena ini satu-satunya
+              butir menu yang mengantar ke tempat orang MENGERJAKAN sesuatu,
+              bukan membaca. Warnanya #4080EF — aksen yang sudah dipakai
+              navigasi ini untuk hover dan garis bawah, bukan warna baru.
+            */}
+            <li className="menu-item menu-item-cta">
+              <a href="https://dashboard.iysa.or.id/login">
+                <FaRightToBracket /> Dashboard
+              </a>
             </li>
           </ul>
         </nav>

@@ -33,6 +33,10 @@ const Footer = () =>{
                         <li><a href='/ExpertTeam'>Team</a></li>
                         <li><a href='/NewsletterPage'>Newsletter</a></li>
                         <li><a href='/GalleryPhoto'>Gallery</a></li>
+                        {/* Peserta yang mencari tempat unggah karya atau unduh
+                            sertifikat berakhir di kaki halaman saat menu atas
+                            tidak menjawab. */}
+                        <li><a href='https://dashboard.iysa.or.id/login'>Dashboard</a></li>
                     </ul>
                 </div>
                 <div className='colFooter'>
