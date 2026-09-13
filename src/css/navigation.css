@@ -35,6 +35,21 @@ a{
 }
 .header .nav-menu{
 	padding: 0 15px;
+	display: flex;
+	align-items: center;
+}
+/* Logo dirender 110px lebar = 48px tinggi, sedangkan satu baris teks menu cuma
+ * ~20px. Keduanya memang di-center oleh flex, tapi tombol CTA punya padding
+ * sendiri sehingga tinggi tiap butir tidak sama dan barisnya tertarik ke atas.
+ * Menyamakan tinggi semua butir membuat titik tengahnya benar-benar sejajar
+ * dengan titik tengah logo. */
+.header .menu > .menu-item > a,
+.header .menu > .menu-item > p{
+	display: flex;
+	align-items: center;
+	min-height: 40px;
+	line-height: 1.2;
+	cursor: pointer;
 }
 /* Baris menu TIDAK BOLEH turun ke baris kedua.
  *

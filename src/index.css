@@ -1,8 +1,11 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  /* Poppins sudah dimuat di public/index.html, tapi selama ini hanya dipasang
+     di `#root` — apa pun yang dirender di luar itu (dan fallback saat font
+     belum tiba) memakai muka huruf sistem, jadi situsnya berganti rupa di
+     detik-detik pertama. Dipasang di body supaya satu muka huruf saja. */
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
