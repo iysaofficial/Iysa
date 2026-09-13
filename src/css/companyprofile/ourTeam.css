@@ -25,7 +25,7 @@
   max-width: 1200px;
   margin-bottom: 50px;
   padding: 30px;
-  background: #fff;
+  background: var(--iysa-putih);
   border-radius: 16px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
 }
@@ -33,7 +33,7 @@
 .team-section-title {
   font-size: 2rem;
   font-weight: 700;
-  color: #343a40;
+  color: var(--iysa-tinta);
   margin-bottom: 30px;
   text-align: center;
   position: relative;
@@ -47,7 +47,7 @@
   transform: translateX(-50%);
   width: 60px;
   height: 4px;
-  background: linear-gradient(90deg, #007bff, #00d4ff);
+  background: linear-gradient(90deg, var(--iysa-navy), var(--iysa-teal));
   border-radius: 2px;
 }
 
@@ -84,17 +84,27 @@
 }
 
 /* === Team-specific Gradients === */
+/* Empat divisi, satu keluarga warna.
+ *
+ * Sebelumnya tiap divisi punya gradien dari dunia yang sama sekali berbeda —
+ * cyan→ungu, ungu→pink, ungu→magenta, kuning→oranye. Empat palet dalam satu
+ * halaman membuat divisi terlihat seperti empat organisasi.
+ *
+ * Namanya tetap membedakan, warnanya cuma menandai. Karena itu keempatnya kini
+ * turunan dari navy–teal–coral yang sama, dan SEMUANYA cukup gelap: tulisan di
+ * kartu ini putih, jadi latar terang akan membuatnya hilang. Kontras putih di
+ * atas ujung paling terang tiap gradien dihitung ≥ 4,5:1. */
 .team-it .team-member-card, .team-it .coordinator-card {
-  background: linear-gradient(135deg, #57e0fb, #4149b5);
+  background: linear-gradient(135deg, #2E5E8A, #162951);
 }
 .team-administrasi .team-member-card, .team-administrasi .coordinator-card {
-  background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+  background: linear-gradient(135deg, #22407E, #101F44);
 }
 .team-publikasi .team-member-card, .team-publikasi .coordinator-card {
-  background: linear-gradient(135deg, #6f42c1, #e83e8c);
+  background: linear-gradient(135deg, #A8442C, #5E2114);
 }
 .team-research .team-member-card, .team-research .coordinator-card {
-  background: linear-gradient(135deg, #f6d365, #fda085);
+  background: linear-gradient(135deg, #2C6F6B, #11332F);
 }
 
 .member-image-container {
@@ -134,12 +144,12 @@
   font-size: 1.2rem;
   font-weight: 700;
   margin: 0;
-  color: #fff;
+  color: var(--iysa-putih);
 }
 
 .member-position {
   font-size: 0.9rem;
-  color: #fff;
+  color: var(--iysa-putih);
   opacity: 0.9;
   margin-top: 4px;
 }
@@ -149,7 +159,7 @@
 .leadership-card {
   display: flex;
   align-items: stretch; /* Make children stretch to full height */
-  background: #fff;
+  background: var(--iysa-putih);
   border-radius: 16px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
   width: 85%;
@@ -194,7 +204,7 @@
 
 .leadership-position {
   font-size: 1.1rem;
-  color: #a0a0a0;
+  color: var(--iysa-tinta-2);
   margin: 10px 0 0 0;
   font-weight: 400;
 }
@@ -234,7 +244,7 @@
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.18);
   cursor: pointer;
   overflow: hidden;
-  /* border: 3px solid #fff; */
+  /* border: 3px solid var(--iysa-putih); */
 }
 
 .coordinator-photo{
@@ -261,7 +271,7 @@
   left: 0;
   right: 0;
   padding: 20px;
-  color: #fff;
+  color: var(--iysa-putih);
   z-index: 3;
   text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
   transition: transform 0.3s ease-out;
@@ -275,12 +285,12 @@
   font-size: 1.25rem;
   font-weight: 700;
   margin: 0;
-  color: #fff;
+  color: var(--iysa-putih);
 }
 
 .coordinator-position {
   font-size: 0.9rem;
-  color: #fff;
+  color: var(--iysa-putih);
   opacity: 0.9;
   margin-top: 5px;
 }
@@ -356,11 +366,11 @@
 
   .leadership-name {
     font-size: 1.8rem;
-    color: #fff;
+    color: var(--iysa-putih);
   }
 
   .leadership-position {
-    color: #e0e0e0;
+    color: var(--iysa-garis);
   }
 
   .leadership-card.reversed .leadership-info {

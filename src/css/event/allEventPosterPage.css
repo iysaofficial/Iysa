@@ -10,11 +10,11 @@
     /* padding: 4rem 0; */
     padding-top: 10rem;
     padding-bottom: 8rem;
-    background: #f5fafe; 
+    background: var(--iysa-kertas); 
   }
   
   #All-Event-properties h1{
-    color: #fff;
+    color: var(--iysa-putih);
     position: relative;
     font-weight: bold;
   }
@@ -22,7 +22,7 @@
   #All-Event-properties h1 .underline{
     width: 18%;
     height: 5px;
-    background: #767676;
+    background: var(--iysa-tinta-2);
     border-radius: 3px;
     position: absolute;
     top: 60px;
@@ -34,7 +34,7 @@
   #All-Event-properties h1 .underline span{
     width: 15px;
     height: 100%;
-    background: #fff;
+    background: var(--iysa-putih);
     border-radius: 3px;
     position: absolute;
     top: 0;
@@ -71,7 +71,7 @@
     overflow: hidden;
   }
   #All-Event-properties .featured-section-bottom .featured-item {
-    background: #ffffff;
+    background: var(--iysa-putih);
     border-radius: 1rem 1rem;
   }
   #All-Event-properties .featured-section-bottom .featured-item .featured-img {
@@ -150,7 +150,7 @@
     top: 0;
     width: 4rem;
     height: 0.4rem;
-    background: #000339;
+    background: var(--iysa-tinta);
     border-radius: 0.4rem;
   }
   @media (max-width: 648px) {
@@ -202,13 +202,13 @@
     }
   }
   #feature-two .counter-container .counter span {
-    color: #7b8087;
+    color: var(--iysa-tinta-2);
     font-size: 1.8rem;
     font-weight: 500;
   }
   
   #All-Event-properties .container .btn{
     background-color: white;
-    color: #000;
+    color: var(--iysa-tinta);
     font-weight: 500;
   }

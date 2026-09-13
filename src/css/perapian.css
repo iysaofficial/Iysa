@@ -6,8 +6,7 @@
  * hanya hal-hal yang berlaku di SELURUH situs; apa pun yang khusus satu
  * halaman tetap tinggal di berkas halamannya.
  *
- * Tidak ada warna baru di sini. Yang dipakai hanya #0795fe dan #092a49 —
- * keduanya sudah berjalan di situs ini sejak awal.
+ * Tidak ada warna mentah di sini — semuanya lewat token di tema.css.
  * ══════════════════════════════════════════════════════════════════════════ */
 
 /* ── 1. Teks rata kiri, bukan rata kanan-kiri ──────────────────────────────
@@ -95,7 +94,7 @@ button:focus-visible,
 input:focus-visible,
 textarea:focus-visible,
 select:focus-visible {
-  outline: 2px solid #0795fe;
+  outline: 2px solid var(--iysa-navy);
   outline-offset: 2px;
   border-radius: 3px;
 }

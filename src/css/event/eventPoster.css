@@ -1,10 +1,10 @@
 .event-detail-section {
   padding: 60px 0;
-  background-color: #f8f9fa;
+  background-color: var(--iysa-kertas);
 }
 
 .event-content-wrapper {
-  background-color: #fff;
+  background-color: var(--iysa-putih);
   border-radius: 8px;
   padding: 2rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -12,7 +12,7 @@
 }
 
 .event-details-card .card-title {
-  color: #212529;
+  color: var(--iysa-tinta);
   font-weight: 700;
   margin-bottom: 1rem;
 }
@@ -23,25 +23,25 @@
 }
 
 .event-details-card strong {
-  color: #212529;
+  color: var(--iysa-tinta);
 }
 
 .event-venue-card {
   border-radius: 8px;
   box-shadow: none;
-  border: 1px solid #e9ecef;
+  border: 1px solid var(--iysa-garis);
 }
 
 .event-venue-card .card-header {
-  background-color: #fff;
-  border: 1px solid #e9ecef;
+  background-color: var(--iysa-putih);
+  border: 1px solid var(--iysa-garis);
   border-radius: 8px;
   padding: 1rem;
 }
 
 .event-venue-card .card-body {
   padding: 1rem;
-  border: 1px solid #e9ecef;
+  border: 1px solid var(--iysa-garis);
   border-top: none;
   border-radius: 0 0 8px 8px;
 }
@@ -63,25 +63,25 @@
 
 .event-share h5 {
   font-weight: 700;
-  color: #212529;
+  color: var(--iysa-tinta);
   margin-top: 1.5rem;
   margin-bottom: 1rem;
 }
 
 .event-share a {
-  color: #0d6efd;
+  color: var(--iysa-navy);
   font-size: 1.25rem;
   margin-right: 0.5rem;
-  border: 1px solid #ced4da;
+  border: 1px solid var(--iysa-garis);
   padding: 0.5rem 0.75rem;
   border-radius: 0.25rem;
   transition: all 0.2s ease-in-out;
 }
 
 .event-share a:hover {
-  background-color: #0d6efd;
-  color: #fff;
-  border-color: #0d6efd;
+  background-color: var(--iysa-navy);
+  color: var(--iysa-putih);
+  border-color: var(--iysa-navy);
 }
 
 .event-description ul {

@@ -75,7 +75,7 @@ a{
 	padding: 1px 0px;
 	margin: 0;
 	font-size: 16px;
-	color: #000000;
+	color: var(--iysa-tinta);
 	text-transform: capitalize;
 	font-weight: 600;
 	transition: all 0.3s ease;
@@ -85,7 +85,7 @@ a{
 	padding: 1px 0px;
 	margin: 0;
 	font-size: 16px;
-	color: #000000;
+	color: var(--iysa-tinta);
 	text-transform: capitalize;
 	font-weight: 600;
 	transition: all 0.3s ease;
@@ -93,7 +93,7 @@ a{
 
 /* Blok lama `@media(max-width:1025px)` DIHAPUS.
  *
- * Ia memaksa `color:#000000` pada tautan menu di bawah 1025px. Dulu tidak
+ * Ia memaksa `color:var(--iysa-tinta)` pada tautan menu di bawah 1025px. Dulu tidak
  * terlihat karena panel geser baru aktif di bawah 991px, jadi rentang yang
  * terkena cuma 992–1025px yang masih memakai latar terang.
  *
@@ -126,7 +126,7 @@ a{
 	box-sizing: border-box;
 	left: 50%;
 	top:50%;
-	background-color: #000000;
+	background-color: var(--iysa-tinta);
 	height: 2px;
 	width: 100%;
 	transform: translate(-50%,-50%);
@@ -140,7 +140,7 @@ a{
 	box-sizing: border-box;
 	left: 50%;
 	top:50%;
-	background-color: #000000;
+	background-color: var(--iysa-tinta);
 	height: 2px;
 	width: 100%;
 	transform: translate(-50%,-50%);
@@ -171,7 +171,7 @@ a{
 	position: absolute;
 	left:0;
 	top:100%;
-	background-color: #ffffff;
+	background-color: var(--iysa-putih);
 	padding: 10px 15px;
 	border-top: 2px solid var(--iysa-coral);
 	transform: translateY(10px);
@@ -198,7 +198,7 @@ a{
 	padding: 5px 20px;
 	font-size: 16px;
 	font-weight: 600;
-	color: #000000;
+	color: var(--iysa-tinta);
 	transition: all 0.3s ease;
 	text-transform: capitalize;
 }
@@ -208,7 +208,7 @@ a{
 	padding: 5px 20px;
 	font-size: 16px;
 	font-weight: 600;
-	color: #000000;
+	color: var(--iysa-tinta);
 	transition: all 0.3s ease;
 	text-transform: capitalize;
 }
@@ -225,7 +225,7 @@ a{
 	display: block;
 	height: 3px;
 	width: 24px;
-	background-color: #000000;
+	background-color: var(--iysa-tinta);
     position: relative;
 }
 .header .open-nav-menu span:before,
@@ -235,7 +235,7 @@ a{
 	left:0;
 	width: 100%;
 	height: 100%;
-	background-color: #000000;
+	background-color: var(--iysa-tinta);
 	box-sizing: border-box;
 }
 .header .open-nav-menu span:before{
@@ -247,7 +247,7 @@ a{
 .header .close-nav-menu{
 	height: 40px;
 	width: 40px;
-	background-color: #ffffff;
+	background-color: var(--iysa-putih);
 	margin:0 0 15px 15px;
 	cursor: pointer;
 	display: none;
@@ -314,21 +314,21 @@ a{
 		align-items: center;
 	}
 	.header .menu > .menu-item > a{
-		color: #ffffff;
+		color: var(--iysa-putih);
 		padding: 12px 15px;
-		border-bottom: 1px solid #333333;
+		border-bottom: 1px solid var(--iysa-tinta);
 	}
 	.header .menu > .menu-item > p{
-		color: #ffffff;
+		color: var(--iysa-putih);
 		padding: 12px 15px;
-		border-bottom: 1px solid #333333;
+		border-bottom: 1px solid var(--iysa-tinta);
 	}
 	.header .menu > .menu-item:first-child > a{
-	    border-top: 1px solid #333333;	
+	    border-top: 1px solid var(--iysa-tinta);	
 	}
 	.header .menu > .menu-item > a .FaChevronDown:before, 
 	.header .menu > .menu-item > a .FaChevronDown:after{
-		background-color: #ffffff;
+		background-color: var(--iysa-putih);
 	}
 	.header .menu > .menu-item-has-children.active > a .FaChevronDown:after{
         transform: translate(-50%,-50%) rotate(180deg);
@@ -350,8 +350,8 @@ a{
 	}
 	.header .menu > .menu-item > .sub-menu > .menu-item > a{
 		padding: 12px 45px;
-		color: #ffffff;
-		border-bottom: 1px solid #333333;
+		color: var(--iysa-putih);
+		border-bottom: 1px solid var(--iysa-tinta);
 	}
 	.header .close-nav-menu,
 	.header .open-nav-menu{
@@ -392,7 +392,7 @@ a{
 .header .menu > .menu-item-cta > a,
 .header .menu > .menu-item.menu-item-cta > a {
 	background-color: var(--iysa-navy);
-	color: #ffffff;
+	color: var(--iysa-putih);
 	padding: 8px 18px;
 	border-radius: 6px;
 	text-align: center;
@@ -400,7 +400,7 @@ a{
 
 .header .menu > .menu-item-cta > a:hover {
 	background-color: #1A3266;
-	color: #ffffff;
+	color: var(--iysa-putih);
 }
 
 @media (max-width: 1200px) {

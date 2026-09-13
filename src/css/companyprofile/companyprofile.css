@@ -1,5 +1,5 @@
 .company-profile-section{
-    background: #f5fafe;
+    background: var(--iysa-kertas);
     padding-top: 10rem;
 }
 
