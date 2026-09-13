@@ -348,3 +348,45 @@ a{
 }
 
 /*-------------------------- Navbar End --------------------------*/
+
+/* ── Tombol Dashboard di navigasi ──────────────────────────────────────────
+ *
+ * Satu-satunya butir menu yang mengantar ke APLIKASI, bukan ke halaman baca.
+ * Karena itu ia dibedakan bentuknya — tapi tetap memakai #4080EF, aksen yang
+ * sudah dipakai navigasi ini untuk hover dan garis bawah. Tidak ada warna baru.
+ *
+ * Di bawah 992px navigasi berubah jadi panel geser dan butirnya menumpuk
+ * menurun; tombolnya ikut melebar penuh di sana supaya tidak jadi kotak kecil
+ * mengambang di tengah daftar. */
+.header .menu > .menu-item-cta > a,
+.header .menu > .menu-item.menu-item-cta > a {
+	background-color: #4080EF;
+	color: #ffffff;
+	padding: 8px 18px;
+	border-radius: 6px;
+	text-align: center;
+}
+
+.header .menu > .menu-item-cta > a:hover {
+	background-color: #0d6efd;
+	color: #ffffff;
+}
+
+@media (max-width: 991px) {
+	.header .menu > .menu-item-cta > a,
+	.header .menu > .menu-item.menu-item-cta > a {
+		margin: 12px 0 0;
+		padding: 12px 16px;
+	}
+}
+
+@media (min-width: 992px) {
+	.header .menu > .menu-item-cta {
+		margin-left: 8px;
+	}
+	/* Garis bawah hover milik butir biasa tidak berlaku untuk tombol —
+	   ia sudah punya latar sendiri, dan dua penanda sekaligus jadi ramai. */
+	.header .menu > .menu-item-cta > a::after {
+		display: none;
+	}
+}
