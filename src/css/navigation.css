@@ -36,10 +36,21 @@ a{
 .header .nav-menu{
 	padding: 0 15px;
 }
+/* Baris menu TIDAK BOLEH turun ke baris kedua.
+ *
+ * Dulu `inline-block` + `margin-left:30px`: sepuluh butir dengan jarak tetap
+ * pasti melimpah, dan yang melimpah jatuh ke bawah logo — navbar terbelah dua
+ * baris di layar laptop biasa. Flex dengan `nowrap` membuat barisnya utuh, dan
+ * `gap` menggantikan margin supaya butir pertama tidak ikut terdorong. */
+.header .menu{
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	gap: 26px;
+}
 .header .menu > .menu-item{
-	display: inline-block;
-	margin-left: 30px;
 	position: relative;
+	white-space: nowrap;
 }
 .logo img{
 	width: 110px;
@@ -47,9 +58,8 @@ a{
 .header .menu > .menu-item > a{
 	display: block;
 	padding: 1px 0px;
-	margin: 5px;
+	margin: 0;
 	font-size: 16px;
-	margin-top: 20px;
 	color: #000000;
 	text-transform: capitalize;
 	font-weight: 600;
@@ -58,37 +68,24 @@ a{
 .header .menu > .menu-item > p{
 	display: block;
 	padding: 1px 0px;
-	margin: 5px;
+	margin: 0;
 	font-size: 16px;
-	margin-top: 20px;
 	color: #000000;
 	text-transform: capitalize;
 	font-weight: 600;
 	transition: all 0.3s ease;
 }
 
-@media(max-width: 1025px){
-	.header .menu > .menu-item > a{
-		display: block;
-		padding: 12px 0;
-		margin: 0px;
-		font-size: 14px;
-		color: #000000;
-		text-transform: capitalize;
-		font-weight: 600;
-		transition: all 0.3s ease;
-	}
-	.header .menu > .menu-item > p{
-		display: block;
-		padding: 12px 0;
-		margin: 0px;
-		font-size: 14px;
-		color: #000000;
-		text-transform: capitalize;
-		font-weight: 600;
-		transition: all 0.3s ease;
-	}
-	} 
+/* Blok lama `@media(max-width:1025px)` DIHAPUS.
+ *
+ * Ia memaksa `color:#000000` pada tautan menu di bawah 1025px. Dulu tidak
+ * terlihat karena panel geser baru aktif di bawah 991px, jadi rentang yang
+ * terkena cuma 992–1025px yang masih memakai latar terang.
+ *
+ * Begitu panel geser dinaikkan ke 1200px, blok ini jadi racun: panel geser
+ * berlatar #222222 dengan teks putih, lalu aturan ini menimpanya jadi hitam —
+ * teks hitam di atas panel hitam, menu tidak terbaca sama sekali. Ukuran huruf
+ * untuk layar sedang sudah ditangani blok 1201–1440px di bawah. */ 
 
 .header .menu > .menu-item > a .FaChevronDown{
 	display: inline-block;
@@ -168,7 +165,7 @@ a{
 	visibility: hidden;
 	z-index: 100000;
 }
-@media(min-width: 992px){
+@media(min-width: 1201px){
 .header .menu > .menu-item-has-children:hover > .sub-menu{
 	transform: translateY(0);
 	opacity: 1;
@@ -270,7 +267,7 @@ a{
 
 /* responsive */
 
-@media(max-width: 991px){
+@media(max-width: 1200px){
 	.header .menu-overlay.active{
 	visibility: visible;
 	opacity: 1;
@@ -347,6 +344,25 @@ a{
 	}
 }
 
+@media (min-width: 1201px) and (max-width: 1440px){
+	/* Laptop 13–14 inci: sepuluh butir masih muat, tapi hanya kalau jarak dan
+	   ukuran hurufnya dirapatkan. Diturunkan di sini saja supaya layar lebar
+	   tetap lega. */
+	.header .menu{ gap: 18px; }
+	.header .menu > .menu-item > a,
+	.header .menu > .menu-item > p{ font-size: 15px; }
+	.header .nav-menu{ padding: 0 8px; }
+}
+
+@media (max-width: 1200px){
+	/* Panel geser: barisnya menumpuk menurun, jadi nowrap dan gap dimatikan. */
+	.header .menu{
+		display: block;
+		flex-wrap: initial;
+		gap: 0;
+	}
+}
+
 /*-------------------------- Navbar End --------------------------*/
 
 /* ── Tombol Dashboard di navigasi ──────────────────────────────────────────
@@ -355,7 +371,7 @@ a{
  * Karena itu ia dibedakan bentuknya — tapi tetap memakai #4080EF, aksen yang
  * sudah dipakai navigasi ini untuk hover dan garis bawah. Tidak ada warna baru.
  *
- * Di bawah 992px navigasi berubah jadi panel geser dan butirnya menumpuk
+ * Di bawah 1200px navigasi berubah jadi panel geser dan butirnya menumpuk
  * menurun; tombolnya ikut melebar penuh di sana supaya tidak jadi kotak kecil
  * mengambang di tengah daftar. */
 .header .menu > .menu-item-cta > a,
@@ -372,7 +388,7 @@ a{
 	color: #ffffff;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1200px) {
 	.header .menu > .menu-item-cta > a,
 	.header .menu > .menu-item.menu-item-cta > a {
 		margin: 12px 0 0;
@@ -380,7 +396,7 @@ a{
 	}
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1201px) {
 	.header .menu > .menu-item-cta {
 		margin-left: 8px;
 	}

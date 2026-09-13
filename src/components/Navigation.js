@@ -36,7 +36,13 @@ const Navigation = () => {
 
   // ✅ Gunakan fungsi stabil dalam useEffect
   useEffect(() => {
-    const mediaSize = 991;
+    /* Harus SAMA dengan titik henti di navigation.css (1200px).
+     *
+     * Angka ini memutuskan kapan submenu dibuka lewat klik (panel geser) dan
+     * kapan panel ditutup saat jendela diperbesar. Ketika CSS beralih di 1200
+     * tapi JS masih di 991, ada jurang 209px yang menampilkan panel geser
+     * dengan submenu yang tidak bisa dibuka sama sekali. */
+    const mediaSize = 1200;
 
     const handleToggleNav = () => {
       const navMenu = document.querySelector(".nav-menu");
