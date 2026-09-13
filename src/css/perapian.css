@@ -1,0 +1,127 @@
+/* ══════════════════════════════════════════════════════════════════════════
+ * Perapian menyeluruh.
+ *
+ * Berkas ini diimpor PALING AKHIR di index.js — sesudah index.css dan sesudah
+ * Bootstrap — supaya aturannya menang tanpa satu pun `!important`. Isinya
+ * hanya hal-hal yang berlaku di SELURUH situs; apa pun yang khusus satu
+ * halaman tetap tinggal di berkas halamannya.
+ *
+ * Tidak ada warna baru di sini. Yang dipakai hanya #0795fe dan #092a49 —
+ * keduanya sudah berjalan di situs ini sejak awal.
+ * ══════════════════════════════════════════════════════════════════════════ */
+
+/* ── 1. Teks rata kiri, bukan rata kanan-kiri ──────────────────────────────
+ *
+ * `text-align: justify` tanpa tanda hubung memaksa peramban melebarkan spasi
+ * antar kata sampai barisnya penuh. Hasilnya "sungai" lubang putih yang
+ * mengalir menurun di tengah paragraf — paling parah di kolom sempit dan di
+ * ponsel, dan itu yang terlihat di paragraf Company Profile.
+ *
+ * Kelas `.text-justify` dipakai di delapan komponen, jadi lebih aman
+ * dinetralkan di sini daripada dibongkar satu per satu. */
+.text-justify,
+p.text-justify {
+  text-align: left;
+}
+
+/* ── 2. Panjang baris yang bisa dibaca ─────────────────────────────────────
+ *
+ * `.container` Bootstrap melebar sampai 1320px di layar besar. Paragraf
+ * selebar itu memaksa mata melompat jauh saat berpindah baris, dan pembaca
+ * kehilangan tempat. 70 karakter adalah batas yang lazim dipakai.
+ *
+ * Hanya berlaku untuk paragraf panjang, bukan untuk kartu, tabel, atau
+ * kolom grid — karena itu dibatasi pada anak langsung kolom teks. */
+.hero-content p,
+.curation-content p,
+.company-profile p {
+  max-width: 70ch;
+}
+
+/* ── 3. Skala tipografi ────────────────────────────────────────────────────
+ *
+ * Sebelumnya ukuran judul dipilih satu per satu per halaman: 6.4rem, 4.5rem,
+ * 4rem, 3rem, 2rem, 1.8rem, 1.1rem, bercampur dengan 20/18/16/15/13/12/11px.
+ * Tidak ada tangga, jadi dua judul yang setara bisa berbeda ukurannya
+ * tergantung halaman siapa yang ditulis lebih dulu.
+ *
+ * `clamp()` dipakai supaya satu aturan menangani ponsel sampai layar lebar
+ * tanpa menambah media query baru. Nilai tengahnya memakai vw agar
+ * perubahannya mulus, bukan melompat di titik henti. */
+h1 {
+  font-size: clamp(2rem, 1.2rem + 2.6vw, 3.25rem);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: clamp(1.6rem, 1.05rem + 1.8vw, 2.5rem);
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+}
+
+h3 {
+  font-size: clamp(1.25rem, 1rem + 0.8vw, 1.65rem);
+  line-height: 1.3;
+}
+
+/* Judul panjang tidak boleh menyisakan satu kata sendirian di baris terakhir. */
+h1, h2, h3 {
+  text-wrap: balance;
+}
+
+body {
+  line-height: 1.65;
+}
+
+/* ── 4. Gambar tidak boleh melebihi wadahnya ───────────────────────────────
+ *
+ * Beberapa gambar dipasang dengan lebar tetap dalam piksel. Di layar sempit
+ * ia mendorong halaman jadi bisa digeser ke samping — dan begitu satu elemen
+ * melakukannya, SELURUH halaman ikut bergeser. */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ── 5. Penanda fokus untuk papan ketik ────────────────────────────────────
+ *
+ * Bootstrap mematikan outline bawaan pada beberapa kendali. Yang menavigasi
+ * dengan Tab karena itu kehilangan satu-satunya penanda posisinya.
+ * `:focus-visible` hanya muncul saat benar-benar memakai papan ketik, jadi
+ * pengguna tetikus tidak melihat kotak biru saat mengklik. */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid #0795fe;
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
+/* ── 6. Gulir yang tidak mengagetkan ───────────────────────────────────────
+ *
+ * Tautan jangkar melompat seketika dan pembaca kehilangan konteks. Gulir
+ * halus memperlihatkan ia berpindah ke mana — kecuali bagi yang memang
+ * meminta sistemnya mengurangi gerak. */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Navbar melayang di atas halaman, jadi tujuan jangkar harus disisakan ruang
+   supaya judulnya tidak tertutup navbar. */
+:target {
+  scroll-margin-top: 90px;
+}
+
+/* ── 7. Halaman tidak boleh bergeser ke samping ────────────────────────────
+ *
+ * Penjaga terakhir. Kalau suatu hari ada satu elemen yang melebihi lebar
+ * layar, yang rusak cuma elemen itu — bukan seluruh halaman yang jadi bisa
+ * digeser dan membuat navbar ikut bergeser meninggalkan logonya. */
+body {
+  overflow-x: hidden;
+}

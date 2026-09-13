@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
+/* PALING AKHIR, sesudah Bootstrap: perapian global menang tanpa !important. */
+import './css/perapian.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

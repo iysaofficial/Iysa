@@ -6,7 +6,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  /* Dulu `min-height:100vh`: hero memakan seluruh tinggi layar berapa pun
+     isinya, sehingga bagian berikutnya selalu terdorong ke bawah lipatan dan
+     pengunjung tidak pernah melihat ada isi lain. Diganti padding supaya
+     tingginya ditentukan isinya sendiri. */
+  padding: 5rem 0;
   background: #f5fafe;
 
 }
@@ -35,7 +39,6 @@
 }
 
 .hero-section .hero-content p {
-  text-align: justify;
   font-size: 1.1rem;
   margin-top: 1.2rem;
 }
@@ -148,7 +151,7 @@
 
 .vision-mission-section {
   background: linear-gradient(to right, #0795fe, #092a49);
-  min-height: 75vh;
+  padding: 4.5rem 0;
 }
 
 .vision-mission-logo {
@@ -168,7 +171,6 @@
 .vision-mission-content ol li,
 .vision-mission-content p {
   color: white;
-  text-align: justify;
 }
 
 @media (max-width:768px) {
@@ -183,8 +185,7 @@
 
   .vision-mission-content ol li,
   .vision-mission-content p {
-    text-align: justify;
-  }
+    }
 }
 
 /*-------------------------- Vision Mission End --------------------------*
@@ -206,17 +207,16 @@
 /*-------------------------- Curation Start --------------------------*/
 
 .curation-section {
-  min-height: 75vh;
+  /* `min-height:75vh` sempat ditulis DUA KALI di blok yang sama. */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 75vh;
+  padding: 4.5rem 0;
   background: #f5fafe;
 }
 
 .curation-section .curation-content p {
-  text-align: justify;
 }
 
 /*-------------------------- Curation End --------------------------*/
@@ -627,6 +627,7 @@ btn:hover{
 
 .affiliation-section {
   background: #f5fafe;
+  padding: 3.5rem 0;
 }
 
 .affiliation-section .text-center {
@@ -817,8 +818,7 @@ form button .loh:hover {
   }
 
   .modal-container .modal-inner .content-modal p {
-    text-align: justify;
-  }
+    }
 
 }
 
@@ -954,5 +954,4 @@ input::placeholder {
 /*-------------------------- newsletter end --------------------------*/
 
 .text-justify {
-  text-align: justify;
 }
