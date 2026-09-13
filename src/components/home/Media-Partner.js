@@ -8,7 +8,7 @@ const MediaPartner = () => {
   return (
     <section className="affiliation-section">
       <div className="container">
-        <h2 className="text-center">Media Partner</h2>
+        <h2 className="text-center judul-bagian">Media Partner</h2>
         <div className="logos">
           <div className="media-logos">
             <img

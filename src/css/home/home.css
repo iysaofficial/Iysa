@@ -11,12 +11,12 @@
      pengunjung tidak pernah melihat ada isi lain. Diganti padding supaya
      tingginya ditentukan isinya sendiri. */
   padding: 5rem 0;
-  background: #f5fafe;
+  background: var(--iysa-kertas);
 
 }
 
 .hero-section .btn:hover {
-  box-shadow: 8px 8px #99bdff;
+  box-shadow: 8px 8px var(--iysa-teal);
   transition: .3s;
 
 }
@@ -90,7 +90,7 @@
 
 .vision-mission-section .card-container .card{
   width: 420px;
-  background-color: whitesmoke;
+  background-color: var(--iysa-kertas);
     border-radius: 20px;
     margin: 20px;
     overflow: hidden;
@@ -117,22 +117,24 @@
 }
 
 .vision-mission-section .card-container .card .card-content p{
-  color: #000;
+  color: var(--iysa-tinta);
   font-size: 15px;
   line-height: 1.3;
 }
 
 .vision-mission-section .card-container .card:hover{
-  transform: translateY(-50px);
-  background: linear-gradient(to right, #6495ED 70%);
-  box-shadow: 0 4px 15px 0 rgba(245,245,245);
-  transition: 0.8s;
+  /* Dulu translateY(-50px): kartu melompat setengah tingginya dan menabrak
+     kartu di sebelahnya. Dan `linear-gradient(to right, X 70%)` dengan satu
+     warna bukan gradien sama sekali — cuma bidang polos yang mahal dihitung. */
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(15, 23, 41, 0.10);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .garis-bawah::after {
   position: absolute;
   content: "";
-  background:  #000;
+  background:  var(--iysa-tinta);
   height: 4px;
   width: 90px;
   left: 50%;
@@ -142,7 +144,7 @@
 .garis-bawahi::after {
   position: absolute;
   content: "";
-  background:  #000;
+  background:  var(--iysa-tinta);
   height: 4px;
   width: 110px;
   left: 50%;
@@ -150,7 +152,7 @@
 }
 
 .vision-mission-section {
-  background: linear-gradient(to right, #0795fe, #092a49);
+  background: linear-gradient(to right, var(--iysa-navy), var(--iysa-navy-gelap));
   padding: 4.5rem 0;
 }
 
@@ -163,7 +165,16 @@
 .vision-mission-content h1 {
   font-size: 2rem;
   font-weight: bold;
-  color: #f2aa4cff;
+  /* Dulu #f2aa4cff — kuning dengan alfa. Kuning itu sendiri SAH secara
+     kontras di atas gradien navy (5,06:1 di ujung terang, 7,23:1 di ujung
+     gelap), jadi yang diperbaiki di sini bukan keterbacaannya melainkan
+     keseragaman: kuning adalah satu-satunya nada hangat yang tersisa dan tidak
+     ada di palet mana pun. Putih memberi 9,99–14,28:1 dan menyatu dengan
+     bidang gelap lainnya.
+
+     Coral TIDAK dipakai di sini: di atas navy ia cuma 2,73:1 — gagal. Ia
+     muncul sebagai garis penanda `judul-bagian` di bidang terang saja. */
+  color: var(--iysa-putih);
   margin-top: 5rem;
   text-transform: uppercase;
 }
@@ -213,7 +224,7 @@
   justify-content: center;
   align-items: center;
   padding: 4.5rem 0;
-  background: #f5fafe;
+  background: var(--iysa-kertas);
 }
 
 .curation-section .curation-content p {
@@ -243,18 +254,18 @@
   justify-content: center;
   align-items: center;
   padding: 4rem 0;
-  background: linear-gradient(to right, #0795fe, #092a49);
+  background: linear-gradient(to right, var(--iysa-navy), var(--iysa-navy-gelap));
 }
 
 .website-event-section .event-section-header h1 {
   font-weight: bold;
-  color: #fff;
+  color: var(--iysa-putih);
 }
 
 .website-event-section h1 .underline {
   width: 28%;
   height: 5px;
-  background: #767676;
+  background: var(--iysa-garis);
   border-radius: 3px;
   position: absolute;
   top: 60px;
@@ -266,7 +277,7 @@
 .website-event-section h1 .underline span {
   width: 15px;
   height: 100%;
-  background: #fff;
+  background: var(--iysa-putih);
   border-radius: 3px;
   position: absolute;
   top: 0;
@@ -297,7 +308,7 @@
   position: absolute;
   width: 6px;
   height: 100%;
-  background: #0795fe;
+  background: var(--iysa-navy);
   transition: 0.5s ease-in-out;
 }
 
@@ -319,29 +330,29 @@
   justify-content: center;
   align-items: center;
   font-size: 2rem;
-  color: #0795fe;
+  color: var(--iysa-navy);
   transition: 0.5s ease-in-out;
 }
 
 .container .box:hover .content .icon {
-  color: #fff;
+  color: var(--iysa-putih);
 }
 
 .website-event-section .container .box .content .website-event-text h3 {
   font-weight: 500;
-  color: #0795fe;
+  color: var(--iysa-navy);
   transition: 0.5s ease-in-out;
 }
 
 .website-event-section .container .box .content .website-event-text p {
   font-size: 0.9em;
-  color: #999;
+  color: var(--iysa-tinta-2);
   transition: 0.5s ease-in-out;
 }
 
 .website-event-section .container .box:hover .content .website-event-text h3,
 .website-event-section .container .box:hover .content .website-event-text p {
-  color: #fff;
+  color: var(--iysa-putih);
 }
 
 .website-event-section .container .box .EventType-16 {
@@ -351,15 +362,15 @@
 
 .website-event-section .container .btn{
   background-color: white;
-  color: #000;
+  color: var(--iysa-tinta);
   font-weight: 500;
 }
 btn:hover{
-  /* box-shadow: 8px 8px #99bdff;
+  /* box-shadow: 8px 8px var(--iysa-teal);
   transition: .3s; */
-  -webkit-box-shadow: 0px 2px 0px #99bdff;
-  -moz-box-shadow: 0px 2px 0px #99bdff;
-  box-shadow: 0px 2px 0px #99bdff;
+  -webkit-box-shadow: 0px 2px 0px var(--iysa-teal);
+  -moz-box-shadow: 0px 2px 0px var(--iysa-teal);
+  box-shadow: 0px 2px 0px var(--iysa-teal);
   position:relative;
   top:4px;
 
@@ -392,11 +403,11 @@ btn:hover{
 
 #featured-properties {
   padding: 4rem 0;
-  background: linear-gradient(to right, #0795fe, #092a49);
+  background: linear-gradient(to right, var(--iysa-navy), var(--iysa-navy-gelap));
 }
 
 #featured-properties h1 {
-  color: #fff;
+  color: var(--iysa-putih);
   position: relative;
   font-weight: bold;
 }
@@ -404,7 +415,7 @@ btn:hover{
 #featured-properties h1 .underline {
   width: 18%;
   height: 5px;
-  background: #767676;
+  background: var(--iysa-garis);
   border-radius: 3px;
   position: absolute;
   top: 60px;
@@ -416,7 +427,7 @@ btn:hover{
 #featured-properties h1 .underline span {
   width: 15px;
   height: 100%;
-  background: #fff;
+  background: var(--iysa-putih);
   border-radius: 3px;
   position: absolute;
   top: 0;
@@ -440,7 +451,7 @@ btn:hover{
 }
 
 #featured-properties .featured-section-bottom .featured-item {
-  background: #ffffff;
+  background: var(--iysa-putih);
   border-radius: 1rem 1rem;
 }
 
@@ -505,7 +516,7 @@ btn:hover{
   top: 0;
   width: 4rem;
   height: 0.4rem;
-  background: #000339;
+  background: var(--iysa-tinta);
   border-radius: 0.4rem;
 }
 
@@ -561,19 +572,19 @@ btn:hover{
 }
 
 #feature-two .counter-container .counter span {
-  color: #7b8087;
+  color: var(--iysa-tinta-2);
   font-size: 1.8rem;
   font-weight: 500;
 }
 
 #featured-properties .container .btn {
   background-color: white;
-  color: #000;
+  color: var(--iysa-tinta);
   font-weight: 500;
 }
 
 #featured-properties .container .btn:hover {
-  box-shadow: 8px 8px #99bdff;
+  box-shadow: 8px 8px var(--iysa-teal);
   transition: .3s;
 }
 
@@ -626,7 +637,7 @@ btn:hover{
 }
 
 .affiliation-section {
-  background: #f5fafe;
+  background: var(--iysa-kertas);
   padding: 3.5rem 0;
 }
 
@@ -669,12 +680,12 @@ btn:hover{
 
 .logos:before {
   left: 0;
-  background: linear-gradient(to left, rgba(255, 255, 255, 0), #f5fafe);
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), var(--iysa-kertas));
 }
 
 .logos::after {
   right: 0;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0), #f5fafe);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), var(--iysa-kertas));
 }
 
 .logos:hover .logos-slide {
@@ -689,10 +700,16 @@ btn:hover{
 }
 
 .logos-slide img {
-  height: 150px;
-  width: 200px;
+  /* Lebar TIDAK dipaksa: logo punya rasio berbeda-beda, dan mematoknya
+     membuat yang memanjang tampak gepeng di dalam kotaknya. */
+  height: 68px;
+  width: auto;
+  max-width: 190px;
   object-fit: contain;
-  margin: 0 30px;
+  margin: 0 34px;
+  filter: grayscale(1);
+  opacity: 0.75;
+  transition: filter 0.25s ease, opacity 0.25s ease;
   vertical-align: middle;
 }
 
@@ -737,7 +754,7 @@ btn:hover{
   max-height: max-content;
   align-items: center;
   justify-content: center;
-  background-color: #f5fafe;
+  background-color: var(--iysa-kertas);
 }
 
 .modal-container.active {
@@ -765,17 +782,17 @@ btn:hover{
 
 .colNews input[type="email"],
 .colNews input[type="email"]::placeholder {
-  color: #394452;
+  color: var(--iysa-tinta-2);
 }
 
 form button .loh {
   font-size: 16px;
-  color: #394452;
+  color: var(--iysa-tinta-2);
 }
 
 form button .loh:hover {
   background-position: 100%;
-  color: #0d6efd;
+  color: var(--iysa-navy);
 
 }
 
@@ -803,7 +820,7 @@ form button .loh:hover {
     max-height: max-content;
     align-items: center;
     justify-content: center;
-    background-color: #f5fafe;
+    background-color: var(--iysa-kertas);
   }
 
   .modal-inner .modal-image img {
@@ -825,7 +842,7 @@ form button .loh:hover {
 .modal-inner {
   border-radius: 3rem;
   align-items: center;
-  background: whitesmoke;
+  background: var(--iysa-kertas);
 }
 
 .newsletter-section .modal-container .modal-inner .heading {
@@ -844,7 +861,7 @@ form button .loh:hover {
   right: 3rem;
   width: 3rem;
   height: 3rem;
-  background: whitesmoke;
+  background: var(--iysa-kertas);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -860,15 +877,15 @@ form button .loh:hover {
 
 .heading {
   font-size: 3rem;
-  color: #394452;
+  color: var(--iysa-tinta-2);
 }
 
 .text-light {
-  color: #858C94;
+  color: var(--iysa-tinta-2);
 }
 
 .input-container {
-  background: #F9F9F9;
+  background: var(--iysa-kertas);
   display: flex;
   margin-top: 1rem;
   border-radius: 1.2rem;
@@ -879,25 +896,25 @@ form button .loh:hover {
 .input-container input {
   flex: 1;
   padding: 0.3rem 1rem;
-  background: #FFf !important;
+  background: var(--iysa-putih) !important;
   border-radius: 1.2rem;
 }
 
 input::placeholder {
-  color: #394452;
+  color: var(--iysa-tinta-2);
 }
 
 .input-container .btn {
   padding: 1.3rem 2rem;
-  background: #0d6efd;
-  color: whitesmoke;
+  background: var(--iysa-navy);
+  color: var(--iysa-kertas);
   border-radius: 0 1.2rem 1.2rem 2rem;
   cursor: pointer;
 }
 
 .input-container .btn:hover {
-  background: #0d6efd;
-  color: #F9F9F9;
+  background: var(--iysa-navy);
+  color: var(--iysa-kertas);
 }
 
 .input-group {
@@ -927,15 +944,15 @@ input::placeholder {
 .input-group input {
   flex: 1;
   padding: 0.3rem 1rem;
-  background: #F9F9F9;
+  background: var(--iysa-kertas);
   border-radius: 1.2rem 0 0 1.2rem;
   border: none;
 }
 
 .input-group .btn-subscribe {
   padding: 1.3rem 2rem;
-  background: #394452;
-  color: whitesmoke;
+  background: var(--iysa-tinta-2);
+  color: var(--iysa-kertas);
   border-radius: 0 1.2rem 1.2rem 0;
   border: none;
   cursor: pointer;
@@ -954,4 +971,83 @@ input::placeholder {
 /*-------------------------- newsletter end --------------------------*/
 
 .text-justify {
+}
+
+/* ── Penyelarasan akhir beranda ────────────────────────────────────────────
+ * Ditaruh di akhir supaya menang atas aturan lama tanpa membongkar satu per
+ * satu blok yang sudah ada. */
+
+/* Logo mitra berwarna-warni menarik perhatian lebih besar daripada isinya.
+   Abu-abu saat diam, berwarna saat disentuh — pola baku deretan logo mitra. */
+.logos-slide img:hover {
+  filter: grayscale(0);
+  opacity: 1;
+}
+
+/* Kartu visi/misi: garis tipis, bukan bayangan berat. */
+.vision-mission-section .card-container .card {
+  background: var(--iysa-putih);
+  border: 1px solid var(--iysa-garis);
+  border-radius: 14px;
+  box-shadow: 0 1px 2px rgba(15, 23, 41, 0.04);
+  overflow: hidden;
+}
+
+.vision-mission-section .card-container .card .card-content {
+  padding: 1.5rem 1.35rem 1.75rem;
+}
+
+.vision-mission-section .card-container .card .card-content p,
+.vision-mission-section .card-container .card .card-content li {
+  color: var(--iysa-tinta-2);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Daftar bernomor rata kiri: teks rata tengah membuat nomor dan barisnya
+   tidak segaris, dan mata kehilangan titik awal tiap butir. */
+.vision-mission-section .card-container .card ol {
+  text-align: left;
+  padding-left: 1.15rem;
+  margin: 0;
+}
+
+.vision-mission-section .card-container .card ol li {
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+/* Garis bawah judul lama digambar dengan angka berbeda di tiap bagian
+   (90px, 110px, 18%, 28%) dan sebagian beranimasi terus-menerus. Diseragamkan
+   lewat kelas `judul-bagian` di tema.css. */
+.garis-bawah::after,
+.garis-bawahi::after {
+  background: var(--iysa-coral);
+  height: 4px;
+  width: 56px;
+  border-radius: 999px;
+}
+
+/* Hero: gambar tidak boleh lebih besar dari yang perlu. */
+.hero-section .hero-image img {
+  max-width: 440px;
+  width: 100%;
+  height: auto;
+}
+
+.hero-section .hero-content h1 {
+  color: var(--iysa-tinta);
+  letter-spacing: -0.02em;
+}
+
+/* Jarak antar bagian memakai satu satuan yang sama. */
+.curation-section,
+.affiliation-section,
+.vision-mission-section {
+  padding-block: var(--iysa-ruang);
+}
+
+.website-event-section {
+  padding-block: var(--iysa-ruang);
+  background: linear-gradient(135deg, var(--iysa-navy), var(--iysa-navy-gelap));
 }

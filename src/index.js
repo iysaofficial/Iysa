@@ -6,6 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 /* PALING AKHIR, sesudah Bootstrap: perapian global menang tanpa !important. */
 import './css/perapian.css';
+/* Token warna, tangga tipografi, ritme. Sesudah perapian. */
+import './css/tema.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

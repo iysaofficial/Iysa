@@ -7,7 +7,7 @@ const WebsiteEvent = () => {
     const limitedData = EventWebsiteData.EventWebsite.slice(0, 12); // membatasi data hingga 6
     
     return(
-        <section className='website-event-section'>
+        <section className='website-event-section bidang-gelap'>
             <div className="container">
                 <div className='event-section-header'>
                     <h1 className='text-center'>IYSA Event Website <div className='underline'><span></span></div></h1>

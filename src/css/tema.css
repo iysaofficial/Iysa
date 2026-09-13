@@ -1,0 +1,201 @@
+/* ══════════════════════════════════════════════════════════════════════════
+ * Tema IYSA — token warna, tangga tipografi, ritme.
+ *
+ * Diimpor sesudah perapian.css. Isinya HANYA token dan aturan dasar; tampilan
+ * per bagian tetap tinggal di berkas halamannya, tapi kini mengambil warnanya
+ * dari sini.
+ *
+ * ── Dari mana warnanya ─────────────────────────────────────────────────────
+ *
+ * Dari logo IYSA sendiri: cincin navy, orbit teal, dan lintasan coral. Sebelum
+ * ini beranda memakai EMPAT BELAS warna tanpa sistem — #0795fe, #0d6efd,
+ * #092a49, #99bdff, #6495ED, #f2aa4c, #394452, #767676, #858c94, #999, dan
+ * tiga nada putih berbeda. Empat di antaranya biru yang nyaris sama tapi tidak
+ * persis, yang justru terbaca sebagai kesalahan cetak, bukan variasi.
+ *
+ * ── Kenapa peran tiap warna dibatasi ──────────────────────────────────────
+ *
+ * Kontrasnya dihitung, bukan dikira:
+ *
+ *   tinta  di atas kertas  16,65:1  → aman untuk semua ukuran
+ *   navy   di atas putih    9,99:1  → aman untuk semua ukuran
+ *   coral  di atas putih     3,66:1 → HANYA teks besar / tombol
+ *   teal   di atas putih     2,83:1 → TIDAK BOLEH untuk teks sama sekali
+ *
+ * Karena itu teal cuma jadi aksen grafis — garis, bidang, ikon besar — dan
+ * coral hanya muncul di tombol dan penanda, tidak pernah di paragraf. Ini yang
+ * membedakan "berani" dari "tidak terbaca".
+ * ══════════════════════════════════════════════════════════════════════════ */
+
+:root {
+  /* Inti */
+  --iysa-navy: #22407E;
+  /* Enam digit, bukan delapan: #16295180 punya alfa 80 (50%), dan ia dipakai
+     sebagai ujung gradien LATAR — separuh tembus pandang berarti gradiennya
+     menampakkan apa pun yang ada di belakangnya. */
+  --iysa-navy-gelap: #162951;
+  --iysa-teal: #3FA9A3;
+  --iysa-coral: #E15A3F;
+
+  /* Netral — sedikit condong ke navy supaya abunya tidak terasa mati */
+  --iysa-tinta: #0F1729;
+  --iysa-tinta-2: #46516B;
+  --iysa-garis: #DCE3EF;
+  --iysa-kertas: #F4F7FC;
+  --iysa-putih: #FFFFFF;
+
+  /* Ritme vertikal: satu satuan, dipakai semua bagian */
+  --iysa-ruang: 4.5rem;
+  --iysa-ruang-lega: 7rem;
+}
+
+body {
+  color: var(--iysa-tinta);
+  background: var(--iysa-putih);
+}
+
+h1, h2, h3, h4 {
+  color: var(--iysa-tinta);
+  font-weight: 700;
+}
+
+p {
+  color: var(--iysa-tinta-2);
+}
+
+/* ── Tombol ────────────────────────────────────────────────────────────────
+ *
+ * Bootstrap `.btn-primary` bawaannya biru #0d6efd — biru kelima yang tidak
+ * ada hubungannya dengan merek ini. Diambil alih jadi navy, dengan coral
+ * disimpan untuk ajakan utama saja.
+ *
+ * Teksnya putih di atas navy (9,99:1) dan putih di atas coral (3,66:1); yang
+ * kedua lolos karena tombol memakai huruf tebal 16px ke atas — ambang teks
+ * besar. */
+.btn-primary,
+.btn-primary:focus {
+  background-color: var(--iysa-navy);
+  border-color: var(--iysa-navy);
+  color: var(--iysa-putih);
+  font-weight: 600;
+  padding: 0.65rem 1.5rem;
+  border-radius: 8px;
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+  background-color: #1A3266;
+  border-color: #1A3266;
+  color: var(--iysa-putih);
+}
+
+/* Ajakan utama — dipakai hemat, satu per layar. */
+.btn-aksi {
+  background-color: var(--iysa-coral);
+  border-color: var(--iysa-coral);
+  color: var(--iysa-putih);
+  font-weight: 600;
+  padding: 0.65rem 1.5rem;
+  border-radius: 8px;
+}
+
+.btn-aksi:hover {
+  background-color: #C94429;
+  border-color: #C94429;
+  color: var(--iysa-putih);
+}
+
+/* ── Judul bagian ──────────────────────────────────────────────────────────
+ *
+ * Sebelumnya tiap bagian menggambar garis bawahnya sendiri dengan angka
+ * berbeda: 90px, 110px, 18%, 28%, warna #000 atau #767676, sebagian dengan
+ * animasi kilau yang berjalan terus. Satu bentuk untuk semuanya: garis pendek
+ * coral yang menandai awal bagian tanpa menarik perhatian dari judulnya. */
+.judul-bagian {
+  position: relative;
+  padding-bottom: 0.85rem;
+  margin-bottom: 2.5rem;
+}
+
+.judul-bagian::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 56px;
+  height: 4px;
+  border-radius: 999px;
+  background: var(--iysa-coral);
+}
+
+.judul-bagian.text-center::after {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Di atas bidang gelap, garisnya jadi teal supaya tetap terlihat tanpa
+   bersaing dengan teks putih. */
+.bidang-gelap .judul-bagian::after {
+  background: var(--iysa-teal);
+}
+
+/*
+ * Teks di atas bidang gelap jadi putih — LALU yang berlatar terang dikembalikan.
+ *
+ * Mendaftar anak langsung satu per satu tidak bisa diandalkan: judul di
+ * `Event.js` bersarang tiga tingkat (section > .container > .featured-section-top
+ * > .text-center > h1), jadi selektor sedangkal itu melewatkannya dan judulnya
+ * tetap gelap di atas navy — tidak terbaca, tanpa satu pun galat.
+ *
+ * Jadi arahnya dibalik: warnai seluruh keturunan, lalu kembalikan yang memang
+ * duduk di atas bidang TERANG di dalamnya — kartu poster event dan tombol
+ * putih. Tanpa pengecualian itu, judul kartu jadi putih di atas putih.
+ */
+.bidang-gelap,
+.bidang-gelap h1,
+.bidang-gelap h2,
+.bidang-gelap h3,
+.bidang-gelap p,
+.bidang-gelap li {
+  color: var(--iysa-putih);
+}
+
+.bidang-gelap .featured-item,
+.bidang-gelap .featured-item h1,
+.bidang-gelap .featured-item h2,
+.bidang-gelap .featured-item h3,
+.bidang-gelap .featured-item p,
+.bidang-gelap .featured-item a p,
+.bidang-gelap .btn,
+.bidang-gelap .card,
+.bidang-gelap .card p,
+.bidang-gelap .card h3 {
+  color: var(--iysa-tinta);
+}
+
+/* ── Kartu ─────────────────────────────────────────────────────────────────
+ *
+ * Bayangan berat dan sudut sangat bulat membuat tiap kotak berteriak sama
+ * kerasnya. Garis tipis + bayangan sangat halus menahannya tetap di latar,
+ * dan yang naik saat disentuh cuma 4px — bukan 50px seperti sebelumnya, yang
+ * membuat kartu melompat menabrak tetangganya. */
+.kartu {
+  background: var(--iysa-putih);
+  border: 1px solid var(--iysa-garis);
+  border-radius: 14px;
+  box-shadow: 0 1px 2px rgba(15, 23, 41, 0.04);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.kartu:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(15, 23, 41, 0.10);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .kartu,
+  .kartu:hover {
+    transform: none;
+    transition: none;
+  }
+}
