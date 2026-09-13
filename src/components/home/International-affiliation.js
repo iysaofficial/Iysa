@@ -8,7 +8,7 @@ const InternationalAffiliation = ()=> {
   return(
       <section className="affiliation-section">
           <div className="container">
-              <h2 className="text-center">International Affiliation</h2>
+              <h2 className="text-center judul-bagian">International Affiliation</h2>
               <div className="logos">
                 <div className="logos-slide">
                   <img src="./assets/images/logo/International Affiliation/africa.WebP" alt="" />
@@ -49,9 +49,6 @@ const InternationalAffiliation = ()=> {
                 </div>
               </div>
           </div>
-          <br></br>
-          <br></br>
-          <br></br>
       </section>
 
 

@@ -17,7 +17,7 @@ a{
 }
 
 .header-main{
-	background-color: #f5fafe;
+	background-color: var(--iysa-putih);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -30,7 +30,7 @@ a{
 .header .logo a{
 	font-size: 30px;
 	text-transform: capitalize;
-	/* color: #4080EF; */
+	/* color: var(--iysa-navy); */
 	font-weight: 600;
 }
 .header .nav-menu{
@@ -148,7 +148,7 @@ a{
 }
 .header .menu > .menu-item:hover > a .FaChevronDown:before,
 .header .menu > .menu-item:hover > a .FaChevronDown:after{
-   background-color: #4080EF;
+   background-color: var(--iysa-navy);
 }
 .header .menu > .menu-item > a .FaChevronDown:after{
    transform: translate(-50%,-50%) rotate(180deg);	
@@ -158,12 +158,12 @@ a{
 }
 .header .menu > .menu-item > .sub-menu > .menu-item > a:hover,
 .header .menu > .menu-item:hover > a{
-	color: #4080EF;
+	color: var(--iysa-navy);
 }
 
 .header .menu > .menu-item > .sub-menu > .menu-item > a:hover,
 .header .menu > .menu-item:hover > p{
-	color: #4080EF;
+	color: var(--iysa-navy);
 }
 .header .menu > .menu-item > .sub-menu{
 	box-shadow: 0 0 10px rgba(0,0,0,0.2);
@@ -173,7 +173,7 @@ a{
 	top:100%;
 	background-color: #ffffff;
 	padding: 10px 15px;
-	border-top: 2px solid #4080EF;
+	border-top: 2px solid var(--iysa-coral);
 	transform: translateY(10px);
 	transition: all 0.3s ease;
 	opacity:0;
@@ -383,7 +383,7 @@ a{
 /* ── Tombol Dashboard di navigasi ──────────────────────────────────────────
  *
  * Satu-satunya butir menu yang mengantar ke APLIKASI, bukan ke halaman baca.
- * Karena itu ia dibedakan bentuknya — tapi tetap memakai #4080EF, aksen yang
+ * Karena itu ia dibedakan bentuknya — tapi tetap memakai var(--iysa-navy), aksen yang
  * sudah dipakai navigasi ini untuk hover dan garis bawah. Tidak ada warna baru.
  *
  * Di bawah 1200px navigasi berubah jadi panel geser dan butirnya menumpuk
@@ -391,7 +391,7 @@ a{
  * mengambang di tengah daftar. */
 .header .menu > .menu-item-cta > a,
 .header .menu > .menu-item.menu-item-cta > a {
-	background-color: #4080EF;
+	background-color: var(--iysa-navy);
 	color: #ffffff;
 	padding: 8px 18px;
 	border-radius: 6px;
@@ -399,7 +399,7 @@ a{
 }
 
 .header .menu > .menu-item-cta > a:hover {
-	background-color: #0d6efd;
+	background-color: #1A3266;
 	color: #ffffff;
 }
 
@@ -420,4 +420,12 @@ a{
 	.header .menu > .menu-item-cta > a::after {
 		display: none;
 	}
+}
+
+
+/* Navbar melayang di atas isi, jadi ia perlu batas bawah yang tipis supaya
+   tidak terlihat mengambang tanpa dasar saat halaman digulir. */
+.header .header-main {
+	border-bottom: 1px solid var(--iysa-garis);
+	box-shadow: 0 1px 3px rgba(15, 23, 41, 0.04);
 }

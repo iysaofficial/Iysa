@@ -1,8 +1,6 @@
 const Curation = () => {
   return (
     <section className="curation-section">
-      <br></br>
-      <br></br>
       <div className="container">
         <div className="row">
           {/* <div className="col-md-6 curation-video mb-auto mt-auto">
@@ -17,7 +15,7 @@ const Curation = () => {
             ></iframe>
           </div> */}
 
-            <h1 className="text-tittle">Company Profile</h1>
+            <h1 className="text-tittle judul-bagian">Company Profile</h1>
             <p className="text-justify">
               IYSA or Indonesian Young Scientist Association is an organization
               engaged in education to develop the potential, talent, and
@@ -45,8 +43,6 @@ const Curation = () => {
           </div> */}
         </div>
       </div>
-      <br></br>
-      <br></br>
     </section>
   );
 };

@@ -9,7 +9,7 @@ const Event = () => {
   const limitedData = EventPosterData.events.slice(-5); // membatasi data hingga 6
 
   return (
-    <section id="featured-properties">
+    <section id="featured-properties" className="bidang-gelap">
       <div className="container">
         <div className="featured-section-top text-center">
           <div className="text-center">
