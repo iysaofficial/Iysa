@@ -192,12 +192,7 @@
   }
 }
 
-@media (max-width:426px) {
 
-  .vision-mission-content ol li,
-  .vision-mission-content p {
-    }
-}
 
 /*-------------------------- Vision Mission End --------------------------*
 
@@ -227,8 +222,7 @@
   background: var(--iysa-kertas);
 }
 
-.curation-section .curation-content p {
-}
+
 
 /*-------------------------- Curation End --------------------------*/
 
@@ -834,8 +828,7 @@ form button .loh:hover {
     padding: 1rem;
   }
 
-  .modal-container .modal-inner .content-modal p {
-    }
+
 
 }
 
@@ -970,8 +963,7 @@ input::placeholder {
 
 /*-------------------------- newsletter end --------------------------*/
 
-.text-justify {
-}
+
 
 /* ── Penyelarasan akhir beranda ────────────────────────────────────────────
  * Ditaruh di akhir supaya menang atas aturan lama tanpa membongkar satu per

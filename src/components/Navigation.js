@@ -210,6 +210,15 @@ const Navigation = () => {
                     GuideBook PTK 2026
                   </a>
                 </li>
+                <li className="menu-item">
+                  <a
+                    href="https://drive.google.com/file/d/1gYoS0BTHRY70eHW620R-b8UoQwuo3Rbj/view?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Press Release WICO 2026
+                  </a>
+                </li>
               </ul>
             </li>
 
