@@ -25,6 +25,18 @@ const LeadershipCard = ({ member, isReversed = false }) => {
     }
   }, [isInView, isHovered]);
 
+  // Preload photo2 if exists
+  useEffect(() => {
+    if (member.photo1) {
+      const img1 = new Image();
+      img1.src = optimizeUrl(member.photo1);
+    }
+    if (member.photo2 && member.photo1 !== member.photo2) {
+      const img2 = new Image();
+      img2.src = optimizeUrl(member.photo2);
+    }
+  }, [member]);
+
   const showSecondPhoto = isHovered || photoIndex === 1;
 
   const cardVariants = {
@@ -48,18 +60,18 @@ const LeadershipCard = ({ member, isReversed = false }) => {
           src={optimizeUrl(member.photo1)}
           alt={member.name}
           className="leadership-photo"
-          loading="lazy"
           animate={{ opacity: showSecondPhoto ? 0 : 1 }}
-          transition={{ duration: 0.4 }}
+          transition={{ duration: 0.22, ease: "easeOut" }}
+          style={{ pointerEvents: 'none', userSelect: 'none' }}
         />
         {member.photo2 && (
           <motion.img
             src={optimizeUrl(member.photo2)}
             alt={member.name}
             className="leadership-photo-hover"
-            loading="lazy"
             animate={{ opacity: showSecondPhoto ? 1 : 0 }}
-            transition={{ duration: 0.4 }}
+            transition={{ duration: 0.22, ease: "easeOut" }}
+            style={{ pointerEvents: 'none', userSelect: 'none' }}
           />
         )}
       </div>

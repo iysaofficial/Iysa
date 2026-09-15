@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { motion, useInView } from 'framer-motion';
 
 const optimizeUrl = (url) => {
@@ -14,18 +14,27 @@ const optimizeUrl = (url) => {
 };
 
 const TeamMemberCard = ({ member }) => {
-  const [isHovered, setIsHovered] = useState(false);
   const [photoIndex, setPhotoIndex] = useState(0);
   const ref = useRef(null);
-  // Using amount: 0.2 ensures animation triggers reliably on mobile when scrolled into view
   const isInView = useInView(ref, { amount: 0.2 });
 
-  const photos = [];
-  for (let i = 1; i <= 10; i++) {
-    if (member[`photo${i}`]) {
-      photos.push(optimizeUrl(member[`photo${i}`]));
+  const photos = useMemo(() => {
+    const list = [];
+    for (let i = 1; i <= 10; i++) {
+      if (member[`photo${i}`]) {
+        list.push(optimizeUrl(member[`photo${i}`]));
+      }
     }
-  }
+    return list;
+  }, [member]);
+
+  // Preload photos to prevent blank flash / glitch when clicking
+  useEffect(() => {
+    photos.forEach((src) => {
+      const img = new Image();
+      img.src = src;
+    });
+  }, [photos]);
 
   const handleClick = () => {
     if (photos.length > 1) {
@@ -33,35 +42,38 @@ const TeamMemberCard = ({ member }) => {
     }
   };
 
+  // Only reset photo to 0 when card scrolls out of view
   useEffect(() => {
-    if (!isInView && !isHovered) {
+    if (!isInView) {
       setPhotoIndex(0);
     }
-  }, [isInView, isHovered]);
+  }, [isInView]);
 
   return (
     <motion.div
       ref={ref}
       className="team-member-card"
-      onHoverStart={() => setIsHovered(true)}
-      onHoverEnd={() => setIsHovered(false)}
       onClick={handleClick}
-      whileHover={{ y: -5, transition: { duration: 0.3 } }}
+      whileTap={photos.length > 1 ? { scale: 0.98 } : {}}
       style={{ cursor: photos.length > 1 ? 'pointer' : 'default' }}
     >
       <div className="member-image-container">
-        {photos.map((photo, index) => (
-          <motion.img
-            key={index}
-            src={photo}
-            alt={`${member.name} ${index + 1}`}
-            className={index === 0 ? "member-photo" : "member-photo-hover"}
-            loading="lazy"
-            initial={{ opacity: index === 0 ? 1 : 0 }}
-            animate={{ opacity: index === photoIndex ? 1 : 0 }}
-            transition={{ duration: 0.4, ease: 'easeInOut' }}
-          />
-        ))}
+        <img
+          src={photos[photoIndex]}
+          alt={`${member.name} ${photoIndex + 1}`}
+          className="member-photo"
+          draggable={false}
+        />
+        {photos.length > 1 && (
+          <div className="card-photo-dots member-dots">
+            {photos.map((_, idx) => (
+              <span
+                key={idx}
+                className={`photo-dot ${idx === photoIndex ? 'active' : ''}`}
+              />
+            ))}
+          </div>
+        )}
       </div>
       <div className="member-info">
         <h4 className="member-name">{member.name}</h4>

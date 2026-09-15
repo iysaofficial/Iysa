@@ -38,15 +38,6 @@
                 "photo3": "/assets/images/allimg/51.png",
                 "children": [
                   {
-                    "id": 8,
-                    "name": "Risnawati",
-                    "position": "Administration Staff",
-                    "photo1": "/assets/images/allimg/risna_sejmjx.png",
-                    "photo2": "/assets/images/allimg/63.png",
-                    "photo3": "/assets/images/allimg/64.png",
-                    "photo4": "/assets/images/allimg/62.png"
-                  },
-                  {
                     "id": 9,
                     "name": "Nur Azizah, S.M",
                     "position": "Administration Staff",

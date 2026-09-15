@@ -61,6 +61,8 @@
 .team-section-coordinator {
   flex-basis: 220px; /* Fixed width for coordinator card */
   flex-shrink: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .team-section-members {
@@ -71,16 +73,21 @@
 }
 
 
-/* Styling untuk TeamMemberCard (can be slightly adjusted if needed) */
+/* Styling untuk TeamMemberCard */
 .team-member-card {
   display: flex;
   align-items: center;
   width: 320px;
-  height: 150px;
+  height: 145px;
   border-radius: 16px;
-  padding-right: 10px; 
-  transition: transform 0.3s ease;
+  padding-right: 12px; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.team-member-card:hover {
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.2);
 }
 
 /* === Team-specific Gradients === */
@@ -108,49 +115,50 @@
 }
 
 .member-image-container {
-  width: 130px;
+  width: 120px;
   height: 100%;
   position: relative;
-  /* border-radius: 12px; */
   overflow: hidden;
   flex-shrink: 0;
 }
 
-.member-photo {
-  position: absolute;
-  top: -10px;
-  left: -30px;
-  width: 150%;
-  height: 150%;
-  object-fit: cover;
-}
-
+.member-photo,
 .member-photo-hover {
   position: absolute;
   top: 0;
-  left: -10px;
-  width: 120%;
-  height: 120%;
+  left: 0;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  transition: opacity 0.3s ease;
+  object-position: top center;
+  pointer-events: none;
+  user-select: none;
+  transition: transform 0.3s ease;
+}
+
+.team-member-card:hover .member-photo,
+.team-member-card:hover .member-photo-hover {
+  transform: scale(1.03);
+  transform-origin: center top;
 }
 
 .member-info {
-  margin-left: 15px;
+  margin-left: 12px;
   text-align: left;
+  flex: 1;
 }
 
 .member-name {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 700;
   margin: 0;
   color: var(--iysa-putih);
+  line-height: 1.25;
 }
 
 .member-position {
-  font-size: 0.9rem;
-  color: var(--iysa-putih);
-  opacity: 0.9;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.85);
   margin-top: 4px;
 }
 
@@ -181,6 +189,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: top center;
   position: absolute;
   top: 0;
   left: 0;
@@ -228,34 +237,36 @@
   bottom: 0;
   left: 0;
   right: 0;
-  height: 70%;
-  background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
+  height: 65%;
+  background: linear-gradient(
+    to top,
+    rgba(10, 20, 40, 0.95) 0%,
+    rgba(10, 20, 40, 0.72) 45%,
+    rgba(10, 20, 40, 0.2) 75%,
+    transparent 100%
+  );
   z-index: 2;
+  pointer-events: none;
 }
-
 
 /* === Coordinator Card Styles === */
 .coordinator-card {
   position: relative;
-  width: 200px;
-  height: 250px;
-  border-radius: 12px;
+  width: 220px;
+  height: 310px;
+  border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.18);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.18);
   cursor: pointer;
-  overflow: hidden;
-  /* border: 3px solid var(--iysa-putih); */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.coordinator-photo{
-  position: absolute;
-  top: -35px;
-  left: -55px;
-  width: 150%;
-  height: 150%;
-  object-fit: cover;
+.coordinator-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.28);
 }
 
+.coordinator-photo,
 .coordinator-photo-hover {
   position: absolute;
   top: 0;
@@ -263,36 +274,95 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: top center;
+  pointer-events: none;
+  user-select: none;
+  transition: transform 0.3s ease;
+}
+
+.coordinator-card:hover .coordinator-photo,
+.coordinator-card:hover .coordinator-photo-hover {
+  transform: scale(1.03);
+  transform-origin: center top;
 }
 
 .coordinator-info {
   position: absolute;
-  bottom: -25px;
+  bottom: 0;
   left: 0;
   right: 0;
-  padding: 20px;
+  padding: 18px 12px 14px;
   color: var(--iysa-putih);
   z-index: 3;
-  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+  text-align: center;
   transition: transform 0.3s ease-out;
 }
 
 .coordinator-card:hover .coordinator-info {
-  transform: translateY(-10px);
+  transform: translateY(-3px);
 }
 
 .coordinator-name {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   font-weight: 700;
   margin: 0;
-  color: var(--iysa-putih);
+  color: #ffffff;
+  line-height: 1.25;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 .coordinator-position {
-  font-size: 0.9rem;
-  color: var(--iysa-putih);
-  opacity: 0.9;
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.9);
   margin-top: 5px;
+  line-height: 1.3;
+  font-weight: 400;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* === Photo Indicator Dots === */
+.card-photo-dots {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.member-dots {
+  top: 10px;
+  left: 10px;
+  background: rgba(0, 0, 0, 0.35);
+  padding: 3px 6px;
+  border-radius: 10px;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.coordinator-dots {
+  top: 14px;
+  right: 14px;
+  background: rgba(0, 0, 0, 0.35);
+  padding: 4px 8px;
+  border-radius: 12px;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.photo-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.45);
+  transition: all 0.25s ease;
+}
+
+.photo-dot.active {
+  width: 14px;
+  border-radius: 4px;
+  background: #ffffff;
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.6);
 }
 
 /* === Mobile Responsiveness === */
@@ -319,6 +389,19 @@
   .member-image-container {
     width: 100%;
     height: 100%;
+  }
+
+  .member-dots {
+    top: 10px;
+    bottom: auto;
+    left: auto;
+    right: 10px;
+    transform: none;
+    background: rgba(0, 0, 0, 0.35);
+    padding: 3px 6px;
+    border-radius: 10px;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
   }
 
   .member-info {

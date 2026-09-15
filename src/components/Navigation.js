@@ -261,8 +261,12 @@ const Navigation = () => {
               navigasi ini untuk hover dan garis bawah, bukan warna baru.
             */}
             <li className="menu-item menu-item-cta">
-              <a href="https://dashboard.iysa.or.id/login">
-                <FaRightToBracket /> Dashboard
+              <a
+                href="https://dashboard.iysa.or.id/login"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaRightToBracket /> <span>Dashboard</span>
               </a>
             </li>
           </ul>
