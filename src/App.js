@@ -100,6 +100,7 @@ import Newsletter2025DetailPage9 from "./pages/newsletter/Newsletter2025DetailPa
 // Import Newsletter 2026
 import Newsletter2026DetailPage1 from "./pages/newsletter/Newsletter2026DetailPage1";
 import Newsletter2026DetailPage2 from "./pages/newsletter/Newsletter2026DetailPage2";
+import Newsletter2026DetailPage3 from "./pages/newsletter/Newsletter2026DetailPage3";
 
 // Import Gallery
 import GalleryPhoto from "./pages/gallery/GalleryPhoto";
@@ -433,6 +434,10 @@ function App() {
             <Route
               path="/Newsletter2026DetailPage2"
               element={<Newsletter2026DetailPage2 />}
+            />
+            <Route
+              path="/Newsletter2026DetailPage3"
+              element={<Newsletter2026DetailPage3 />}
             />
           </Routes>
         </Router>
