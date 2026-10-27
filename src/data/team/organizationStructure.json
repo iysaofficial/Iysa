@@ -1,14 +1,14 @@
 [
   {
     "id": 1,
-    "name": "Deni Irawan, M. Pd",
+    "name": "Deni Irawan, M.Pd",
     "position": "Owner & Founder",
     "photo1": "/assets/images/allimg/pa_den_r1nzbs.png",
     "photo2": "/assets/images/allimg/pa_den_r1nzbs.png",
     "children": [
       {
         "id": 2,
-        "name": "Anggraini, A. Md",
+        "name": "Anggraini, A.Md",
         "position": "General Manager",
         "photo1": "/assets/images/allimg/bu_en2_ejstat.png",
         "photo2": "/assets/images/allimg/bu_en2_ejstat.png",
@@ -20,15 +20,15 @@
             "photo1": "/assets/images/allimg/kamal_slybh6.png",
             "photo2": "/assets/images/allimg/kamal_slybh6.png",
             "children": [
-                  {
-                    "id": 22,
-                    "name": "Zaidan Adi Prasetya",
-                    "position": "IT Staff",
-                    "photo1": "/assets/images/allimg/pras_hn8zpc.png",
-                    "photo2": "/assets/images/allimg/edit1_gndjwx.png",
-                    "photo3": "/assets/images/allimg/edit2_fdszgl.png",
-                    "photo4": "/assets/images/allimg/edit3_kmofs2.png"
-                  },
+              {
+                "id": 22,
+                "name": "Zaidan Adi Prasetya",
+                "position": "IT Staff",
+                "photo1": "/assets/images/allimg/pras_hn8zpc.png",
+                "photo2": "/assets/images/allimg/edit1_gndjwx.png",
+                "photo3": "/assets/images/allimg/edit2_fdszgl.png",
+                "photo4": "/assets/images/allimg/edit3_kmofs2.png"
+              },
               {
                 "id": 7,
                 "name": "Astri, S.M",
@@ -60,6 +60,13 @@
                     "photo1": "/assets/images/allimg/khansa1_ler8ob.png",
                     "photo2": "/assets/images/allimg/khansa2_vghfvd.png",
                     "photo3": "/assets/images/allimg/khansa3_jgqjft.png"
+                  },
+                  {
+                    "id": 11,
+                    "name": "Adhe Alvita Wisyandri, S.Ak",
+                    "position": "Administration Staff",
+                    "photo1": "/assets/images/allimg/vita 1.png",
+                    "photo2": "/assets/images/allimg/vita 2.png"
                   },
                   {
                     "id": 12,
@@ -121,11 +128,17 @@
                     "name": "Auli Fadhillah S.Ds",
                     "position": "Promotion and Publication Staff",
                     "photo1": "/assets/images/allimg/49.png",
-                    "photo2": "/assets/images/allimg/48.png",
-                    "photo3": "/assets/images/allimg/48.png"
+                    "photo2": "/assets/images/allimg/48.png"
                   },
                   {
                     "id": 19,
+                    "name": "Rangga Saputra",
+                    "position": "Promotion and Publication Staff",
+                    "photo1": "/assets/images/allimg/rangga 1.png",
+                    "photo2": "/assets/images/allimg/rangga 2.png"
+                  },
+                  {
+                    "id": 20,
                     "name": "Bunga Aulia Zahra",
                     "position": "Promotion and Publication Staff",
                     "photo1": "/assets/images/allimg/bunga_olbags.png",

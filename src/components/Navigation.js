@@ -17,7 +17,7 @@ const Navigation = () => {
 
   const collapseSubMenu = useCallback(() => {
     const activeSubMenu = document.querySelector(
-      ".menu-item-has-children.active .sub-menu"
+      ".menu-item-has-children.active .sub-menu",
     );
     if (activeSubMenu) {
       activeSubMenu.removeAttribute("style");
@@ -231,9 +231,9 @@ const Navigation = () => {
                 Gallery <FaChevronDown />
               </p>
               <ul className="sub-menu">
-                <li className="menu-item">
+                {/* <li className="menu-item">
                   <a href="/GalleryPhoto">Photo Events</a>
-                </li>
+                </li> */}
                 <li className="menu-item">
                   <a href="/GalleryVideo">Video Events</a>
                 </li>

@@ -9,11 +9,10 @@ const Photo = () => {
         </div>
 
         <div className="row">
-
-        <div className="col-lg-4 col-md-6 col-sm-12">
+          <div className="col-lg-4 col-md-6 col-sm-12">
             <a
               href="https://drive.google.com/drive/folders/1YlEuMXgqC27fYPA_Rb6lxFfIgRf1yQ_4?usp=sharing"
-              rel='noreferrer noopener'
+              rel="noreferrer noopener"
               target="_blank"
             >
               <div className="box">
@@ -24,10 +23,10 @@ const Photo = () => {
             </a>
           </div>
 
-        <div className="col-lg-4 col-md-6 col-sm-12">
+          <div className="col-lg-4 col-md-6 col-sm-12">
             <a
               href="https://drive.google.com/drive/folders/1YgABahNuzqOOPmwssnd_9ht1Ogt8-qEG?usp=sharing"
-              rel='noreferrer noopener'
+              rel="noreferrer noopener"
               target="_blank"
             >
               <div className="box">
@@ -38,11 +37,10 @@ const Photo = () => {
             </a>
           </div>
 
-
           <div className="col-lg-4 col-md-6 col-sm-12">
             <a
               href="https://drive.google.com/drive/folders/1hwrWzTYg0qKIkoAMo6VH2-mMPsPwxnYC?usp=sharing"
-              rel='noreferrer noopener'
+              rel="noreferrer noopener"
               target="_blank"
             >
               <div className="box">
@@ -56,7 +54,7 @@ const Photo = () => {
           <div className="col-lg-4 col-md-6 col-sm-12">
             <a
               href="https://drive.google.com/drive/folders/1ryUJGTgJlMfQSmlm-_vrSvLCeEO359uM?usp=sharing"
-              rel='noreferrer noopener'
+              rel="noreferrer noopener"
               target="_blank"
             >
               <div className="box">
@@ -70,12 +68,12 @@ const Photo = () => {
           <div className="col-lg-4 col-md-6 col-sm-12">
             <a
               href="https://drive.google.com/drive/folders/145lTk5-26WjugcW9gpbPLuutPTMyZx5j?usp=sharing"
-              rel='noreferrer noopener'
+              rel="noreferrer noopener"
               target="_blank"
             >
               <div className="box">
                 <div className="content">
-                  <h4 className="">Galley Event 2021</h4>
+                  <h4 className="">Gallery Event 2021</h4>
                 </div>
               </div>
             </a>
@@ -84,7 +82,7 @@ const Photo = () => {
           <div className="col-lg-4 col-md-6 col-sm-12">
             <a
               href="https://drive.google.com/drive/folders/16x0jhCQFv_6KmUB1LozDF_tUDK7vYSjY?usp=sharing"
-              rel='noreferrer noopener'
+              rel="noreferrer noopener"
               target="_blank"
             >
               <div className="box">
@@ -98,7 +96,7 @@ const Photo = () => {
           <div className="col-lg-4 col-md-6 col-sm-12">
             <a
               href="https://drive.google.com/drive/folders/1vmF4VnMeum1iseTii1N46mG76Vd2lzGW?usp=sharing"
-              rel='noreferrer noopener'
+              rel="noreferrer noopener"
               target="_blank"
             >
               <div className="box">
