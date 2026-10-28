@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot, faCalendarDays} from "@fortawesome/free-solid-svg-icons";
 
 // Import Data JSON
-import EventPosterData from "../../data/event/EventPosterDetail.json";
+import EventPosterData from "../../data/events/iysa-events/EventPosterDetail.json";
 
 const Event = () => {
   const limitedData = EventPosterData.events.slice(-5); // membatasi data hingga 6

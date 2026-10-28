@@ -1,7 +1,7 @@
 // Import FontAwesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEarthEurope } from '@fortawesome/free-solid-svg-icons'
-import EventWebsiteData from "../../data/eventwebsite/EventWebsite.json";
+import EventWebsiteData from "../../data/events/website-events/EventWebsite.json";
 
 const WebsiteEvent = () => {
     const limitedData = EventWebsiteData.EventWebsite.slice(0, 12); // membatasi data hingga 6

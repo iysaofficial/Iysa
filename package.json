@@ -25,7 +25,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && rm build/static/js/*.map && rm build/static/css/*.map",
+    "build": "react-scripts build && node -e \"const fs=require('fs'),path=require('path');['build/static/js','build/static/css'].forEach(d=>{if(fs.existsSync(d))fs.readdirSync(d).filter(f=>f.endsWith('.map')).forEach(f=>fs.unlinkSync(path.join(d,f)))})\"",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

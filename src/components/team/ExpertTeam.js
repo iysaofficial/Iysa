@@ -1,4 +1,4 @@
-import '../../css/expert/expert.css'
+import '../../css/team/expert.css'
 import expertTeam from "../../data/team/expertTeam.json";
 
 const ExpertTeam = () => {

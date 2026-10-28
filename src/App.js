@@ -1,10 +1,10 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Navigation from "./components/Navigation";
-import Footer from "./components/Footer";
-import BackToTopBtn from "./components/BackToTopBtn";
-import AppLoader from "./components/AppLoader";
+import Navigation from "./components/layout/Navigation";
+import Footer from "./components/layout/Footer";
+import BackToTopBtn from "./components/layout/BackToTopBtn";
+import AppLoader from "./components/layout/AppLoader";
 
 // Import Landing
 import Landing from "./pages/home/Landing";
@@ -15,29 +15,29 @@ import CompanyProfile from "./pages/companyprofile/CompanyProfilePage";
 // Import Curation
 import CurationOSPCPage from "./pages/curation/CurationOSPCPage";
 import CurationLKTINComp from "./components/curation/CurationLKTINComp";
-import CurasiPage from "./pages/curasiinfo/CurasiPage";
+import CurasiPage from "./pages/curation/CurasiPage";
 
 // Calender Event
-import CalenderEvent from "./pages/calender/CalenderEvent";
+import CalenderEvent from "./pages/calendar/CalenderEvent";
 
 // All Event Web
-import AllEventWebPage from "./pages/alleventweb/AllEventWebPage";
+import AllEventWebPage from "./pages/events/website-events/AllEventWebPage";
 
 // All Event Affiliation Web
-import AllEventAffiliationWebPage from "./pages/alleventaffiliationweb/AllEventAffiliationWebPage";
-import EventAffiliationPage1 from "./pages/alleventaffiliationweb/EventAffiliationPage1";
-import EventAffiliationPage2 from "./pages/alleventaffiliationweb/EventAffiliationPage2";
-import EventAffiliationPage3 from "./pages/alleventaffiliationweb/EventAffiliationPage3";
-import EventAffiliationPage4 from "./pages/alleventaffiliationweb/EventAffiliationPage4";
-import EventAffiliationPage5 from "./pages/alleventaffiliationweb/EventAffiliationPage5";
-import EventAffiliationPage6 from "./pages/alleventaffiliationweb/EventAffiliationPage6";
-import EventAffiliationPage7 from "./pages/alleventaffiliationweb/EventAffiliationPage7";
-import EventAffiliationPage8 from "./pages/alleventaffiliationweb/EventAffiliationPage8";
-import EventAffiliationPage9 from "./pages/alleventaffiliationweb/EventAffiliationPage9";
-import EventAffiliationPage10 from "./pages/alleventaffiliationweb/EventAffiliationPage10";
-import EventAffiliationPage11 from "./pages/alleventaffiliationweb/EventAffiliationPage11";
-import EventAffiliationPage12 from "./pages/alleventaffiliationweb/EventAffiliationPage12";
-import EventAffiliationPage13 from "./pages/alleventaffiliationweb/EventAffiliationPage13";
+import AllEventAffiliationWebPage from "./pages/events/affiliation-website/AllEventAffiliationWebPage";
+import EventAffiliationPage1 from "./pages/events/affiliation-website/EventAffiliationPage1";
+import EventAffiliationPage2 from "./pages/events/affiliation-website/EventAffiliationPage2";
+import EventAffiliationPage3 from "./pages/events/affiliation-website/EventAffiliationPage3";
+import EventAffiliationPage4 from "./pages/events/affiliation-website/EventAffiliationPage4";
+import EventAffiliationPage5 from "./pages/events/affiliation-website/EventAffiliationPage5";
+import EventAffiliationPage6 from "./pages/events/affiliation-website/EventAffiliationPage6";
+import EventAffiliationPage7 from "./pages/events/affiliation-website/EventAffiliationPage7";
+import EventAffiliationPage8 from "./pages/events/affiliation-website/EventAffiliationPage8";
+import EventAffiliationPage9 from "./pages/events/affiliation-website/EventAffiliationPage9";
+import EventAffiliationPage10 from "./pages/events/affiliation-website/EventAffiliationPage10";
+import EventAffiliationPage11 from "./pages/events/affiliation-website/EventAffiliationPage11";
+import EventAffiliationPage12 from "./pages/events/affiliation-website/EventAffiliationPage12";
+import EventAffiliationPage13 from "./pages/events/affiliation-website/EventAffiliationPage13";
 
 // Import Team
 import ExpertTeam from "./components/team/ExpertTeam";
@@ -45,62 +45,62 @@ import ExpertTeam from "./components/team/ExpertTeam";
 
 // Import Newsletter 2022
 import NewsletterPage from "./pages/newsletter/NewsletterPage";
-import NewsletterDetailPage1 from "./pages/newsletter/NewsletterDetailPage1";
-import NewsletterDetailPage2 from "./pages/newsletter/NewsletterDetailPage2";
-import NewsletterDetailPage3 from "./pages/newsletter/NewsletterDetailPage3";
-import NewsletterDetailPage4 from "./pages/newsletter/NewsletterDetailPage4";
-import NewsletterDetailPage5 from "./pages/newsletter/NewsletterDetailPage5";
-import NewsletterDetailPage6 from "./pages/newsletter/NewsletterDetailPage6";
-import NewsletterDetailPage7 from "./pages/newsletter/NewsletterDetailPage7";
-import NewsletterDetailPage8 from "./pages/newsletter/NewsletterDetailPage8";
-import NewsletterDetailPage9 from "./pages/newsletter/NewsletterDetailPage9";
-import NewsletterDetailPage10 from "./pages/newsletter/NewsletterDetailPage10";
-import NewsletterDetailPage11 from "./pages/newsletter/NewsletterDetailPage11";
-import NewsletterDetailPage12 from "./pages/newsletter/NewsletterDetailPage12";
+import NewsletterDetailPage1 from "./pages/newsletter/2022/NewsletterDetailPage1";
+import NewsletterDetailPage2 from "./pages/newsletter/2022/NewsletterDetailPage2";
+import NewsletterDetailPage3 from "./pages/newsletter/2022/NewsletterDetailPage3";
+import NewsletterDetailPage4 from "./pages/newsletter/2022/NewsletterDetailPage4";
+import NewsletterDetailPage5 from "./pages/newsletter/2022/NewsletterDetailPage5";
+import NewsletterDetailPage6 from "./pages/newsletter/2022/NewsletterDetailPage6";
+import NewsletterDetailPage7 from "./pages/newsletter/2022/NewsletterDetailPage7";
+import NewsletterDetailPage8 from "./pages/newsletter/2022/NewsletterDetailPage8";
+import NewsletterDetailPage9 from "./pages/newsletter/2022/NewsletterDetailPage9";
+import NewsletterDetailPage10 from "./pages/newsletter/2022/NewsletterDetailPage10";
+import NewsletterDetailPage11 from "./pages/newsletter/2022/NewsletterDetailPage11";
+import NewsletterDetailPage12 from "./pages/newsletter/2022/NewsletterDetailPage12";
 
 // Import Newsletter 2023
-import Newsletter2023DetailPage1 from "./pages/newsletter/Newsletter2023DetailPage1";
-import Newsletter2023DetailPage2 from "./pages/newsletter/Newsletter2023DetailPage2";
-import Newsletter2023DetailPage3 from "./pages/newsletter/Newsletter2023DetailPage3";
-import Newsletter2023DetailPage4 from "./pages/newsletter/Newsletter2023DetailPage4";
-import Newsletter2023DetailPage5 from "./pages/newsletter/Newsletter2023DetailPage5";
-import Newsletter2023DetailPage6 from "./pages/newsletter/Newsletter2023DetailPage6";
-import Newsletter2023DetailPage7 from "./pages/newsletter/Newsletter2023DetailPage7";
-import Newsletter2023DetailPage8 from "./pages/newsletter/Newsletter2023DetailPage8";
-import Newsletter2023DetailPage13 from "./pages/newsletter/Newsletter2023DetailPage13";
-import Newsletter2023DetailPage14 from "./pages/newsletter/Newsletter2023DetailPage14";
-import Newsletter2023DetailPage15 from "./pages/newsletter/Newsletter2023DetailPage15";
-import Newsletter2023DetailPage16 from "./pages/newsletter/Newsletter2023DetailPage16";
+import Newsletter2023DetailPage1 from "./pages/newsletter/2023/Newsletter2023DetailPage1";
+import Newsletter2023DetailPage2 from "./pages/newsletter/2023/Newsletter2023DetailPage2";
+import Newsletter2023DetailPage3 from "./pages/newsletter/2023/Newsletter2023DetailPage3";
+import Newsletter2023DetailPage4 from "./pages/newsletter/2023/Newsletter2023DetailPage4";
+import Newsletter2023DetailPage5 from "./pages/newsletter/2023/Newsletter2023DetailPage5";
+import Newsletter2023DetailPage6 from "./pages/newsletter/2023/Newsletter2023DetailPage6";
+import Newsletter2023DetailPage7 from "./pages/newsletter/2023/Newsletter2023DetailPage7";
+import Newsletter2023DetailPage8 from "./pages/newsletter/2023/Newsletter2023DetailPage8";
+import Newsletter2023DetailPage13 from "./pages/newsletter/2023/Newsletter2023DetailPage13";
+import Newsletter2023DetailPage14 from "./pages/newsletter/2023/Newsletter2023DetailPage14";
+import Newsletter2023DetailPage15 from "./pages/newsletter/2023/Newsletter2023DetailPage15";
+import Newsletter2023DetailPage16 from "./pages/newsletter/2023/Newsletter2023DetailPage16";
 
 // Import Newsletter 2024
-import Newsletter2024DetailPage1 from "./pages/newsletter/Newsletter2024DetailPage1";
-import Newsletter2024DetailPage2 from "./pages/newsletter/Newsletter2024DetailPage2";
-import Newsletter2024DetailPage3 from "./pages/newsletter/Newsletter2024DetailPage3";
-import Newsletter2024DetailPage4 from "./pages/newsletter/Newsletter2024DetailPage4";
-import Newsletter2024DetailPage5 from "./pages/newsletter/Newsletter2024DetailPage5";
-import Newsletter2024DetailPage6 from "./pages/newsletter/Newsletter2024DetailPage6";
-import Newsletter2024DetailPage7 from "./pages/newsletter/Newsletter2024DetailPage7";
-import Newsletter2024DetailPage8 from "./pages/newsletter/Newsletter2024DetailPage8";
-import Newsletter2024DetailPage9 from "./pages/newsletter/Newsletter2024DetailPage9";
-import Newsletter2024DetailPage10 from "./pages/newsletter/Newsletter2024DetailPage10";
-import Newsletter2024DetailPage11 from "./pages/newsletter/Newsletter2024DetailPage11";
-import Newsletter2024DetailPage12 from "./pages/newsletter/Newsletter2024DetailPage12";
+import Newsletter2024DetailPage1 from "./pages/newsletter/2024/Newsletter2024DetailPage1";
+import Newsletter2024DetailPage2 from "./pages/newsletter/2024/Newsletter2024DetailPage2";
+import Newsletter2024DetailPage3 from "./pages/newsletter/2024/Newsletter2024DetailPage3";
+import Newsletter2024DetailPage4 from "./pages/newsletter/2024/Newsletter2024DetailPage4";
+import Newsletter2024DetailPage5 from "./pages/newsletter/2024/Newsletter2024DetailPage5";
+import Newsletter2024DetailPage6 from "./pages/newsletter/2024/Newsletter2024DetailPage6";
+import Newsletter2024DetailPage7 from "./pages/newsletter/2024/Newsletter2024DetailPage7";
+import Newsletter2024DetailPage8 from "./pages/newsletter/2024/Newsletter2024DetailPage8";
+import Newsletter2024DetailPage9 from "./pages/newsletter/2024/Newsletter2024DetailPage9";
+import Newsletter2024DetailPage10 from "./pages/newsletter/2024/Newsletter2024DetailPage10";
+import Newsletter2024DetailPage11 from "./pages/newsletter/2024/Newsletter2024DetailPage11";
+import Newsletter2024DetailPage12 from "./pages/newsletter/2024/Newsletter2024DetailPage12";
 
 // Import Newsletter 2025
-import Newsletter2025DetailPage1 from "./pages/newsletter/Newsletter2025DetailPage1";
-import Newsletter2025DetailPage2 from "./pages/newsletter/Newsletter2025DetailPage2";
-import Newsletter2025DetailPage3 from "./pages/newsletter/Newsletter2025DetailPage3";
-import Newsletter2025DetailPage4 from "./pages/newsletter/Newsletter2025DetailPage4";
-import Newsletter2025DetailPage5 from "./pages/newsletter/Newsletter2025DetailPage5";
-import Newsletter2025DetailPage6 from "./pages/newsletter/Newsletter2025DetailPage6";
-import Newsletter2025DetailPage7 from "./pages/newsletter/Newsletter2025DetailPage7";
-import Newsletter2025DetailPage8 from "./pages/newsletter/Newsletter2025DetailPage8";
-import Newsletter2025DetailPage9 from "./pages/newsletter/Newsletter2025DetailPage9";
+import Newsletter2025DetailPage1 from "./pages/newsletter/2025/Newsletter2025DetailPage1";
+import Newsletter2025DetailPage2 from "./pages/newsletter/2025/Newsletter2025DetailPage2";
+import Newsletter2025DetailPage3 from "./pages/newsletter/2025/Newsletter2025DetailPage3";
+import Newsletter2025DetailPage4 from "./pages/newsletter/2025/Newsletter2025DetailPage4";
+import Newsletter2025DetailPage5 from "./pages/newsletter/2025/Newsletter2025DetailPage5";
+import Newsletter2025DetailPage6 from "./pages/newsletter/2025/Newsletter2025DetailPage6";
+import Newsletter2025DetailPage7 from "./pages/newsletter/2025/Newsletter2025DetailPage7";
+import Newsletter2025DetailPage8 from "./pages/newsletter/2025/Newsletter2025DetailPage8";
+import Newsletter2025DetailPage9 from "./pages/newsletter/2025/Newsletter2025DetailPage9";
 
 // Import Newsletter 2026
-import Newsletter2026DetailPage1 from "./pages/newsletter/Newsletter2026DetailPage1";
-import Newsletter2026DetailPage2 from "./pages/newsletter/Newsletter2026DetailPage2";
-import Newsletter2026DetailPage3 from "./pages/newsletter/Newsletter2026DetailPage3";
+import Newsletter2026DetailPage1 from "./pages/newsletter/2026/Newsletter2026DetailPage1";
+import Newsletter2026DetailPage2 from "./pages/newsletter/2026/Newsletter2026DetailPage2";
+import Newsletter2026DetailPage3 from "./pages/newsletter/2026/Newsletter2026DetailPage3";
 
 // Import Gallery
 import GalleryPhoto from "./pages/gallery/GalleryPhoto";
@@ -113,13 +113,13 @@ import FaqPage from "./pages/faq/FaqPage";
 import ContactPage from "./pages/contact/ContactPage";
 
 // Import Event Poster
-import AllEventPage from "./pages/event/AllEventPage";
-import EventPage from "./pages/event/EventPage";
+import AllEventPage from "./pages/events/iysa-events/AllEventPage";
+import EventPage from "./pages/events/iysa-events/EventPage";
 
 // import event affiliasi
-import AllEventAffiliation from "./pages/eventaffiliation/AllEventAffiliation";
+import AllEventAffiliation from "./pages/events/affiliation-events/AllEventAffiliation";
 import OurTeam from "./components/companyprofile/OurTeam";
-import Newsletter2025DetailPage10 from "./pages/newsletter/Newsletter2025DetailPage10";
+import Newsletter2025DetailPage10 from "./pages/newsletter/2025/Newsletter2025DetailPage10";
 
 function App() {
   return (
