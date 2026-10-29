@@ -1025,6 +1025,22 @@
       "NameLocation": "Universitas Diponegoro, Semarang, Indonesia"
     },
     {
+      "id": 66,
+      "image": "/assets/images/logo-afiliasi/aigc.jpeg",
+      "title": "Advanced Innovation Global Competition (AIGC)",
+      "LinkRegist": "https://aigc-official.vercel.app/",
+      "Hastag": "#aigc2027 #singapore #iysaeventafiliasi #event2027 #iysa2027",
+      "DateAdTime": "January 16th - January 17th, 2027",
+      "RegistEndDate": "December 17th, 2026",
+      "Location": "Hybrid",
+      "EventType": "International",
+      "EventCategory": "Affiliation Event",
+      "ImageVeneu": "",
+      "LinkGmaps": "",
+      "LinkGmapsEmbed": "",
+      "NameLocation": "Singapore"
+    },
+    {
       "id": 65,
       "image": "/assets/images/allimg/nissef aiseef 26.jpeg",
       "title": "AISEEF (Asean Innovative Science Enviromental and Entrepreneur Fair) ",

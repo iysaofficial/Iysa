@@ -38,6 +38,7 @@ import EventAffiliationPage10 from "./pages/events/affiliation-website/EventAffi
 import EventAffiliationPage11 from "./pages/events/affiliation-website/EventAffiliationPage11";
 import EventAffiliationPage12 from "./pages/events/affiliation-website/EventAffiliationPage12";
 import EventAffiliationPage13 from "./pages/events/affiliation-website/EventAffiliationPage13";
+import EventAffiliationPage14 from "./pages/events/affiliation-website/EventAffiliationPage14";
 
 // Import Team
 import ExpertTeam from "./components/team/ExpertTeam";
@@ -196,6 +197,10 @@ function App() {
             <Route
               path="/EventAffiliationPage13"
               element={<EventAffiliationPage13 />}
+            />
+            <Route
+              path="/EventAffiliationPage14"
+              element={<EventAffiliationPage14 />}
             />
 
             {/* Curation */}

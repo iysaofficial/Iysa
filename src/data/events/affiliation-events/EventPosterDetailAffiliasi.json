@@ -83,5 +83,22 @@
       "LinkGmaps": "",
       "NameLocation": ""
     }
+  ],
+  "event11": [
+    {
+      "id": 6,
+      "image": "/assets/images/logo-afiliasi/aigc.jpeg",
+      "title": "Advanced Innovation Global Competition (AIGC)",
+      "LinkRegist": "https://aigc-official.vercel.app/",
+      "Hastag": "#aigc2027 #singapore #iysaeventafiliasi #event2027 #iysa2027",
+      "DateAdTime": "January 16th - January 17th, 2027",
+      "RegistEndDate": "December 17th, 2026",
+      "Location": "Singapore",
+      "EventType": "Internasional",
+      "EventCategory": "IYSA Event Affiliation",
+      "ImageVeneu": "",
+      "LinkGmaps": "",
+      "NameLocation": ""
+    }
   ]
 }
