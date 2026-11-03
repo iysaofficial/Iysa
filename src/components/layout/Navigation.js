@@ -159,7 +159,7 @@ const Navigation = () => {
 
             <li className="menu-item menu-item-has-children">
               <p data-toggle="sub-menu" onClick={(e) => e.preventDefault()}>
-                Our Events Website <FaChevronDown />
+                Event Websites <FaChevronDown />
               </p>
               <ul className="sub-menu">
                 <li className="menu-item">
@@ -175,7 +175,7 @@ const Navigation = () => {
 
             <li className="menu-item menu-item-has-children">
               <p data-toggle="sub-menu" onClick={(e) => e.preventDefault()}>
-                Our Events <FaChevronDown />
+                Event Details <FaChevronDown />
               </p>
               <ul className="sub-menu">
                 <li className="menu-item">
